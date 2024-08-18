@@ -1,0 +1,15 @@
+name = "termshark"
+description = "A terminal UI for tshark, inspired by Wireshark"
+homepage = "https://github.com/gcla/termshark"
+alternatives = []
+version = "2.4.0"
+updated = ""
+package-url = "https://github.com/gcla/termshark/releases/download/v{{version}}/termshark_{{version}}_linux_x64.tar.gz"
+
+[extract]
+strip = 1
+[[extract.files]]
+source = "termshark"
+target = "{{vars.bin-path}}/termshark"
+mode = "0755"
+

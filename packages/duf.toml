@@ -1,0 +1,15 @@
+name = "duf"
+description = "Disk Usage/Free Utility - a better 'df' alternative"
+homepage = "https://github.com/muesli/duf"
+alternatives = [ "df",]
+version = "0.8.1"
+updated = ""
+package-url = "https://github.com/muesli/duf/releases/download/v{{version}}/duf_{{version}}_linux_x86_64.tar.gz"
+
+[extract]
+strip = 0
+[[extract.files]]
+source = "duf"
+target = "{{vars.bin-path}}/duf"
+mode = "0755"
+

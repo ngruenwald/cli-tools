@@ -1,0 +1,11 @@
+name = "zsh-syntax-highlighting"
+description = ""
+homepage = "https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/{{version}}.tar.gz"
+alternatives = []
+version = "0.8.0"
+updated = ""
+package-url = "https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/{{version}}.tar.gz"
+
+[extract]
+strip = 1
+prefix = "{{vars.zsh-plugin-path}}/zsh-syntax-highlighting"

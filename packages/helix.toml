@@ -1,0 +1,25 @@
+name = "helix"
+description = "A post-modern modal text editor."
+homepage = "https://github.com/helix-editor/helix"
+alternatives = [ "vim", "neovim",]
+version = "24.07"
+updated = ""
+package-url = "https://github.com/helix-editor/helix/releases/download/{{version}}/helix-{{version}}-x86_64-linux.tar.xz"
+version-pattern = "^\\d+\\.\\d+(\\.\\d+)?$$"
+
+[extract]
+strip = 1
+[[extract.files]]
+source = "hx"
+target = "{{vars.bin-path}}/hx"
+mode = "0755"
+
+[[extract.files]]
+source = "runtime"
+target = "{{vars.bin-path}}/runtime"
+is_folder = true
+
+[[extract.files]]
+source = "contrib/completion/hx.{{vars.shell-type}}"
+target = "{{vars.complete-path}}/_hx"
+

@@ -1,0 +1,19 @@
+name = "task"
+description = "A task runner / simpler Make alternative written in Go"
+homepage = "https://github.com/go-task/task"
+alternatives = [ "make", "dotree", "just",]
+version = "3.38.0"
+updated = ""
+package-url = "https://github.com/go-task/task/releases/download/v{{version}}/task_linux_amd64.tar.gz"
+
+[extract]
+strip = 0
+[[extract.files]]
+source = "task"
+target = "{{vars.bin-path}}/task"
+mode = "0755"
+
+[[extract.files]]
+source = "completion/bash/task.{{vars.shell-type}}"
+target = "{{vars.complete-path}}/_task"
+

@@ -1,0 +1,11 @@
+name = "fzf"
+description = "A command-line fuzzy finder"
+homepage = "https://github.com/junegunn/fzf"
+alternatives = [ "skim",]
+version = "0.54.3"
+updated = ""
+package-url = "https://github.com/junegunn/fzf/releases/download/v{{version}}/fzf-{{version}}-linux_amd64.tar.gz"
+
+[extract]
+strip = 0
+prefix = "{{vars.bin-path}}"

@@ -1,0 +1,11 @@
+name = "zsh-you-should-use"
+description = ""
+homepage = "https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/{{version}}.tar.gz"
+alternatives = []
+version = "1.8.0"
+updated = ""
+package-url = "https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/{{version}}.tar.gz"
+
+[extract]
+strip = 1
+prefix = "{{vars.zsh-plugin-path}}/zsh-you-should-use"

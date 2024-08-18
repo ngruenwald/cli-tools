@@ -1,0 +1,19 @@
+name = "ripgrep"
+description = "ripgrep recursively searches directories for a regex pattern while respecting your gitignore"
+homepage = "https://github.com/BurntSushi/ripgrep"
+alternatives = [ "grep",]
+version = "14.1.0"
+updated = ""
+package-url = "https://github.com/BurntSushi/ripgrep/releases/download/{{version}}/ripgrep-{{version}}-x86_64-unknown-linux-musl.tar.gz"
+
+[extract]
+strip = 1
+[[extract.files]]
+source = "rg"
+target = "{{vars.bin-path}}/rg"
+mode = "0755"
+
+[[extract.files]]
+source = "complete/rg.{{vars.shell-type}}"
+target = "{{vars.complete-path}}/_rg"
+

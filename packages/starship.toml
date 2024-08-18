@@ -1,0 +1,18 @@
+name = "starship"
+description = "The minimal, blazing-fast, and infinitely customizable prompt for any shell!"
+homepage = "https://github.com/starship/starship"
+alternatives = [ "powerline-go",]
+version = "1.20.1"
+updated = ""
+package-url = "https://github.com/starship/starship/releases/download/v{{version}}/starship-x86_64-unknown-linux-musl.tar.gz"
+post-commands = [
+    "[ -f ~/.{{vars.shell-type}}rc ] || touch ~/.{{vars.shell-type}}rc",
+    "grep -q 'starship' ~/.{{vars.shell-type}}rc || echo 'eval \"$(starship init {{vars.shell-type}})\"' >> ~/.{{vars.shell-type}}rc",
+    "[ -f ~/.config/starship.toml ] || (mkdir -p ~/.config && {{vars.bin-path}}/starship preset no-nerd-font -o ~/.config/starship.toml)"
+]
+
+
+
+[extract]
+strip = 0
+prefix = "{{vars.bin-path}}"

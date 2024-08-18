@@ -1,0 +1,15 @@
+name = "ctop"
+description = "Top-like interface for container metrics"
+homepage = "https://github.com/bcicen/ctop"
+alternatives = []
+version = "0.7.7"
+updated = ""
+package-url = "https://github.com/bcicen/ctop/releases/download/v{{version}}/ctop-{{version}}-linux-amd64"
+
+[extract]
+strip = 0
+[[extract.files]]
+source = "ctop-{{version}}-linux-amd64"
+target = "{{vars.bin-path}}/ctop"
+mode = "0755"
+

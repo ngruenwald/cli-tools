@@ -1,0 +1,11 @@
+name = "zsh-history-substring-search"
+description = ""
+homepage = "https://github.com/zsh-users/zsh-history-substring-search/archive/refs/tags/v{{version}}.tar.gz"
+alternatives = []
+version = "1.1.0"
+updated = ""
+package-url = "https://github.com/zsh-users/zsh-history-substring-search/archive/refs/tags/v{{version}}.tar.gz"
+
+[extract]
+strip = 1
+prefix = "{{vars.zsh-plugin-path}}/zsh-history-substring-search"

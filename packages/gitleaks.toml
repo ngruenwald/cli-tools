@@ -1,0 +1,15 @@
+name = "gitleaks"
+description = "Protect and discover secrets using Gitleaks"
+homepage = "https://github.com/gitleaks/gitleaks"
+alternatives = []
+version = "8.18.4"
+updated = ""
+package-url = "https://github.com/gitleaks/gitleaks/releases/download/v{{version}}/gitleaks_{{version}}_linux_x64.tar.gz"
+
+[extract]
+strip = 0
+[[extract.files]]
+source = "gitleaks"
+target = "{{vars.bin-path}}/gitleaks"
+mode = "0755"
+

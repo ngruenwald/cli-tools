@@ -1,0 +1,19 @@
+[vars]
+shell-type = "zsh"
+
+prefix-path = "/opt/local"
+prefix-path2 = "/usr/local"
+
+bin-path = "{{vars.prefix-path}}/bin"
+
+bash-complete-path = "{{vars.prefix-path2}}/share/bash-completion/completions"
+zsh-complete-path = "{{vars.prefix-path}}/share/zsh/site-functions"
+zsh-plugin-path = "{{vars.prefix-path}}/share/zsh/plugins"
+complete-path = "{{vars.{{vars.shell-type}}-complete-path}}"
+
+bash-complete-prefix = ""
+bash-complete-suffix = ".bash"
+zsh-complete-prefix = "_"
+zsh-complete-suffix = ""
+complete-prefix = "{{vars.{{vars.shell-type}}-complete-prefix}}"
+complete-suffix = "{{vars.{{vars.shell-type}}-complete-suffix}}"

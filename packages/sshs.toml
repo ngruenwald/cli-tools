@@ -1,0 +1,15 @@
+name = "sshs"
+description = "Terminal user interface for SSH"
+homepage = "https://github.com/quantumsheep/sshs"
+alternatives = []
+version = "4.5.1"
+updated = ""
+package-url = "https://github.com/quantumsheep/sshs/releases/download/{{version}}/sshs-linux-amd64-musl"
+
+[extract]
+strip = 0
+[[extract.files]]
+source = "sshs-linux-amd64-musl"
+target = "{{vars.bin-path}}/sshs"
+mode = "0755"
+

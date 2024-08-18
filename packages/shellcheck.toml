@@ -1,0 +1,15 @@
+name = "shellcheck"
+description = "ShellCheck, a static analysis tool for shell scripts"
+homepage = "https://github.com/koalaman/shellcheck"
+alternatives = []
+version = "0.10.0"
+updated = ""
+package-url = "https://github.com/koalaman/shellcheck/releases/download/v{{version}}/shellcheck-v{{version}}.linux.x86_64.tar.xz"
+
+[extract]
+strip = 1
+[[extract.files]]
+source = "shellcheck"
+target = "{{vars.bin-path}}/shellcheck"
+mode = "0755"
+

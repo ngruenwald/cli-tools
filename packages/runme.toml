@@ -1,0 +1,14 @@
+name = "runme"
+description = "DevOps Workflows Built with Markdown"
+homepage = "https://github.com/stateful/runme"
+alternatives = []
+version = "3.5.2"
+updated = ""
+package-url = "https://github.com/stateful/runme/releases/download/v{{version}}/runme_linux_x86_64.tar.gz"
+
+[extract]
+strip = 0
+[[extract.files]]
+source = "runme"
+target = "{{vars.bin-path}}/runme"
+mode = "0755"

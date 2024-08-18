@@ -1,0 +1,14 @@
+name = "doge"
+description = "Reviving A command-line DNS client."
+homepage = "https://github.com/Dj-Codeman/doge"
+alternatives = [ "dig", "dog",]
+version = "0.2.7"
+updated = ""
+package-url = "https://github.com/Dj-Codeman/doge/releases/download/v{{version}}/doge_linux_64bit"
+
+[extract]
+[[extract.files]]
+source = "doge_linux_64bit"
+target = "{{vars.bin-path}}/doge"
+mode = "0755"
+

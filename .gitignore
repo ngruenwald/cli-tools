@@ -1,0 +1,6 @@
+.secrets
+.token
+.directory
+.envrc
+.vscode/
+__pycache__/

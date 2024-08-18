@@ -1,0 +1,19 @@
+name = "just"
+description = "Just a command runner"
+homepage = "https://github.com/casey/just"
+alternatives = [ "make", "dotree", "task",]
+version = "1.34.0"
+updated = ""
+package-url = "https://github.com/casey/just/releases/download/{{version}}/just-{{version}}-x86_64-unknown-linux-musl.tar.gz"
+
+[extract]
+strip = 0
+[[extract.files]]
+source = "just"
+target = "{{vars.bin-path}}/just"
+mode = "0755"
+
+[[extract.files]]
+source = "completions/just.{{vars.shell-type}}"
+target = "{{vars.complete-path}}/_just"
+

@@ -1,0 +1,11 @@
+name = "neovim"
+description = "Vim-fork focused on extensibility and usability"
+homepage = "https://github.com/neovim/neovim"
+alternatives = [ "vim", "helix",]
+version = "0.10.1"
+updated = ""
+package-url = "https://github.com/neovim/neovim/releases/download/v{{version}}/nvim-linux64.tar.gz"
+
+[extract]
+strip = 1
+prefix = "{{vars.prefix-path}}"

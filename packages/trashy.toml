@@ -1,0 +1,15 @@
+name = "trashy"
+description = "a cli system trash manager, alternative to rm and trash-cli"
+homepage = "https://github.com/oberblastmeister/trashy"
+alternatives = [ "trash-cli", "gtrash",]
+version = "2.0.0"
+updated = ""
+package-url = "https://github.com/oberblastmeister/trashy/releases/download/v{{version}}/trash-x86_64-unknown-linux-gnu.tar.gz"
+post-commands = [ "{{vars.bin-path}}/trash completions {{vars.shell-type}} > {{vars.complete-path}}/_trash",]
+
+[extract]
+strip = 0
+[[extract.files]]
+source = "trash"
+target = "{{vars.bin-path}}/trash"
+mode = "0755"

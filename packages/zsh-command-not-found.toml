@@ -1,0 +1,11 @@
+name = "zsh-command-not-found"
+description = ""
+homepage = "https://github.com/Freed-Wu/zsh-command-not-found/archive/refs/heads/main.tar.gz"
+alternatives = []
+version = "main"
+updated = ""
+package-url = "https://github.com/Freed-Wu/zsh-command-not-found/archive/refs/heads/main.tar.gz"
+
+[extract]
+strip = 1
+prefix = "{{vars.zsh-plugin-path}}/command-not-found"

@@ -1,0 +1,16 @@
+name = "jq"
+description = "Command-line JSON processor"
+homepage = "https://github.com/jqlang/jq"
+alternatives = []
+version = "1.7.1"
+updated = ""
+package-url = "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-amd64"
+version-pattern = "jq-\\d+\\.\\d+(\\.\\d+)?$"
+
+[extract]
+strip = 0
+[[extract.files]]
+source = "jq-linux-amd64"
+target = "{{vars.bin-path}}/jq"
+mode = "0755"
+

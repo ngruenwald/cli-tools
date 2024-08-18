@@ -1,0 +1,16 @@
+name = "doxygen"
+description = "Code Documentation. Automated."
+homepage = "https://github.com/doxygen/doxygen"
+alternatives = []
+version = "1.12.0"
+updated = ""
+package-url = "https://github.com/doxygen/doxygen/releases/download/Release_{{(replace, version, '.', '_')}}/doxygen-{{version}}.linux.bin.tar.gz"
+version-pattern = "^Release_\\d+_\\d+_\\d+$"
+
+[extract]
+strip = 1
+[[extract.files]]
+source = "bin/doxygen"
+target = "{{vars.bin-path}}/doxygen"
+mode = "0755"
+

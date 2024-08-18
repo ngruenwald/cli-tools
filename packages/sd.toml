@@ -1,0 +1,19 @@
+name = "sd"
+description = "Intuitive find & replace CLI (sed alternative)"
+homepage = "https://github.com/chmln/sd"
+alternatives = [ "sed",]
+version = "1.0.0"
+updated = ""
+package-url = "https://github.com/chmln/sd/releases/download/v{{version}}/sd-v{{version}}-x86_64-unknown-linux-musl.tar.gz"
+
+[extract]
+strip = 1
+[[extract.files]]
+source = "sd"
+target = "{{vars.bin-path}}/sd"
+mode = "0755"
+
+[[extract.files]]
+source = "completions/sd.{{vars.shell-type}}"
+target = "{{vars.complete-path}}/_sd"
+

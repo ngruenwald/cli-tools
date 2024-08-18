@@ -1,0 +1,15 @@
+name = "kickstart"
+description = "A scaffolding tool to get new projects up and running quickly"
+homepage = "https://github.com/Keats/kickstart"
+alternatives = [ "cookiecutter", "proji",]
+version = "0.4.0"
+updated = ""
+package-url = "https://github.com/Keats/kickstart/releases/download/v{{version}}/kickstart-v{{version}}-x86_64-unknown-linux-gnu.tar.gz"
+
+[extract]
+strip = 0
+[[extract.files]]
+source = "kickstart"
+target = "{{vars.bin-path}}/kickstart"
+mode = "0755"
+

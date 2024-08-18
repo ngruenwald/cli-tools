@@ -1,0 +1,19 @@
+name = "yazi"
+description = "Blazing fast terminal file manager written in Rust, based on async I/O."
+homepage = "https://github.com/sxyazi/yazi"
+alternatives = [ "ranger",]
+version = "0.3.1"
+updated = ""
+package-url = "https://github.com/sxyazi/yazi/releases/download/v{{version}}/yazi-x86_64-unknown-linux-musl.zip"
+
+[extract]
+strip = 1
+[[extract.files]]
+source = "yazi"
+target = "{{vars.bin-path}}/yazi"
+mode = "0755"
+
+[[extract.files]]
+source = "completions/yazi.{{vars.shell-type}}"
+target = "{{vars.complete-path}}/_yazi"
+

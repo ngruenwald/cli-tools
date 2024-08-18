@@ -1,0 +1,12 @@
+name = "ble.sh"
+description = "Bash Line Editor ― a line editor written in pure Bash with syntax highlighting, auto suggestions, vim modes, etc. for Bash interactive sessions."
+homepage = "https://github.com/akinomyoga/ble.sh"
+alternatives = []
+version = "0.4.0-devel3"
+updated = ""
+package-url = "https://github.com/akinomyoga/ble.sh/releases/download/v{{version}}/ble-{{version}}.tar.xz"
+post-commands = [ "grep -q 'ble.sh' ~/.bashrc || echo 'source {{vars.prefix-path}}/share/blesh/bel.sh' >> ~/.bashrc",]
+
+[extract]
+strip = 1
+prefix = "{{vars.prefix-path}}/share/blesh"
