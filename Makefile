@@ -2,7 +2,7 @@ CONTAINERTOOL=podman
 
 .PHONY: build
 build:
-	python code/_amalgate.py
+	python code/_amalgamate.py
 
 .PHONY: readme
 readme:

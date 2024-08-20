@@ -14,7 +14,7 @@ With the __clitools.py__ script you can download and install these packages on x
 If you are missing __clitools.py__, then you need to execute the following:
 
 ```.sh
-python code/_amalgate.py
+python code/_amalgamate.py
 ```
 
-This will create the amalgated script from the source files.
+This will create the amalgamated script from the source files.
