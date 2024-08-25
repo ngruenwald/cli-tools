@@ -3,7 +3,7 @@ description = "Select, put and delete data from JSON, TOML, YAML, XML and CSV fi
 homepage = "https://github.com/TomWright/dasel"
 alternatives = []
 version = "2.8.1"
-updated = ""
+updated = "2024-06-30"
 package-url = "https://github.com/TomWright/dasel/releases/download/v{{version}}/dasel_linux_amd64"
 
 [extract]
@@ -12,4 +12,3 @@ strip = 0
 source = "dasel_linux_amd64"
 target = "{{vars.bin-path}}/dasel"
 mode = "0755"
-

@@ -1,9 +1,9 @@
 name = "zsh-command-not-found"
-description = ""
+description = "This plugin uses the command-not-found package for zsh to provide suggested packages to be installed if a command cannot be found."
 homepage = "https://github.com/Freed-Wu/zsh-command-not-found/archive/refs/heads/main.tar.gz"
 alternatives = []
 version = "main"
-updated = ""
+updated = "2022-09-05"
 package-url = "https://github.com/Freed-Wu/zsh-command-not-found/archive/refs/heads/main.tar.gz"
 
 [extract]

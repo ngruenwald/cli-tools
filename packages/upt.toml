@@ -3,7 +3,7 @@ description = "Universal Package-management Tool for any OS."
 homepage = "https://github.com/sigoden/upt"
 alternatives = []
 version = "0.8.0"
-updated = ""
+updated = "2024-05-27"
 package-url = "https://github.com/sigoden/upt/releases/download/v{{version}}/upt-v{{version}}-i686-unknown-linux-musl.tar.gz"
 
 [extract]
@@ -12,4 +12,3 @@ strip = 0
 source = "upt"
 target = "{{vars.bin-path}}/upt"
 mode = "0755"
-

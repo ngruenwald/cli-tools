@@ -1,9 +1,9 @@
 name = "zsh-syntax-highlighting"
-description = ""
+description = "Fish shell like syntax highlighting for Zsh."
 homepage = "https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/{{version}}.tar.gz"
 alternatives = []
 version = "0.8.0"
-updated = ""
+updated = "2023-12-18"
 package-url = "https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/{{version}}.tar.gz"
 
 [extract]

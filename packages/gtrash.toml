@@ -3,7 +3,7 @@ description = "A Featureful Trash CLI manager: alternative to rm and trash-cli"
 homepage = "https://github.com/umlx5h/gtrash"
 alternatives = [ "trash-cli", "trashy",]
 version = "0.0.6"
-updated = ""
+updated = "2024-07-01"
 package-url = "https://github.com/umlx5h/gtrash/releases/download/v{{version}}/gtrash_Linux_x86_64.tar.gz"
 post-commands = [ "{{vars.bin-path}}/gtrash completion {{vars.shell-type}} > {{vars.complete-path}}/_gtrash",]
 

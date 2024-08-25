@@ -3,7 +3,7 @@ description = "a cli system trash manager, alternative to rm and trash-cli"
 homepage = "https://github.com/oberblastmeister/trashy"
 alternatives = [ "trash-cli", "gtrash",]
 version = "2.0.0"
-updated = ""
+updated = "2022-09-30"
 package-url = "https://github.com/oberblastmeister/trashy/releases/download/v{{version}}/trash-x86_64-unknown-linux-gnu.tar.gz"
 post-commands = [ "{{vars.bin-path}}/trash completions {{vars.shell-type}} > {{vars.complete-path}}/_trash",]
 

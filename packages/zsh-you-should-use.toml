@@ -1,9 +1,9 @@
 name = "zsh-you-should-use"
-description = ""
+description = "ZSH plugin that reminds you to use existing aliases for commands you just typed"
 homepage = "https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/{{version}}.tar.gz"
 alternatives = []
 version = "1.8.0"
-updated = ""
+updated = "2024-06-12"
 package-url = "https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/{{version}}.tar.gz"
 
 [extract]

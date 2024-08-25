@@ -3,7 +3,7 @@ description = "A tool for exploring each layer in a docker image"
 homepage = "https://github.com/wagoodman/dive"
 alternatives = []
 version = "0.12.0"
-updated = ""
+updated = "2024-02-02"
 package-url = "https://github.com/wagoodman/dive/releases/download/v{{version}}/dive_{{version}}_linux_amd64.tar.gz"
 
 [extract]
@@ -12,4 +12,3 @@ strip = 0
 source = "dive"
 target = "{{vars.bin-path}}/dive"
 mode = "0755"
-

@@ -3,7 +3,7 @@ description = "Bash Line Editor ― a line editor written in pure Bash with synt
 homepage = "https://github.com/akinomyoga/ble.sh"
 alternatives = []
 version = "0.4.0-devel3"
-updated = ""
+updated = "2023-04-03"
 package-url = "https://github.com/akinomyoga/ble.sh/releases/download/v{{version}}/ble-{{version}}.tar.xz"
 post-commands = [ "grep -q 'ble.sh' ~/.bashrc || echo 'source {{vars.prefix-path}}/share/blesh/bel.sh' >> ~/.bashrc",]
 

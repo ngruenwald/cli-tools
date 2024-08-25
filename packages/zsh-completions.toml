@@ -1,9 +1,9 @@
 name = "zsh-completions"
-description = ""
+description = "Additional completion definitions for Zsh."
 homepage = "https://github.com/zsh-users/zsh-completions/archive/refs/tags/{{version}}.tar.gz"
 alternatives = []
 version = "0.35.0"
-updated = ""
+updated = "2023-08-30"
 package-url = "https://github.com/zsh-users/zsh-completions/archive/refs/tags/{{version}}.tar.gz"
 
 [extract]

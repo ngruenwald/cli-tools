@@ -3,7 +3,7 @@ description = "Your CLI home video recorder"
 homepage = "https://github.com/charmbracelet/vhs"
 alternatives = []
 version = "0.7.2"
-updated = ""
+updated = "2024-04-15"
 package-url = "https://github.com/charmbracelet/vhs/releases/download/v{{version}}/vhs_{{version}}_Linux_x86_64.tar.gz"
 
 [extract]
@@ -16,4 +16,3 @@ mode = "0755"
 [[extract.files]]
 source = "completions/vhs.{{vars.shell-type}}"
 target = "{{vars.complete-path}}/_vhs"
-

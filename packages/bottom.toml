@@ -3,7 +3,7 @@ description = "Yet another cross-platform graphical process/system monitor."
 homepage = "https://github.com/ClementTsang/bottom"
 alternatives = [ "top", "htop",]
 version = "0.10.2"
-updated = ""
+updated = "2024-08-06"
 package-url = "https://github.com/ClementTsang/bottom/releases/download/{{version}}/bottom_x86_64-unknown-linux-musl.tar.gz"
 
 [extract]

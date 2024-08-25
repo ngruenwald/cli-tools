@@ -3,7 +3,7 @@ description = "A high-performance, zero-overhead, extensible Python compiler usi
 homepage = "https://github.com/exaloop/codon"
 alternatives = []
 version = "0.17.0"
-updated = ""
+updated = "2024-08-24"
 package-url = "https://github.com/exaloop/codon/releases/download/v{{version}}/codon-linux-x86_64.tar.gz"
 
 [extract]

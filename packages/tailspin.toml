@@ -3,7 +3,7 @@ description = "A log file highlighter"
 homepage = "https://github.com/bensadeh/tailspin"
 alternatives = []
 version = "3.0.2"
-updated = ""
+updated = "2024-08-17"
 package-url = "https://github.com/bensadeh/tailspin/releases/download/{{version}}/tailspin-x86_64-unknown-linux-musl.tar.gz"
 
 [extract]
@@ -12,4 +12,3 @@ strip = 0
 source = "tspin"
 target = "{{vars.bin-path}}/tspin"
 mode = "0755"
-

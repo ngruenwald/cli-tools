@@ -3,7 +3,7 @@ description = "Sloc, Cloc and Code: scc is a very fast accurate code counter wit
 homepage = "https://github.com/boyter/scc"
 alternatives = [ "sloc", "tokei",]
 version = "3.3.5"
-updated = ""
+updated = "2024-07-03"
 package-url = "https://github.com/boyter/scc/releases/download/v{{version}}/scc_Linux_x86_64.tar.gz"
 
 [extract]
@@ -12,4 +12,3 @@ strip = 0
 source = "scc"
 target = "{{vars.bin-path}}/scc"
 mode = "0755"
-

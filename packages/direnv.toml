@@ -3,7 +3,7 @@ description = "unclutter your .profile"
 homepage = "https://github.com/direnv/direnv"
 alternatives = []
 version = "2.34.0"
-updated = ""
+updated = "2024-03-01"
 package-url = "https://github.com/direnv/direnv/releases/download/v{{version}}/direnv.linux-amd64"
 
 [extract]
@@ -11,4 +11,3 @@ package-url = "https://github.com/direnv/direnv/releases/download/v{{version}}/d
 source = "direnv.linux-amd64"
 target = "{{vars.bin-path}}/direnv"
 mode = "0755"
-

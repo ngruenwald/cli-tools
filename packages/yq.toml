@@ -3,7 +3,7 @@ description = "yq is a portable command-line YAML, JSON, XML, CSV, TOML and prop
 homepage = "https://github.com/mikefarah/yq"
 alternatives = []
 version = "4.44.3"
-updated = ""
+updated = "2024-08-05"
 package-url = "https://github.com/mikefarah/yq/releases/download/v{{version}}/yq_linux_amd64.tar.gz"
 
 [extract]
@@ -12,4 +12,3 @@ strip = 1
 source = "yq_linux_amd64"
 target = "{{vars.bin-path}}/yq"
 mode = "0755"
-

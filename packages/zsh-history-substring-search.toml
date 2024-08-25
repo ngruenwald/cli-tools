@@ -1,9 +1,9 @@
 name = "zsh-history-substring-search"
-description = ""
+description = "ZSH port of Fish history search (up arrow)"
 homepage = "https://github.com/zsh-users/zsh-history-substring-search/archive/refs/tags/v{{version}}.tar.gz"
 alternatives = []
 version = "1.1.0"
-updated = ""
+updated = "2023-07-28"
 package-url = "https://github.com/zsh-users/zsh-history-substring-search/archive/refs/tags/v{{version}}.tar.gz"
 
 [extract]

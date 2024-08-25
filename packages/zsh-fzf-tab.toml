@@ -1,9 +1,9 @@
 name = "zsh-fzf-tab"
-description = ""
+description = "Replace zsh's default completion selection menu with fzf!"
 homepage = "https://github.com/Aloxaf/fzf-tab/archive/refs/tags/v{{version}}.tar.gz"
 alternatives = []
 version = "1.1.2"
-updated = ""
+updated = "2024-05-10"
 package-url = "https://github.com/Aloxaf/fzf-tab/archive/refs/tags/v{{version}}.tar.gz"
 
 [extract]

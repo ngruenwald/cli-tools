@@ -3,7 +3,7 @@ description = "Friendly and fast tool for sending HTTP requests"
 homepage = "https://github.com/ducaale/xh"
 alternatives = [ "httpie", "curlie",]
 version = "0.22.2"
-updated = ""
+updated = "2024-07-09"
 package-url = "https://github.com/ducaale/xh/releases/download/v{{version}}/xh-v{{version}}-x86_64-unknown-linux-musl.tar.gz"
 
 [extract]
@@ -16,4 +16,3 @@ mode = "0755"
 [[extract.files]]
 source = "completions/xh.{{vars.shell-type}}"
 target = "{{vars.complete-path}}/_xh"
-

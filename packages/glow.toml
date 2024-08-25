@@ -3,7 +3,7 @@ description = "Render markdown on the CLI, with pizzazz!"
 homepage = "https://github.com/charmbracelet/glow"
 alternatives = []
 version = "2.0.0"
-updated = ""
+updated = "2024-08-23"
 package-url = "https://github.com/charmbracelet/glow/releases/download/v{{version}}/glow_Linux_x86_64.tar.gz"
 
 [extract]
@@ -16,4 +16,3 @@ mode = "0755"
 [[extract.files]]
 source = "completions/glow.{{vars.shell-type}}"
 target = "{{vars.complete-path}}/_glow"
-

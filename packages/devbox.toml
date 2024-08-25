@@ -3,7 +3,7 @@ description = "Instant, easy, and predictable development environments"
 homepage = "https://github.com/jetify-com/devbox"
 alternatives = []
 version = "0.12.0"
-updated = ""
+updated = "2024-06-28"
 package-url = "https://github.com/jetify-com/devbox/releases/download/{{version}}/devbox_{{version}}_linux_amd64.tar.gz"
 
 [extract]
@@ -12,4 +12,3 @@ strip = 0
 source = "devbox"
 target = "{{vars.bin-path}}/devbox"
 mode = "0755"
-

@@ -3,7 +3,7 @@ description = "Ultimate Plumber is a tool for writing Linux pipes with instant l
 homepage = "https://github.com/akavel/up"
 alternatives = []
 version = "0.4"
-updated = ""
+updated = "2020-10-29"
 package-url = "https://github.com/akavel/up/releases/download/v{{version}}/up"
 version-pattern = "^v\\d+\\.\\d+(\\.\\d+)?$$"
 

@@ -3,7 +3,7 @@ description = "ShellCheck, a static analysis tool for shell scripts"
 homepage = "https://github.com/koalaman/shellcheck"
 alternatives = []
 version = "0.10.0"
-updated = ""
+updated = "2024-03-08"
 package-url = "https://github.com/koalaman/shellcheck/releases/download/v{{version}}/shellcheck-v{{version}}.linux.x86_64.tar.xz"
 
 [extract]
@@ -12,4 +12,3 @@ strip = 1
 source = "shellcheck"
 target = "{{vars.bin-path}}/shellcheck"
 mode = "0755"
-
