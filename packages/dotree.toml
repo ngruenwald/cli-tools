@@ -1,0 +1,15 @@
+name = "dotree"
+description = "A small, interactive command runner"
+homepage = "https://github.com/KnorrFG/dotree"
+alternatives = []
+version = "0.8.2"
+updated = "2023-11-26"
+package-url = "https://github.com/KnorrFG/dotree/releases/download/{{version}}/dt"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "dt"
+target = "{{vars.bin-path}}/dt"
+mode = "0755"

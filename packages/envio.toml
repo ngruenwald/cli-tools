@@ -1,0 +1,19 @@
+name = "envio"
+description = "Envio is a modern and secure command-line tool that simplifies the management of environment variables"
+homepage = "https://github.com/envio-cli/envio"
+alternatives = []
+version = "0.5.1"
+updated = "2024-02-17"
+package-url = "https://github.com/envio-cli/envio/releases/download/v{{version}}/envio-v{{version}}-x86_64-unknown-linux-gnu.tar.gz"
+
+[extract]
+strip = 1
+
+[[extract.files]]
+source = "envio"
+target = "{{vars.bin-path}}/envio"
+mode = "0755"
+
+[[extract.files]]
+source = "autocomplete/{{complete-prefix}}envio{{complete-suffix}}"
+target = "{{vars.complete-path}}/_envio"

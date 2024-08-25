@@ -1,0 +1,15 @@
+name = "rustcat"
+description = "Rustcat(rcat) - The modern Port listener and Reverse shell"
+homepage = "https://github.com/quantumsheep/sshs"
+alternatives = []
+version = "3.0.0"
+updated = "2022-08-15"
+package-url = "https://github.com/robiot/rustcat/releases/download/v{{version}}/rcat-v{{version}}-linux-x86_64"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "rcat-v{{version}}-linux-x86_64"
+target = "{{vars.bin-path}}/rcat"
+mode = "0755"

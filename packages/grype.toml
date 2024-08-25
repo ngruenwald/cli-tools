@@ -1,0 +1,15 @@
+name = "grype"
+description = "A vulnerability scanner for container images and filesystems"
+homepage = "https://github.com/anchore/grype"
+alternatives = []
+version = "0.80.0"
+updated = "2024-08-24"
+package-url = "https://github.com/anchore/grype/releases/download/v{{version}}/grype_{{version}}_linux_amd64.tar.gz"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "grype"
+target = "{{vars.bin-path}}/grype"
+mode = "0755"

@@ -1,0 +1,15 @@
+name = "ollama"
+description = "Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models."
+homepage = "https://github.com/ollama/ollama"
+alternatives = []
+version = "0.3.6"
+updated = "2024-08-13"
+package-url = "https://github.com/ollama/ollama/releases/download/v{{version}}/ollama-linux-amd64"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "ollama-linux-amd64"
+target = "{{vars.bin-path}}/ollama"
+mode = "0755"

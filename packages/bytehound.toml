@@ -1,0 +1,24 @@
+name = "bytehound"
+description = "A memory profiler for Linux."
+homepage = "https://github.com/koute/bytehound"
+alternatives = []
+version = "0.11.0"
+updated = "2022-11-23"
+package-url = "https://github.com/koute/bytehound/releases/download/{{version}}/bytehound-x86_64-unknown-linux-gnu.tgz"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "bytehound"
+target = "{{vars.bin-path}}/bytehound"
+mode = "0755"
+
+[[extract.files]]
+source = "bytehound-gather"
+target = "{{vars.bin-path}}/bytehound-gather"
+mode = "0755"
+
+[[extract.files]]
+source = "libbytehound.so"
+target = "{{vars.prefix-path}}/lib64/libbytehound.so"
