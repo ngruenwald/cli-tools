@@ -2,8 +2,8 @@ name = "xq"
 description = "Command-line XML and HTML beautifier and content extractor"
 homepage = "https://github.com/sibprogrammer/xq"
 alternatives = []
-version = "1.2.4"
-updated = "2024-01-18"
+version = "1.2.5"
+updated = "2024-08-29"
 package-url = "https://github.com/sibprogrammer/xq/releases/download/v{{version}}/xq_{{version}}_linux_amd64.tar.gz"
 
 [extract]
