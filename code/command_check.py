@@ -2,18 +2,29 @@ import argparse
 
 from package_types import Package
 from set_token import get_token
+from ask_user import ask_user
+from create_commit import Change, create_commit
+from update_package import update_package
 
 # >> imports
 import re
 import requests
 
+from datetime import datetime, timezone
 from functools import cmp_to_key
 from time import sleep
 # << imports
 
+# >> globals
+CHECK_SESSION: requests.Session | None = None
+# << globals
+
 # >> command_check_code
 def create_command_check(subparsers: argparse._SubParsersAction) -> argparse.ArgumentParser:
     parser = subparsers.add_parser("check", help="check for updates")
+    parser.add_argument("--update", action="store_true", help="update package files")
+    parser.add_argument("--yes", action="store_true", help="assume yes")
+    parser.add_argument("--commit", action="store_true", help="commit changes")
     parser.set_defaults(func=command_check)
     return parser
 
@@ -46,7 +57,14 @@ def command_check(packages: list[Package], args) -> int:
             return parts[0], parts[1]
 
 
-    def check_for_updates(pi: CheckPackageInfo) -> None:
+    def get_session() -> requests.Session:
+        global CHECK_SESSION
+        if not CHECK_SESSION:
+            CHECK_SESSION = requests.Session()
+        return CHECK_SESSION
+
+
+    def check_for_updates(pi: CheckPackageInfo) -> str|None:
         package = f"{pi.owner}/{pi.repo}"
 
         atags = api_get_list(f"https://api.github.com/repos/{package}/tags")
@@ -63,8 +81,11 @@ def command_check(packages: list[Package], args) -> int:
         cmp_result = compare_versions(parse_version(pi.version), parse_version(tag_version))
         if cmp_result < 0:
             print(f"+ {pi.repo}: {pi.version} -> {tag_version}")
-        elif cmp_result > 0:
+            return tag_version
+        if cmp_result > 0:
             print(f"- {pi.repo}: {pi.version} != {tag_version}")
+            return None
+        return None
 
 
     def api_get_list(url: str) -> list:
@@ -89,7 +110,7 @@ def command_check(packages: list[Package], args) -> int:
         wait_seconds = 60
         for _ in range(0, num_loops):
             headers = { "Authorization": f"Bearer {token}" } if token else None
-            response = requests.get(url, headers=headers)
+            response = get_session().get(url, headers=headers)
             if response.status_code == 403:
                 # API rate limit?
                 print("403 - waiting 60 seconds ...")
@@ -158,12 +179,31 @@ def command_check(packages: list[Package], args) -> int:
     #
 
     if not get_token():
-        print("WARN: not token - this will end badly")
+        print("WARN: no token - this will end badly")
+
+    changes: list[Change] = []
+    timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
     for package in packages:
         url = package.package_url
         ver = package.version if package.version else "0.0.0"
         pat = package.version_pattern
         pi = CheckPackageInfo.create(url, ver, pat)
-        check_for_updates(pi)
+        new_version = check_for_updates(pi)
+        if args.update and new_version:
+            changes.append(Change(package.package_file, package.name, package.version, new_version))
+
+    changes_to_commit: list[Change] = []
+    for change in changes:
+        if args.yes:
+            pass  # auto accept change
+        elif ask_user(f"  update {change.name} from {change.old_version} to {change.new_version}?"):
+            pass  # user accepted change
+        else:
+            continue
+        update_package(change.file, change.new_version, timestamp)
+        changes_to_commit.append(change)
+
+    if args.commit and changes_to_commit:
+        create_commit(changes_to_commit)
 # << command_check_code

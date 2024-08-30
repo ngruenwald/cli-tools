@@ -30,4 +30,5 @@ class Package:
     package_url: str
     extract: Extract
     post_commands: list[str]
+    package_file: str
 # << types

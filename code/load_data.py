@@ -14,7 +14,7 @@ def load_vars(filepath: str) -> dict[str, str]:
         return tomllib.load(stream)
 
 
-def load_package(data: dict) -> Package:
+def load_package(filepath: str, data: dict) -> Package:
     def load_package_file(data: dict) -> File:
         source: str = data.get("source", "")
         target: str = data.get("target", "")
@@ -59,7 +59,8 @@ def load_package(data: dict) -> Package:
             homepage,
             package_url,
             extract,
-            post_commands
+            post_commands,
+            filepath
         )
     except Exception as err:
         raise Exception(f"package '{name}': {err}")
@@ -69,7 +70,7 @@ def load_package_from_file(filepath: str, vars: dict | None) -> Package | None:
     with open(filepath, "rb") as stream:
         data = tomllib.load(stream)
         data = resolve_vars(data, vars)
-        return load_package(data)
+        return load_package(filepath, data)
 
 
 def load_packages(path: str, vars: dict | None = None, include: list[str] | None = None, exclude: list[str] | None = None) -> list[Package]:

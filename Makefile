@@ -10,7 +10,7 @@ readme:
 
 .PHONY: packages-check
 packages-check:
-	python clitools.py check
+	python clitools.py check --update --commit
 
 .PHONY : test-build
 test-build:
