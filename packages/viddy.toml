@@ -1,0 +1,15 @@
+name = "viddy"
+description = "A modern watch command. Time machine and pager etc."
+homepage = "https://github.com/sachaos/viddy"
+alternatives = [ "watch", "hwatch", ]
+version = "1.1.1"
+updated = "2024-09-03"
+package-url = "https://github.com/sachaos/viddy/releases/download/v{{version}}/viddy-v{{version}}-linux-x86_64.tar.gz"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "viddy"
+target = "{{vars.bin-path}}/viddy"
+mode = "0755"
