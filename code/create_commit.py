@@ -30,4 +30,11 @@ def create_commit(changes: list[Change]) -> bool:
             return False
 
     return True
+
+def push_commit() -> bool:
+    command = ["git", "push"]
+    proc = Popen(command)
+    if proc.wait() != 0:
+        return False
+    return True
 # << create_commit_code

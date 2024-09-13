@@ -3,7 +3,7 @@ import argparse
 from package_types import Package
 from set_token import get_token
 from ask_user import ask_user
-from create_commit import Change, create_commit
+from create_commit import Change, create_commit, push_commit
 from update_package import update_package
 
 # >> imports
@@ -25,6 +25,7 @@ def create_command_check(subparsers: argparse._SubParsersAction) -> argparse.Arg
     parser.add_argument("--update", action="store_true", help="update package files")
     parser.add_argument("--yes", action="store_true", help="assume yes")
     parser.add_argument("--commit", action="store_true", help="commit changes")
+    parser.add_argument("--push", action="store_true", help="push changes")
     parser.set_defaults(func=command_check)
     return parser
 
@@ -205,5 +206,7 @@ def command_check(packages: list[Package], args) -> int:
         changes_to_commit.append(change)
 
     if args.commit and changes_to_commit:
-        create_commit(changes_to_commit)
+        if create_commit(changes_to_commit):
+            if args.push:
+                push_commit()
 # << command_check_code
