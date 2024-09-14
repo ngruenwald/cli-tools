@@ -1,0 +1,15 @@
+name = "jd"
+description = "JSON diff and patch"
+homepage = "https://github.com/josephburnett/jd"
+alternatives = []
+version = "1.9.1"
+updated = "2024-08-19"
+package-url = "https://github.com/josephburnett/jd/releases/download/v{{version}}/jd-amd64-linux"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "jd-amd64-linux"
+target = "{{vars.bin-path}}/jd"
+mode = "0755"
