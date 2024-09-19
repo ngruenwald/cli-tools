@@ -2,7 +2,7 @@ name = "task"
 description = "A task runner / simpler Make alternative written in Go"
 homepage = "https://github.com/go-task/task"
 alternatives = [ "make", "dotree", "just",]
-version = "3.39.1"
+version = "3.39.2"
 updated = "2024-09-19"
 package-url = "https://github.com/go-task/task/releases/download/v{{version}}/task_linux_amd64.tar.gz"
 
