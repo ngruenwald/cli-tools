@@ -1,11 +1,13 @@
-from package_types import *
+from package_types import (
+    Extract,
+    File,
+    Package,
+)
 from resolve_vars import resolve_vars
 
 # >> imports
 import glob
 import tomllib
-
-from dataclasses import dataclass
 # << imports
 
 # >> load_packages_code
@@ -21,9 +23,9 @@ def load_package(filepath: str, data: dict) -> Package:
         mode: str | None = data.get("mode", None)
         is_folder: bool = data.get("is-folder", False)
         if not source:
-            raise Exception(f"file has no source")
+            raise Exception("file has no source")
         if not target:
-            raise Exception(f"file has no target")
+            raise Exception("file has no target")
         return File(source, target, mode, is_folder)
 
     def load_package_extract(data: dict) -> Extract:
@@ -35,13 +37,13 @@ def load_package(filepath: str, data: dict) -> Package:
     try:
         name: str = data.get("name", "")
         if not name:
-            raise Exception(f"name is missing")
+            raise Exception("name is missing")
         version: str = data.get("version", None)
         if version is None:
-            raise Exception(f"version is missing")
+            raise Exception("version is missing")
         package_url = data.get("package-url", None)
         if package_url is None:
-            raise Exception(f"package-url is missing")
+            raise Exception("package-url is missing")
         description: str = data.get("description", "")
         alternatives: list[str] = data.get("alternatives", [])
         updated: str = data.get("updated", "")

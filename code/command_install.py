@@ -254,7 +254,7 @@ def command_install(packages: list[Package], args) -> int:
 
     packages = filter_packages(packages, args.packages)
     if not packages:
-        raise Exception(f"package name required")
+        raise Exception("package name required")
 
     if args.dry_run:
         dry_run(packages)

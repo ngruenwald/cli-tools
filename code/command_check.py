@@ -147,7 +147,7 @@ def command_check(packages: list[Package], args) -> int:
         len_a = len(a)
         len_b = len(b)
         length = len_a if len_a < len_b else len_b
-        for idx in range(0, len(a)):
+        for idx in range(0, length):
             if a[idx] == b[idx]:
                 continue
             return a[idx] - b[idx]

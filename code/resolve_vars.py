@@ -17,7 +17,7 @@ def fill_package_vars(data: dict, extra_vars: dict):
     def _get_val(data: dict, key: list[str]) -> str:
         if len(key) == 1:
             return str(data.get(key[0], ""))
-        if not key[0] in data:
+        if key[0] not in data:
             return ""
         return _get_val(data[key[0]], key[1:])
 
@@ -37,8 +37,8 @@ def fill_package_vars(data: dict, extra_vars: dict):
         try:
             parts = key.strip('()').split(",")  # TODO: do not split strings!
             parts = [p.strip() for p in parts]
-            fname = parts[0]
-            var = _get_val(s, parts[1].split("."))
+            # fname = parts[0]
+            # var = _get_val(s, parts[1].split("."))
             return functions[parts[0]](_get_val(s, parts[1].split(".")), *parts[2:])    # TODO: parts length!
         except Exception as err:
             print(f"error '_call_func': {err}")
@@ -93,7 +93,7 @@ def fill_package_vars(data: dict, extra_vars: dict):
             elif isinstance(v, dict):
                 _fill_dict_vars(v, s)
 
-    if not "vars" in data:
+    if "vars" not in data:
         data["vars"] = {}
     if "vars" in extra_vars:
         ev = extra_vars["vars"]

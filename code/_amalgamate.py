@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 
 import glob
-import regex
+import re
 
 INPUT_PATH = "code/"
 
 INPUT_FILES = [
-   f"{INPUT_PATH}*.py"
+    f"{INPUT_PATH}*.py"
 ]
 
 GLOB_RECURSIVE = True
@@ -19,8 +19,9 @@ INPUT_DATA = {}
 
 EXCLUDE = False
 
-BLOCK_BEGIN = regex.compile("^\\s*#\\s*>>\\s*(.*)$")
-BLOCK_END = regex.compile("^\\s*#\\s*<<\\s*(.*)$")
+BLOCK_BEGIN = re.compile("^\\s*#\\s*>>\\s*(.*)$")
+BLOCK_END = re.compile("^\\s*#\\s*<<\\s*(.*)$")
+INSERT = re.compile("^\\s*#\\s*\\$\\$\\s*(.*)$")
 
 COMMENT_FILE = "# source: {}\n"
 COMMENT_FILE_LINE = "# source: {}:{}\n"
@@ -68,7 +69,7 @@ def extract_data_from_file_exclude(input_file: str, data: dict) -> None:
             line = f.readline()
             if not line:
                 if not include_line:
-                    print(f"WARN: eol while in block")
+                    print("WARN: eol while in block")
                 break
             line_number += 1
             if include_line:
@@ -106,7 +107,7 @@ def gather_input_data(input_files: list[str], data: dict) -> None:
 
 
 def create_output_file(output_file: str, template_file: str, data: dict) -> None:
-    match_ins = regex.compile("^\\s*#\\s*\\$\\$\\s*(.*)$")
+    match_ins = INSERT
     output_data = []
     used_blocks = []
     with open(template_file, "rt") as f:
@@ -119,7 +120,7 @@ def create_output_file(output_file: str, template_file: str, data: dict) -> None
                 output_data.append(line)
                 continue
             block_name = m.group(1).strip()
-            if not block_name in data:
+            if block_name not in data:
                 print(f"WARN: block '{block_name}' does not exist")
                 continue
             output_data.extend(data[block_name])
