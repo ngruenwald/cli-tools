@@ -4,6 +4,7 @@ import argparse
 import sys
 # << imports
 
+from command_build import create_command_build
 from command_check import create_command_check
 from command_create import create_command_create
 from command_install import create_command_install
@@ -26,6 +27,7 @@ def main():
 
     create_command_check(subparsers)
     create_command_install(subparsers)
+    create_command_build(subparsers)
     create_command_create(subparsers)
 
     args = parser.parse_args()

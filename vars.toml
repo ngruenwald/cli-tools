@@ -17,3 +17,16 @@ zsh-complete-prefix = "_"
 zsh-complete-suffix = ""
 complete-prefix = "{{vars.{{vars.shell-type}}-complete-prefix}}"
 complete-suffix = "{{vars.{{vars.shell-type}}-complete-suffix}}"
+
+# num-parallel = "$(nproc)"
+num-parallel = "4"
+
+[[repository]]
+name = "packages"
+type = "folder"
+path = "/tmp/packages"
+
+[[repository]]
+name = "python"
+type = "folder"
+path = "/tmp/pypi"
