@@ -2,8 +2,8 @@ name = "fq"
 description = "jq for binary formats - tool, language and decoders for working with binary and text formats"
 homepage = "https://github.com/wader/fq"
 alternatives = []
-version = "0.12.0"
-updated = "2024-07-15"
+version = "0.13.0"
+updated = "2024-09-22"
 package-url = "https://github.com/wader/fq/releases/download/v{{version}}/fq_{{version}}_linux_amd64.tar.gz"
 
 [extract]
