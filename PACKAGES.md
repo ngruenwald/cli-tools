@@ -13,7 +13,7 @@
 | [curlie](https://github.com/rs/curlie) | The power of curl, the ease of use of httpie. | 1.7.2 | 2023-10-23 | httpie, xh |
 | [dasel](https://github.com/TomWright/dasel) | Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package. | 2.8.1 | 2024-06-30 |  |
 | [delta](https://github.com/dandavison/delta) | A syntax-highlighting pager for git, diff, grep, and blame output | 0.18.2 | 2024-09-11 |  |
-| [devbox](https://github.com/jetify-com/devbox) | Instant, easy, and predictable development environments | 0.13.1 | 2024-09-25 |  |
+| [devbox](https://github.com/jetify-com/devbox) | Instant, easy, and predictable development environments | 0.13.2 | 2024-09-26 |  |
 | [difftastic](https://github.com/Wilfred/difftastic) | a structural diff that understands syntax | 0.60.0 | 2024-08-01 | diff |
 | [direnv](https://github.com/direnv/direnv) | unclutter your .profile | 2.34.0 | 2024-03-01 |  |
 | [dive](https://github.com/wagoodman/dive) | A tool for exploring each layer in a docker image | 0.12.0 | 2024-02-02 |  |
@@ -88,4 +88,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2024-09-25 21:30:52 (utc)_
+_last updated: 2024-09-26 04:53:32 (utc)_
