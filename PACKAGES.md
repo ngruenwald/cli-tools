@@ -22,7 +22,7 @@
 | [doxygen](https://github.com/doxygen/doxygen) | Code Documentation. Automated. | 1.12.0 | 2024-08-07 |  |
 | [duf](https://github.com/muesli/duf) | Disk Usage/Free Utility - a better 'df' alternative | 0.8.1 | 2024-02-08 | df |
 | [dust](https://github.com/bootandy/dust) | A more intuitive version of du in rust | 1.1.1 | 2024-07-17 | du |
-| [envio](https://github.com/envio-cli/envio) | Envio is a modern and secure command-line tool that simplifies the management of environment variables | 0.6.0 | 2024-09-27 |  |
+| [envio](https://github.com/envio-cli/envio) | Envio is a modern and secure command-line tool that simplifies the management of environment variables | 0.6.1 | 2024-09-30 |  |
 | [eza](https://github.com/eza-community/eza) | A modern alternative to ls | 0.20.0 | 2024-09-26 | ls, lsd |
 | [fd](https://github.com/sharkdp/fd) | A simple, fast and user-friendly alternative to 'find' | 10.2.0 | 2024-08-23 | find |
 | [fq](https://github.com/wader/fq) | jq for binary formats - tool, language and decoders for working with binary and text formats | 0.13.0 | 2024-09-22 |  |
@@ -54,7 +54,7 @@
 | [ripgrep](https://github.com/BurntSushi/ripgrep) | ripgrep recursively searches directories for a regex pattern while respecting your gitignore | 14.1.1 | 2024-09-09 | grep |
 | [runme](https://github.com/stateful/runme) | DevOps Workflows Built with Markdown | 3.8.3 | 2024-09-25 |  |
 | [rustcat](https://github.com/quantumsheep/sshs) | Rustcat(rcat) - The modern Port listener and Reverse shell | 3.0.0 | 2022-08-15 |  |
-| [scc](https://github.com/boyter/scc) | Sloc, Cloc and Code: scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go | 3.3.5 | 2024-07-03 | sloc, tokei |
+| [scc](https://github.com/boyter/scc) | Sloc, Cloc and Code: scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go | 3.4.0 | 2024-09-30 | sloc, tokei |
 | [sd](https://github.com/chmln/sd) | Intuitive find & replace CLI (sed alternative) | 1.0.0 | 2023-11-08 | sed |
 | [shellcheck](https://github.com/koalaman/shellcheck) | ShellCheck, a static analysis tool for shell scripts | 0.10.0 | 2024-03-08 |  |
 | [sshs](https://github.com/quantumsheep/sshs) | Terminal user interface for SSH | 4.5.1 | 2024-08-15 |  |
@@ -73,7 +73,7 @@
 | [usql](https://github.com/xo/usql) | Universal command-line interface for SQL databases | 0.19.3 | 2024-06-10 |  |
 | [uv](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | 0.4.17 | 2024-09-28 | pip, pdm, poetry, rye |
 | [vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder | 0.8.0 | 2024-09-06 |  |
-| [viddy](https://github.com/sachaos/viddy) | A modern watch command. Time machine and pager etc. | 1.1.3 | 2024-09-26 | watch, hwatch |
+| [viddy](https://github.com/sachaos/viddy) | A modern watch command. Time machine and pager etc. | 1.1.5 | 2024-09-30 | watch, hwatch |
 | [xh](https://github.com/ducaale/xh) | Friendly and fast tool for sending HTTP requests | 0.22.2 | 2024-07-09 | httpie, curlie |
 | [xq](https://github.com/sibprogrammer/xq) | Command-line XML and HTML beautifier and content extractor | 1.2.5 | 2024-08-29 |  |
 | [yazi](https://github.com/sxyazi/yazi) | Blazing fast terminal file manager written in Rust, based on async I/O. | 0.3.3 | 2024-09-04 | ranger |
@@ -88,4 +88,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2024-09-29 07:52:26 (utc)_
+_last updated: 2024-09-30 16:20:47 (utc)_
