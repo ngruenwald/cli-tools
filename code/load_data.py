@@ -80,9 +80,9 @@ def load_package(filepath: str, data: dict) -> Package:
             raise Exception("build package-url is missing")
         verify_ssl: bool = data.get("verify-ssl", True)
         version_pattern: str = data.get("version-pattern", "")
-        scripts: list[BuildScript] = [load_package_build_script(bs) for bs in data.get("script")]
-        steps: list[BuildStep] = [load_package_build_step(bs) for bs in data.get("step")]
-        publish: list[BuildPublish] = [load_package_build_publish(bp) for bp in data.get("publish")]
+        scripts: list[BuildScript] = [load_package_build_script(bs) for bs in data.get("script", [])]
+        steps: list[BuildStep] = [load_package_build_step(bs) for bs in data.get("step", [])]
+        publish: list[BuildPublish] = [load_package_build_publish(bp) for bp in data.get("publish", [])]
         return Build(package_url, verify_ssl, version_pattern, scripts, steps, publish)
 
     try:
