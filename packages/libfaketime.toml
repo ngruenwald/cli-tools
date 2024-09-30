@@ -1,0 +1,48 @@
+name = "libfaketime"
+description = "libfaketime modifies the system time for a single application"
+homepage = "https://github.com/wolfcw/libfaketime"
+alternatives = []
+version = "0.9.10"
+updated = "2022-03-04"
+package-url = ""
+
+[extract]
+strip = 0
+prefix = "{{vars.prefix-path}}"
+
+#
+# build configuration
+#
+
+[build]
+package-url = "https://github.com/wolfcw/libfaketime/archive/refs/tags/v{{version}}.tar.gz"
+
+[[build.script]]
+name = "build_libfaketime.sh"
+content = [
+    "set -e",
+    "tar xzf v{{version}}.tar.gz --strip-components=1",
+    "export DESTDIR=dist/$1",
+    "export PREFIX=/usr",
+    "make",
+    "make install",
+    "tar cJf libfaketime-{{version}}.$1.x86_64.tar.gz -C dist/$1 ."
+]
+
+[[build.step]]
+command = ["xcc", "el7", "sh", "build_libfaketime.sh", "el7"]
+
+[[build.step]]
+command = ["xcc", "el8", "sh", "build_libfaketime.sh", "el8"]
+
+[[build.step]]
+command = ["xcc", "el9", "sh", "build_libfaketime.sh", "el9"]
+
+[[build.publish]]
+repository-name = "packages"
+repository-path = "libfaketime"
+files = [
+    "libfaketime-{{version}}.el7.x86_64.tar.gz",
+    "libfaketime-{{version}}.el8.x86_64.tar.gz",
+    "libfaketime-{{version}}.el9.x86_64.tar.gz"
+]

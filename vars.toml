@@ -24,9 +24,14 @@ num-parallel = "4"
 [[repository]]
 name = "packages"
 type = "folder"
-path = "/tmp/packages"
+path = "output/packages"
+
+[[repository]]
+name = "sources"
+type = "folder"
+path = "output/sources"
 
 [[repository]]
 name = "python"
 type = "folder"
-path = "/tmp/pypi"
+path = "output/pypi"
