@@ -9,9 +9,30 @@ def resolve_vars(data: dict, vars: dict) -> dict:
     return odata
 
 
+def fn_replace(input: str, frm: str, to: str) -> str:
+    try:
+        return input.replace(frm.strip("\"\'"), to.strip("\"\'"))
+    except Exception:
+        return input
+
+
+def fn_cut(input: str, separator: str, index: str, count: str | None) -> str:
+    try:
+        sep = separator.strip("\"\'")
+        idx = int(index.strip("\"\'"))
+        parts = input.split(sep)
+        if count:
+            cnt = int(count.strip("\"\'"))
+            return sep.join(parts[idx:cnt])
+        return sep.join(parts[idx])
+    except Exception:
+        return input
+
+
 def fill_package_vars(data: dict, extra_vars: dict):
     functions: dict[str, callable] = {
-        "replace": (lambda input, frm, to: input.replace(frm.strip("\"\'"), to.strip("\"\'")))
+        "replace": fn_replace,
+        "cut": fn_cut
     }
 
     def _get_val(data: dict, key: list[str]) -> str:
