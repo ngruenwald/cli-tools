@@ -125,9 +125,12 @@ def load_package(filepath: str, data: dict) -> Package:
 
 def load_package_from_file(filepath: str, vars: dict | None) -> Package | None:
     with open(filepath, "rb") as stream:
-        data = tomllib.load(stream)
-        data = resolve_vars(data, vars)
-        return load_package(filepath, data)
+        try:
+            data = tomllib.load(stream)
+            data = resolve_vars(data, vars)
+            return load_package(filepath, data)
+        except Exception as error:
+            raise Exception(f"file '{filepath}': {error}")
 
 
 def load_packages(path: str, vars: dict | None = None, include: list[str] | None = None, exclude: list[str] | None = None) -> list[Package]:
