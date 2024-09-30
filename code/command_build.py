@@ -78,38 +78,54 @@ def command_build(packages: list[Package], args) -> int:
             logging.error(error)
             return False
 
-    def build_from_source(package: Package, workdir: str) -> None:
+    def build_from_source(package: Package, workdir: str) -> bool:
         if not package.build:
             return
-        for script in package.build.scripts:
-            create_build_script(os.path.join(workdir, script.name), script.content)
-        for step in package.build.steps:
-            execute_build_step(step, workdir)
+        for idx, script in enumerate(package.build.scripts):
+            if not create_build_script(os.path.join(workdir, script.name), script.content):
+                logging.error(f"could not create build script #{idx} '{script.name}'")
+                return False
+        for idx, step in enumerate(package.build.steps):
+            if not execute_build_step(step, workdir):
+                logging.error(f"build step #{idx} ('{step.name}') failed")
+                return False
+        return True
 
-    def build_package(package: Package, workdir: str) -> None:
+    def build_package(package: Package, workdir: str) -> bool:
         print(f"building {package.name} {package.version}")
-        download_source_package(package.build.package_url, workdir, package.build.verify_ssl)
-        build_from_source(package, workdir)
+        if not download_source_package(package.build.package_url, workdir, package.build.verify_ssl):
+            return False
+        if not build_from_source(package, workdir):
+            return False
+        return True
 
-    def publish_package_folder(package: Package, publish: BuildPublish, repository: Repository, workdir: str) -> None:
-        for file in publish.files:
-            src = os.path.join(workdir, file)
-            dst = os.path.join(repository.basepath, publish.repository_path)  # TBD: append file?
-            shutil.copy2(src, dst)
+    def publish_package_folder(package: Package, publish: BuildPublish, repository: Repository, workdir: str) -> bool:
+        for idx, file in enumerate(publish.files):
+            try:
+                src = os.path.join(workdir, file)
+                dst = os.path.join(repository.basepath, publish.repository_path)  # TBD: append file?
+                os.makedirs(dst, exist_ok=True)
+                shutil.copy2(src, dst)
+            except Exception as error:
+                logging.error(f"could not publish file #{idx} '{file}': {error}")
+                return False
+        return True
 
-    def publish_package(package: Package, repositories: list[Repository], workdir: str) -> None:
+    def publish_package(package: Package, repositories: list[Repository], workdir: str) -> bool:
         if not package.build:
-            return
-        for publish in package.build.publish:
+            return True
+        for idx, publish in enumerate(package.build.publish):
             repository: Repository = next(filter(lambda x: x.reponame == publish.repository_name, repositories), None)
             if not repository:
                 logging.error(f"repository '{publish.repository_name}' not found")
-                continue
+                return False
             if repository.repotype == "folder":
-                publish_package_folder(package, publish, repository, workdir)
+                if not publish_package_folder(package, publish, repository, workdir):
+                    return False
             else:
                 logging.error(f"repository '{repository.reponame}': unsupported type '{repository.type}'")
-                continue
+                return False
+        return True
 
     #
     #
@@ -127,11 +143,14 @@ def command_build(packages: list[Package], args) -> int:
             continue
         with tempfile.TemporaryDirectory() as workdir:
             try:
-                build_package(package, workdir)
+                if not build_package(package, workdir):
+                    raise Exception("build failed")
                 if not args.no_publish:
-                    publish_package(package, repositories, workdir)
+                    if not publish_package(package, repositories, workdir):
+                        raise Exception("publish failed")
                 if args.install:
-                    command_install(package, args)  # TODO: this won't work
+                    if command_install(package, args) != 0:  # TODO: this won't work
+                        raise Exception("install failed")
             except Exception as error:
                 logging.error(error)
 # << command_build_code
