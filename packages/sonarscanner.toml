@@ -1,0 +1,19 @@
+name = "sonarscanner"
+description = "The SonarScanner CLI is the scanner to use when there is no specific scanner for your build system."
+homepage = "https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/scanners/sonarscanner/"
+alternatives = []
+version = "6.2.0.4584"
+updated = "2024-08-19"
+package-url = ""
+
+#
+# build configuration
+#
+
+[build]
+package-url = "https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-{{version}}.zip"
+
+[[build.publish]]
+repository-name = "packages"
+repository-path = "sonarscanner"
+files = ["sonar-scanner-cli-{{version}}.zip"]

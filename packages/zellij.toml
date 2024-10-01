@@ -9,3 +9,19 @@ package-url = "https://github.com/zellij-org/zellij/releases/download/v{{version
 [extract]
 strip = 0
 prefix = "{{vars.bin-path}}"
+
+
+#
+# build configuration
+#
+
+[build]
+package-url = "https://github.com/zellij-org/zellij/releases/download/v{{version}}/zellij-x86_64-unknown-linux-musl.tar.gz"
+
+[[build.step]]
+command = ["mv", "zellij-x86_64-unknown-linux-musl.tar.gz", "zellij-{{version}}-x86_64-unknown-linux-musl.tar.gz"]
+
+[[build.publish]]
+repository-name = "packages"
+repository-path = "zellij"
+files = ["zellij-{{version}}-x86_64-unknown-linux-musl.tar.gz"]

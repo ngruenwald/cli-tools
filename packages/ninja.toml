@@ -8,3 +8,21 @@ package-url = "https://github.com/ninja-build/ninja/releases/download/v{{version
 
 [extract]
 prefix = "{{vars.bin-path}}"
+
+#
+# build configuration
+#
+
+[build]
+package-url = "https://github.com/ninja-build/ninja/releases/download/v{{version}}/ninja-linux.zip"
+
+[[build.step]]
+command = ["unzip", "ninja-linux.zip"]
+
+[[build.step]]
+command = ["tar", "cf", "ninja-{{version}}.tar.gz", "ninja"]
+
+[[build.publish]]
+repository-name = "packages"
+repository-path = "ninja"
+files = ["ninja-{{version}}.tar.gz"]

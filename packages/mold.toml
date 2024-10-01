@@ -9,3 +9,15 @@ package-url = "https://github.com/rui314/mold/releases/download/v{{version}}/mol
 [extract]
 strip = 1
 prefix = "{{vars.prefix-path}}"
+
+#
+# build configuration
+#
+
+[build]
+package-url = "https://github.com/rui314/mold/releases/download/v{{version}}/mold-{{version}}-x86_64-linux.tar.gz"
+
+[[build.publish]]
+repository-name = "packages"
+repository-path = "mold"
+files = ["mold-{{version}}-x86_64-linux.tar.gz"]
