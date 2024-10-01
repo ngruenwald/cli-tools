@@ -50,6 +50,7 @@ class BuildPublish:
 @dataclass
 class Build:
     package_url: str
+    query_url: str
     verify_ssl: bool
     version_pattern: str
     scripts: list[BuildScript]
@@ -67,6 +68,7 @@ class Package:
     updated: str
     homepage: str
     package_url: str
+    query_url: str
     verify_ssl: bool
     extract: Extract
     post_commands: list[str]

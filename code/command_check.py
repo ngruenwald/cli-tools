@@ -186,7 +186,7 @@ def command_check(packages: list[Package], args) -> int:
     timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
     for package in packages:
-        url = package.package_url
+        url = package.query_url
         ver = package.version if package.version else "0.0.0"
         pat = package.version_pattern
         pi = CheckPackageInfo.create(url, ver, pat)
