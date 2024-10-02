@@ -20,9 +20,14 @@ test-build:
 test-run:
 	$(CONTAINERTOOL) run --rm -it cli-tools:latest; true
 
+.PHONY : _git_commit_amend
+_git_commit_amend:
+	git add PACKAGES.md
+	git commit --amend --no-edit
+
 
 .PHONY : pc
-pc: | packages-check
+pc: | packages-check readme _git_commit_amend
 
 .PHONY : tb
 tb: | test-build
