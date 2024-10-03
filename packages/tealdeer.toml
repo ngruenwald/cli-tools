@@ -2,8 +2,8 @@ name = "tealdeer"
 description = "A very fast implementation of tldr in Rust."
 homepage = "https://github.com/dbrgn/tealdeer"
 alternatives = [ "tldr", "tlrc",]
-version = "1.6.1"
-updated = "2022-11-04"
+version = "1.7.0"
+updated = "2024-10-03"
 package-url = "https://github.com/dbrgn/tealdeer/releases/download/v{{version}}/tealdeer-linux-x86_64-musl"
 post-commands = [ "{{vars.bin-path}}/tldr --update",]
 
