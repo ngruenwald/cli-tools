@@ -2,8 +2,8 @@ name = "mold"
 description = "Mold: A Modern Linker"
 homepage = "https://github.com/rui314/mold"
 alternatives = ["ld", "lld", "gold"]
-version = "2.34.0"
-updated = "2024-09-25"
+version = "2.34.1"
+updated = "2024-10-05"
 package-url = "https://github.com/rui314/mold/releases/download/v{{version}}/mold-{{version}}-x86_64-linux.tar.gz"
 
 [extract]

@@ -43,7 +43,7 @@
 | [kickstart](https://github.com/Keats/kickstart) | A scaffolding tool to get new projects up and running quickly | 0.4.0 | 2023-08-03 | cookiecutter, proji |
 | [mcfly](https://github.com/cantino/mcfly) | Fly through your shell history. Great Scott! | 0.9.2 | 2024-08-12 | atuin, hishtory |
 | [miniserve](https://github.com/svenstaro/miniserve) | For when you really just want to serve some files over HTTP right now! | 0.28.0 | 2024-09-12 | simple-http-server, see, binserve, http |
-| [mold](https://github.com/rui314/mold) | Mold: A Modern Linker | 2.34.0 | 2024-09-25 | ld, lld, gold |
+| [mold](https://github.com/rui314/mold) | Mold: A Modern Linker | 2.34.1 | 2024-10-05 | ld, lld, gold |
 | [multi-git-status](https://github.com/fboender/multi-git-status/archive/refs/tags/2.2.tar.gz) | Show uncommitted, untracked and unpushed changes for multiple Git repos | 2.2 | 2022-06-11 |  |
 | [navi](https://github.com/denisidoro/navi) | An interactive cheatsheet tool for the command-line | 2.23.0 | 2023-12-10 |  |
 | [neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 0.10.2 | 2024-10-03 | vim, helix |
@@ -73,7 +73,7 @@
 | [usql](https://github.com/xo/usql) | Universal command-line interface for SQL databases | 0.19.3 | 2024-06-10 |  |
 | [uv](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | 0.4.18 | 2024-10-02 | pip, pdm, poetry, rye |
 | [vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder | 0.8.0 | 2024-09-06 |  |
-| [viddy](https://github.com/sachaos/viddy) | A modern watch command. Time machine and pager etc. | 1.1.5 | 2024-09-30 | watch, hwatch |
+| [viddy](https://github.com/sachaos/viddy) | A modern watch command. Time machine and pager etc. | 1.1.6 | 2024-10-05 | watch, hwatch |
 | [xh](https://github.com/ducaale/xh) | Friendly and fast tool for sending HTTP requests | 0.22.2 | 2024-07-09 | httpie, curlie |
 | [xq](https://github.com/sibprogrammer/xq) | Command-line XML and HTML beautifier and content extractor | 1.2.5 | 2024-08-29 |  |
 | [yazi](https://github.com/sxyazi/yazi) | Blazing fast terminal file manager written in Rust, based on async I/O. | 0.3.3 | 2024-09-04 | ranger |
@@ -88,4 +88,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-last updated: 2024-10-04 05:03:45 (utc)_
+last updated: 2024-10-05 08:03:17 (utc)_

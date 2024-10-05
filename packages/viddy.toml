@@ -2,8 +2,8 @@ name = "viddy"
 description = "A modern watch command. Time machine and pager etc."
 homepage = "https://github.com/sachaos/viddy"
 alternatives = [ "watch", "hwatch", ]
-version = "1.1.5"
-updated = "2024-09-30"
+version = "1.1.6"
+updated = "2024-10-05"
 package-url = "https://github.com/sachaos/viddy/releases/download/v{{version}}/viddy-v{{version}}-linux-x86_64.tar.gz"
 
 [extract]
