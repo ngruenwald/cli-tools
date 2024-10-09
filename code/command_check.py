@@ -26,6 +26,7 @@ def create_command_check(subparsers: argparse._SubParsersAction) -> argparse.Arg
     parser.add_argument("--yes", action="store_true", help="assume yes")
     parser.add_argument("--commit", action="store_true", help="commit changes")
     parser.add_argument("--push", action="store_true", help="push changes")
+    parser.add_argument("--error", action="store_true", help="error rc if no updates are found")
     parser.set_defaults(func=command_check)
     return parser
 
@@ -209,4 +210,9 @@ def command_check(packages: list[Package], args) -> int:
         if create_commit(changes_to_commit):
             if args.push:
                 push_commit()
+
+    if args.error and changes_to_commit == 0:
+        return 1
+
+    return 0
 # << command_check_code
