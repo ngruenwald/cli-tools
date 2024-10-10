@@ -211,7 +211,7 @@ def command_check(packages: list[Package], args) -> int:
             if args.push:
                 push_commit()
 
-    if args.error and changes_to_commit == 0:
+    if args.error and not changes_to_commit:
         return 1
 
     return 0
