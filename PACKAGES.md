@@ -60,7 +60,7 @@
 | [sshs](https://github.com/quantumsheep/sshs) | Terminal user interface for SSH | 4.5.1 | 2024-08-15 |  |
 | [starship](https://github.com/starship/starship) | The minimal, blazing-fast, and infinitely customizable prompt for any shell! | 1.20.1 | 2024-07-27 | powerline-go |
 | [syft](https://github.com/anchore/syft) | CLI tool and library for generating a Software Bill of Materials from container images and filesystems | 1.14.0 | 2024-10-07 |  |
-| [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter | 3.0.2 | 2024-08-17 |  |
+| [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter | 4.0.0 | 2024-10-13 |  |
 | [task](https://github.com/go-task/task) | A task runner / simpler Make alternative written in Go | 3.39.2 | 2024-09-19 | make, dotree, just |
 | [tealdeer](https://github.com/dbrgn/tealdeer) | A very fast implementation of tldr in Rust. | 1.7.0 | 2024-10-03 | tldr, tlrc |
 | [teller](https://github.com/tellerops/teller) | Cloud native secrets management for developers - never leave your command line for secrets. | 2.0.7 | 2024-05-20 |  |
@@ -74,7 +74,7 @@
 | [uv](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | 0.4.20 | 2024-10-09 | pip, pdm, poetry, rye |
 | [vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder | 0.8.0 | 2024-09-06 |  |
 | [viddy](https://github.com/sachaos/viddy) | A modern watch command. Time machine and pager etc. | 1.1.6 | 2024-10-05 | watch, hwatch |
-| [xh](https://github.com/ducaale/xh) | Friendly and fast tool for sending HTTP requests | 0.22.2 | 2024-07-09 | httpie, curlie |
+| [xh](https://github.com/ducaale/xh) | Friendly and fast tool for sending HTTP requests | 0.23.0 | 2024-10-13 | httpie, curlie |
 | [xq](https://github.com/sibprogrammer/xq) | Command-line XML and HTML beautifier and content extractor | 1.2.5 | 2024-08-29 |  |
 | [yazi](https://github.com/sxyazi/yazi) | Blazing fast terminal file manager written in Rust, based on async I/O. | 0.3.3 | 2024-09-04 | ranger |
 | [yq](https://github.com/mikefarah/yq) | yq is a portable command-line YAML, JSON, XML, CSV, TOML and properties processor | 4.44.3 | 2024-08-05 |  |
@@ -88,4 +88,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2024-10-11 17:54:26 (utc)_
+_last updated: 2024-10-13 06:27:22 (utc)_
