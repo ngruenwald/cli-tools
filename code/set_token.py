@@ -16,7 +16,7 @@ def set_token(token: str | str) -> None:
             with open(".token", "r") as stream:
                 lines = stream.readlines()
             for line in lines:
-                k, v = line.split("=", maxsplit=1)
+                k, v = line.strip().split("=", maxsplit=1)
                 if k == "TOKEN":
                     token = v
         except Exception:
