@@ -1,0 +1,15 @@
+name = "onefetch"
+description = "Command-line Git information tool"
+homepage = "https://onefetch.dev"
+alternatives = [ "mcfly", "hishtory" ]
+version = "2.22.0"
+updated = "2024-09-20"
+package-url = "https://github.com/o2sh/onefetch/releases/download/{{version}}/onefetch-linux.tar.gz"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "onefetch"
+target = "{{vars.bin-path}}/onefetch"
+mode = "0755"
