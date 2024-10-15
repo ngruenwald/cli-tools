@@ -5,6 +5,7 @@ alternatives = []
 version = "0.9.10"
 updated = "2022-03-04"
 package-url = ""
+query-url = "https://github.com/wolfcw/libfaketime/archive/refs/tags/v{{version}}.tar.gz"
 
 [extract]
 strip = 0

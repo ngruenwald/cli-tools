@@ -6,9 +6,9 @@ OpenAPI Spec (v2, v3)
 """
 homepage = "https://openapi-generator.tech"
 alternatives = []
-version = "7.8.0"
-updated = "2024-08-19"
-check-url = "https://github.com/OpenAPITools/openapi-generator/archive/refs/tags/v{{version}}.tar.gz"
+version = "7.9.0"
+updated = "2024-10-10"
+query-url = "https://github.com/OpenAPITools/openapi-generator/archive/refs/tags/v{{version}}.tar.gz"
 package-url = "https://repo1.maven.org/maven2/org/openapitools/openapi-generator-cli/{{version}}/openapi-generator-cli-{{version}}.jar"
 version-pattern = "v\\d+\\.\\d+\\.\\d+$"
 
@@ -17,7 +17,7 @@ version-pattern = "v\\d+\\.\\d+\\.\\d+$"
 #
 
 [build]
-check-url = "https://github.com/OpenAPITools/openapi-generator/archive/refs/tags/v{{version}}.tar.gz"
+query-url = "https://github.com/OpenAPITools/openapi-generator/archive/refs/tags/v{{version}}.tar.gz"
 package-url = "https://repo1.maven.org/maven2/org/openapitools/openapi-generator-cli/{{version}}/openapi-generator-cli-{{version}}.jar"
 version-pattern = "v\\d+\\.\\d+\\.\\d+$"
 

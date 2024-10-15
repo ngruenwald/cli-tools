@@ -5,6 +5,8 @@ alternatives = []
 version = "3.12.6"
 updated = "2024-09-07"
 package-url = ""
+query-url = "https://www.python.org/ftp/python/{{version}}/Python-{{version}}.tar.xz"
+version-pattern = "v\\d+\\.\\d+\\.\\d+"
 
 #
 # build configuration

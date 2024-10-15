@@ -9,6 +9,8 @@ alternatives = []
 version = "43"
 updated = "2024-07-23"
 package-url = ""
+query-url = "https://github.com/SimonKagstrom/kcov/archive/refs/tags/v{{version}}.tar.gz"
+version-pattern = "v\\d+"
 
 [extract]
 strip = 0

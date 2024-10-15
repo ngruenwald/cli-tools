@@ -5,6 +5,7 @@ alternatives = []
 version = "9.1.0"
 updated = "2024-09-03"
 package-url = ""
+query-url = "https://github.com/qemu/qemu/archive/refs/tags/v{{version}}.tar.gz"
 
 [extract]
 strip = 1

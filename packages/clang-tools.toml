@@ -2,9 +2,11 @@ name = "clang-tools"
 description = "---"
 homepage = "https://github.com/llvm/llvm-project"
 alternatives = []
-version = "19.1.0"
-updated = "2024-09-17"
+version = "19.1.1"
+updated = "2024-10-10"
 package-url = ""
+query-url = "https://github.com/llvm/llvm-project/archive/refs/tags/llvmorg-{{version}}.tar.gz"
+version-pattern = "llvmorg-\\d+\\.\\d+\\.\\d+$"
 
 [extract]
 strip = 0

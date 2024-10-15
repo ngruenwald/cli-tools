@@ -2,9 +2,10 @@ name = "doxygen-awesome-css"
 description = "Code Documentation. Automated."
 homepage = "https://github.com/jothepro/doxygen-awesome-css"
 alternatives = []
-version = "2.3.3"
-updated = "2024-05-17"
-package-url = "" # "https://github.com/jothepro/doxygen-awesome-css/archive/refs/tags/v{{version}}.tar.gz"
+version = "2.3.4"
+updated = "2024-10-10"
+package-url = ""
+query-url = "https://github.com/jothepro/doxygen-awesome-css/archive/refs/tags/v{{version}}.tar.gz"
 version-pattern = "v\\d+\\.\\d+\\.\\d+"
 
 [extract]

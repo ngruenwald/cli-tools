@@ -5,6 +5,7 @@ alternatives = []
 version = "0.2.1"
 updated = "2024-09-13"
 package-url = ""
+query-url = "https://github.com/ngruenwald/config-generator/archive/refs/tags/v{{version}}.tar.gz"
 
 #
 # build configuration
