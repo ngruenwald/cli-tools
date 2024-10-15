@@ -28,7 +28,7 @@
 | [fq](https://github.com/wader/fq) | jq for binary formats - tool, language and decoders for working with binary and text formats | 0.13.0 | 2024-09-22 |  |
 | [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | 0.55.0 | 2024-08-29 | skim |
 | [gdu](https://github.com/dundee/gdu) | Fast disk usage analyzer with console interface written in Go | 5.29.0 | 2024-06-17 | du, dust, ncdu |
-| [gitleaks](https://github.com/gitleaks/gitleaks) | Protect and discover secrets using Gitleaks | 8.20.1 | 2024-10-07 |  |
+| [gitleaks](https://github.com/gitleaks/gitleaks) | Protect and discover secrets using Gitleaks | 8.21.0 | 2024-10-15 |  |
 | [glow](https://github.com/charmbracelet/glow) | Render markdown on the CLI, with pizzazz! | 2.0.0 | 2024-08-23 |  |
 | [grype](https://github.com/anchore/grype) | A vulnerability scanner for container images and filesystems | 0.82.0 | 2024-10-07 |  |
 | [gtrash](https://github.com/umlx5h/gtrash) | A Featureful Trash CLI manager: alternative to rm and trash-cli | 0.0.6 | 2024-07-01 | trash-cli, trashy |
@@ -71,7 +71,7 @@
 | [up](https://github.com/akavel/up) | Ultimate Plumber is a tool for writing Linux pipes with instant live preview | 0.4 | 2020-10-29 |  |
 | [upt](https://github.com/sigoden/upt) | Universal Package-management Tool for any OS. | 0.8.0 | 2024-05-27 |  |
 | [usql](https://github.com/xo/usql) | Universal command-line interface for SQL databases | 0.19.3 | 2024-06-10 |  |
-| [uv](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | 0.4.20 | 2024-10-09 | pip, pdm, poetry, rye |
+| [uv](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | 0.4.21 | 2024-10-15 | pip, pdm, poetry, rye |
 | [vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder | 0.8.0 | 2024-09-06 |  |
 | [viddy](https://github.com/sachaos/viddy) | A modern watch command. Time machine and pager etc. | 1.2.0 | 2024-10-14 | watch, hwatch |
 | [xh](https://github.com/ducaale/xh) | Friendly and fast tool for sending HTTP requests | 0.23.0 | 2024-10-13 | httpie, curlie |
@@ -88,4 +88,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2024-10-14 06:24:29 (utc)_
+_last updated: 2024-10-15 05:10:12 (utc)_
