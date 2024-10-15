@@ -1,0 +1,15 @@
+name = "sqlc"
+description = "Generate type-safe code from SQL"
+homepage = "https://sqlc.dev"
+alternatives = []
+version = "1.27.0"
+updated = "2024-08-05"
+package-url = "https://github.com/sqlc-dev/sqlc/releases/download/v{{version}}/sqlc_{{version}}_linux_amd64.tar.gz"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "sqlc"
+target = "{{vars.bin-path}}/sqlc"
+mode = "0755"
