@@ -2,8 +2,8 @@ name = "devbox"
 description = "Instant, easy, and predictable development environments"
 homepage = "https://github.com/jetify-com/devbox"
 alternatives = []
-version = "0.13.4"
-updated = "2024-10-09"
+version = "0.13.5"
+updated = "2024-10-16"
 package-url = "https://github.com/jetify-com/devbox/releases/download/{{version}}/devbox_{{version}}_linux_amd64.tar.gz"
 
 [extract]
