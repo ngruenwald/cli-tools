@@ -148,7 +148,7 @@ def command_check(packages: list[Package], args) -> int:
         len_a = len(a)
         len_b = len(b)
         length = len_a if len_a < len_b else len_b
-        for idx in range(0, len(a)):
+        for idx in range(0, length):
             if a[idx] == b[idx]:
                 continue
             return a[idx] - b[idx]
@@ -187,7 +187,7 @@ def command_check(packages: list[Package], args) -> int:
     timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
     for package in packages:
-        url = package.package_url
+        url = package.query_url
         ver = package.version if package.version else "0.0.0"
         pat = package.version_pattern
         pi = CheckPackageInfo.create(url, ver, pat)

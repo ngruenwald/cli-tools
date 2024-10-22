@@ -1,0 +1,53 @@
+name = "kcov"
+description = """
+Code coverage tool for compiled programs, Python and Bash which uses
+debugging information to collect and report data without special
+compilation options
+"""
+homepage = "https://github.com/SimonKagstrom/kcov"
+alternatives = []
+version = "43"
+updated = "2024-07-23"
+package-url = ""
+query-url = "https://github.com/SimonKagstrom/kcov/archive/refs/tags/v{{version}}.tar.gz"
+version-pattern = "v\\d+"
+
+[extract]
+strip = 0
+prefix = "{{vars.prefix-path}}"
+
+#
+# build configuration
+#
+
+[build]
+package-url = "https://github.com/SimonKagstrom/kcov/archive/refs/tags/v{{version}}.tar.gz"
+version-pattern = "v\\d+"
+
+[[build.script]]
+name = "build_kcov.sh"
+content = [
+    "set -e",
+    "tar xzf v{{version}}.tar.gz --strip-components=1",
+    "cmake -S . -B build/$1 -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=dist/$1",
+    "cmake --build build/$1 --config Release --parallel {{vars.num-parallel}} --target install",
+    "tar czf kcov-{{version}}.$1.tar.gz -C dist/$1/bin kcov"
+]
+
+[[build.step]]
+command = ["xcc", "el7", "sh", "build_kcov.sh", "el7"]
+
+[[build.step]]
+command = ["xcc", "el8", "sh", "build_kcov.sh", "el8"]
+
+[[build.step]]
+command = ["xcc", "el9", "sh", "build_kcov.sh", "el9"]
+
+[[build.publish]]
+repository-name = "packages"
+repository-path = "kcov"
+files = [
+    "kcov-{{version}}.el7.tar.gz",
+    "kcov-{{version}}.el8.tar.gz",
+    "kcov-{{version}}.el9.tar.gz"
+]

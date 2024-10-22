@@ -1,0 +1,79 @@
+name = "qemu"
+description = "A generic and open source machine emulator and virtualizer."
+homepage = "https://www.qemu.org"
+alternatives = []
+version = "9.1.1"
+updated = "2024-10-18"
+package-url = ""
+query-url = "https://github.com/qemu/qemu/archive/refs/tags/v{{version}}.tar.gz"
+
+[extract]
+strip = 1
+prefix = "{{vars.prefix-path}}"
+
+#
+# build configuration
+#
+
+[build]
+query-url = "https://github.com/qemu/qemu/archive/refs/tags/v{{version}}.tar.gz"
+#package-url = "https://download.qemu.org/qemu-{{version}}.tar.xz"
+package-url = "https://digcom-repo.eurofunk.com/src/qemu/qemu-{{version}}.tar.xz"
+
+[[build.script]]
+name = "build_qemu.sh"
+content = [
+    "set -e",
+    "dnf -y install \\",
+    "  bzip2-devel capstone-devel glib2-devel libaio-devel libcap-ng-devel \\",
+    "  libfdt-devel libiscsi-devel meson pixman-devel zlib-devel",
+    "[[ \"$1\" == \"el8\" ]] && dnf -y reinstall glib2 glib2-devel pcre-devel",
+    "[[ \"$1\" == \"el8\" ]] && dnf -y install python38",
+    "mkdir qemu",
+    "tar xJf qemu-{{version}}.tar.xz --strip-components=1 -C qemu",
+    "cd qemu",
+    "./configure \\",
+    "  --prefix=$(pwd)/$1/dist \\",
+    "  --target-list=arm-linux-user,aarch64-linux-user \\",
+    "  --enable-strip \\",
+    "  --enable-user \\",
+    "  --enable-linux-user \\",
+    "  --disable-system \\",
+    "  --disable-alsa \\",
+    "  --disable-coreaudio \\",
+    "  --disable-guest-agent \\",
+    "  --disable-jack \\",
+    "  --disable-modules \\",
+    "  --disable-oss \\",
+    "  --disable-plugins \\",
+    "  --disable-sdl \\",
+    "  --disable-sdl-image \\",
+    "  --disable-spice \\",
+    "  --disable-spice-protocol \\",
+    "  --disable-virglrenderer \\",
+    "  --disable-vnc \\",
+    "  --disable-vnc-jpeg \\",
+    "  --disable-vnc-sasl \\",
+    "  --disable-rdma \\",
+    "  --disable-vhost-vdpa \\",
+    "  --disable-opengl",
+    "make -j {{vars.num-parallel}}",
+    "make install",
+    "tar cJf ../qemu-{{version}}-$1.x86_64.tar.xz -C $(pwd)/$1/dist .",
+    "cd ..",
+    "rm -rf qemu"  #  workaround, our host process will fail to remove the temp folder
+]
+
+#[[build.step]]
+#command = ["xcc", "el8", "sh", "build_qemu.sh", "el8"]
+
+[[build.step]]
+command = ["xcc", "el9", "sh", "build_qemu.sh", "el9"]
+
+[[build.publish]]
+repository-name = "packages"
+repository-path = "qemu"
+files = [
+#    "qemu-{{version}}-el8.x86_64.tar.xz",
+    "qemu-{{version}}-el9.x86_64.tar.xz"
+]

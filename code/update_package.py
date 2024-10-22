@@ -1,12 +1,12 @@
 # >> imports
-import regex
+import re
 # << imports
 
 # >> update_package_code
 def update_package(filepath: str, version: str, timestamp: str) -> None:
     try:
-        rxv = regex.compile("^\\s*version\\s*=\\s*\".*\"\\s*$")
-        rxu = regex.compile("^\\s*updated\\s*=\\s*\".*\"\\s*$")
+        rxv = re.compile("^\\s*version\\s*=\\s*\".*\"\\s*$")
+        rxu = re.compile("^\\s*updated\\s*=\\s*\".*\"\\s*$")
         output: list[str] = []
         with open(filepath, "r") as stream:
             while True:

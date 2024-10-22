@@ -1,0 +1,58 @@
+name = "python"
+description = "Python is a programming language that lets you work quickly and integrate systems more effectively."
+homepage = "https://python.org"
+alternatives = []
+version = "3.12.7"
+updated = "2024-10-01"
+package-url = ""
+query-url = "https://github.com/python/cpython/archive/refs/tags/v{{version}}.tar.gz"
+version-pattern = "v\\d+\\.\\d+\\.\\d+"
+
+#
+# build configuration
+#
+
+[build]
+package-url = "https://www.python.org/ftp/python/{{version}}/Python-{{version}}.tar.xz"
+version-pattern = "v\\d+\\.\\d+\\.\\d+"
+
+[[build.script]]
+name = "build_python.sh"
+content = [
+    "set -e",
+    "[[ -d /opt/python ]] && mv /opt/python /opt/old-python",  # move old install out of the way
+    "yum makecache",
+    "yum -y install \\",
+    "  ncurses-devel bzip2-devel gdbm-devel libnsl2-devel xz-devel \\",
+    "  libuuid-devel readline-devel sqlite-devel libffi-devel",
+    "if [[ \"$1\" == \"el7\" ]]; then",
+    "  yum -y install openssl11-devel",
+    "  export CFLAGS=\"$CFLAGS $(pkg-config --cflags openssl11)\"",
+    "  export LDFLAGS=\"$LDFLAGS $(pkg-config --libs openssl11)\"",
+    "fi",
+    "tar xJf Python-{{version}}.tar.xz --strip-components=1",
+    "./configure --enable-optimizations --enable-loadable-sqlite-extension --prefix=/opt/python",
+    "make -j {{vars.num-parallel}}",
+    "make altinstall",
+    "[[ -f /opt/python/bin/python ]] || ln -s /opt/python/bin/python{{(cut, version, '.', 0, 2)}} /opt/python/bin/python",
+#    "set +e",
+    "tar cJf python-{{version}}.$1.x86_64.tar.xz -C /opt/python ."
+]
+
+[[build.step]]
+command = ["xcc", "el7", "sh", "build_python.sh", "el7"]
+
+[[build.step]]
+command = ["xcc", "el8", "sh", "build_python.sh", "el8"]
+
+[[build.step]]
+command = ["xcc", "el9", "sh", "build_python.sh", "el9"]
+
+[[build.publish]]
+repository-name = "packages"
+repository-path = "python"
+files = [
+    "python-{{version}}.el7.x86_64.tar.xz",
+    "python-{{version}}.el8.x86_64.tar.xz",
+    "python-{{version}}.el9.x86_64.tar.xz"
+]

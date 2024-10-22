@@ -1,0 +1,46 @@
+name = "clang-tools"
+description = "---"
+homepage = "https://github.com/llvm/llvm-project"
+alternatives = []
+version = "19.1.2"
+updated = "2024-10-18"
+package-url = ""
+query-url = "https://github.com/llvm/llvm-project/archive/refs/tags/llvmorg-{{version}}.tar.gz"
+version-pattern = "llvmorg-\\d+\\.\\d+\\.\\d+$"
+
+[extract]
+strip = 0
+prefix = "{{vars.prefix-path}}"
+
+#
+# build configuration
+#
+
+[build]
+package-url = "https://github.com/llvm/llvm-project/archive/refs/tags/llvmorg-{{version}}.tar.gz"
+version-pattern = "llvmorg-\\d+\\.\\d+\\.\\d+$"
+
+[[build.script]]
+name = "build_clang_tools.sh"
+content = [
+    "set -e",
+    "[[ \"$1\" == \"el9\" ]] && dnf -y install libatomic libatomic_ops-devel",
+    "tar xzf llvmorg-{{version}}.tar.gz --strip-components=1",
+    "cmake -S llvm -B build \\",
+    "  -D CMAKE_BUILD_TYPE=MinSizeRel \\",
+    "  -D BUILD_SHARED_LIBS=OFF \\",
+    "  -D LLVM_ENABLE_PROJECTS=\"clang;clang-tools-extra\" \\",
+    "  -D LLVM_BUILD_STATIC=on \\",
+    "  -D Python3_ROOT_DIR=/opt/python",
+    "cmake --build build --parallel {{vars.num-parallel}} --target clang-format clang-query clang-tidy",
+    "tar cJf clang-tools-{{version}}.linux.x86_64.tar.xz -C build/bin ."
+]
+
+[[build.step]]
+# name = "build-el7"
+command = ["xcc", "el7", "sh", "build_clang_tools.sh", "el7"]
+
+[[build.publish]]
+repository-name = "packages"
+repository-path = "clang-tools"
+files = ["clang-tools-{{version}}.linux.x86_64.tar.xz"]

@@ -9,3 +9,15 @@ package-url = "https://github.com/Kitware/CMake/releases/download/v{{version}}/c
 [extract]
 strip = 1
 prefix = "{{vars.prefix-path}}"
+
+#
+# build configuration
+#
+
+[build]
+package-url = "https://github.com/Kitware/CMake/releases/download/v{{version}}/cmake-{{version}}-linux-x86_64.tar.gz"
+
+[[build.publish]]
+repository-name = "packages"
+repository-path = "cmake"
+files = ["cmake-{{version}}-linux-x86_64.tar.gz"]

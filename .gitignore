@@ -4,3 +4,4 @@
 .envrc
 .vscode/
 __pycache__/
+output/

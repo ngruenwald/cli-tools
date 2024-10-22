@@ -1,0 +1,36 @@
+name = "cgen"
+description = "Create configuration parsers, schemas and documentation."
+homepage = "https://github.com/ngruenwald/config-generator"
+alternatives = []
+version = "0.2.1"
+updated = "2024-09-13"
+package-url = ""
+query-url = "https://github.com/ngruenwald/config-generator/archive/refs/tags/v{{version}}.tar.gz"
+
+#
+# build configuration
+#
+
+[build]
+package-url = "https://github.com/ngruenwald/config-generator/archive/refs/tags/v{{version}}.tar.gz"
+
+[[build.script]]
+name = "build_cgen.sh"
+content = [
+    "set -e",
+    "mkdir source",
+    "tar xzf v{{version}}.tar.gz --strip-components=1 -C source",
+    "python3 -m pip install --upgrade build",
+    "python3 -m build --outdir . source"
+]
+
+[[build.step]]
+name = "build clang tools"
+command = ["xcc", "el9", "sh", "build_cgen.sh"]
+
+[[build.publish]]
+repository-name = "python"
+files = [
+    "cgen-{{version}}.tar.gz",
+    "cgen-{{version}}-py3-none-any.whl"
+]

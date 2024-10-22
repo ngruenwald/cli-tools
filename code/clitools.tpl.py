@@ -16,6 +16,9 @@
 # $$ main_code
 
 
+# $$ command_build_code
+
+
 # $$ command_check_code
 
 

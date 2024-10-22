@@ -9,7 +9,37 @@ version-pattern = "^Release_\\d+_\\d+_\\d+$"
 
 [extract]
 strip = 1
+
 [[extract.files]]
 source = "bin/doxygen"
 target = "{{vars.bin-path}}/doxygen"
 mode = "0755"
+
+
+#
+# build configuration
+#
+
+[build]
+package-url = "https://github.com/doxygen/doxygen/archive/refs/tags/Release_{{(replace, version, '.', '_')}}/doxygen-{{version}}.tar.gz"
+version-pattern = "^Release_\\d+_\\d+_\\d+$"
+
+[[build.script]]
+name = "build_doxygen.sh"
+content = [
+    "set -e",
+    "tar xzf doxygen-{{version}}.tar.gz --strip-components=1",
+    "printf '\nset(CPACK_GENERATOR TXZ)\n' >> cmake/packaging.cmake",
+    "cmake -S . -B build -D CMAKE_BUILD_TYPE=MinSizeRel",
+    "cmake --build build --config MinSizeRel --parallel {{vars.num-parallel}} --target package",
+    "mv build/doxygen-{{version}}-.x86_64.tar.xz doxygen-{{version}}.linux.x86_64.tar.xz"
+]
+
+[[build.step]]
+# name = "build-el7"
+command = ["xcc", "el7", "sh", "build_doxygen.sh", "el7"]
+
+[[build.publish]]
+repository-name = "packages"
+repository-path = "doxygen"
+files = ["doxygen-{{version}}.linux.x86_64.tar.xz"]

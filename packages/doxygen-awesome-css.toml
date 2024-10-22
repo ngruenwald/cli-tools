@@ -1,0 +1,24 @@
+name = "doxygen-awesome-css"
+description = "Code Documentation. Automated."
+homepage = "https://github.com/jothepro/doxygen-awesome-css"
+alternatives = []
+version = "2.3.4"
+updated = "2024-10-10"
+package-url = ""
+query-url = "https://github.com/jothepro/doxygen-awesome-css/archive/refs/tags/v{{version}}.tar.gz"
+version-pattern = "v\\d+\\.\\d+\\.\\d+"
+
+[extract]
+strip = 0
+
+[build]
+package-url = "https://github.com/jothepro/doxygen-awesome-css/archive/refs/tags/v{{version}}.tar.gz"
+version-pattern = "v\\d+\\.\\d+\\.\\d+"
+
+[[build.step]]
+command = ["mv", "v{{version}}.tar.gz", "doxygen-awesome-css-{{version}}.noarch.tar.gz"]
+
+[[build.publish]]
+repository-name = "packages"
+repository-path = "doxygen"
+files = ["doxygen-awesome-css-{{version}}.noarch.tar.gz"]

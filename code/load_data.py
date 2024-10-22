@@ -1,17 +1,39 @@
-from package_types import *
+from package_types import (
+    Build,
+    BuildPublish,
+    BuildScript,
+    BuildStep,
+    Extract,
+    File,
+    Package,
+    Repository,
+)
 from resolve_vars import resolve_vars
 
 # >> imports
 import glob
 import tomllib
-
-from dataclasses import dataclass
 # << imports
 
 # >> load_packages_code
 def load_vars(filepath: str) -> dict[str, str]:
     with open(filepath, "rb") as stream:
         return tomllib.load(stream)
+
+
+def load_repositories(filepath: str) -> list[Repository]:
+    def load_repository(data: dict) -> Repository:
+        reponame: str = data.get("name", "")
+        repotype: str = data.get("type", "folder")
+        hostname: str = data.get("host", "")
+        basepath: str = data.get("path", "")
+        username: str | None = data.get("user", None)
+        password: str | None = data.get("pass", None)
+        return Repository(reponame, repotype, hostname, basepath, username, password)
+
+    with open(filepath, "rb") as stream:
+        data = tomllib.load(stream)
+    return [load_repository(r) for r in data.get("repository")]
 
 
 def load_package(filepath: str, data: dict) -> Package:
@@ -21,9 +43,9 @@ def load_package(filepath: str, data: dict) -> Package:
         mode: str | None = data.get("mode", None)
         is_folder: bool = data.get("is-folder", False)
         if not source:
-            raise Exception(f"file has no source")
+            raise Exception("file has no source")
         if not target:
-            raise Exception(f"file has no target")
+            raise Exception("file has no target")
         return File(source, target, mode, is_folder)
 
     def load_package_extract(data: dict) -> Extract:
@@ -32,16 +54,50 @@ def load_package(filepath: str, data: dict) -> Package:
         files: list[File] = [load_package_file(df) for df in data.get("files", [])]
         return Extract(strip, prefix, files)
 
+    def load_package_build_script(data: dict) -> BuildScript:
+        name: str = data.get("name", "")
+        if not name:
+            raise Exception("build script name is missing or empty")
+        content: list[str] = data.get("content", [])
+        return BuildScript(name, content)
+
+    def load_package_build_step(data: dict) -> BuildStep:
+        name: str = data.get("name", "")
+        command: list[str] = data.get("command", [])
+        return BuildStep(name, command)
+
+    def load_package_build_publish(data: dict) -> BuildPublish:
+        repository_name: str = data.get("repository-name", "")  # TBD: exception if empty
+        repository_path: str = data.get("repository-path", "")
+        files: list[str] = data.get("files", [])
+        return BuildPublish(repository_name, repository_path, files)
+
+    def load_package_build(data: dict | None) -> Build | None:
+        if not data:
+            return None
+        package_url = data.get("package-url", None)
+        if package_url is None:
+            raise Exception("build package-url is missing")
+        query_url = data.get("query-url", package_url)
+        verify_ssl: bool = data.get("verify-ssl", True)
+        version_pattern: str = data.get("version-pattern", "")
+        scripts: list[BuildScript] = [load_package_build_script(bs) for bs in data.get("script", [])]
+        steps: list[BuildStep] = [load_package_build_step(bs) for bs in data.get("step", [])]
+        publish: list[BuildPublish] = [load_package_build_publish(bp) for bp in data.get("publish", [])]
+        return Build(package_url, query_url, verify_ssl, version_pattern, scripts, steps, publish)
+
     try:
         name: str = data.get("name", "")
         if not name:
-            raise Exception(f"name is missing")
+            raise Exception("name is missing")
         version: str = data.get("version", None)
         if version is None:
-            raise Exception(f"version is missing")
+            raise Exception("version is missing")
         package_url = data.get("package-url", None)
         if package_url is None:
-            raise Exception(f"package-url is missing")
+            raise Exception("package-url is missing")
+        query_url = data.get("query-url", package_url)
+        verify_ssl: bool = data.get("verify-ssl", True)
         description: str = data.get("description", "")
         alternatives: list[str] = data.get("alternatives", [])
         updated: str = data.get("updated", "")
@@ -49,6 +105,7 @@ def load_package(filepath: str, data: dict) -> Package:
         version_pattern: str = data.get("version-pattern", "")
         extract = load_package_extract(data.get("extract", {}))
         post_commands: list[str] = data.get("post-commands", [])
+        build: Build | None = load_package_build(data.get("build", None))
         return Package(
             name,
             description,
@@ -58,9 +115,12 @@ def load_package(filepath: str, data: dict) -> Package:
             updated,
             homepage,
             package_url,
+            query_url,
+            verify_ssl,
             extract,
             post_commands,
-            filepath
+            filepath,
+            build
         )
     except Exception as err:
         raise Exception(f"package '{name}': {err}")
@@ -68,9 +128,12 @@ def load_package(filepath: str, data: dict) -> Package:
 
 def load_package_from_file(filepath: str, vars: dict | None) -> Package | None:
     with open(filepath, "rb") as stream:
-        data = tomllib.load(stream)
-        data = resolve_vars(data, vars)
-        return load_package(filepath, data)
+        try:
+            data = tomllib.load(stream)
+            data = resolve_vars(data, vars)
+            return load_package(filepath, data)
+        except Exception as error:
+            raise Exception(f"file '{filepath}': {error}")
 
 
 def load_packages(path: str, vars: dict | None = None, include: list[str] | None = None, exclude: list[str] | None = None) -> list[Package]:

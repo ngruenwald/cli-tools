@@ -228,8 +228,8 @@ def command_install(packages: list[Package], args) -> int:
                     write_file(fpath, zf.read(item), mode=fmode if fmode else 755, create_path=True)
 
 
-    def download_file(url):
-        rsp = requests_get(url, allow_redirects=True, verify=False)
+    def download_file(url: str, verify_ssl: bool = True):
+        rsp = requests_get(url, allow_redirects=True, verify=verify_ssl)
         rsp.raise_for_status()
         return rsp.content
 
@@ -243,7 +243,7 @@ def command_install(packages: list[Package], args) -> int:
 
     def install_package(package: Package, no_post_commands: bool) -> None:
         print(f"* {package.name} {package.version}")
-        content = download_file(package.package_url)
+        content = download_file(package.package_url, package.verify_ssl)
         extract_archive(package, content)
         if not no_post_commands:
             run_post_commands(package.post_commands)
@@ -254,7 +254,7 @@ def command_install(packages: list[Package], args) -> int:
 
     packages = filter_packages(packages, args.packages)
     if not packages:
-        raise Exception(f"package name required")
+        raise Exception("package name required")
 
     if args.dry_run:
         dry_run(packages)
