@@ -1,9 +1,5 @@
 name = "openapi-generator"
-description = """
-OpenAPI Generator allows generation of API client libraries (SDK generation),
-server stubs, documentation and configuration automatically given an
-OpenAPI Spec (v2, v3)
-"""
+description = "OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)"
 homepage = "https://openapi-generator.tech"
 alternatives = []
 version = "7.9.0"
