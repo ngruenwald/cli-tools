@@ -186,14 +186,23 @@ def command_check(packages: list[Package], args) -> int:
     changes: list[Change] = []
     timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
-    for package in packages:
-        url = package.query_url
-        ver = package.version if package.version else "0.0.0"
-        pat = package.version_pattern
-        pi = CheckPackageInfo.create(url, ver, pat)
-        new_version = check_for_updates(pi)
-        if args.update and new_version:
-            changes.append(Change(package.package_file, package.name, package.version, new_version))
+    for idx, package in enumerate(packages):
+        try:
+            if args.verbose:
+                print(f"checking {package.name} ...")
+            else:
+                print(f"\r{idx+1}/{len(packages)}  ", end="")
+            url = package.query_url
+            ver = package.version if package.version else "0.0.0"
+            pat = package.version_pattern
+            pi = CheckPackageInfo.create(url, ver, pat)
+            new_version = check_for_updates(pi)
+            if args.update and new_version:
+                changes.append(Change(package.package_file, package.name, package.version, new_version))
+        except Exception as error:
+            print(f"{package.name} failed: {error}")
+
+    print("")
 
     changes_to_commit: list[Change] = []
     for change in changes:
