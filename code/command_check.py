@@ -186,12 +186,14 @@ def command_check(packages: list[Package], args) -> int:
     changes: list[Change] = []
     timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
+    idxw = len(str(len(packages)))
+
     for idx, package in enumerate(packages):
         try:
             if args.verbose:
                 print(f"checking {package.name} ...")
             else:
-                print(f"\r{idx+1}/{len(packages)}  ", end="")
+                print(f"\r{idx+1:>{idxw}}/{len(packages):>{idxw}}  ", end="")
             url = package.query_url
             ver = package.version if package.version else "0.0.0"
             pat = package.version_pattern
