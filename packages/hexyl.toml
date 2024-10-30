@@ -2,8 +2,8 @@ name = "hexyl"
 description = "A command-line hex viewer"
 homepage = "https://github.com/sharkdp/hexyl"
 alternatives = []
-version = "0.14.0"
-updated = "2023-12-11"
+version = "0.15.0"
+updated = "2024-10-30"
 package-url = "https://github.com/sharkdp/hexyl/releases/download/v{{version}}/hexyl-v{{version}}-i686-unknown-linux-musl.tar.gz"
 
 [extract]
