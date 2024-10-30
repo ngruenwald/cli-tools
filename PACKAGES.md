@@ -8,7 +8,7 @@
 | [bottom](https://github.com/ClementTsang/bottom) | Yet another cross-platform graphical process/system monitor. | 0.10.2 | 2024-08-06 | top, htop |
 | [bytehound](https://github.com/koute/bytehound) | A memory profiler for Linux. | 0.11.0 | 2022-11-23 |  |
 | [cgen](https://github.com/ngruenwald/config-generator) | Create configuration parsers, schemas and documentation. | 0.2.1 | 2024-09-13 |  |
-| [clang-tools](https://github.com/llvm/llvm-project) | --- | 19.1.2 | 2024-10-18 |  |
+| [clang-tools](https://github.com/llvm/llvm-project) | --- | 19.1.3 | 2024-10-30 |  |
 | [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 3.30.5 | 2024-10-08 |  |
 | [codon](https://github.com/exaloop/codon) | A high-performance, zero-overhead, extensible Python compiler using LLVM | 0.17.0 | 2024-08-24 |  |
 | [cppcheck](https://github.com/danmar/cppcheck) | --- | 2.16.0 | 2024-10-27 |  |
@@ -102,4 +102,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2024-10-30 05:57:10 (utc)_
+_last updated: 2024-10-30 19:10:25 (utc)_
