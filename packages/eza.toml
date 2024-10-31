@@ -2,8 +2,8 @@ name = "eza"
 description = "A modern alternative to ls"
 homepage = "https://github.com/eza-community/eza"
 alternatives = [ "ls", "lsd",]
-version = "0.20.5"
-updated = "2024-10-25"
+version = "0.20.6"
+updated = "2024-10-31"
 package-url = "https://github.com/eza-community/eza/releases/download/v{{version}}/eza_x86_64-unknown-linux-musl.tar.gz"
 post-commands = [ "ln -s {{vars.bin-path}}/eza {{vars.bin-path}}/exa",]
 

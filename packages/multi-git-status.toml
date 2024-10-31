@@ -2,8 +2,8 @@ name = "multi-git-status"
 description = "Show uncommitted, untracked and unpushed changes for multiple Git repos"
 homepage = "https://github.com/fboender/multi-git-status/archive/refs/tags/{{version}}.tar.gz"
 alternatives = []
-version = "2.2"
-updated = "2022-06-11"
+version = "2.3"
+updated = "2024-10-31"
 package-url = "https://github.com/fboender/multi-git-status/archive/refs/tags/{{version}}.tar.gz"
 version-pattern = "^\\d+\\.\\d+(\\.\\d+)?$"
 
