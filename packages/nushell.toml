@@ -1,0 +1,56 @@
+name = "nushell"
+description = "A new type of shell"
+homepage = "https://nushell.sh"
+alternatives = [ "bash", "zsh", "fish", "powershell" ]
+version = "0.99.1"
+updated = "2024-10-20"
+package-url = "https://github.com/nushell/nushell/releases/download/{{version}}/nu-{{version}}-x86_64-unknown-linux-musl.tar.gz"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "nu"
+target = "{{vars.bin-path}}/nu"
+mode = "0755"
+
+[[extract.files]]
+source = "nu_plugin_custom_values"
+target = "{{vars.bin-path}}/nu_plugin_custom_values"
+mode = "0755"
+
+[[extract.files]]
+source = "nu_plugin_example"
+target = "{{vars.bin-path}}/nu_plugin_example"
+mode = "0755"
+
+[[extract.files]]
+source = "nu_plugin_formats"
+target = "{{vars.bin-path}}/nu_plugin_formats"
+mode = "0755"
+
+[[extract.files]]
+source = "nu_plugin_gstat"
+target = "{{vars.bin-path}}/nu_plugin_gstat"
+mode = "0755"
+
+[[extract.files]]
+source = "nu_plugin_inc"
+target = "{{vars.bin-path}}/nu_plugin_inc"
+mode = "0755"
+
+[[extract.files]]
+source = "nu_plugin_polars"
+target = "{{vars.bin-path}}/nu_plugin_polars"
+mode = "0755"
+
+[[extract.files]]
+source = "nu_plugin_query"
+target = "{{vars.bin-path}}/nu_plugin_query"
+mode = "0755"
+
+[[extract.files]]
+source = "nu_plugin_stress_internals"
+target = "{{vars.bin-path}}/nu_plugin_stress_internals"
+mode = "0755"
+

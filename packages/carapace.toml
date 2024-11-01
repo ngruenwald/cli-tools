@@ -1,0 +1,15 @@
+name = "carapace"
+description = "multi-shell multi-command argument completer"
+homepage = "https://carapace.sh"
+alternatives = []
+version = "1.0.7"
+updated = "2024-10-03"
+package-url = "https://github.com/carapace-sh/carapace-bin/releases/download/v{{version}}/carapace-bin_linux_amd64.tar.gz"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "carapace"
+target = "{{vars.bin-path}}/carapace"
+mode = "0755"
