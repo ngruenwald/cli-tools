@@ -32,7 +32,7 @@
 | [eza](https://github.com/eza-community/eza) | A modern alternative to ls | 0.20.7 | 2024-11-07 | ls, lsd |
 | [fd](https://github.com/sharkdp/fd) | A simple, fast and user-friendly alternative to 'find' | 10.2.0 | 2024-08-23 | find |
 | [fq](https://github.com/wader/fq) | jq for binary formats - tool, language and decoders for working with binary and text formats | 0.13.0 | 2024-09-22 |  |
-| [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | 0.56.0 | 2024-10-27 | skim |
+| [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | 0.56.1 | 2024-11-10 | skim |
 | [gdu](https://github.com/dundee/gdu) | Fast disk usage analyzer with console interface written in Go | 5.29.0 | 2024-06-17 | du, dust, ncdu |
 | [gitleaks](https://github.com/gitleaks/gitleaks) | Protect and discover secrets using Gitleaks | 8.21.2 | 2024-10-28 |  |
 | [glow](https://github.com/charmbracelet/glow) | Render markdown on the CLI, with pizzazz! | 2.0.0 | 2024-08-23 |  |
@@ -40,7 +40,7 @@
 | [gtrash](https://github.com/umlx5h/gtrash) | A Featureful Trash CLI manager: alternative to rm and trash-cli | 0.0.6 | 2024-07-01 | trash-cli, trashy |
 | [helix](https://github.com/helix-editor/helix) | A post-modern modal text editor. | 24.07 | 2024-07-14 | vim, neovim |
 | [hexyl](https://github.com/sharkdp/hexyl) | A command-line hex viewer | 0.15.0 | 2024-10-30 |  |
-| [hwatch](https://github.com/blacknon/hwatch) | A modern alternative to the watch command, records the differences in execution results and can check this differences at after. | 0.3.15 | 2024-06-18 | watch, viddy |
+| [hwatch](https://github.com/blacknon/hwatch) | A modern alternative to the watch command, records the differences in execution results and can check this differences at after. | 0.3.16 | 2024-11-10 | watch, viddy |
 | [hyperfine](https://github.com/sharkdp/hyperfine) | A command-line benchmarking tool | 1.18.0 | 2023-10-05 |  |
 | [jd](https://github.com/josephburnett/jd) | JSON diff and patch | 1.9.1 | 2024-08-19 |  |
 | [jq](https://github.com/jqlang/jq) | Command-line JSON processor | 1.7.1 | 2023-12-13 |  |
@@ -104,4 +104,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2024-11-09 07:45:33 (utc)_
+_last updated: 2024-11-10 16:19:26 (utc)_
