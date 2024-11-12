@@ -41,7 +41,7 @@
 | [helix](https://github.com/helix-editor/helix) | A post-modern modal text editor. | 24.07 | 2024-07-14 | vim, neovim |
 | [hexyl](https://github.com/sharkdp/hexyl) | A command-line hex viewer | 0.15.0 | 2024-10-30 |  |
 | [hwatch](https://github.com/blacknon/hwatch) | A modern alternative to the watch command, records the differences in execution results and can check this differences at after. | 0.3.16 | 2024-11-10 | watch, viddy |
-| [hyperfine](https://github.com/sharkdp/hyperfine) | A command-line benchmarking tool | 1.18.0 | 2023-10-05 |  |
+| [hyperfine](https://github.com/sharkdp/hyperfine) | A command-line benchmarking tool | 1.19.0 | 2024-11-12 |  |
 | [jd](https://github.com/josephburnett/jd) | JSON diff and patch | 1.9.1 | 2024-08-19 |  |
 | [jq](https://github.com/jqlang/jq) | Command-line JSON processor | 1.7.1 | 2023-12-13 |  |
 | [just](https://github.com/casey/just) | Just a command runner | 1.36.0 | 2024-10-01 | make, dotree, task |
@@ -104,4 +104,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2024-11-11 19:22:04 (utc)_
+_last updated: 2024-11-12 05:04:51 (utc)_
