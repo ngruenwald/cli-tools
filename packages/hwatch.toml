@@ -2,8 +2,8 @@ name = "hwatch"
 description = "A modern alternative to the watch command, records the differences in execution results and can check this differences at after."
 homepage = "https://github.com/blacknon/hwatch"
 alternatives = [ "watch", "viddy", ]
-version = "0.3.17"
-updated = "2024-11-13"
+version = "0.3.18"
+updated = "2024-11-15"
 package-url = "https://github.com/blacknon/hwatch/releases/download/{{version}}/hwatch-{{version}}.x86_64-unknown-linux-musl.tar.gz"
 
 [extract]
