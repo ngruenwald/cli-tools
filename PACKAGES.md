@@ -57,7 +57,7 @@
 | [neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 0.10.2 | 2024-10-03 | vim, helix |
 | [ninja](https://github.com/ninja-build/ninja) | a small build system with a focus on speed | 1.12.1 | 2024-05-11 | make, samurai |
 | [nushell](https://nushell.sh) | A new type of shell | 0.100.0 | 2024-11-13 | bash, zsh, fish, powershell |
-| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.4.1 | 2024-11-09 |  |
+| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.4.2 | 2024-11-15 |  |
 | [onefetch](https://onefetch.dev) | Command-line Git information tool | 2.22.0 | 2024-09-20 |  |
 | [openapi-generator](https://openapi-generator.tech) | OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3) | 7.9.0 | 2024-10-10 |  |
 | [powerline-go](https://github.com/justjanne/powerline-go) | A beautiful and useful low-latency prompt for your shell, written in go | 1.24 | 2023-05-25 | starship |
@@ -96,7 +96,7 @@
 | [yq](https://github.com/mikefarah/yq) | yq is a portable command-line YAML, JSON, XML, CSV, TOML and properties processor | 4.44.3 | 2024-08-05 |  |
 | [zellij](https://github.com/zellij-org/zellij) | Blazing fast terminal file manager written in Rust, based on async I/O. | 0.41.1 | 2024-11-04 | tmux |
 | [zoxide](https://github.com/ajeetdsouza/zoxide) | A smarter cd command. Supports all major shells. | 0.9.6 | 2024-09-19 |  |
-| [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/archive/refs/tags/v0.7.0.tar.gz) | Fish-like autosuggestions for zsh | 0.7.0 | 2021-06-05 |  |
+| [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/archive/refs/tags/v0.7.1.tar.gz) | Fish-like autosuggestions for zsh | 0.7.1 | 2024-11-15 |  |
 | [zsh-command-not-found](https://github.com/Freed-Wu/zsh-command-not-found/archive/refs/heads/main.tar.gz) | This plugin uses the command-not-found package for zsh to provide suggested packages to be installed if a command cannot be found. | main | 2022-09-05 |  |
 | [zsh-completions](https://github.com/zsh-users/zsh-completions/archive/refs/tags/0.35.0.tar.gz) | Additional completion definitions for Zsh. | 0.35.0 | 2023-08-30 |  |
 | [zsh-fzf-tab](https://github.com/Aloxaf/fzf-tab/archive/refs/tags/v1.1.2.tar.gz) | Replace zsh's default completion selection menu with fzf! | 1.1.2 | 2024-05-10 |  |
@@ -104,4 +104,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2024-11-15 06:53:49 (utc)_
+_last updated: 2024-11-15 20:09:46 (utc)_

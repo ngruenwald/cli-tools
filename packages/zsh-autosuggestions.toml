@@ -2,8 +2,8 @@ name = "zsh-autosuggestions"
 description = "Fish-like autosuggestions for zsh"
 homepage = "https://github.com/zsh-users/zsh-autosuggestions/archive/refs/tags/v{{version}}.tar.gz"
 alternatives = []
-version = "0.7.0"
-updated = "2021-06-05"
+version = "0.7.1"
+updated = "2024-11-15"
 package-url = "https://github.com/zsh-users/zsh-autosuggestions/archive/refs/tags/v{{version}}.tar.gz"
 
 [extract]
