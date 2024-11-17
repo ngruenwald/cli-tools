@@ -50,6 +50,7 @@
 | [kickstart](https://github.com/Keats/kickstart) | A scaffolding tool to get new projects up and running quickly | 0.4.0 | 2023-08-03 | cookiecutter, proji |
 | [libfaketime](https://github.com/wolfcw/libfaketime) | libfaketime modifies the system time for a single application | 0.9.10 | 2022-03-04 |  |
 | [mcfly](https://github.com/cantino/mcfly) | Fly through your shell history. Great Scott! | 0.9.2 | 2024-08-12 | atuin, hishtory |
+| [mergigraf](https://mergiraf.org) | A syntax-aware git merge driver for a growing collection of programming languages and file formats. | 0.3.1 | 2024-11-13 |  |
 | [miniserve](https://github.com/svenstaro/miniserve) | For when you really just want to serve some files over HTTP right now! | 0.28.0 | 2024-09-12 | simple-http-server, see, binserve, http |
 | [mold](https://github.com/rui314/mold) | Mold: A Modern Linker | 2.34.1 | 2024-10-05 | ld, lld, gold |
 | [multi-git-status](https://github.com/fboender/multi-git-status/archive/refs/tags/2.3.tar.gz) | Show uncommitted, untracked and unpushed changes for multiple Git repos | 2.3 | 2024-10-31 |  |
@@ -104,4 +105,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2024-11-17 09:16:14 (utc)_
+_last updated: 2024-11-17 09:37:31 (utc)_

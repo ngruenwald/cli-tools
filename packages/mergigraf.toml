@@ -1,0 +1,15 @@
+name = "mergigraf"
+description = "A syntax-aware git merge driver for a growing collection of programming languages and file formats."
+homepage = "https://mergiraf.org"
+alternatives = []
+version = "0.3.1"
+updated = "2024-11-13"
+package-url = "https://codeberg.org/mergiraf/mergiraf/releases/download/v{{version}}/mergiraf_x86_64-unknown-linux-gnu.tar.gz"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "mergigraf"
+target = "{{vars.bin-path}}/mergigraf"
+mode = "0755"
