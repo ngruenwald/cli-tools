@@ -2,8 +2,8 @@ name = "cmake"
 description = "CMake, the cross-platform, open-source build system."
 homepage = "https://github.com/Kitware/CMake"
 alternatives = []
-version = "3.31.0"
-updated = "2024-11-06"
+version = "3.31.1"
+updated = "2024-11-21"
 package-url = "https://github.com/Kitware/CMake/releases/download/v{{version}}/cmake-{{version}}-linux-x86_64.tar.gz"
 
 [extract]

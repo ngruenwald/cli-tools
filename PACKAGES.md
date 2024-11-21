@@ -10,7 +10,7 @@
 | [carapace](https://carapace.sh) | multi-shell multi-command argument completer | 1.0.7 | 2024-10-03 |  |
 | [cgen](https://github.com/ngruenwald/config-generator) | Create configuration parsers, schemas and documentation. | 0.2.1 | 2024-09-13 |  |
 | [clang-tools](https://github.com/llvm/llvm-project) | --- | 19.1.4 | 2024-11-19 |  |
-| [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 3.31.0 | 2024-11-06 |  |
+| [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 3.31.1 | 2024-11-21 |  |
 | [codon](https://github.com/exaloop/codon) | A high-performance, zero-overhead, extensible Python compiler using LLVM | 0.17.0 | 2024-08-24 |  |
 | [cppcheck](https://github.com/danmar/cppcheck) | --- | 2.16.0 | 2024-10-27 |  |
 | [cppfront](https://github.com/hsutter/cppfront) | A personal experimental C++ Syntax 2 -> Syntax 1 compiler -- NOT FOR COMMERICAL USE! | 0.8.0 | 2024-11-01 |  |
@@ -29,14 +29,14 @@
 | [duf](https://github.com/muesli/duf) | Disk Usage/Free Utility - a better 'df' alternative | 0.8.1 | 2024-02-08 | df |
 | [dust](https://github.com/bootandy/dust) | A more intuitive version of du in rust | 1.1.1 | 2024-07-17 | du |
 | [envio](https://github.com/envio-cli/envio) | Envio is a modern and secure command-line tool that simplifies the management of environment variables | 0.6.1 | 2024-09-30 |  |
-| [eza](https://github.com/eza-community/eza) | A modern alternative to ls | 0.20.8 | 2024-11-14 | ls, lsd |
+| [eza](https://github.com/eza-community/eza) | A modern alternative to ls | 0.20.9 | 2024-11-21 | ls, lsd |
 | [fd](https://github.com/sharkdp/fd) | A simple, fast and user-friendly alternative to 'find' | 10.2.0 | 2024-08-23 | find |
 | [fq](https://github.com/wader/fq) | jq for binary formats - tool, language and decoders for working with binary and text formats | 0.13.0 | 2024-09-22 |  |
 | [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | 0.56.3 | 2024-11-15 | skim |
 | [gdu](https://github.com/dundee/gdu) | Fast disk usage analyzer with console interface written in Go | 5.29.0 | 2024-06-17 | du, dust, ncdu |
 | [gitleaks](https://github.com/gitleaks/gitleaks) | Protect and discover secrets using Gitleaks | 8.21.2 | 2024-10-28 |  |
 | [glow](https://github.com/charmbracelet/glow) | Render markdown on the CLI, with pizzazz! | 2.0.0 | 2024-08-23 |  |
-| [grype](https://github.com/anchore/grype) | A vulnerability scanner for container images and filesystems | 0.84.0 | 2024-11-05 |  |
+| [grype](https://github.com/anchore/grype) | A vulnerability scanner for container images and filesystems | 0.85.0 | 2024-11-21 |  |
 | [gtrash](https://github.com/umlx5h/gtrash) | A Featureful Trash CLI manager: alternative to rm and trash-cli | 0.0.6 | 2024-07-01 | trash-cli, trashy |
 | [helix](https://github.com/helix-editor/helix) | A post-modern modal text editor. | 24.07 | 2024-07-14 | vim, neovim |
 | [hexyl](https://github.com/sharkdp/hexyl) | A command-line hex viewer | 0.15.0 | 2024-10-30 |  |
@@ -58,7 +58,7 @@
 | [neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 0.10.2 | 2024-10-03 | vim, helix |
 | [ninja](https://github.com/ninja-build/ninja) | a small build system with a focus on speed | 1.12.1 | 2024-05-11 | make, samurai |
 | [nushell](https://nushell.sh) | A new type of shell | 0.100.0 | 2024-11-13 | bash, zsh, fish, powershell |
-| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.4.2 | 2024-11-15 |  |
+| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.4.3 | 2024-11-21 |  |
 | [onefetch](https://onefetch.dev) | Command-line Git information tool | 2.22.0 | 2024-09-20 |  |
 | [openapi-generator](https://openapi-generator.tech) | OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3) | 7.10.0 | 2024-11-18 |  |
 | [powerline-go](https://github.com/justjanne/powerline-go) | A beautiful and useful low-latency prompt for your shell, written in go | 1.24 | 2023-05-25 | starship |
@@ -76,7 +76,7 @@
 | [sqlc](https://sqlc.dev) | Generate type-safe code from SQL | 1.27.0 | 2024-08-05 |  |
 | [sshs](https://github.com/quantumsheep/sshs) | Terminal user interface for SSH | 4.5.1 | 2024-08-15 |  |
 | [starship](https://github.com/starship/starship) | The minimal, blazing-fast, and infinitely customizable prompt for any shell! | 1.21.1 | 2024-10-18 | powerline-go |
-| [syft](https://github.com/anchore/syft) | CLI tool and library for generating a Software Bill of Materials from container images and filesystems | 1.16.0 | 2024-11-05 |  |
+| [syft](https://github.com/anchore/syft) | CLI tool and library for generating a Software Bill of Materials from container images and filesystems | 1.17.0 | 2024-11-21 |  |
 | [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter | 4.0.0 | 2024-10-13 |  |
 | [task](https://github.com/go-task/task) | A task runner / simpler Make alternative written in Go | 3.40.0 | 2024-11-06 | make, dotree, just |
 | [tealdeer](https://github.com/dbrgn/tealdeer) | A very fast implementation of tldr in Rust. | 1.7.1 | 2024-11-15 | tldr, tlrc |
@@ -105,4 +105,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2024-11-21 05:12:28 (utc)_
+_last updated: 2024-11-21 18:43:33 (utc)_
