@@ -44,7 +44,7 @@
 | [hyperfine](https://github.com/sharkdp/hyperfine) | A command-line benchmarking tool | 1.19.0 | 2024-11-12 |  |
 | [jd](https://github.com/josephburnett/jd) | JSON diff and patch | 1.9.1 | 2024-08-19 |  |
 | [jq](https://github.com/jqlang/jq) | Command-line JSON processor | 1.7.1 | 2023-12-13 |  |
-| [just](https://github.com/casey/just) | Just a command runner | 1.36.0 | 2024-10-01 | make, dotree, task |
+| [just](https://github.com/casey/just) | Just a command runner | 1.37.0 | 2024-11-21 | make, dotree, task |
 | [k9s](https://github.com/derailed/k9s) | Kubernetes CLI To Manage Your Clusters In Style! | 0.32.7 | 2024-11-16 |  |
 | [kcov](https://github.com/SimonKagstrom/kcov) | Code coverage tool for compiled programs, Python and Bash which uses debugging information to collect and report data without special compilation options | 43 | 2024-07-23 |  |
 | [kickstart](https://github.com/Keats/kickstart) | A scaffolding tool to get new projects up and running quickly | 0.4.0 | 2023-08-03 | cookiecutter, proji |
@@ -65,7 +65,7 @@
 | [procs](https://github.com/dalance/procs) | A modern replacement for ps written in Rust | 0.14.8 | 2024-10-23 | ps |
 | [protolint](https://github.com/yoheimuta/protolint) | A pluggable linter and fixer to enforce Protocol Buffer style and conventions | 0.50.5 | 2024-08-08 |  |
 | [python](https://python.org) | Python is a programming language that lets you work quickly and integrate systems more effectively. | 3.12.7 | 2024-10-01 |  |
-| [qemu](https://www.qemu.org) | A generic and open source machine emulator and virtualizer. | 9.1.1 | 2024-10-18 |  |
+| [qemu](https://www.qemu.org) | A generic and open source machine emulator and virtualizer. | 9.1.2 | 2024-11-21 |  |
 | [ripgrep](https://github.com/BurntSushi/ripgrep) | ripgrep recursively searches directories for a regex pattern while respecting your gitignore | 14.1.1 | 2024-09-09 | grep |
 | [runme](https://github.com/stateful/runme) | DevOps Workflows Built with Markdown | 3.9.3 | 2024-11-07 |  |
 | [rustcat](https://github.com/quantumsheep/sshs) | Rustcat(rcat) - The modern Port listener and Reverse shell | 3.0.0 | 2022-08-15 |  |
@@ -88,7 +88,7 @@
 | [up](https://github.com/akavel/up) | Ultimate Plumber is a tool for writing Linux pipes with instant live preview | 0.4 | 2020-10-29 |  |
 | [upt](https://github.com/sigoden/upt) | Universal Package-management Tool for any OS. | 0.9.0 | 2024-10-31 |  |
 | [usql](https://github.com/xo/usql) | Universal command-line interface for SQL databases | 0.19.12 | 2024-10-24 |  |
-| [uv](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | 0.5.3 | 2024-11-19 | pip, pdm, poetry, rye |
+| [uv](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | 0.5.4 | 2024-11-21 | pip, pdm, poetry, rye |
 | [vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder | 0.8.0 | 2024-09-06 |  |
 | [viddy](https://github.com/sachaos/viddy) | A modern watch command. Time machine and pager etc. | 1.2.1 | 2024-11-16 | watch, hwatch |
 | [xh](https://github.com/ducaale/xh) | Friendly and fast tool for sending HTTP requests | 0.23.0 | 2024-10-13 | httpie, curlie |
@@ -105,4 +105,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2024-11-19 21:24:35 (utc)_
+_last updated: 2024-11-21 05:12:28 (utc)_
