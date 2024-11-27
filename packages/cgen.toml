@@ -2,8 +2,8 @@ name = "cgen"
 description = "Create configuration parsers, schemas and documentation."
 homepage = "https://github.com/ngruenwald/config-generator"
 alternatives = []
-version = "0.2.1"
-updated = "2024-09-13"
+version = "0.3.1"
+updated = "2024-11-27"
 package-url = ""
 query-url = "https://github.com/ngruenwald/config-generator/archive/refs/tags/v{{version}}.tar.gz"
 
