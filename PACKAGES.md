@@ -10,7 +10,7 @@
 | [carapace](https://carapace.sh) | multi-shell multi-command argument completer | 1.0.7 | 2024-10-03 |  |
 | [cgen](https://github.com/ngruenwald/config-generator) | Create configuration parsers, schemas and documentation. | 0.3.5 | 2024-12-03 |  |
 | [clang-tools](https://github.com/llvm/llvm-project) | --- | 19.1.5 | 2024-12-03 |  |
-| [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 3.31.1 | 2024-11-21 |  |
+| [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 3.31.2 | 2024-12-05 |  |
 | [codon](https://github.com/exaloop/codon) | A high-performance, zero-overhead, extensible Python compiler using LLVM | 0.17.0 | 2024-08-24 |  |
 | [cppcheck](https://github.com/danmar/cppcheck) | --- | 2.16.1 | 2024-11-28 |  |
 | [cppfront](https://github.com/hsutter/cppfront) | A personal experimental C++ Syntax 2 -> Syntax 1 compiler -- NOT FOR COMMERICAL USE! | 0.8.0 | 2024-11-01 |  |
@@ -29,7 +29,7 @@
 | [duf](https://github.com/muesli/duf) | Disk Usage/Free Utility - a better 'df' alternative | 0.8.1 | 2024-02-08 | df |
 | [dust](https://github.com/bootandy/dust) | A more intuitive version of du in rust | 1.1.1 | 2024-07-17 | du |
 | [envio](https://github.com/envio-cli/envio) | Envio is a modern and secure command-line tool that simplifies the management of environment variables | 0.6.1 | 2024-09-30 |  |
-| [eza](https://github.com/eza-community/eza) | A modern alternative to ls | 0.20.10 | 2024-11-28 | ls, lsd |
+| [eza](https://github.com/eza-community/eza) | A modern alternative to ls | 0.20.11 | 2024-12-05 | ls, lsd |
 | [fd](https://github.com/sharkdp/fd) | A simple, fast and user-friendly alternative to 'find' | 10.2.0 | 2024-08-23 | find |
 | [fq](https://github.com/wader/fq) | jq for binary formats - tool, language and decoders for working with binary and text formats | 0.13.0 | 2024-09-22 |  |
 | [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | 0.56.3 | 2024-11-15 | skim |
@@ -105,4 +105,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2024-12-04 18:40:35 (utc)_
+_last updated: 2024-12-05 18:54:59 (utc)_
