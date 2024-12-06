@@ -18,7 +18,7 @@
 | [curlie](https://github.com/rs/curlie) | The power of curl, the ease of use of httpie. | 1.7.2 | 2023-10-23 | httpie, xh |
 | [dasel](https://github.com/TomWright/dasel) | Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package. | 2.8.1 | 2024-06-30 |  |
 | [delta](https://github.com/dandavison/delta) | A syntax-highlighting pager for git, diff, grep, and blame output | 0.18.2 | 2024-09-11 |  |
-| [devbox](https://github.com/jetify-com/devbox) | Instant, easy, and predictable development environments | 0.13.6 | 2024-10-29 |  |
+| [devbox](https://github.com/jetify-com/devbox) | Instant, easy, and predictable development environments | 0.13.7 | 2024-12-06 |  |
 | [difftastic](https://github.com/Wilfred/difftastic) | a structural diff that understands syntax | 0.61.0 | 2024-10-24 | diff |
 | [direnv](https://github.com/direnv/direnv) | unclutter your .profile | 2.35.0 | 2024-10-07 |  |
 | [dive](https://github.com/wagoodman/dive) | A tool for exploring each layer in a docker image | 0.12.0 | 2024-02-02 |  |
@@ -58,7 +58,7 @@
 | [neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 0.10.2 | 2024-10-03 | vim, helix |
 | [ninja](https://github.com/ninja-build/ninja) | a small build system with a focus on speed | 1.12.1 | 2024-05-11 | make, samurai |
 | [nushell](https://nushell.sh) | A new type of shell | 0.100.0 | 2024-11-13 | bash, zsh, fish, powershell |
-| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.5.0 | 2024-12-06 |  |
+| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.5.1 | 2024-12-06 |  |
 | [onefetch](https://onefetch.dev) | Command-line Git information tool | 2.22.0 | 2024-09-20 |  |
 | [openapi-generator](https://openapi-generator.tech) | OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3) | 7.10.0 | 2024-11-18 |  |
 | [powerline-go](https://github.com/justjanne/powerline-go) | A beautiful and useful low-latency prompt for your shell, written in go | 1.25 | 2024-11-26 | starship |
@@ -78,7 +78,7 @@
 | [starship](https://github.com/starship/starship) | The minimal, blazing-fast, and infinitely customizable prompt for any shell! | 1.21.1 | 2024-10-18 | powerline-go |
 | [syft](https://github.com/anchore/syft) | CLI tool and library for generating a Software Bill of Materials from container images and filesystems | 1.17.0 | 2024-11-21 |  |
 | [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter | 4.0.0 | 2024-10-13 |  |
-| [task](https://github.com/go-task/task) | A task runner / simpler Make alternative written in Go | 3.40.0 | 2024-11-06 | make, dotree, just |
+| [task](https://github.com/go-task/task) | A task runner / simpler Make alternative written in Go | 3.40.1 | 2024-12-06 | make, dotree, just |
 | [tealdeer](https://github.com/dbrgn/tealdeer) | A very fast implementation of tldr in Rust. | 1.7.1 | 2024-11-15 | tldr, tlrc |
 | [teller](https://github.com/tellerops/teller) | Cloud native secrets management for developers - never leave your command line for secrets. | 2.0.7 | 2024-05-20 |  |
 | [termshark](https://github.com/gcla/termshark) | A terminal UI for tshark, inspired by Wireshark | 2.4.0 | 2022-07-12 |  |
@@ -105,4 +105,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2024-12-06 07:06:00 (utc)_
+_last updated: 2024-12-06 23:44:32 (utc)_
