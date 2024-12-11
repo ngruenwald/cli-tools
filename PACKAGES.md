@@ -44,7 +44,7 @@
 | [hyperfine](https://github.com/sharkdp/hyperfine) | A command-line benchmarking tool | 1.19.0 | 2024-11-12 |  |
 | [jd](https://github.com/josephburnett/jd) | JSON diff and patch | 1.9.1 | 2024-08-19 |  |
 | [jq](https://github.com/jqlang/jq) | Command-line JSON processor | 1.7.1 | 2023-12-13 |  |
-| [just](https://github.com/casey/just) | Just a command runner | 1.37.0 | 2024-11-21 | make, dotree, task |
+| [just](https://github.com/casey/just) | Just a command runner | 1.38.0 | 2024-12-11 | make, dotree, task |
 | [k9s](https://github.com/derailed/k9s) | Kubernetes CLI To Manage Your Clusters In Style! | 0.32.7 | 2024-11-16 |  |
 | [kcov](https://github.com/SimonKagstrom/kcov) | Code coverage tool for compiled programs, Python and Bash which uses debugging information to collect and report data without special compilation options | 43 | 2024-07-23 |  |
 | [kickstart](https://github.com/Keats/kickstart) | A scaffolding tool to get new projects up and running quickly | 0.4.0 | 2023-08-03 | cookiecutter, proji |
@@ -105,4 +105,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2024-12-10 18:45:05 (utc)_
+_last updated: 2024-12-11 07:54:52 (utc)_
