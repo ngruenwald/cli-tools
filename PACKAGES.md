@@ -29,7 +29,7 @@
 | [duf](https://github.com/muesli/duf) | Disk Usage/Free Utility - a better 'df' alternative | 0.8.1 | 2024-02-08 | df |
 | [dust](https://github.com/bootandy/dust) | A more intuitive version of du in rust | 1.1.1 | 2024-07-17 | du |
 | [envio](https://github.com/envio-cli/envio) | Envio is a modern and secure command-line tool that simplifies the management of environment variables | 0.6.1 | 2024-09-30 |  |
-| [evil-helix](https://github.com/usagi-flow/evil-helix) | Bringing the Helix editor to the evil side | release-20240716 | 2024-07-16 | vim, neovim, helix |
+| [evil-helix](https://github.com/usagi-flow/evil-helix) | Bringing the Helix editor to the evil side | 20240716 | 2024-07-16 | vim, neovim, helix |
 | [eza](https://github.com/eza-community/eza) | A modern alternative to ls | 0.20.12 | 2024-12-12 | ls, lsd |
 | [fd](https://github.com/sharkdp/fd) | A simple, fast and user-friendly alternative to 'find' | 10.2.0 | 2024-08-23 | find |
 | [fq](https://github.com/wader/fq) | jq for binary formats - tool, language and decoders for working with binary and text formats | 0.13.0 | 2024-09-22 |  |
@@ -53,7 +53,7 @@
 | [mcfly](https://github.com/cantino/mcfly) | Fly through your shell history. Great Scott! | 0.9.2 | 2024-08-12 | atuin, hishtory |
 | [mergigraf](https://mergiraf.org) | A syntax-aware git merge driver for a growing collection of programming languages and file formats. | 0.3.1 | 2024-11-13 |  |
 | [miniserve](https://github.com/svenstaro/miniserve) | For when you really just want to serve some files over HTTP right now! | 0.28.0 | 2024-09-12 | simple-http-server, see, binserve, http |
-| [mold](https://github.com/rui314/mold) | Mold: A Modern Linker | 2.35.0 | 2024-12-08 | ld, lld, gold |
+| [mold](https://github.com/rui314/mold) | Mold: A Modern Linker | 2.35.1 | 2024-12-16 | ld, lld, gold |
 | [multi-git-status](https://github.com/fboender/multi-git-status/archive/refs/tags/2.3.tar.gz) | Show uncommitted, untracked and unpushed changes for multiple Git repos | 2.3 | 2024-10-31 |  |
 | [navi](https://github.com/denisidoro/navi) | An interactive cheatsheet tool for the command-line | 2.23.0 | 2023-12-10 |  |
 | [neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 0.10.2 | 2024-10-03 | vim, helix |
@@ -81,6 +81,7 @@
 | [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter | 4.0.0 | 2024-10-13 |  |
 | [task](https://github.com/go-task/task) | A task runner / simpler Make alternative written in Go | 3.40.1 | 2024-12-06 | make, dotree, just |
 | [tealdeer](https://github.com/dbrgn/tealdeer) | A very fast implementation of tldr in Rust. | 1.7.1 | 2024-11-15 | tldr, tlrc |
+| [television](https://github.com/alexpasmantier/television) | The revolution will (not) be televised | 0.7.1 | 2024-12-15 | fzf |
 | [teller](https://github.com/tellerops/teller) | Cloud native secrets management for developers - never leave your command line for secrets. | 2.0.7 | 2024-05-20 |  |
 | [termshark](https://github.com/gcla/termshark) | A terminal UI for tshark, inspired by Wireshark | 2.4.0 | 2022-07-12 |  |
 | [tlrc](https://github.com/tldr-pages/tlrc) | A tldr client written in Rust | 1.9.3 | 2024-07-29 | tldr, tealdeer |
@@ -106,4 +107,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2024-12-15 09:01:22 (utc)_
+_last updated: 2024-12-16 07:38:58 (utc)_
