@@ -7,9 +7,9 @@
 | [ble.sh](https://github.com/akinomyoga/ble.sh) | Bash Line Editor ― a line editor written in pure Bash with syntax highlighting, auto suggestions, vim modes, etc. for Bash interactive sessions. | 0.4.0-devel3 | 2023-04-03 |  |
 | [bottom](https://github.com/ClementTsang/bottom) | Yet another cross-platform graphical process/system monitor. | 0.10.2 | 2024-08-06 | top, htop |
 | [bytehound](https://github.com/koute/bytehound) | A memory profiler for Linux. | 0.11.0 | 2022-11-23 |  |
-| [carapace](https://carapace.sh) | multi-shell multi-command argument completer | 1.1.0 | 2024-12-08 |  |
+| [carapace](https://carapace.sh) | multi-shell multi-command argument completer | 1.1.1 | 2024-12-17 |  |
 | [cgen](https://github.com/ngruenwald/config-generator) | Create configuration parsers, schemas and documentation. | 0.3.5 | 2024-12-03 |  |
-| [clang-tools](https://github.com/llvm/llvm-project) | --- | 19.1.5 | 2024-12-03 |  |
+| [clang-tools](https://github.com/llvm/llvm-project) | --- | 19.1.6 | 2024-12-17 |  |
 | [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 3.31.2 | 2024-12-05 |  |
 | [codon](https://github.com/exaloop/codon) | A high-performance, zero-overhead, extensible Python compiler using LLVM | 0.17.0 | 2024-08-24 |  |
 | [cppcheck](https://github.com/danmar/cppcheck) | --- | 2.16.1 | 2024-11-28 |  |
@@ -29,7 +29,7 @@
 | [duf](https://github.com/muesli/duf) | Disk Usage/Free Utility - a better 'df' alternative | 0.8.1 | 2024-02-08 | df |
 | [dust](https://github.com/bootandy/dust) | A more intuitive version of du in rust | 1.1.1 | 2024-07-17 | du |
 | [envio](https://github.com/envio-cli/envio) | Envio is a modern and secure command-line tool that simplifies the management of environment variables | 0.6.1 | 2024-09-30 |  |
-| [evil-helix](https://github.com/usagi-flow/evil-helix) | Bringing the Helix editor to the evil side | 20240716 | 2024-07-16 | vim, neovim, helix |
+| [evil-helix](https://github.com/usagi-flow/evil-helix) | Bringing the Helix editor to the evil side | 20241206 | 2024-12-17 | vim, neovim, helix |
 | [eza](https://github.com/eza-community/eza) | A modern alternative to ls | 0.20.12 | 2024-12-12 | ls, lsd |
 | [fd](https://github.com/sharkdp/fd) | A simple, fast and user-friendly alternative to 'find' | 10.2.0 | 2024-08-23 | find |
 | [fq](https://github.com/wader/fq) | jq for binary formats - tool, language and decoders for working with binary and text formats | 0.13.0 | 2024-09-22 |  |
@@ -59,7 +59,7 @@
 | [neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 0.10.2 | 2024-10-03 | vim, helix |
 | [ninja](https://github.com/ninja-build/ninja) | a small build system with a focus on speed | 1.12.1 | 2024-05-11 | make, samurai |
 | [nushell](https://nushell.sh) | A new type of shell | 0.100.0 | 2024-11-13 | bash, zsh, fish, powershell |
-| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.5.3 | 2024-12-17 |  |
+| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.5.4 | 2024-12-17 |  |
 | [onefetch](https://onefetch.dev) | Command-line Git information tool | 2.22.0 | 2024-09-20 |  |
 | [openapi-generator](https://openapi-generator.tech) | OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3) | 7.10.0 | 2024-11-18 |  |
 | [powerline-go](https://github.com/justjanne/powerline-go) | A beautiful and useful low-latency prompt for your shell, written in go | 1.25 | 2024-11-26 | starship |
@@ -90,7 +90,7 @@
 | [up](https://github.com/akavel/up) | Ultimate Plumber is a tool for writing Linux pipes with instant live preview | 0.4 | 2020-10-29 |  |
 | [upt](https://github.com/sigoden/upt) | Universal Package-management Tool for any OS. | 0.9.0 | 2024-10-31 |  |
 | [usql](https://github.com/xo/usql) | Universal command-line interface for SQL databases | 0.19.14 | 2024-12-09 |  |
-| [uv](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | 0.5.9 | 2024-12-14 | pip, pdm, poetry, rye |
+| [uv](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | 0.5.10 | 2024-12-17 | pip, pdm, poetry, rye |
 | [vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder | 0.8.0 | 2024-09-06 |  |
 | [viddy](https://github.com/sachaos/viddy) | A modern watch command. Time machine and pager etc. | 1.3.0 | 2024-11-29 | watch, hwatch |
 | [xh](https://github.com/ducaale/xh) | Friendly and fast tool for sending HTTP requests | 0.23.0 | 2024-10-13 | httpie, curlie |
@@ -107,4 +107,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2024-12-17 06:14:12 (utc)_
+_last updated: 2024-12-17 22:59:07 (utc)_
