@@ -19,7 +19,7 @@
 | [dasel](https://github.com/TomWright/dasel) | Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package. | 2.8.1 | 2024-06-30 |  |
 | [delta](https://github.com/dandavison/delta) | A syntax-highlighting pager for git, diff, grep, and blame output | 0.18.2 | 2024-09-11 |  |
 | [devbox](https://github.com/jetify-com/devbox) | Instant, easy, and predictable development environments | 0.13.7 | 2024-12-06 |  |
-| [difftastic](https://github.com/Wilfred/difftastic) | a structural diff that understands syntax | 0.61.0 | 2024-10-24 | diff |
+| [difftastic](https://github.com/Wilfred/difftastic) | a structural diff that understands syntax | 0.62.0 | 2024-12-21 | diff |
 | [direnv](https://github.com/direnv/direnv) | unclutter your .profile | 2.35.0 | 2024-10-07 |  |
 | [dive](https://github.com/wagoodman/dive) | A tool for exploring each layer in a docker image | 0.12.0 | 2024-02-02 |  |
 | [doge](https://github.com/Dj-Codeman/doge) | Reviving A command-line DNS client. | 0.2.8 | 2024-12-04 | dig, dog |
@@ -107,4 +107,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2024-12-20 19:38:25 (utc)_
+_last updated: 2024-12-21 08:33:22 (utc)_
