@@ -1,0 +1,19 @@
+name = "broot"
+description = "A new way to see and navigate directory trees"
+homepage = "https://dystroy.org/broot"
+alternatives = []
+version = "1.44.3"
+updated = "2024-12-27"
+package-url = "https://github.com/Canop/broot/releases/download/v{{version}}/broot_{{version}}.zip"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "x86_64-unknown-linux-musl/broot"
+target = "{{vars.bin-path}}/broot"
+mode = "0755"
+
+[[extract.files]]
+source = "completion/{{vars.complete-prefix}}broot{{vars.complete-suffix}}"
+target = "{{vars.complete-path}}/_broot"
