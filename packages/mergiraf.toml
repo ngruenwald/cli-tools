@@ -5,6 +5,7 @@ alternatives = []
 version = "0.4.0"
 updated = "2024-12-08"
 package-url = "https://codeberg.org/mergiraf/mergiraf/releases/download/v{{version}}/mergiraf_x86_64-unknown-linux-gnu.tar.gz"
+query-url = "https://github.com/qundao/mirror-mergiraf/archive/refs/tags/v{{version}}.tar.gz"
 
 [extract]
 strip = 0
