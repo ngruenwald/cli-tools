@@ -1,0 +1,15 @@
+name = "sops"
+description = "Simple and flexible tool for managing secrets"
+homepage = "https://getsops.io"
+alternatives = ["git-crypt"]
+version = "3.9.3"
+updated = "2025-01-03"
+package-url = "https://github.com/getsops/sops/releases/download/v{{version}}/sops-v{{version}}.linux.amd64"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "sops-v{{version}}.linux.amd64"
+target = "{{vars.bin-path}}/sops"
+mode = "0755"
