@@ -2,8 +2,8 @@ name = "helix"
 description = "A post-modern modal text editor."
 homepage = "https://github.com/helix-editor/helix"
 alternatives = [ "vim", "neovim",]
-version = "24.07"
-updated = "2024-07-14"
+version = "25.01"
+updated = "2025-01-04"
 package-url = "https://github.com/helix-editor/helix/releases/download/{{version}}/helix-{{version}}-x86_64-linux.tar.xz"
 version-pattern = "^\\d+\\.\\d+(\\.\\d+)?$$"
 
