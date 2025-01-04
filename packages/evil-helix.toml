@@ -2,8 +2,8 @@ name = "evil-helix"
 description = "Bringing the Helix editor to the evil side"
 homepage = "https://github.com/usagi-flow/evil-helix"
 alternatives = [ "vim", "neovim", "helix" ]
-version = "20241206"
-updated = "2024-12-17"
+version = "20250104"
+updated = "2025-01-04"
 package-url = "https://github.com/usagi-flow/evil-helix/releases/download/release-{{version}}/helix-amd64-linux.tar.gz"
 version-pattern = "^release-\\d+$"
 
