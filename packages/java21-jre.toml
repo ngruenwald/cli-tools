@@ -1,0 +1,25 @@
+name = "java21-jre"
+description = "OpenJDK 21 LTS"
+homepage = "https://adoptium.net"
+alternatives = []
+version = "21.0.5+11"
+updated = "2024-10-16"
+package-url = "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-{{version}}/OpenJDK21U-jre_x64_linux_hotspot_{{(replace, version, '+', '_')}}.tar.gz"
+version-pattern = "^jdk-21\\.\\d+\\.\\d+*$"
+
+[extract]
+strip = 1
+prefix = "{{vars.prefix-path}}"
+
+#
+# build configuration
+#
+
+[build]
+package-url = "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-{{version}}/OpenJDK21U-jre_x64_linux_hotspot_{{(replace, version, '+', '_')}}.tar.gz"
+
+[[build.publish]]
+repository-name = "packages"
+repository-path = "java"
+files = ["OpenJDK21U-jre_x64_linux_hotspot_{{(replace, version, '+', '_')}}.tar.gz"]
+
