@@ -18,7 +18,8 @@ prefix = "{{vars.prefix-path}}"
 [build]
 query-url = "https://github.com/qemu/qemu/archive/refs/tags/v{{version}}.tar.gz"
 #package-url = "https://download.qemu.org/qemu-{{version}}.tar.xz"
-package-url = "https://digcom-repo.eurofunk.com/src/qemu/qemu-{{version}}.tar.xz"
+package-url = "https://10.172.113.102/src/qemu/qemu-{{version}}.tar.xz"
+verify-ssl = false
 
 [[build.script]]
 name = "build_qemu.sh"
