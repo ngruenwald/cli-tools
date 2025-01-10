@@ -2,8 +2,8 @@ name = "ollama"
 description = "Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models."
 homepage = "https://github.com/ollama/ollama"
 alternatives = []
-version = "0.5.4"
-updated = "2024-12-17"
+version = "0.5.5"
+updated = "2025-01-10"
 package-url = "https://github.com/ollama/ollama/releases/download/v{{version}}/ollama-linux-amd64"
 
 [extract]
