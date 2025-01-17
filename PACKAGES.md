@@ -66,7 +66,7 @@
 | [onefetch](https://onefetch.dev) | Command-line Git information tool | 2.23.1 | 2025-01-01 |  |
 | [openapi-generator](https://openapi-generator.tech) | OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3) | 7.10.0 | 2024-11-18 |  |
 | [powerline-go](https://github.com/justjanne/powerline-go) | A beautiful and useful low-latency prompt for your shell, written in go | 1.25 | 2024-11-26 | starship |
-| [procs](https://github.com/dalance/procs) | A modern replacement for ps written in Rust | 0.14.8 | 2024-10-23 | ps |
+| [procs](https://github.com/dalance/procs) | A modern replacement for ps written in Rust | 0.14.9 | 2025-01-17 | ps |
 | [protolint](https://github.com/yoheimuta/protolint) | A pluggable linter and fixer to enforce Protocol Buffer style and conventions | 0.52.0 | 2025-01-08 |  |
 | [python](https://python.org) | Python is a programming language that lets you work quickly and integrate systems more effectively. | 3.12.8 | 2024-12-04 |  |
 | [qemu](https://www.qemu.org) | A generic and open source machine emulator and virtualizer. | 9.2.0 | 2024-12-10 |  |
@@ -112,4 +112,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2025-01-16 21:55:09 (utc)_
+_last updated: 2025-01-17 05:55:16 (utc)_
