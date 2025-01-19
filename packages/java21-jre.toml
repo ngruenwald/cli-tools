@@ -5,7 +5,7 @@ alternatives = []
 version = "21.0.5+11"
 updated = "2024-10-16"
 package-url = "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-{{version}}/OpenJDK21U-jre_x64_linux_hotspot_{{(replace, version, '+', '_')}}.tar.gz"
-version-pattern = "^jdk-21\\.\\d+\\.\\d+*$"
+version-pattern = "^jdk-21\\.\\d+\\.\\d+.\\d+$"
 
 [extract]
 strip = 1
