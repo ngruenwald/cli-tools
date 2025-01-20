@@ -64,7 +64,7 @@
 | [nushell](https://nushell.sh) | A new type of shell | 0.101.0 | 2024-12-23 | bash, zsh, fish, powershell |
 | [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.5.7 | 2025-01-16 |  |
 | [onefetch](https://onefetch.dev) | Command-line Git information tool | 2.23.1 | 2025-01-01 |  |
-| [openapi-generator](https://openapi-generator.tech) | OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3) | 7.10.0 | 2024-11-18 |  |
+| [openapi-generator](https://openapi-generator.tech) | OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3) | 7.11.0 | 2025-01-20 |  |
 | [powerline-go](https://github.com/justjanne/powerline-go) | A beautiful and useful low-latency prompt for your shell, written in go | 1.25 | 2024-11-26 | starship |
 | [procs](https://github.com/dalance/procs) | A modern replacement for ps written in Rust | 0.14.9 | 2025-01-17 | ps |
 | [protolint](https://github.com/yoheimuta/protolint) | A pluggable linter and fixer to enforce Protocol Buffer style and conventions | 0.52.0 | 2025-01-08 |  |
@@ -77,7 +77,7 @@
 | [scc](https://github.com/boyter/scc) | Sloc, Cloc and Code: scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go | 3.4.0 | 2024-09-30 | sloc, tokei |
 | [sd](https://github.com/chmln/sd) | Intuitive find & replace CLI (sed alternative) | 1.0.0 | 2023-11-08 | sed |
 | [shellcheck](https://github.com/koalaman/shellcheck) | ShellCheck, a static analysis tool for shell scripts | 0.10.0 | 2024-03-08 |  |
-| [sonarscanner](https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/scanners/sonarscanner/) | The SonarScanner CLI is the scanner to use when there is no specific scanner for your build system. | 6.2.1.4610 | 2024-10-22 |  |
+| [sonarscanner](https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/scanners/sonarscanner/) | The SonarScanner CLI is the scanner to use when there is no specific scanner for your build system. | 7.0.0.4796 | 2025-01-20 |  |
 | [sops](https://getsops.io) | Simple and flexible tool for managing secrets | 3.9.3 | 2025-01-03 | git-crypt |
 | [sqlc](https://sqlc.dev) | Generate type-safe code from SQL | 1.27.0 | 2024-08-05 |  |
 | [sshs](https://github.com/quantumsheep/sshs) | Terminal user interface for SSH | 4.5.1 | 2024-08-15 |  |
@@ -86,7 +86,7 @@
 | [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter | 4.0.0 | 2024-10-13 |  |
 | [task](https://github.com/go-task/task) | A task runner / simpler Make alternative written in Go | 3.41.0 | 2025-01-18 | make, dotree, just |
 | [tealdeer](https://github.com/dbrgn/tealdeer) | A very fast implementation of tldr in Rust. | 1.7.1 | 2024-11-15 | tldr, tlrc |
-| [television](https://github.com/alexpasmantier/television) | The revolution will (not) be televised | 0.9.3 | 2025-01-19 | fzf |
+| [television](https://github.com/alexpasmantier/television) | The revolution will (not) be televised | 0.9.4 | 2025-01-20 | fzf |
 | [teller](https://github.com/tellerops/teller) | Cloud native secrets management for developers - never leave your command line for secrets. | 2.0.7 | 2024-05-20 |  |
 | [termshark](https://github.com/gcla/termshark) | A terminal UI for tshark, inspired by Wireshark | 2.4.0 | 2022-07-12 |  |
 | [tlrc](https://github.com/tldr-pages/tlrc) | A tldr client written in Rust | 1.9.3 | 2024-07-29 | tldr, tealdeer |
@@ -112,4 +112,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2025-01-19 22:13:06 (utc)_
+_last updated: 2025-01-20 17:37:43 (utc)_
