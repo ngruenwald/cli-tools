@@ -80,7 +80,7 @@
 | [sonarscanner](https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/scanners/sonarscanner/) | The SonarScanner CLI is the scanner to use when there is no specific scanner for your build system. | 7.0.0.4796 | 2025-01-20 |  |
 | [sops](https://getsops.io) | Simple and flexible tool for managing secrets | 3.9.3 | 2025-01-03 | git-crypt |
 | [sqlc](https://sqlc.dev) | Generate type-safe code from SQL | 1.28.0 | 2025-01-21 |  |
-| [sshs](https://github.com/quantumsheep/sshs) | Terminal user interface for SSH | 4.5.1 | 2024-08-15 |  |
+| [sshs](https://github.com/quantumsheep/sshs) | Terminal user interface for SSH | 4.6.0 | 2025-01-21 |  |
 | [starship](https://github.com/starship/starship) | The minimal, blazing-fast, and infinitely customizable prompt for any shell! | 1.22.1 | 2025-01-11 | powerline-go |
 | [syft](https://github.com/anchore/syft) | CLI tool and library for generating a Software Bill of Materials from container images and filesystems | 1.18.1 | 2024-12-13 |  |
 | [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter | 4.0.0 | 2024-10-13 |  |
@@ -112,4 +112,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2025-01-21 05:41:05 (utc)_
+_last updated: 2025-01-21 18:40:57 (utc)_
