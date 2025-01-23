@@ -1,0 +1,33 @@
+name = "clangd"
+description = "clangd language server"
+homepage = "https://github.com/clangd/clangd"
+alternatives = []
+version = "19.1.2"
+updated = "2024-10-16"
+package-url = "https://github.com/clangd/clangd/releases/download/{{version}}/clangd-linux-{{version}}.zip"
+
+[extract]
+strip = 1
+prefix = "{{vars.prefix-path}}"
+
+[[extract.files]]
+source = "bin/clangd"
+target = "{{vars.bin-path}}/clangd"
+mode = "0755"
+
+[[extract.files]]
+source = "lib/clang"
+target = "{{vars.lib-path}}/clang"
+is_folder = true
+
+#
+# build configuration
+#
+
+[build]
+package-url = "https://github.com/clangd/clangd/releases/download/{{version}}/clangd-linux-{{version}}.zip"
+
+[[build.publish]]
+repository-name = "packages"
+repository-path = "clangd"
+files = ["clangd-linux-{{version}}.zip"]

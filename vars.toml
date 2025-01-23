@@ -5,6 +5,7 @@ prefix-path = "/opt/local"
 prefix-path2 = "/usr/local"
 
 bin-path = "{{vars.prefix-path}}/bin"
+lib-path = "{{vars.prefix-path}}/lib"
 
 bash-complete-path = "{{vars.prefix-path2}}/share/bash-completion/completions"
 zsh-complete-path = "{{vars.prefix-path}}/share/zsh/site-functions"
