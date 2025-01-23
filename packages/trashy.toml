@@ -9,6 +9,7 @@ post-commands = [ "{{vars.bin-path}}/trash completions {{vars.shell-type}} > {{v
 
 [extract]
 strip = 0
+
 [[extract.files]]
 source = "trash"
 target = "{{vars.bin-path}}/trash"

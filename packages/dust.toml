@@ -8,6 +8,7 @@ package-url = "https://github.com/bootandy/dust/releases/download/v{{version}}/d
 
 [extract]
 strip = 1
+
 [[extract.files]]
 source = "dust"
 target = "{{vars.bin-path}}/dust"

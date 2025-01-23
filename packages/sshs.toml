@@ -8,6 +8,7 @@ package-url = "https://github.com/quantumsheep/sshs/releases/download/{{version}
 
 [extract]
 strip = 0
+
 [[extract.files]]
 source = "sshs-linux-amd64-musl"
 target = "{{vars.bin-path}}/sshs"

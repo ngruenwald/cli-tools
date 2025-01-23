@@ -8,6 +8,7 @@ package-url = "https://github.com/stateful/runme/releases/download/v{{version}}/
 
 [extract]
 strip = 0
+
 [[extract.files]]
 source = "runme"
 target = "{{vars.bin-path}}/runme"

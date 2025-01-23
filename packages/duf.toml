@@ -8,6 +8,7 @@ package-url = "https://github.com/muesli/duf/releases/download/v{{version}}/duf_
 
 [extract]
 strip = 0
+
 [[extract.files]]
 source = "duf"
 target = "{{vars.bin-path}}/duf"

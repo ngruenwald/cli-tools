@@ -11,8 +11,6 @@ post-commands = [
     "[ -f ~/.config/starship.toml ] || (mkdir -p ~/.config && {{vars.bin-path}}/starship preset no-nerd-font -o ~/.config/starship.toml)"
 ]
 
-
-
 [extract]
 strip = 0
 prefix = "{{vars.bin-path}}"

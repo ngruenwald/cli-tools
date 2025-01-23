@@ -8,6 +8,7 @@ package-url = "https://github.com/tldr-pages/tlrc/releases/download/v{{version}}
 
 [extract]
 strip = 0
+
 [[extract.files]]
 source = "tldr"
 target = "{{vars.bin-path}}/tldr"

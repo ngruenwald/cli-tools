@@ -8,6 +8,7 @@ package-url = "https://github.com/XAMPPRocky/tokei/releases/download/v{{version}
 
 [extract]
 strip = 0
+
 [[extract.files]]
 source = "tokei"
 target = "{{vars.bin-path}}/tokei"

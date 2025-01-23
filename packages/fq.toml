@@ -8,6 +8,7 @@ package-url = "https://github.com/wader/fq/releases/download/v{{version}}/fq_{{v
 
 [extract]
 strip = 0
+
 [[extract.files]]
 source = "fq"
 target = "{{vars.bin-path}}/fq"

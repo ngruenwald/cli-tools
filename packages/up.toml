@@ -9,6 +9,7 @@ version-pattern = "^v\\d+\\.\\d+(\\.\\d+)?$$"
 
 [extract]
 strip = 0
+
 [[extract.files]]
 source = "up"
 target = "{{vars.bin-path}}/up"

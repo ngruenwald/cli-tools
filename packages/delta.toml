@@ -8,6 +8,7 @@ package-url = "https://github.com/dandavison/delta/releases/download/{{version}}
 
 [extract]
 strip = 1
+
 [[extract.files]]
 source = "delta"
 target = "{{vars.bin-path}}/delta"

@@ -8,6 +8,7 @@ package-url = "https://github.com/wagoodman/dive/releases/download/v{{version}}/
 
 [extract]
 strip = 0
+
 [[extract.files]]
 source = "dive"
 target = "{{vars.bin-path}}/dive"

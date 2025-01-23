@@ -8,6 +8,7 @@ package-url = "https://github.com/Keats/kickstart/releases/download/v{{version}}
 
 [extract]
 strip = 0
+
 [[extract.files]]
 source = "kickstart"
 target = "{{vars.bin-path}}/kickstart"

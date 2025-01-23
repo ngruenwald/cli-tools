@@ -8,6 +8,7 @@ package-url = "https://github.com/gcla/termshark/releases/download/v{{version}}/
 
 [extract]
 strip = 1
+
 [[extract.files]]
 source = "termshark"
 target = "{{vars.bin-path}}/termshark"

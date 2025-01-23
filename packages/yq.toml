@@ -8,6 +8,7 @@ package-url = "https://github.com/mikefarah/yq/releases/download/v{{version}}/yq
 
 [extract]
 strip = 1
+
 [[extract.files]]
 source = "yq_linux_amd64"
 target = "{{vars.bin-path}}/yq"

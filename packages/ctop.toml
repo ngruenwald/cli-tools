@@ -8,6 +8,7 @@ package-url = "https://github.com/bcicen/ctop/releases/download/v{{version}}/cto
 
 [extract]
 strip = 0
+
 [[extract.files]]
 source = "ctop-{{version}}-linux-amd64"
 target = "{{vars.bin-path}}/ctop"

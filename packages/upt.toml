@@ -8,6 +8,7 @@ package-url = "https://github.com/sigoden/upt/releases/download/v{{version}}/upt
 
 [extract]
 strip = 0
+
 [[extract.files]]
 source = "upt"
 target = "{{vars.bin-path}}/upt"

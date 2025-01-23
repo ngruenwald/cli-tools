@@ -8,6 +8,7 @@ package-url = "https://github.com/koalaman/shellcheck/releases/download/v{{versi
 
 [extract]
 strip = 1
+
 [[extract.files]]
 source = "shellcheck"
 target = "{{vars.bin-path}}/shellcheck"

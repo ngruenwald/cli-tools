@@ -8,6 +8,7 @@ package-url = "https://github.com/sharkdp/hyperfine/releases/download/v{{version
 
 [extract]
 strip = 1
+
 [[extract.files]]
 source = "hyperfine"
 target = "{{vars.bin-path}}/hyperfine"

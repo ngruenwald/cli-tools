@@ -8,6 +8,7 @@ package-url = "https://github.com/bensadeh/tailspin/releases/download/{{version}
 
 [extract]
 strip = 0
+
 [[extract.files]]
 source = "tspin"
 target = "{{vars.bin-path}}/tspin"

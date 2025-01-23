@@ -8,6 +8,7 @@ package-url = "https://github.com/TomWright/dasel/releases/download/v{{version}}
 
 [extract]
 strip = 0
+
 [[extract.files]]
 source = "dasel_linux_amd64"
 target = "{{vars.bin-path}}/dasel"

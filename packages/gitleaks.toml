@@ -8,6 +8,7 @@ package-url = "https://github.com/gitleaks/gitleaks/releases/download/v{{version
 
 [extract]
 strip = 0
+
 [[extract.files]]
 source = "gitleaks"
 target = "{{vars.bin-path}}/gitleaks"

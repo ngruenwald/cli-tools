@@ -8,6 +8,7 @@ package-url = "https://github.com/ClementTsang/bottom/releases/download/{{versio
 
 [extract]
 strip = 0
+
 [[extract.files]]
 source = "btm"
 target = "{{vars.bin-path}}/btm"

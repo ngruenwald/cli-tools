@@ -8,6 +8,7 @@ package-url = "https://github.com/chmln/sd/releases/download/v{{version}}/sd-v{{
 
 [extract]
 strip = 1
+
 [[extract.files]]
 source = "sd"
 target = "{{vars.bin-path}}/sd"

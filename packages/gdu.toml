@@ -8,6 +8,7 @@ package-url = "https://github.com/dundee/gdu/releases/download/v{{version}}/gdu_
 
 [extract]
 strip = 0
+
 [[extract.files]]
 source = "gdu_linux_amd64_static"
 target = "{{vars.bin-path}}/gdu"

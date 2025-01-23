@@ -9,6 +9,7 @@ post-commands = [ "grep -q 'zoxide' ~/.{{vars.shell-type}}rc || echo 'eval \"$(z
 
 [extract]
 strip = 0
+
 [[extract.files]]
 source = "zoxide"
 target = "{{vars.bin-path}}/zoxide"

@@ -8,6 +8,7 @@ package-url = "https://github.com/go-task/task/releases/download/v{{version}}/ta
 
 [extract]
 strip = 0
+
 [[extract.files]]
 source = "task"
 target = "{{vars.bin-path}}/task"

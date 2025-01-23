@@ -8,6 +8,7 @@ package-url = "https://github.com/casey/just/releases/download/{{version}}/just-
 
 [extract]
 strip = 0
+
 [[extract.files]]
 source = "just"
 target = "{{vars.bin-path}}/just"

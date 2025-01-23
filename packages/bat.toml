@@ -9,6 +9,7 @@ post-commands = [ "{{vars.bin-path}}/bat cache --build",]
 
 [extract]
 strip = 1
+
 [[extract.files]]
 source = "bat"
 target = "{{vars.bin-path}}/bat"

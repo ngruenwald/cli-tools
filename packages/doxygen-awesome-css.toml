@@ -11,6 +11,10 @@ version-pattern = "v\\d+\\.\\d+\\.\\d+"
 [extract]
 strip = 0
 
+#
+# build configuration
+#
+
 [build]
 package-url = "https://github.com/jothepro/doxygen-awesome-css/archive/refs/tags/v{{version}}.tar.gz"
 version-pattern = "v\\d+\\.\\d+\\.\\d+"

@@ -9,6 +9,7 @@ version-pattern = "^v\\d+\\.\\d+(\\.\\d+)?$"
 
 [extract]
 strip = 0
+
 [[extract.files]]
 source = "powerline-go-linux-amd64"
 target = "{{vars.bin-path}}/powerline-go"

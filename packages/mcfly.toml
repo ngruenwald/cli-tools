@@ -8,6 +8,7 @@ package-url = "https://github.com/cantino/mcfly/releases/download/v{{version}}/m
 
 [extract]
 strip = 0
+
 [[extract.files]]
 source = "mcfly"
 target = "{{vars.bin-path}}/mcfly"

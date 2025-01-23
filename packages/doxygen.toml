@@ -15,7 +15,6 @@ source = "bin/doxygen"
 target = "{{vars.bin-path}}/doxygen"
 mode = "0755"
 
-
 #
 # build configuration
 #

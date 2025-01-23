@@ -8,6 +8,7 @@ package-url = "https://github.com/xo/usql/releases/download/v{{version}}/usql_st
 
 [extract]
 strip = 0
+
 [[extract.files]]
 source = "usql_static"
 target = "{{vars.bin-path}}/usql"

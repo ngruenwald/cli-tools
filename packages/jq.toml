@@ -9,6 +9,7 @@ version-pattern = "jq-\\d+\\.\\d+(\\.\\d+)?$"
 
 [extract]
 strip = 0
+
 [[extract.files]]
 source = "jq-linux-amd64"
 target = "{{vars.bin-path}}/jq"

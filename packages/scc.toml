@@ -8,6 +8,7 @@ package-url = "https://github.com/boyter/scc/releases/download/v{{version}}/scc_
 
 [extract]
 strip = 0
+
 [[extract.files]]
 source = "scc"
 target = "{{vars.bin-path}}/scc"

@@ -9,6 +9,7 @@ version-pattern = "^\\d+\\.\\d+(\\.\\d+)?$"
 
 [extract]
 strip = 1
+
 [[extract.files]]
 source = "mgitstatus"
 target = "{{vars.bin-path}}/mgitstatus"

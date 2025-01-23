@@ -9,6 +9,7 @@ package-url = "https://github.com/sharkdp/fd/releases/download/v{{version}}/fd-v
 [extract]
 strip = 1
 prefix = "{{vars.bin-path}}"
+
 [[extract.files]]
 source = "fd"
 target = "{{vars.bin-path}}/fd"

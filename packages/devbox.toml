@@ -8,6 +8,7 @@ package-url = "https://github.com/jetify-com/devbox/releases/download/{{version}
 
 [extract]
 strip = 0
+
 [[extract.files]]
 source = "devbox"
 target = "{{vars.bin-path}}/devbox"

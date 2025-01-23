@@ -8,6 +8,7 @@ package-url = "https://github.com/ducaale/xh/releases/download/v{{version}}/xh-v
 
 [extract]
 strip = 1
+
 [[extract.files]]
 source = "xh"
 target = "{{vars.bin-path}}/xh"

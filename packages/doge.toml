@@ -7,6 +7,7 @@ updated = "2024-12-04"
 package-url = "https://github.com/Dj-Codeman/doge/releases/download/v{{version}}/doge_linux_64bit"
 
 [extract]
+
 [[extract.files]]
 source = "doge_linux_64bit"
 target = "{{vars.bin-path}}/doge"

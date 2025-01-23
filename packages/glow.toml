@@ -8,6 +8,7 @@ package-url = "https://github.com/charmbracelet/glow/releases/download/v{{versio
 
 [extract]
 strip = 0
+
 [[extract.files]]
 source = "glow"
 target = "{{vars.bin-path}}/glow"

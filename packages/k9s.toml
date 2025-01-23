@@ -8,6 +8,7 @@ package-url = "https://github.com/derailed/k9s/releases/download/v{{version}}/k9
 
 [extract]
 strip = 0
+
 [[extract.files]]
 source = "k9s"
 target = "{{vars.bin-path}}/k9s"

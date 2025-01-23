@@ -8,6 +8,7 @@ package-url = "https://github.com/charmbracelet/vhs/releases/download/v{{version
 
 [extract]
 strip = 1
+
 [[extract.files]]
 source = "vhs"
 target = "{{vars.bin-path}}/vhs"

@@ -8,6 +8,7 @@ package-url = "https://github.com/sharkdp/hexyl/releases/download/v{{version}}/h
 
 [extract]
 strip = 1
+
 [[extract.files]]
 source = "hexyl"
 target = "{{vars.bin-path}}/hexyl"

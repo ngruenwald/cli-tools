@@ -8,6 +8,7 @@ package-url = "https://github.com/rs/curlie/releases/download/v{{version}}/curli
 
 [extract]
 strip = 0
+
 [[extract.files]]
 source = "curlie"
 target = "{{vars.bin-path}}/curlie"

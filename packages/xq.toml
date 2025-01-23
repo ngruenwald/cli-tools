@@ -8,6 +8,7 @@ package-url = "https://github.com/sibprogrammer/xq/releases/download/v{{version}
 
 [extract]
 strip = 0
+
 [[extract.files]]
 source = "xq"
 target = "{{vars.bin-path}}/xq"
