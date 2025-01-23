@@ -22,3 +22,15 @@ is_folder = true
 [[extract.files]]
 source = "contrib/completion/hx.{{vars.shell-type}}"
 target = "{{vars.complete-path}}/_hx"
+
+#
+# build configuration
+#
+
+[build]
+package-url = "https://github.com/helix-editor/helix/releases/download/{{version}}/helix-{{version}}-x86_64-linux.tar.xz"
+
+[[build.publish]]
+repository-name = "packages"
+repository-path = "helix"
+files = ["helix-{{version}}-x86_64-linux.tar.xz"]
