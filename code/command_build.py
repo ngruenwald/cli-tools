@@ -139,7 +139,7 @@ def command_build(packages: list[Package], args) -> int:
 
     for package in packages:
         if not package.build:
-            logging.warng(f"package {package.name} has no build config")
+            logging.warning(f"package {package.name} has no build config")
             continue
         with tempfile.TemporaryDirectory() as workdir:
             try:
