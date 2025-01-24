@@ -38,7 +38,7 @@
 | [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | 0.58.0 | 2025-01-19 | skim |
 | [gdu](https://github.com/dundee/gdu) | Fast disk usage analyzer with console interface written in Go | 5.30.1 | 2024-12-31 | du, dust, ncdu |
 | [git-cryp](https://www.agwa.name/projects/git-crypt) | Transparent file encryption in git | 0.7.0 | 2022-04-21 |  |
-| [gitleaks](https://github.com/gitleaks/gitleaks) | Protect and discover secrets using Gitleaks | 8.23.1 | 2025-01-15 |  |
+| [gitleaks](https://github.com/gitleaks/gitleaks) | Protect and discover secrets using Gitleaks | 8.23.2 | 2025-01-24 |  |
 | [glow](https://github.com/charmbracelet/glow) | Render markdown on the CLI, with pizzazz! | 2.0.0 | 2024-08-23 |  |
 | [grype](https://github.com/anchore/grype) | A vulnerability scanner for container images and filesystems | 0.87.0 | 2025-01-23 |  |
 | [gtrash](https://github.com/umlx5h/gtrash) | A Featureful Trash CLI manager: alternative to rm and trash-cli | 0.0.6 | 2024-07-01 | trash-cli, trashy |
@@ -113,4 +113,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2025-01-24 05:40:27 (utc)_
+_last updated: 2025-01-24 18:10:46 (utc)_
