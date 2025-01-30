@@ -2,8 +2,8 @@ name = "navi"
 description = "An interactive cheatsheet tool for the command-line"
 homepage = "https://github.com/denisidoro/navi"
 alternatives = []
-version = "2.23.0"
-updated = "2023-12-10"
+version = "2.24.0"
+updated = "2025-01-30"
 package-url = "https://github.com/denisidoro/navi/releases/download/v{{version}}/navi-v{{version}}-x86_64-unknown-linux-musl.tar.gz"
 
 [extract]
