@@ -9,7 +9,7 @@
 | [broot](https://dystroy.org/broot) | A new way to see and navigate directory trees | 1.44.6 | 2025-01-12 |  |
 | [bytehound](https://github.com/koute/bytehound) | A memory profiler for Linux. | 0.11.0 | 2022-11-23 |  |
 | [carapace](https://carapace.sh) | multi-shell multi-command argument completer | 1.2.1 | 2025-01-26 |  |
-| [cgen](https://github.com/ngruenwald/config-generator) | Create configuration parsers, schemas and documentation. | 0.3.5 | 2024-12-03 |  |
+| [cgen](https://github.com/ngruenwald/config-generator) | Create configuration parsers, schemas and documentation. | 0.4.0 | 2025-01-30 |  |
 | [clang-tools](https://github.com/llvm/llvm-project) | --- | 19.1.7 | 2025-01-14 |  |
 | [clangd](https://github.com/clangd/clangd) | clangd language server | 19.1.2 | 2024-10-16 |  |
 | [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 3.31.5 | 2025-01-23 |  |
@@ -32,7 +32,7 @@
 | [dust](https://github.com/bootandy/dust) | A more intuitive version of du in rust | 1.1.1 | 2024-07-17 | du |
 | [envio](https://github.com/envio-cli/envio) | Envio is a modern and secure command-line tool that simplifies the management of environment variables | 0.6.1 | 2024-09-30 |  |
 | [evil-helix](https://github.com/usagi-flow/evil-helix) | Bringing the Helix editor to the evil side | 20250104 | 2025-01-04 | vim, neovim, helix |
-| [eza](https://github.com/eza-community/eza) | A modern alternative to ls | 0.20.18 | 2025-01-23 | ls, lsd |
+| [eza](https://github.com/eza-community/eza) | A modern alternative to ls | 0.20.19 | 2025-01-30 | ls, lsd |
 | [fd](https://github.com/sharkdp/fd) | A simple, fast and user-friendly alternative to 'find' | 10.2.0 | 2024-08-23 | find |
 | [fq](https://github.com/wader/fq) | jq for binary formats - tool, language and decoders for working with binary and text formats | 0.13.0 | 2024-09-22 |  |
 | [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | 0.58.0 | 2025-01-19 | skim |
@@ -113,4 +113,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2025-01-30 05:42:52 (utc)_
+_last updated: 2025-01-30 18:40:27 (utc)_
