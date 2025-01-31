@@ -29,7 +29,38 @@ target = "{{vars.complete-path}}/_hx"
 #
 
 [build]
-package-url = "https://github.com/helix-editor/helix/releases/download/{{version}}/helix-{{version}}-x86_64-linux.tar.xz"
+package-url = "https://github.com/helix-editor/helix/releases/download/{{version}}/helix-{{version}}-source.tar.xz"
+
+[[build.script]]
+name = "build_helix.sh"
+content = [
+    "set -e",
+    "curl -SLk -o rustup-init.sh https://sh.rustup.rs",
+    "sh rustup-init.sh -y",
+    "source /root/.cargo/env",
+    "mkdir helix-build",
+    "cd helix-build",
+    "tar xJf ../helix-{{version}}-source.tar.xz --strip-components=1",
+    "cd runtime/grammars/sources",
+    "git config --global --add safe.directory \"*\"",
+    "cd ../../..",
+    "cargo install --path helix-term --locked",
+    "mkdir -p _dist_/helix-{{version}}-x86_64-linux/contrib",
+    "mkdir -p _dist_/helix-{{version}}-x86_64-linux/runtime/grammars",
+    "cp /root/.cargo/bin/hx   _dist_/helix-{{version}}-x86_64-linux/",
+    "cp runtime/grammars/*.so _dist_/helix-{{version}}-x86_64-linux/runtime/grammars/",
+    "cp runtime/tutor         _dist_/helix-{{version}}-x86_64-linux/runtime/",
+    "cp -r runtime/queries    _dist_/helix-{{version}}-x86_64-linux/runtime/",
+    "cp -r runtime/themes     _dist_/helix-{{version}}-x86_64-linux/runtime/",
+    "cp -r contrib/completion _dist_/helix-{{version}}-x86_64-linux/contrib/",
+    "echo \"creating package...\"",
+    "tar cJf ../helix-{{version}}-x86_64-linux.tar.xz -C _dist_ .",
+    "cd ..",
+    "rm -rf helix-build"
+]
+
+[[build.step]]
+command = ["xcc", "el7", "sh", "build_helix.sh", "el7"]
 
 [[build.publish]]
 repository-name = "packages"
