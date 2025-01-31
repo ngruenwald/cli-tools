@@ -9,7 +9,7 @@
 | [broot](https://dystroy.org/broot) | A new way to see and navigate directory trees | 1.44.6 | 2025-01-12 |  |
 | [bytehound](https://github.com/koute/bytehound) | A memory profiler for Linux. | 0.11.0 | 2022-11-23 |  |
 | [carapace](https://carapace.sh) | multi-shell multi-command argument completer | 1.2.1 | 2025-01-26 |  |
-| [cgen](https://github.com/ngruenwald/config-generator) | Create configuration parsers, schemas and documentation. | 0.4.0 | 2025-01-30 |  |
+| [cgen](https://github.com/ngruenwald/config-generator) | Create configuration parsers, schemas and documentation. | 0.4.2 | 2025-01-31 |  |
 | [clang-tools](https://github.com/llvm/llvm-project) | --- | 19.1.7 | 2025-01-14 |  |
 | [clangd](https://github.com/clangd/clangd) | clangd language server | 19.1.2 | 2024-10-16 |  |
 | [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 3.31.5 | 2025-01-23 |  |
@@ -113,4 +113,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2025-01-31 06:00:16 (utc)_
+_last updated: 2025-01-31 17:15:16 (utc)_
