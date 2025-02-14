@@ -20,7 +20,7 @@
 | [curlie](https://github.com/rs/curlie) | The power of curl, the ease of use of httpie. | 1.7.2 | 2023-10-23 | httpie, xh |
 | [dasel](https://github.com/TomWright/dasel) | Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package. | 2.8.1 | 2024-06-30 |  |
 | [delta](https://github.com/dandavison/delta) | A syntax-highlighting pager for git, diff, grep, and blame output | 0.18.2 | 2024-09-11 |  |
-| [devbox](https://github.com/jetify-com/devbox) | Instant, easy, and predictable development environments | 0.13.7 | 2024-12-06 |  |
+| [devbox](https://github.com/jetify-com/devbox) | Instant, easy, and predictable development environments | 0.14.0 | 2025-02-14 |  |
 | [difftastic](https://github.com/Wilfred/difftastic) | a structural diff that understands syntax | 0.63.0 | 2025-02-11 | diff |
 | [direnv](https://github.com/direnv/direnv) | unclutter your .profile | 2.35.0 | 2024-10-07 |  |
 | [dive](https://github.com/wagoodman/dive) | A tool for exploring each layer in a docker image | 0.12.0 | 2024-02-02 |  |
@@ -63,7 +63,7 @@
 | [neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 0.10.4 | 2025-01-29 | vim, helix |
 | [ninja](https://github.com/ninja-build/ninja) | a small build system with a focus on speed | 1.12.1 | 2024-05-11 | make, samurai |
 | [nushell](https://nushell.sh) | A new type of shell | 0.102.0 | 2025-02-05 | bash, zsh, fish, powershell |
-| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.5.9 | 2025-02-12 |  |
+| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.5.11 | 2025-02-14 |  |
 | [onefetch](https://onefetch.dev) | Command-line Git information tool | 2.23.1 | 2025-01-01 |  |
 | [openapi-generator](https://openapi-generator.tech) | OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3) | 7.11.0 | 2025-01-20 |  |
 | [powerline-go](https://github.com/justjanne/powerline-go) | A beautiful and useful low-latency prompt for your shell, written in go | 1.25 | 2024-11-26 | starship |
@@ -78,7 +78,7 @@
 | [scc](https://github.com/boyter/scc) | Sloc, Cloc and Code: scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go | 3.4.0 | 2024-09-30 | sloc, tokei |
 | [sd](https://github.com/chmln/sd) | Intuitive find & replace CLI (sed alternative) | 1.0.0 | 2023-11-08 | sed |
 | [shellcheck](https://github.com/koalaman/shellcheck) | ShellCheck, a static analysis tool for shell scripts | 0.10.0 | 2024-03-08 |  |
-| [sonarscanner](https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/scanners/sonarscanner/) | The SonarScanner CLI is the scanner to use when there is no specific scanner for your build system. | 7.0.1.4817 | 2025-02-03 |  |
+| [sonarscanner](https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/scanners/sonarscanner/) | The SonarScanner CLI is the scanner to use when there is no specific scanner for your build system. | 7.0.2.4839 | 2025-02-14 |  |
 | [sops](https://getsops.io) | Simple and flexible tool for managing secrets | 3.9.4 | 2025-01-26 | git-crypt |
 | [sqlc](https://sqlc.dev) | Generate type-safe code from SQL | 1.28.0 | 2025-01-21 |  |
 | [sshs](https://github.com/quantumsheep/sshs) | Terminal user interface for SSH | 4.6.1 | 2025-01-22 |  |
@@ -113,4 +113,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2025-02-13 17:59:46 (utc)_
+_last updated: 2025-02-14 16:46:20 (utc)_
