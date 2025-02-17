@@ -2,8 +2,8 @@ name = "scc"
 description = "Sloc, Cloc and Code: scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go"
 homepage = "https://github.com/boyter/scc"
 alternatives = [ "sloc", "tokei",]
-version = "3.4.0"
-updated = "2024-09-30"
+version = "3.5.0"
+updated = "2025-02-17"
 package-url = "https://github.com/boyter/scc/releases/download/v{{version}}/scc_Linux_x86_64.tar.gz"
 
 [extract]
