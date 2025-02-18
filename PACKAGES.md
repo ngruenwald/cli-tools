@@ -50,7 +50,7 @@
 | [jd](https://github.com/josephburnett/jd) | JSON diff and patch | 2.1.2 | 2025-02-17 |  |
 | [jq](https://github.com/jqlang/jq) | Command-line JSON processor | 1.7.1 | 2023-12-13 |  |
 | [just](https://github.com/casey/just) | Just a command runner | 1.39.0 | 2025-01-23 | make, dotree, task |
-| [k9s](https://github.com/derailed/k9s) | Kubernetes CLI To Manage Your Clusters In Style! | 0.40.3 | 2025-02-17 |  |
+| [k9s](https://github.com/derailed/k9s) | Kubernetes CLI To Manage Your Clusters In Style! | 0.40.5 | 2025-02-18 |  |
 | [kcov](https://github.com/SimonKagstrom/kcov) | Code coverage tool for compiled programs, Python and Bash which uses debugging information to collect and report data without special compilation options | 43 | 2024-07-23 |  |
 | [kickstart](https://github.com/Keats/kickstart) | A scaffolding tool to get new projects up and running quickly | 0.5.0 | 2024-12-13 | cookiecutter, proji |
 | [libfaketime](https://github.com/wolfcw/libfaketime) | libfaketime modifies the system time for a single application | 0.9.10 | 2022-03-04 |  |
@@ -99,7 +99,7 @@
 | [uv](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | 0.6.1 | 2025-02-18 | pip, pdm, poetry, rye |
 | [vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder | 0.9.0 | 2025-01-16 |  |
 | [viddy](https://github.com/sachaos/viddy) | A modern watch command. Time machine and pager etc. | 1.3.0 | 2024-11-29 | watch, hwatch |
-| [xh](https://github.com/ducaale/xh) | Friendly and fast tool for sending HTTP requests | 0.23.1 | 2025-01-02 | httpie, curlie |
+| [xh](https://github.com/ducaale/xh) | Friendly and fast tool for sending HTTP requests | 0.24.0 | 2025-02-18 | httpie, curlie |
 | [xq](https://github.com/sibprogrammer/xq) | Command-line XML and HTML beautifier and content extractor | 1.3.0 | 2024-12-23 |  |
 | [yazi](https://github.com/sxyazi/yazi) | Blazing fast terminal file manager written in Rust, based on async I/O. | 25.2.11 | 2025-02-11 | ranger |
 | [yq](https://github.com/mikefarah/yq) | yq is a portable command-line YAML, JSON, XML, CSV, TOML and properties processor | 4.45.1 | 2025-01-12 |  |
@@ -108,9 +108,9 @@
 | [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/archive/refs/tags/v0.7.1.tar.gz) | Fish-like autosuggestions for zsh | 0.7.1 | 2024-11-15 |  |
 | [zsh-command-not-found](https://github.com/Freed-Wu/zsh-command-not-found/archive/refs/heads/main.tar.gz) | This plugin uses the command-not-found package for zsh to provide suggested packages to be installed if a command cannot be found. | main | 2022-09-05 |  |
 | [zsh-completions](https://github.com/zsh-users/zsh-completions/archive/refs/tags/0.35.0.tar.gz) | Additional completion definitions for Zsh. | 0.35.0 | 2023-08-30 |  |
-| [zsh-fzf-tab](https://github.com/Aloxaf/fzf-tab/archive/refs/tags/v1.1.2.tar.gz) | Replace zsh's default completion selection menu with fzf! | 1.1.2 | 2024-05-10 |  |
+| [zsh-fzf-tab](https://github.com/Aloxaf/fzf-tab/archive/refs/tags/v1.2.0.tar.gz) | Replace zsh's default completion selection menu with fzf! | 1.2.0 | 2025-02-18 |  |
 | [zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search/archive/refs/tags/v1.1.0.tar.gz) | ZSH port of Fish history search (up arrow) | 1.1.0 | 2023-07-28 |  |
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2025-02-18 05:38:21 (utc)_
+_last updated: 2025-02-18 18:26:34 (utc)_
