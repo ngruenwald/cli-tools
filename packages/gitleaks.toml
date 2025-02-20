@@ -2,8 +2,8 @@ name = "gitleaks"
 description = "Protect and discover secrets using Gitleaks"
 homepage = "https://github.com/gitleaks/gitleaks"
 alternatives = []
-version = "8.23.3"
-updated = "2025-01-29"
+version = "8.24.0"
+updated = "2025-02-20"
 package-url = "https://github.com/gitleaks/gitleaks/releases/download/v{{version}}/gitleaks_{{version}}_linux_x64.tar.gz"
 
 [extract]
