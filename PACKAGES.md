@@ -12,7 +12,7 @@
 | [cgen](https://github.com/ngruenwald/config-generator) | Create configuration parsers, schemas and documentation. | 0.4.3 | 2025-02-07 |  |
 | [clang-tools](https://github.com/llvm/llvm-project) | --- | 19.1.7 | 2025-01-14 |  |
 | [clangd](https://github.com/clangd/clangd) | clangd language server | 19.1.2 | 2024-10-16 |  |
-| [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 3.31.5 | 2025-01-23 |  |
+| [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 3.31.6 | 2025-02-24 |  |
 | [codon](https://github.com/exaloop/codon) | A high-performance, zero-overhead, extensible Python compiler using LLVM | 0.18.1 | 2025-02-12 |  |
 | [cppcheck](https://github.com/danmar/cppcheck) | --- | 2.17.0 | 2025-02-23 |  |
 | [cppfront](https://github.com/hsutter/cppfront) | A personal experimental C++ Syntax 2 -> Syntax 1 compiler -- NOT FOR COMMERICAL USE! | 0.8.1 | 2025-01-31 |  |
@@ -70,7 +70,7 @@
 | [procs](https://github.com/dalance/procs) | A modern replacement for ps written in Rust | 0.14.9 | 2025-01-17 | ps |
 | [protolint](https://github.com/yoheimuta/protolint) | A pluggable linter and fixer to enforce Protocol Buffer style and conventions | 0.53.0 | 2025-01-29 |  |
 | [python](https://python.org) | Python is a programming language that lets you work quickly and integrate systems more effectively. | 3.12.9 | 2025-02-05 |  |
-| [qemu](https://www.qemu.org) | A generic and open source machine emulator and virtualizer. | 9.2.1 | 2025-02-09 |  |
+| [qemu](https://www.qemu.org) | A generic and open source machine emulator and virtualizer. | 9.2.2 | 2025-02-24 |  |
 | [rainfrog](https://crates.io/crates/rainfrog) | a database management tui for postgres | 0.2.13 | 2025-02-04 |  |
 | [ripgrep](https://github.com/BurntSushi/ripgrep) | ripgrep recursively searches directories for a regex pattern while respecting your gitignore | 14.1.1 | 2024-09-09 | grep |
 | [runme](https://github.com/stateful/runme) | DevOps Workflows Built with Markdown | 3.12.2 | 2025-02-19 |  |
@@ -113,4 +113,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2025-02-23 17:07:45 (utc)_
+_last updated: 2025-02-24 17:47:07 (utc)_
