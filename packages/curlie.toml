@@ -2,8 +2,8 @@ name = "curlie"
 description = "The power of curl, the ease of use of httpie."
 homepage = "https://github.com/rs/curlie"
 alternatives = [ "httpie", "xh",]
-version = "1.7.2"
-updated = "2023-10-23"
+version = "1.8.1"
+updated = "2025-03-02"
 package-url = "https://github.com/rs/curlie/releases/download/v{{version}}/curlie_{{version}}_linux_amd64.tar.gz"
 
 [extract]
