@@ -2,8 +2,8 @@ name = "uv"
 description = "An extremely fast Python package and project manager, written in Rust."
 homepage = "https://github.com/astral-sh/uv"
 alternatives = ["pip", "pdm", "poetry", "rye"]
-version = "0.6.3"
-updated = "2025-02-25"
+version = "0.6.4"
+updated = "2025-03-04"
 package-url = "https://github.com/astral-sh/uv/releases/download/{{version}}/uv-x86_64-unknown-linux-musl.tar.gz"
 
 [extract]
