@@ -1,0 +1,15 @@
+name = "dotenvx"
+description = "a better dotenv–from the creator of `dotenv`"
+homepage = "https://dotenvx.com"
+alternatives = [ "cat",]
+version = "1.38.5"
+updated = "2025-03-12"
+package-url = "https://github.com/dotenvx/dotenvx/releases/download/v{{version}}/dotenvx-{{version}}-linux-x86_64.tar.gz"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "dotenvx"
+target = "{{vars.bin-path}}/dotenvx"
+mode = "0755"
