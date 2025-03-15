@@ -1,0 +1,15 @@
+name = "bunster"
+description = "Compile shell scripts to static binaries."
+homepage = "https://github.com/yassinebenaid/bunster"
+alternatives = []
+version = "0.10.0"
+updated = "2025-03-13"
+package-url = "https://github.com/yassinebenaid/bunster/releases/download/v{{version}}/bunster_linux-amd64.tar.gz"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "bunster"
+target = "{{vars.bin-path}}/bunster"
+mode = "0755"
