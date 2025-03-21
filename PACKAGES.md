@@ -75,12 +75,12 @@
 | [qemu](https://www.qemu.org) | A generic and open source machine emulator and virtualizer. | 9.2.2 | 2025-02-24 |  |
 | [rainfrog](https://crates.io/crates/rainfrog) | a database management tui for postgres | 0.2.15 | 2025-03-08 |  |
 | [ripgrep](https://github.com/BurntSushi/ripgrep) | ripgrep recursively searches directories for a regex pattern while respecting your gitignore | 14.1.1 | 2024-09-09 | grep |
-| [runme](https://github.com/stateful/runme) | DevOps Workflows Built with Markdown | 3.12.7 | 2025-03-20 |  |
+| [runme](https://github.com/stateful/runme) | DevOps Workflows Built with Markdown | 3.12.8 | 2025-03-21 |  |
 | [rustcat](https://github.com/quantumsheep/sshs) | Rustcat(rcat) - The modern Port listener and Reverse shell | 3.0.0 | 2022-08-15 |  |
 | [scc](https://github.com/boyter/scc) | Sloc, Cloc and Code: scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go | 3.5.0 | 2025-02-17 | sloc, tokei |
 | [sd](https://github.com/chmln/sd) | Intuitive find & replace CLI (sed alternative) | 1.0.0 | 2023-11-08 | sed |
 | [shellcheck](https://github.com/koalaman/shellcheck) | ShellCheck, a static analysis tool for shell scripts | 0.10.0 | 2024-03-08 |  |
-| [sonarscanner](https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/scanners/sonarscanner/) | The SonarScanner CLI is the scanner to use when there is no specific scanner for your build system. | 7.0.2.4839 | 2025-02-14 |  |
+| [sonarscanner](https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/scanners/sonarscanner/) | The SonarScanner CLI is the scanner to use when there is no specific scanner for your build system. | 7.1.0.4889 | 2025-03-21 |  |
 | [sops](https://getsops.io) | Simple and flexible tool for managing secrets | 3.9.4 | 2025-01-26 | git-crypt |
 | [sqlc](https://sqlc.dev) | Generate type-safe code from SQL | 1.28.0 | 2025-01-21 |  |
 | [sshs](https://github.com/quantumsheep/sshs) | Terminal user interface for SSH | 4.6.1 | 2025-01-22 |  |
@@ -105,7 +105,7 @@
 | [xq](https://github.com/sibprogrammer/xq) | Command-line XML and HTML beautifier and content extractor | 1.3.0 | 2024-12-23 |  |
 | [yazi](https://github.com/sxyazi/yazi) | Blazing fast terminal file manager written in Rust, based on async I/O. | 25.3.2 | 2025-03-02 | ranger |
 | [yq](https://github.com/mikefarah/yq) | yq is a portable command-line YAML, JSON, XML, CSV, TOML and properties processor | 4.45.1 | 2025-01-12 |  |
-| [zellij](https://github.com/zellij-org/zellij) | Blazing fast terminal file manager written in Rust, based on async I/O. | 0.42.0 | 2025-03-17 | tmux |
+| [zellij](https://github.com/zellij-org/zellij) | Blazing fast terminal file manager written in Rust, based on async I/O. | 0.42.1 | 2025-03-21 | tmux |
 | [zoxide](https://github.com/ajeetdsouza/zoxide) | A smarter cd command. Supports all major shells. | 0.9.7 | 2025-02-10 |  |
 | [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/archive/refs/tags/v0.7.1.tar.gz) | Fish-like autosuggestions for zsh | 0.7.1 | 2024-11-15 |  |
 | [zsh-command-not-found](https://github.com/Freed-Wu/zsh-command-not-found/archive/refs/heads/main.tar.gz) | This plugin uses the command-not-found package for zsh to provide suggested packages to be installed if a command cannot be found. | main | 2022-09-05 |  |
@@ -115,4 +115,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2025-03-21 06:12:46 (utc)_
+_last updated: 2025-03-21 17:27:05 (utc)_
