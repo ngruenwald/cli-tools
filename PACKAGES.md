@@ -24,7 +24,7 @@
 | [devbox](https://github.com/jetify-com/devbox) | Instant, easy, and predictable development environments | 0.14.0 | 2025-02-14 |  |
 | [difftastic](https://github.com/Wilfred/difftastic) | a structural diff that understands syntax | 0.63.0 | 2025-02-11 | diff |
 | [direnv](https://github.com/direnv/direnv) | unclutter your .profile | 2.35.0 | 2024-10-07 |  |
-| [dive](https://github.com/wagoodman/dive) | A tool for exploring each layer in a docker image | 0.12.0 | 2024-02-02 |  |
+| [dive](https://github.com/wagoodman/dive) | A tool for exploring each layer in a docker image | 0.13.0 | 2025-03-22 |  |
 | [doge](https://github.com/Dj-Codeman/doge) | Reviving A command-line DNS client. | 0.2.8 | 2024-12-04 | dig, dog |
 | [dotenvx](https://dotenvx.com) | a better dotenv–from the creator of `dotenv` | 1.39.0 | 2025-03-17 | cat |
 | [dotree](https://github.com/KnorrFG/dotree) | A small, interactive command runner | 0.8.2 | 2023-11-26 |  |
@@ -89,7 +89,7 @@
 | [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter | 4.0.0 | 2024-10-13 |  |
 | [task](https://github.com/go-task/task) | A task runner / simpler Make alternative written in Go | 3.42.1 | 2025-03-11 | make, dotree, just |
 | [tealdeer](https://github.com/dbrgn/tealdeer) | A very fast implementation of tldr in Rust. | 1.7.2 | 2025-03-19 | tldr, tlrc |
-| [television](https://github.com/alexpasmantier/television) | The revolution will (not) be televised | 0.11.2 | 2025-03-21 | fzf |
+| [television](https://github.com/alexpasmantier/television) | The revolution will (not) be televised | 0.11.3 | 2025-03-22 | fzf |
 | [teller](https://github.com/tellerops/teller) | Cloud native secrets management for developers - never leave your command line for secrets. | 2.0.7 | 2024-05-20 |  |
 | [termshark](https://github.com/gcla/termshark) | A terminal UI for tshark, inspired by Wireshark | 2.4.0 | 2022-07-12 |  |
 | [tlrc](https://github.com/tldr-pages/tlrc) | A tldr client written in Rust | 1.11.0 | 2025-03-17 | tldr, tealdeer |
@@ -115,4 +115,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2025-03-21 17:27:05 (utc)_
+_last updated: 2025-03-22 08:57:01 (utc)_

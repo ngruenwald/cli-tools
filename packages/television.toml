@@ -2,8 +2,8 @@ name = "television"
 description = "The revolution will (not) be televised"
 homepage = "https://github.com/alexpasmantier/television"
 alternatives = [ "fzf" ]
-version = "0.11.2"
-updated = "2025-03-21"
+version = "0.11.3"
+updated = "2025-03-22"
 package-url = "https://github.com/alexpasmantier/television/releases/download/{{version}}/tv-{{version}}-linux-x86_64.tar.gz"
 
 [extract]
