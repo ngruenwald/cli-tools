@@ -7,7 +7,7 @@
 | [ble.sh](https://github.com/akinomyoga/ble.sh) | Bash Line Editor ― a line editor written in pure Bash with syntax highlighting, auto suggestions, vim modes, etc. for Bash interactive sessions. | 0.4.0-devel3 | 2023-04-03 |  |
 | [bottom](https://github.com/ClementTsang/bottom) | Yet another cross-platform graphical process/system monitor. | 0.10.2 | 2024-08-06 | top, htop |
 | [broot](https://dystroy.org/broot) | A new way to see and navigate directory trees | 1.45.0 | 2025-03-19 |  |
-| [bunster](https://github.com/yassinebenaid/bunster) | Compile shell scripts to static binaries. | 0.10.0 | 2025-03-13 |  |
+| [bunster](https://github.com/yassinebenaid/bunster) | Compile shell scripts to static binaries. | 0.11.0 | 2025-03-23 |  |
 | [bytehound](https://github.com/koute/bytehound) | A memory profiler for Linux. | 0.11.0 | 2022-11-23 |  |
 | [carapace](https://carapace.sh) | multi-shell multi-command argument completer | 1.2.1 | 2025-01-26 |  |
 | [cgen](https://github.com/ngruenwald/config-generator) | Create configuration parsers, schemas and documentation. | 0.5.0 | 2025-03-17 |  |
@@ -49,7 +49,7 @@
 | [hwatch](https://github.com/blacknon/hwatch) | A modern alternative to the watch command, records the differences in execution results and can check this differences at after. | 0.3.19 | 2025-03-19 | watch, viddy |
 | [hyperfine](https://github.com/sharkdp/hyperfine) | A command-line benchmarking tool | 1.19.0 | 2024-11-12 |  |
 | [java21-jre](https://adoptium.net) | OpenJDK 21 LTS | 21.0.6+7 | 2025-01-22 |  |
-| [jd](https://github.com/josephburnett/jd) | JSON diff and patch | 2.1.2 | 2025-02-17 |  |
+| [jd](https://github.com/josephburnett/jd) | JSON diff and patch | 2.2.1 | 2025-03-23 |  |
 | [jq](https://github.com/jqlang/jq) | Command-line JSON processor | 1.7.1 | 2023-12-13 |  |
 | [just](https://github.com/casey/just) | Just a command runner | 1.40.0 | 2025-03-10 | make, dotree, task |
 | [k9s](https://github.com/derailed/k9s) | Kubernetes CLI To Manage Your Clusters In Style! | 0.40.10 | 2025-03-16 |  |
@@ -115,4 +115,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2025-03-22 16:49:25 (utc)_
+_last updated: 2025-03-23 07:51:47 (utc)_
