@@ -2,12 +2,12 @@ name = "python"
 description = "Python is a programming language that lets you work quickly and integrate systems more effectively."
 homepage = "https://python.org"
 alternatives = []
-version = "3.12.9"
-updated = "2025-02-05"
+version = "3.13.2"
+updated = "2025-03-28"
 package-url = ""
 query-url = "https://github.com/python/cpython/archive/refs/tags/v{{version}}.tar.gz"
 #version-pattern = "^v\\d+\\.\\d+\\.\\d+$"
-version-pattern = "^v3\\.12\\.\\d+$"  # stick to python 3.12 for now
+version-pattern = "^v3\\.13\\.\\d+$"  # stick to python 3.13
 
 #
 # build configuration
