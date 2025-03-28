@@ -5,6 +5,7 @@ alternatives = []
 version = "0.6"
 updated = "2025-03-18"
 package-url = "https://github.com/sinclairtarget/git-who/releases/download/v{{version}}/gitwho_v{{version}}_linux_amd64.tar.gz"
+version-pattern = "v\\d+\\.\\d+$"
 
 [extract]
 strip = 0
