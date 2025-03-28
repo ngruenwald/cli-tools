@@ -2,8 +2,8 @@ name = "procs"
 description = "A modern replacement for ps written in Rust"
 homepage = "https://github.com/dalance/procs"
 alternatives = [ "ps",]
-version = "0.14.9"
-updated = "2025-01-17"
+version = "0.14.10"
+updated = "2025-03-28"
 package-url = "https://github.com/dalance/procs/releases/download/v{{version}}/procs-v{{version}}-x86_64-linux.zip"
 
 [extract]
