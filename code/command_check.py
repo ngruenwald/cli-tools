@@ -74,7 +74,7 @@ def command_check(packages: list[Package], args) -> int:
         tags = sorted(tags, key=cmp_to_key(compare_tag_versions))
 
         if not tags:
-            print(f"{pi.repo}: no tags!")
+            print(f"! {pi.repo}: no tags")
             return
 
         tag = tags[0]
