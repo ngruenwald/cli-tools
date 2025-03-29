@@ -2,8 +2,8 @@ name = "dive"
 description = "A tool for exploring each layer in a docker image"
 homepage = "https://github.com/wagoodman/dive"
 alternatives = []
-version = "0.13.0"
-updated = "2025-03-22"
+version = "0.13.1"
+updated = "2025-03-29"
 package-url = "https://github.com/wagoodman/dive/releases/download/v{{version}}/dive_{{version}}_linux_amd64.tar.gz"
 
 [extract]

@@ -1,0 +1,16 @@
+name = "doccheck"
+description = "CLI tool to automate docker image updates. Selective, notifications, autoprune, no pre-pulling."
+homepage = "https://github.com/mag37/dockcheck"
+alternatives = [ "podcheck" ]
+version = "0.5.8.0"
+updated = "2025-03-16"
+package-url = "https://github.com/mag37/dockcheck/archive/refs/tags/v{{version}}.tar.gz"
+version-pattern = "v\\d+\\.\\d+\\.\\d+\\.\\d+$"
+
+[extract]
+strip = 1
+
+[[extract.files]]
+source = "doccheck.sh"
+target = "{{vars.bin-path}}/doccheck"
+mode = "0755"

@@ -1,0 +1,15 @@
+name = "podcheck"
+description = "CLI tool to automate podman image updates. Selective, notifications, autoprune, no pre-pulling."
+homepage = "https://github.com/sudo-kraken/podcheck"
+alternatives = [ "dockcheck" ]
+version = "0.6.0"
+updated = "2025-02-25"
+package-url = "https://github.com/sudo-kraken/podcheck/archive/refs/tags/v{{version}}.tar.gz"
+
+[extract]
+strip = 1
+
+[[extract.files]]
+source = "podcheck.sh"
+target = "{{vars.bin-path}}/podcheck"
+mode = "0755"
