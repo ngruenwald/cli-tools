@@ -11,7 +11,7 @@
 | [bytehound](https://github.com/koute/bytehound) | A memory profiler for Linux. | 0.11.0 | 2022-11-23 |  |
 | [carapace](https://carapace.sh) | multi-shell multi-command argument completer | 1.3.0 | 2025-04-01 |  |
 | [cgen](https://github.com/ngruenwald/config-generator) | Create configuration parsers, schemas and documentation. | 0.5.0 | 2025-03-17 |  |
-| [clang-tools](https://github.com/llvm/llvm-project) | --- | 20.1.1 | 2025-03-19 |  |
+| [clang-tools](https://github.com/llvm/llvm-project) | --- | 20.1.2 | 2025-04-02 |  |
 | [clangd](https://github.com/clangd/clangd) | clangd language server | 20.1.0 | 2025-03-12 |  |
 | [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 4.0.0 | 2025-03-27 |  |
 | [codon](https://github.com/exaloop/codon) | A high-performance, zero-overhead, extensible Python compiler using LLVM | 0.18.2 | 2025-03-19 |  |
@@ -32,7 +32,7 @@
 | [doxygen](https://github.com/doxygen/doxygen) | Code Documentation. Automated. | 1.13.2 | 2025-01-09 |  |
 | [doxygen-awesome-css](https://github.com/jothepro/doxygen-awesome-css) | Code Documentation. Automated. | 2.3.4 | 2024-10-10 |  |
 | [duf](https://github.com/muesli/duf) | Disk Usage/Free Utility - a better 'df' alternative | 0.8.1 | 2024-02-08 | df |
-| [dust](https://github.com/bootandy/dust) | A more intuitive version of du in rust | 1.1.2 | 2025-02-28 | du |
+| [dust](https://github.com/bootandy/dust) | A more intuitive version of du in rust | 1.2.0 | 2025-04-02 | du |
 | [envio](https://github.com/envio-cli/envio) | Envio is a modern and secure command-line tool that simplifies the management of environment variables | 0.6.1 | 2024-09-30 |  |
 | [evil-helix](https://github.com/usagi-flow/evil-helix) | Bringing the Helix editor to the evil side | 20250104 | 2025-01-04 | vim, neovim, helix |
 | [eza](https://github.com/eza-community/eza) | A modern alternative to ls | 0.20.24 | 2025-03-13 | ls, lsd |
@@ -119,4 +119,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2025-04-01 17:07:41 (utc)_
+_last updated: 2025-04-02 04:42:07 (utc)_
