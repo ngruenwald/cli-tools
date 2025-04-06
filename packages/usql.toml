@@ -2,8 +2,8 @@ name = "usql"
 description = "Universal command-line interface for SQL databases"
 homepage = "https://github.com/xo/usql"
 alternatives = []
-version = "0.19.19"
-updated = "2025-03-05"
+version = "0.19.20"
+updated = "2025-04-06"
 package-url = "https://github.com/xo/usql/releases/download/v{{version}}/usql_static-{{version}}-linux-amd64.tar.bz2"
 
 [extract]
