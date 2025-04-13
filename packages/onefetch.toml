@@ -2,8 +2,8 @@ name = "onefetch"
 description = "Command-line Git information tool"
 homepage = "https://onefetch.dev"
 alternatives = []
-version = "2.23.1"
-updated = "2025-01-01"
+version = "2.24.0"
+updated = "2025-04-13"
 package-url = "https://github.com/o2sh/onefetch/releases/download/{{version}}/onefetch-linux.tar.gz"
 
 [extract]
