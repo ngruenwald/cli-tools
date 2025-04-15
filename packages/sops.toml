@@ -2,8 +2,8 @@ name = "sops"
 description = "Simple and flexible tool for managing secrets"
 homepage = "https://getsops.io"
 alternatives = ["git-crypt"]
-version = "3.10.1"
-updated = "2025-04-01"
+version = "3.10.2"
+updated = "2025-04-15"
 package-url = "https://github.com/getsops/sops/releases/download/v{{version}}/sops-v{{version}}.linux.amd64"
 
 [extract]
