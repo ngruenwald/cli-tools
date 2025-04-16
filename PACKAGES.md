@@ -11,7 +11,7 @@
 | [bytehound](https://github.com/koute/bytehound) | A memory profiler for Linux. | 0.11.0 | 2022-11-23 |  |
 | [carapace](https://carapace.sh) | multi-shell multi-command argument completer | 1.3.0 | 2025-04-01 |  |
 | [cgen](https://github.com/ngruenwald/config-generator) | Create configuration parsers, schemas and documentation. | 0.5.0 | 2025-03-17 |  |
-| [clang-tools](https://github.com/llvm/llvm-project) | --- | 20.1.2 | 2025-04-02 |  |
+| [clang-tools](https://github.com/llvm/llvm-project) | --- | 20.1.3 | 2025-04-16 |  |
 | [clangd](https://github.com/clangd/clangd) | clangd language server | 20.1.0 | 2025-03-12 |  |
 | [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 4.0.1 | 2025-04-10 |  |
 | [codon](https://github.com/exaloop/codon) | A high-performance, zero-overhead, extensible Python compiler using LLVM | 0.18.2 | 2025-03-19 |  |
@@ -119,4 +119,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2025-04-15 19:42:21 (utc)_
+_last updated: 2025-04-16 05:16:16 (utc)_
