@@ -36,7 +36,7 @@
 | [dust](https://github.com/bootandy/dust) | A more intuitive version of du in rust | 1.2.0 | 2025-04-02 | du |
 | [envio](https://github.com/envio-cli/envio) | Envio is a modern and secure command-line tool that simplifies the management of environment variables | 0.6.1 | 2024-09-30 |  |
 | [evil-helix](https://github.com/usagi-flow/evil-helix) | Bringing the Helix editor to the evil side | 20250413 | 2025-04-14 | vim, neovim, helix |
-| [eza](https://github.com/eza-community/eza) | A modern alternative to ls | 0.21.0 | 2025-04-02 | ls, lsd |
+| [eza](https://github.com/eza-community/eza) | A modern alternative to ls | 0.21.1 | 2025-04-19 | ls, lsd |
 | [fd](https://github.com/sharkdp/fd) | A simple, fast and user-friendly alternative to 'find' | 10.2.0 | 2024-08-23 | find |
 | [fq](https://github.com/wader/fq) | jq for binary formats - tool, language and decoders for working with binary and text formats | 0.14.0 | 2025-02-09 |  |
 | [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | 0.61.1 | 2025-04-06 | skim |
@@ -68,7 +68,7 @@
 | [neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 0.11.0 | 2025-03-26 | vim, helix |
 | [ninja](https://github.com/ninja-build/ninja) | a small build system with a focus on speed | 1.12.1 | 2024-05-11 | make, samurai |
 | [nushell](https://nushell.sh) | A new type of shell | 0.103.0 | 2025-03-19 | bash, zsh, fish, powershell |
-| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.6.5 | 2025-04-07 |  |
+| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.6.6 | 2025-04-19 |  |
 | [onefetch](https://onefetch.dev) | Command-line Git information tool | 2.24.0 | 2025-04-13 |  |
 | [openapi-generator](https://openapi-generator.tech) | OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3) | 7.12.0 | 2025-02-28 |  |
 | [podcheck](https://github.com/sudo-kraken/podcheck) | CLI tool to automate podman image updates. Selective, notifications, autoprune, no pre-pulling. | 0.6.0 | 2025-02-25 | dockcheck |
@@ -120,4 +120,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2025-04-18 16:30:47 (utc)_
+_last updated: 2025-04-19 07:42:19 (utc)_
