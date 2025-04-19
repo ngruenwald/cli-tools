@@ -1,0 +1,24 @@
+name = "cmake3"
+description = "CMake, the cross-platform, open-source build system."
+homepage = "https://github.com/Kitware/CMake"
+alternatives = []
+version = "3.31.7"
+updated = "2025-04-10"
+package-url = "https://github.com/Kitware/CMake/releases/download/v{{version}}/cmake-{{version}}-linux-x86_64.tar.gz"
+version-pattern = "^v3\\..*$"
+
+[extract]
+strip = 1
+prefix = "{{vars.prefix-path}}"
+
+#
+# build configuration
+#
+
+[build]
+package-url = "https://github.com/Kitware/CMake/releases/download/v{{version}}/cmake-{{version}}-linux-x86_64.tar.gz"
+
+[[build.publish]]
+repository-name = "packages"
+repository-path = "cmake"
+files = ["cmake-{{version}}-linux-x86_64.tar.gz"]
