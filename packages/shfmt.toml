@@ -1,0 +1,15 @@
+name = "shfmt"
+description = "A shell parser, formatter, and interpreter with bash support; includes shfmt"
+homepage = "https://github.com/mvdan/sh#shfmt"
+alternatives = []
+version = "3.11.0"
+updated = "2025-03-058"
+package-url = "https://github.com/mvdan/sh/releases/download/v{{version}}/shfmt_v{{version}}_linux_amd64"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "shfmt_v{{version}}_linux_amd64"
+target = "{{vars.bin-path}}/shfmt"
+mode = "0755"
