@@ -2,8 +2,8 @@ name = "sshs"
 description = "Terminal user interface for SSH"
 homepage = "https://github.com/quantumsheep/sshs"
 alternatives = []
-version = "4.6.1"
-updated = "2025-01-22"
+version = "4.7.1"
+updated = "2025-04-21"
 package-url = "https://github.com/quantumsheep/sshs/releases/download/{{version}}/sshs-linux-amd64-musl"
 
 [extract]
