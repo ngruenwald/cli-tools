@@ -40,7 +40,7 @@
 | [eza](https://github.com/eza-community/eza) | A modern alternative to ls | 0.21.1 | 2025-04-19 | ls, lsd |
 | [fd](https://github.com/sharkdp/fd) | A simple, fast and user-friendly alternative to 'find' | 10.2.0 | 2024-08-23 | find |
 | [fq](https://github.com/wader/fq) | jq for binary formats - tool, language and decoders for working with binary and text formats | 0.15.0 | 2025-04-19 |  |
-| [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | 0.61.2 | 2025-04-20 | skim |
+| [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | 0.61.3 | 2025-04-22 | skim |
 | [gdu](https://github.com/dundee/gdu) | Fast disk usage analyzer with console interface written in Go | 5.30.1 | 2024-12-31 | du, dust, ncdu |
 | [git-cryp](https://www.agwa.name/projects/git-crypt) | Transparent file encryption in git | 0.7.0 | 2022-04-21 |  |
 | [git-who](https://github.com/sinclairtarget/git-who) | Git blame for file trees | 0.7 | 2025-03-29 |  |
@@ -77,7 +77,7 @@
 | [procs](https://github.com/dalance/procs) | A modern replacement for ps written in Rust | 0.14.10 | 2025-03-28 | ps |
 | [protolint](https://github.com/yoheimuta/protolint) | A pluggable linter and fixer to enforce Protocol Buffer style and conventions | 0.53.0 | 2025-01-29 |  |
 | [python](https://python.org) | Python is a programming language that lets you work quickly and integrate systems more effectively. | 3.13.3 | 2025-04-08 |  |
-| [qemu](https://www.qemu.org) | A generic and open source machine emulator and virtualizer. | 9.2.3 | 2025-03-26 |  |
+| [qemu](https://www.qemu.org) | A generic and open source machine emulator and virtualizer. | 10.0.0 | 2025-04-22 |  |
 | [rainfrog](https://crates.io/crates/rainfrog) | a database management tui for postgres | 0.3.0 | 2025-03-27 |  |
 | [regctl](https://regclient.org) | Docker and OCI Registry Client in Go and tooling using those libraries. | 0.8.2 | 2024-02-14 |  |
 | [ripgrep](https://github.com/BurntSushi/ripgrep) | ripgrep recursively searches directories for a regex pattern while respecting your gitignore | 14.1.1 | 2024-09-09 | grep |
@@ -93,7 +93,7 @@
 | [sshs](https://github.com/quantumsheep/sshs) | Terminal user interface for SSH | 4.7.1 | 2025-04-21 |  |
 | [starship](https://github.com/starship/starship) | The minimal, blazing-fast, and infinitely customizable prompt for any shell! | 1.22.1 | 2025-01-11 | powerline-go |
 | [syft](https://github.com/anchore/syft) | CLI tool and library for generating a Software Bill of Materials from container images and filesystems | 1.22.0 | 2025-04-01 |  |
-| [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter | 5.4.1 | 2025-04-20 |  |
+| [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter | 5.4.2 | 2025-04-22 |  |
 | [task](https://github.com/go-task/task) | A task runner / simpler Make alternative written in Go | 3.43.2 | 2025-04-22 | make, dotree, just |
 | [tealdeer](https://github.com/dbrgn/tealdeer) | A very fast implementation of tldr in Rust. | 1.7.2 | 2025-03-19 | tldr, tlrc |
 | [television](https://github.com/alexpasmantier/television) | The revolution will (not) be televised | 0.11.9 | 2025-04-22 | fzf |
@@ -122,4 +122,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2025-04-22 04:43:40 (utc)_
+_last updated: 2025-04-22 16:59:43 (utc)_
