@@ -2,8 +2,8 @@ name = "broot"
 description = "A new way to see and navigate directory trees"
 homepage = "https://dystroy.org/broot"
 alternatives = []
-version = "1.46.2"
-updated = "2025-04-21"
+version = "1.46.3"
+updated = "2025-04-24"
 package-url = "https://github.com/Canop/broot/releases/download/v{{version}}/broot_{{version}}.zip"
 
 [extract]
