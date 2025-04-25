@@ -37,7 +37,7 @@
 | [dust](https://github.com/bootandy/dust) | A more intuitive version of du in rust | 1.2.0 | 2025-04-02 | du |
 | [envio](https://github.com/envio-cli/envio) | Envio is a modern and secure command-line tool that simplifies the management of environment variables | 0.6.1 | 2024-09-30 |  |
 | [evil-helix](https://github.com/usagi-flow/evil-helix) | Bringing the Helix editor to the evil side | 20250413 | 2025-04-14 | vim, neovim, helix |
-| [eza](https://github.com/eza-community/eza) | A modern alternative to ls | 0.21.1 | 2025-04-19 | ls, lsd |
+| [eza](https://github.com/eza-community/eza) | A modern alternative to ls | 0.21.2 | 2025-04-25 | ls, lsd |
 | [fd](https://github.com/sharkdp/fd) | A simple, fast and user-friendly alternative to 'find' | 10.2.0 | 2024-08-23 | find |
 | [fq](https://github.com/wader/fq) | jq for binary formats - tool, language and decoders for working with binary and text formats | 0.15.0 | 2025-04-19 |  |
 | [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | 0.61.3 | 2025-04-22 | skim |
@@ -92,7 +92,7 @@
 | [sqlc](https://sqlc.dev) | Generate type-safe code from SQL | 1.29.0 | 2025-04-17 |  |
 | [sshs](https://github.com/quantumsheep/sshs) | Terminal user interface for SSH | 4.7.2 | 2025-04-24 |  |
 | [starship](https://github.com/starship/starship) | The minimal, blazing-fast, and infinitely customizable prompt for any shell! | 1.22.1 | 2025-01-11 | powerline-go |
-| [syft](https://github.com/anchore/syft) | CLI tool and library for generating a Software Bill of Materials from container images and filesystems | 1.23.0 | 2025-04-25 |  |
+| [syft](https://github.com/anchore/syft) | CLI tool and library for generating a Software Bill of Materials from container images and filesystems | 1.23.1 | 2025-04-25 |  |
 | [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter | 5.4.2 | 2025-04-22 |  |
 | [task](https://github.com/go-task/task) | A task runner / simpler Make alternative written in Go | 3.43.2 | 2025-04-22 | make, dotree, just |
 | [tealdeer](https://github.com/dbrgn/tealdeer) | A very fast implementation of tldr in Rust. | 1.7.2 | 2025-03-19 | tldr, tlrc |
@@ -123,4 +123,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2025-04-25 05:11:39 (utc)_
+_last updated: 2025-04-25 15:58:14 (utc)_
