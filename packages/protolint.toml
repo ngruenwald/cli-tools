@@ -2,8 +2,8 @@ name = "protolint"
 description = "A pluggable linter and fixer to enforce Protocol Buffer style and conventions"
 homepage = "https://github.com/yoheimuta/protolint"
 alternatives = [ ]
-version = "0.53.0"
-updated = "2025-01-29"
+version = "0.54.0"
+updated = "2025-04-28"
 package-url = "https://github.com/yoheimuta/protolint/releases/download/v{{version}}/protolint_{{version}}_linux_amd64.tar.gz"
 post-commands = [ "{{vars.bin-path}}/atuin gen-completions --shell {{vars.shell-type}} --out-dir {{vars.complete-path}}"]
 
