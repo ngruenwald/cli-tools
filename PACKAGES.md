@@ -44,7 +44,7 @@
 | [gdu](https://github.com/dundee/gdu) | Fast disk usage analyzer with console interface written in Go | 5.30.1 | 2024-12-31 | du, dust, ncdu |
 | [git-cryp](https://www.agwa.name/projects/git-crypt) | Transparent file encryption in git | 0.7.0 | 2022-04-21 |  |
 | [git-who](https://github.com/sinclairtarget/git-who) | Git blame for file trees | 0.7 | 2025-03-29 |  |
-| [gitleaks](https://github.com/gitleaks/gitleaks) | Protect and discover secrets using Gitleaks | 8.24.3 | 2025-04-11 |  |
+| [gitleaks](https://github.com/gitleaks/gitleaks) | Protect and discover secrets using Gitleaks | 8.25.0 | 2025-04-29 |  |
 | [glow](https://github.com/charmbracelet/glow) | Render markdown on the CLI, with pizzazz! | 2.1.0 | 2025-02-26 |  |
 | [grype](https://github.com/anchore/grype) | A vulnerability scanner for container images and filesystems | 0.91.2 | 2025-04-26 |  |
 | [gtrash](https://github.com/umlx5h/gtrash) | A Featureful Trash CLI manager: alternative to rm and trash-cli | 0.0.6 | 2024-07-01 | trash-cli, trashy |
@@ -75,7 +75,7 @@
 | [podcheck](https://github.com/sudo-kraken/podcheck) | CLI tool to automate podman image updates. Selective, notifications, autoprune, no pre-pulling. | 0.6.0 | 2025-02-25 | dockcheck |
 | [powerline-go](https://github.com/justjanne/powerline-go) | A beautiful and useful low-latency prompt for your shell, written in go | 1.25 | 2024-11-26 | starship |
 | [procs](https://github.com/dalance/procs) | A modern replacement for ps written in Rust | 0.14.10 | 2025-03-28 | ps |
-| [protolint](https://github.com/yoheimuta/protolint) | A pluggable linter and fixer to enforce Protocol Buffer style and conventions | 0.54.0 | 2025-04-28 |  |
+| [protolint](https://github.com/yoheimuta/protolint) | A pluggable linter and fixer to enforce Protocol Buffer style and conventions | 0.54.1 | 2025-04-29 |  |
 | [python](https://python.org) | Python is a programming language that lets you work quickly and integrate systems more effectively. | 3.13.3 | 2025-04-08 |  |
 | [qemu](https://www.qemu.org) | A generic and open source machine emulator and virtualizer. | 10.0.0 | 2025-04-22 |  |
 | [rainfrog](https://crates.io/crates/rainfrog) | a database management tui for postgres | 0.3.1 | 2025-04-24 |  |
@@ -123,4 +123,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2025-04-29 04:52:07 (utc)_
+_last updated: 2025-04-29 17:47:08 (utc)_
