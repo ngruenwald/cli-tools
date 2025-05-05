@@ -13,7 +13,7 @@
 | [cgen](https://github.com/ngruenwald/config-generator) | Create configuration parsers, schemas and documentation. | 0.5.0 | 2025-03-17 |  |
 | [clang-tools](https://github.com/llvm/llvm-project) | --- | 20.1.4 | 2025-04-30 |  |
 | [clangd](https://github.com/clangd/clangd) | clangd language server | 20.1.0 | 2025-03-12 |  |
-| [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 4.0.1 | 2025-04-10 |  |
+| [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 4.0.2 | 2025-05-05 |  |
 | [cmake3](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 3.31.7 | 2025-04-10 |  |
 | [code-server](https://coder.com) | VS Code in the browser | 4.99.4 | 2025-05-03 |  |
 | [codon](https://github.com/exaloop/codon) | A high-performance, zero-overhead, extensible Python compiler using LLVM | 0.18.2 | 2025-03-19 |  |
@@ -63,13 +63,13 @@
 | [mcfly](https://github.com/cantino/mcfly) | Fly through your shell history. Great Scott! | 0.9.3 | 2025-02-12 | atuin, hishtory |
 | [mergiraf](https://mergiraf.org) | A syntax-aware git merge driver for a growing collection of programming languages and file formats. | 0.7.0 | 2025-05-01 |  |
 | [miniserve](https://github.com/svenstaro/miniserve) | For when you really just want to serve some files over HTTP right now! | 0.29.0 | 2025-02-06 | simple-http-server, see, binserve, http |
-| [mold](https://github.com/rui314/mold) | Mold: A Modern Linker | 2.38.1 | 2025-04-28 | ld, lld, gold |
+| [mold](https://github.com/rui314/mold) | Mold: A Modern Linker | 2.39.0 | 2025-05-05 | ld, lld, gold |
 | [multi-git-status](https://github.com/fboender/multi-git-status/archive/refs/tags/2.3.tar.gz) | Show uncommitted, untracked and unpushed changes for multiple Git repos | 2.3 | 2024-10-31 |  |
 | [navi](https://github.com/denisidoro/navi) | An interactive cheatsheet tool for the command-line | 2.24.0 | 2025-01-30 |  |
 | [neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 0.11.1 | 2025-04-27 | vim, helix |
 | [ninja](https://github.com/ninja-build/ninja) | a small build system with a focus on speed | 1.12.1 | 2024-05-11 | make, samurai |
 | [nushell](https://nushell.sh) | A new type of shell | 0.104.0 | 2025-04-30 | bash, zsh, fish, powershell |
-| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.6.7 | 2025-05-02 |  |
+| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.6.8 | 2025-05-05 |  |
 | [onefetch](https://onefetch.dev) | Command-line Git information tool | 2.24.0 | 2025-04-13 |  |
 | [openapi-generator](https://openapi-generator.tech) | OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3) | 7.13.0 | 2025-04-28 |  |
 | [podcheck](https://github.com/sudo-kraken/podcheck) | CLI tool to automate podman image updates. Selective, notifications, autoprune, no pre-pulling. | 0.6.0 | 2025-02-25 | dockcheck |
@@ -123,4 +123,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2025-05-04 20:05:09 (utc)_
+_last updated: 2025-05-05 17:27:46 (utc)_
