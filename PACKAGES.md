@@ -76,7 +76,7 @@
 | [podcheck](https://github.com/sudo-kraken/podcheck) | CLI tool to automate podman image updates. Selective, notifications, autoprune, no pre-pulling. | 0.6.0 | 2025-02-25 | dockcheck |
 | [powerline-go](https://github.com/justjanne/powerline-go) | A beautiful and useful low-latency prompt for your shell, written in go | 1.25 | 2024-11-26 | starship |
 | [procs](https://github.com/dalance/procs) | A modern replacement for ps written in Rust | 0.14.10 | 2025-03-28 | ps |
-| [protolint](https://github.com/yoheimuta/protolint) | A pluggable linter and fixer to enforce Protocol Buffer style and conventions | 0.55.0 | 2025-05-09 |  |
+| [protolint](https://github.com/yoheimuta/protolint) | A pluggable linter and fixer to enforce Protocol Buffer style and conventions | 0.55.1 | 2025-05-09 |  |
 | [python](https://python.org) | Python is a programming language that lets you work quickly and integrate systems more effectively. | 3.13.3 | 2025-04-08 |  |
 | [qemu](https://www.qemu.org) | A generic and open source machine emulator and virtualizer. | 10.0.0 | 2025-04-22 |  |
 | [rainfrog](https://crates.io/crates/rainfrog) | a database management tui for postgres | 0.3.1 | 2025-04-24 |  |
@@ -113,7 +113,7 @@
 | [xh](https://github.com/ducaale/xh) | Friendly and fast tool for sending HTTP requests | 0.24.1 | 2025-05-02 | httpie, curlie |
 | [xq](https://github.com/sibprogrammer/xq) | Command-line XML and HTML beautifier and content extractor | 1.3.0 | 2024-12-23 |  |
 | [yazi](https://github.com/sxyazi/yazi) | Blazing fast terminal file manager written in Rust, based on async I/O. | 25.4.8 | 2025-04-08 | ranger |
-| [yq](https://github.com/mikefarah/yq) | yq is a portable command-line YAML, JSON, XML, CSV, TOML and properties processor | 4.45.2 | 2025-05-03 |  |
+| [yq](https://github.com/mikefarah/yq) | yq is a portable command-line YAML, JSON, XML, CSV, TOML and properties processor | 4.45.3 | 2025-05-09 |  |
 | [zellij](https://github.com/zellij-org/zellij) | Blazing fast terminal file manager written in Rust, based on async I/O. | 0.42.2 | 2025-04-15 | tmux |
 | [zoxide](https://github.com/ajeetdsouza/zoxide) | A smarter cd command. Supports all major shells. | 0.9.7 | 2025-02-10 |  |
 | [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/archive/refs/tags/v0.7.1.tar.gz) | Fish-like autosuggestions for zsh | 0.7.1 | 2024-11-15 |  |
@@ -124,4 +124,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2025-05-09 05:21:09 (utc)_
+_last updated: 2025-05-09 16:25:18 (utc)_
