@@ -1,0 +1,15 @@
+name = "dysk"
+description = "A linux utility to get information on filesystems, like df but better"
+homepage = "https://dystroy.org/dysk"
+alternatives = [ "df", "duf" ]
+version = "2.10.1"
+updated = "2025-05-13"
+package-url = "https://github.com/Canop/dysk/releases/download/v{{version}}/dysk_{{version}}.zip"
+
+[extract]
+strip = 1
+
+[[extract.files]]
+source = "x86_64-unknown-linux-musl/dysk"
+target = "{{vars.bin-path}}/dysk"
+mode = "0755"
