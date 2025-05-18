@@ -2,8 +2,8 @@ name = "git-who"
 description = "Git blame for file trees"
 homepage = "https://github.com/sinclairtarget/git-who"
 alternatives = []
-version = "0.7"
-updated = "2025-03-29"
+version = "1.0"
+updated = "2025-05-18"
 package-url = "https://github.com/sinclairtarget/git-who/releases/download/v{{version}}/gitwho_v{{version}}_linux_amd64.tar.gz"
 version-pattern = "v\\d+\\.\\d+$"
 
