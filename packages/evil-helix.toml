@@ -20,3 +20,46 @@ source = "runtime"
 target = "{{vars.bin-path}}/runtime"
 is_folder = true
 
+#
+# build configuration
+#
+
+[build]
+package-url = "https://github.com/usagi-flow/evil-helix/archive/refs/tags/release-{{version}}.tar.gz"
+
+[[build.script]]
+name = "build_helix.sh"
+content = [
+    "set -e",
+    "curl -SLk -o rustup-init.sh https://sh.rustup.rs",
+    "sh rustup-init.sh -y",
+    "source /root/.cargo/env",
+    "mkdir helix-build",
+    "cd helix-build",
+    "tar xzf ../release-{{version}}.tar.gz --strip-components=1",
+#    "cd runtime/grammars/sources",
+#    "git config --global --add safe.directory \"*\"",
+#    "cd ../../..",
+    "cargo install --path helix-term --locked",
+    "mkdir -p _dist_/evil-helix-{{version}}-x86_64-linux/contrib",
+    "mkdir -p _dist_/evil-helix-{{version}}-x86_64-linux/runtime/grammars",
+    "cp /root/.cargo/bin/hx   _dist_/evil-helix-{{version}}-x86_64-linux/",
+    "cp runtime/grammars/*.so _dist_/evil-helix-{{version}}-x86_64-linux/runtime/grammars/",
+    "cp runtime/tutor         _dist_/evil-helix-{{version}}-x86_64-linux/runtime/",
+    "cp -r runtime/queries    _dist_/evil-helix-{{version}}-x86_64-linux/runtime/",
+    "cp -r runtime/themes     _dist_/evil-helix-{{version}}-x86_64-linux/runtime/",
+    "cp -r contrib/completion _dist_/evil-helix-{{version}}-x86_64-linux/contrib/",
+    "echo \"creating package...\"",
+    "cd _dist_",
+    "tar cJf ../../helix-evil-{{version}}-x86_64-linux.tar.xz evil-helix-{{version}}-x86_64-linux",
+    "cd ../..",
+    "rm -rf helix-build"
+]
+
+[[build.step]]
+command = ["xcc", "el7", "sh", "build_helix.sh", "el7"]
+
+[[build.publish]]
+repository-name = "packages"
+repository-path = "helix"
+files = ["helix-evil-{{version}}-x86_64-linux.tar.xz"]
