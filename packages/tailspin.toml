@@ -2,8 +2,8 @@ name = "tailspin"
 description = "A log file highlighter"
 homepage = "https://github.com/bensadeh/tailspin"
 alternatives = []
-version = "5.4.2"
-updated = "2025-04-22"
+version = "5.4.3"
+updated = "2025-05-25"
 package-url = "https://github.com/bensadeh/tailspin/releases/download/{{version}}/tailspin-x86_64-unknown-linux-musl.tar.gz"
 
 [extract]

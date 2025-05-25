@@ -60,7 +60,7 @@
 | [k9s](https://github.com/derailed/k9s) | Kubernetes CLI To Manage Your Clusters In Style! | 0.50.6 | 2025-05-13 |  |
 | [kcov](https://github.com/SimonKagstrom/kcov) | Code coverage tool for compiled programs, Python and Bash which uses debugging information to collect and report data without special compilation options | 43 | 2024-07-23 |  |
 | [kickstart](https://github.com/Keats/kickstart) | A scaffolding tool to get new projects up and running quickly | 0.5.0 | 2024-12-13 | cookiecutter, proji |
-| [libfaketime](https://github.com/wolfcw/libfaketime) | libfaketime modifies the system time for a single application | 0.9.10 | 2022-03-04 |  |
+| [libfaketime](https://github.com/wolfcw/libfaketime) | libfaketime modifies the system time for a single application | 0.9.11 | 2025-05-25 |  |
 | [mcfly](https://github.com/cantino/mcfly) | Fly through your shell history. Great Scott! | 0.9.3 | 2025-02-12 | atuin, hishtory |
 | [mergiraf](https://mergiraf.org) | A syntax-aware git merge driver for a growing collection of programming languages and file formats. | 0.8.1 | 2025-05-16 |  |
 | [miniserve](https://github.com/svenstaro/miniserve) | For when you really just want to serve some files over HTTP right now! | 0.29.0 | 2025-02-06 | simple-http-server, see, binserve, http |
@@ -94,7 +94,7 @@
 | [sshs](https://github.com/quantumsheep/sshs) | Terminal user interface for SSH | 4.7.2 | 2025-04-24 |  |
 | [starship](https://github.com/starship/starship) | The minimal, blazing-fast, and infinitely customizable prompt for any shell! | 1.23.0 | 2025-04-28 | powerline-go |
 | [syft](https://github.com/anchore/syft) | CLI tool and library for generating a Software Bill of Materials from container images and filesystems | 1.26.1 | 2025-05-22 |  |
-| [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter | 5.4.2 | 2025-04-22 |  |
+| [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter | 5.4.3 | 2025-05-25 |  |
 | [task](https://github.com/go-task/task) | A task runner / simpler Make alternative written in Go | 3.43.3 | 2025-04-28 | make, dotree, just |
 | [tealdeer](https://github.com/dbrgn/tealdeer) | A very fast implementation of tldr in Rust. | 1.7.2 | 2025-03-19 | tldr, tlrc |
 | [television](https://github.com/alexpasmantier/television) | The revolution will (not) be televised | 0.11.9 | 2025-04-22 | fzf |
@@ -124,4 +124,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2025-05-24 20:17:51 (utc)_
+_last updated: 2025-05-25 11:56:06 (utc)_

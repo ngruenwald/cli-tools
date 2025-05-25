@@ -2,8 +2,8 @@ name = "libfaketime"
 description = "libfaketime modifies the system time for a single application"
 homepage = "https://github.com/wolfcw/libfaketime"
 alternatives = []
-version = "0.9.10"
-updated = "2022-03-04"
+version = "0.9.11"
+updated = "2025-05-25"
 package-url = ""
 query-url = "https://github.com/wolfcw/libfaketime/archive/refs/tags/v{{version}}.tar.gz"
 
