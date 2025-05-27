@@ -2,8 +2,8 @@ name = "qemu"
 description = "A generic and open source machine emulator and virtualizer."
 homepage = "https://www.qemu.org"
 alternatives = []
-version = "10.0.0"
-updated = "2025-04-22"
+version = "10.0.1"
+updated = "2025-05-27"
 package-url = ""
 query-url = "https://github.com/qemu/qemu/archive/refs/tags/v{{version}}.tar.gz"
 
