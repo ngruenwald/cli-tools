@@ -6,7 +6,7 @@
 | [bat](https://github.com/sharkdp/bat) | A cat(1) clone with wings. | 0.25.0 | 2025-01-07 | cat |
 | [ble.sh](https://github.com/akinomyoga/ble.sh) | Bash Line Editor ― a line editor written in pure Bash with syntax highlighting, auto suggestions, vim modes, etc. for Bash interactive sessions. | 0.4.0-devel3 | 2023-04-03 |  |
 | [bottom](https://github.com/ClementTsang/bottom) | Yet another cross-platform graphical process/system monitor. | 0.10.2 | 2024-08-06 | top, htop |
-| [broot](https://dystroy.org/broot) | A new way to see and navigate directory trees | 1.46.4 | 2025-05-14 |  |
+| [broot](https://dystroy.org/broot) | A new way to see and navigate directory trees | 1.46.5 | 2025-05-30 |  |
 | [bunster](https://github.com/yassinebenaid/bunster) | Compile shell scripts to static binaries. | 0.13.0 | 2025-05-01 |  |
 | [bytehound](https://github.com/koute/bytehound) | A memory profiler for Linux. | 0.11.0 | 2022-11-23 |  |
 | [carapace](https://carapace.sh) | multi-shell multi-command argument completer | 1.3.2 | 2025-05-22 |  |
@@ -44,9 +44,9 @@
 | [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | 0.62.0 | 2025-05-04 | skim |
 | [gdu](https://github.com/dundee/gdu) | Fast disk usage analyzer with console interface written in Go | 5.30.1 | 2024-12-31 | du, dust, ncdu |
 | [git-cryp](https://www.agwa.name/projects/git-crypt) | Transparent file encryption in git | 0.7.0 | 2022-04-21 |  |
-| [git-who](https://github.com/sinclairtarget/git-who) | Git blame for file trees | 1.0 | 2025-05-18 |  |
+| [git-who](https://github.com/sinclairtarget/git-who) | Git blame for file trees | 1.1 | 2025-05-30 |  |
 | [gitleaks](https://github.com/gitleaks/gitleaks) | Protect and discover secrets using Gitleaks | 8.26.0 | 2025-05-13 |  |
-| [glow](https://github.com/charmbracelet/glow) | Render markdown on the CLI, with pizzazz! | 2.1.0 | 2025-02-26 |  |
+| [glow](https://github.com/charmbracelet/glow) | Render markdown on the CLI, with pizzazz! | 2.1.1 | 2025-05-30 |  |
 | [grype](https://github.com/anchore/grype) | A vulnerability scanner for container images and filesystems | 0.92.2 | 2025-05-21 |  |
 | [gtrash](https://github.com/umlx5h/gtrash) | A Featureful Trash CLI manager: alternative to rm and trash-cli | 0.0.6 | 2024-07-01 | trash-cli, trashy |
 | [helix](https://github.com/helix-editor/helix) | A post-modern modal text editor. | 25.01.1 | 2025-01-19 | vim, neovim |
@@ -67,7 +67,7 @@
 | [mold](https://github.com/rui314/mold) | Mold: A Modern Linker | 2.40.0 | 2025-05-26 | ld, lld, gold |
 | [multi-git-status](https://github.com/fboender/multi-git-status/archive/refs/tags/2.3.tar.gz) | Show uncommitted, untracked and unpushed changes for multiple Git repos | 2.3 | 2024-10-31 |  |
 | [navi](https://github.com/denisidoro/navi) | An interactive cheatsheet tool for the command-line | 2.24.0 | 2025-01-30 |  |
-| [neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 0.11.1 | 2025-04-27 | vim, helix |
+| [neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 0.11.2 | 2025-05-30 | vim, helix |
 | [ninja](https://github.com/ninja-build/ninja) | a small build system with a focus on speed | 1.12.1 | 2024-05-11 | make, samurai |
 | [nushell](https://nushell.sh) | A new type of shell | 0.104.1 | 2025-05-23 | bash, zsh, fish, powershell |
 | [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.9.0 | 2025-05-29 |  |
@@ -124,4 +124,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2025-05-29 23:50:50 (utc)_
+_last updated: 2025-05-31 09:05:13 (utc)_

@@ -2,8 +2,8 @@ name = "glow"
 description = "Render markdown on the CLI, with pizzazz!"
 homepage = "https://github.com/charmbracelet/glow"
 alternatives = []
-version = "2.1.0"
-updated = "2025-02-26"
+version = "2.1.1"
+updated = "2025-05-30"
 package-url = "https://github.com/charmbracelet/glow/releases/download/v{{version}}/glow_Linux_x86_64.tar.gz"
 
 [extract]
