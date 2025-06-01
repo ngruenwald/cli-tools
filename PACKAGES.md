@@ -37,7 +37,7 @@
 | [dust](https://github.com/bootandy/dust) | A more intuitive version of du in rust | 1.2.0 | 2025-04-02 | du |
 | [dysk](https://dystroy.org/dysk) | A linux utility to get information on filesystems, like df but better | 2.10.1 | 2025-05-13 | df, duf |
 | [envio](https://github.com/envio-cli/envio) | Envio is a modern and secure command-line tool that simplifies the management of environment variables | 0.6.1 | 2024-09-30 |  |
-| [evil-helix](https://github.com/usagi-flow/evil-helix) | Bringing the Helix editor to the evil side | 20250413 | 2025-04-14 | vim, neovim, helix |
+| [evil-helix](https://github.com/usagi-flow/evil-helix) | Bringing the Helix editor to the evil side | 20250601 | 2025-06-01 | vim, neovim, helix |
 | [eza](https://github.com/eza-community/eza) | A modern alternative to ls | 0.21.4 | 2025-05-31 | ls, lsd |
 | [fd](https://github.com/sharkdp/fd) | A simple, fast and user-friendly alternative to 'find' | 10.2.0 | 2024-08-23 | find |
 | [fq](https://github.com/wader/fq) | jq for binary formats - tool, language and decoders for working with binary and text formats | 0.15.0 | 2025-04-19 |  |
@@ -55,7 +55,7 @@
 | [hyperfine](https://github.com/sharkdp/hyperfine) | A command-line benchmarking tool | 1.19.0 | 2024-11-12 |  |
 | [java21-jre](https://adoptium.net) | OpenJDK 21 LTS | 21.0.7+6 | 2025-04-16 |  |
 | [jd](https://github.com/josephburnett/jd) | JSON diff and patch | 2.2.3 | 2025-05-08 |  |
-| [jq](https://github.com/jqlang/jq) | Command-line JSON processor | 1.7.1 | 2023-12-13 |  |
+| [jq](https://github.com/jqlang/jq) | Command-line JSON processor | 1.8.0 | 2025-06-01 |  |
 | [just](https://github.com/casey/just) | Just a command runner | 1.40.0 | 2025-03-10 | make, dotree, task |
 | [k9s](https://github.com/derailed/k9s) | Kubernetes CLI To Manage Your Clusters In Style! | 0.50.6 | 2025-05-13 |  |
 | [kcov](https://github.com/SimonKagstrom/kcov) | Code coverage tool for compiled programs, Python and Bash which uses debugging information to collect and report data without special compilation options | 43 | 2024-07-23 |  |
@@ -124,4 +124,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2025-05-31 17:06:32 (utc)_
+_last updated: 2025-06-01 15:25:17 (utc)_

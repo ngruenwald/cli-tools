@@ -2,8 +2,8 @@ name = "jq"
 description = "Command-line JSON processor"
 homepage = "https://github.com/jqlang/jq"
 alternatives = []
-version = "1.7.1"
-updated = "2023-12-13"
+version = "1.8.0"
+updated = "2025-06-01"
 package-url = "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-amd64"
 version-pattern = "jq-\\d+\\.\\d+(\\.\\d+)?$"
 
