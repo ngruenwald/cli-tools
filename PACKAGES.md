@@ -47,7 +47,7 @@
 | [git-who](https://github.com/sinclairtarget/git-who) | Git blame for file trees | 1.1 | 2025-05-30 |  |
 | [gitleaks](https://github.com/gitleaks/gitleaks) | Protect and discover secrets using Gitleaks | 8.27.2 | 2025-06-09 |  |
 | [glow](https://github.com/charmbracelet/glow) | Render markdown on the CLI, with pizzazz! | 2.1.1 | 2025-05-30 |  |
-| [grype](https://github.com/anchore/grype) | A vulnerability scanner for container images and filesystems | 0.92.2 | 2025-05-21 |  |
+| [grype](https://github.com/anchore/grype) | A vulnerability scanner for container images and filesystems | 0.93.0 | 2025-06-10 |  |
 | [gtrash](https://github.com/umlx5h/gtrash) | A Featureful Trash CLI manager: alternative to rm and trash-cli | 0.0.6 | 2024-07-01 | trash-cli, trashy |
 | [helix](https://github.com/helix-editor/helix) | A post-modern modal text editor. | 25.01.1 | 2025-01-19 | vim, neovim |
 | [hexyl](https://github.com/sharkdp/hexyl) | A command-line hex viewer | 0.16.0 | 2024-12-27 |  |
@@ -69,7 +69,7 @@
 | [navi](https://github.com/denisidoro/navi) | An interactive cheatsheet tool for the command-line | 2.24.0 | 2025-01-30 |  |
 | [neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 0.11.2 | 2025-05-30 | vim, helix |
 | [ninja](https://github.com/ninja-build/ninja) | a small build system with a focus on speed | 1.12.1 | 2024-05-11 | make, samurai |
-| [nushell](https://nushell.sh) | A new type of shell | 0.104.1 | 2025-05-23 | bash, zsh, fish, powershell |
+| [nushell](https://nushell.sh) | A new type of shell | 0.105.0 | 2025-06-10 | bash, zsh, fish, powershell |
 | [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.9.0 | 2025-05-29 |  |
 | [onefetch](https://onefetch.dev) | Command-line Git information tool | 2.24.0 | 2025-04-13 |  |
 | [openapi-generator](https://openapi-generator.tech) | OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3) | 7.13.0 | 2025-04-28 |  |
@@ -124,4 +124,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
 
-_last updated: 2025-06-09 20:00:26 (utc)_
+_last updated: 2025-06-10 17:46:43 (utc)_
