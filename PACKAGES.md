@@ -13,8 +13,8 @@
 | [cgen](https://github.com/ngruenwald/config-generator) | Create configuration parsers, schemas and documentation. | 0.5.0 | 2025-03-17 |  |
 | [clang-tools](https://github.com/llvm/llvm-project) | --- | 20.1.6 | 2025-05-29 |  |
 | [clangd](https://github.com/clangd/clangd) | clangd language server | 20.1.0 | 2025-03-12 |  |
-| [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 4.0.2 | 2025-05-05 |  |
-| [cmake3](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 3.31.7 | 2025-04-10 |  |
+| [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 4.0.3 | 2025-06-12 |  |
+| [cmake3](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 3.31.8 | 2025-06-12 |  |
 | [code-server](https://coder.com) | VS Code in the browser | 4.100.3 | 2025-06-04 |  |
 | [codon](https://github.com/exaloop/codon) | A high-performance, zero-overhead, extensible Python compiler using LLVM | 0.18.2 | 2025-03-19 |  |
 | [cppcheck](https://github.com/danmar/cppcheck) | --- | 2.17.1 | 2025-02-26 |  |
@@ -47,7 +47,7 @@
 | [git-who](https://github.com/sinclairtarget/git-who) | Git blame for file trees | 1.1 | 2025-05-30 |  |
 | [gitleaks](https://github.com/gitleaks/gitleaks) | Protect and discover secrets using Gitleaks | 8.27.2 | 2025-06-09 |  |
 | [glow](https://github.com/charmbracelet/glow) | Render markdown on the CLI, with pizzazz! | 2.1.1 | 2025-05-30 |  |
-| [grype](https://github.com/anchore/grype) | A vulnerability scanner for container images and filesystems | 0.93.0 | 2025-06-10 |  |
+| [grype](https://github.com/anchore/grype) | A vulnerability scanner for container images and filesystems | 0.94.0 | 2025-06-12 |  |
 | [gtrash](https://github.com/umlx5h/gtrash) | A Featureful Trash CLI manager: alternative to rm and trash-cli | 0.0.6 | 2024-07-01 | trash-cli, trashy |
 | [helix](https://github.com/helix-editor/helix) | A post-modern modal text editor. | 25.01.1 | 2025-01-19 | vim, neovim |
 | [hexyl](https://github.com/sharkdp/hexyl) | A command-line hex viewer | 0.16.0 | 2024-12-27 |  |
@@ -77,7 +77,7 @@
 | [powerline-go](https://github.com/justjanne/powerline-go) | A beautiful and useful low-latency prompt for your shell, written in go | 1.25 | 2024-11-26 | starship |
 | [procs](https://github.com/dalance/procs) | A modern replacement for ps written in Rust | 0.14.10 | 2025-03-28 | ps |
 | [protolint](https://github.com/yoheimuta/protolint) | A pluggable linter and fixer to enforce Protocol Buffer style and conventions | 0.55.6 | 2025-05-27 |  |
-| [python](https://python.org) | Python is a programming language that lets you work quickly and integrate systems more effectively. | 3.13.4 | 2025-06-04 |  |
+| [python](https://python.org) | Python is a programming language that lets you work quickly and integrate systems more effectively. | 3.13.5 | 2025-06-12 |  |
 | [qemu](https://www.qemu.org) | A generic and open source machine emulator and virtualizer. | 10.0.2 | 2025-05-28 |  |
 | [rainfrog](https://crates.io/crates/rainfrog) | a database management tui for postgres | 0.3.2 | 2025-06-06 |  |
 | [regctl](https://regclient.org) | Docker and OCI Registry Client in Go and tooling using those libraries. | 0.8.3 | 2025-04-24 |  |
@@ -93,7 +93,7 @@
 | [sqlc](https://sqlc.dev) | Generate type-safe code from SQL | 1.29.0 | 2025-04-17 |  |
 | [sshs](https://github.com/quantumsheep/sshs) | Terminal user interface for SSH | 4.7.2 | 2025-04-24 |  |
 | [starship](https://github.com/starship/starship) | The minimal, blazing-fast, and infinitely customizable prompt for any shell! | 1.23.0 | 2025-04-28 | powerline-go |
-| [syft](https://github.com/anchore/syft) | CLI tool and library for generating a Software Bill of Materials from container images and filesystems | 1.27.0 | 2025-06-09 |  |
+| [syft](https://github.com/anchore/syft) | CLI tool and library for generating a Software Bill of Materials from container images and filesystems | 1.27.1 | 2025-06-12 |  |
 | [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter | 5.4.5 | 2025-06-08 |  |
 | [task](https://github.com/go-task/task) | A task runner / simpler Make alternative written in Go | 3.44.0 | 2025-06-09 | make, dotree, just |
 | [tealdeer](https://github.com/dbrgn/tealdeer) | A very fast implementation of tldr in Rust. | 1.7.2 | 2025-03-19 | tldr, tlrc |
@@ -122,6 +122,6 @@
 | [zsh-fzf-tab](https://github.com/Aloxaf/fzf-tab/archive/refs/tags/v1.2.0.tar.gz) | Replace zsh's default completion selection menu with fzf! | 1.2.0 | 2025-02-18 |  |
 | [zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search/archive/refs/tags/v1.1.0.tar.gz) | ZSH port of Fish history search (up arrow) | 1.1.0 | 2023-07-28 |  |
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
-| [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.9.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.9.0 | 2024-08-30 |  |
+| [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.10.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.10.0 | 2025-06-12 |  |
 
-_last updated: 2025-06-11 18:12:49 (utc)_
+_last updated: 2025-06-12 18:44:29 (utc)_
