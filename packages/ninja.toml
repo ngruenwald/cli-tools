@@ -2,8 +2,8 @@ name = "ninja"
 description = "a small build system with a focus on speed"
 homepage = "https://github.com/ninja-build/ninja"
 alternatives = [ "make", "samurai",]
-version = "1.12.1"
-updated = "2024-05-11"
+version = "1.13.0"
+updated = "2025-06-18"
 package-url = "https://github.com/ninja-build/ninja/releases/download/v{{version}}/ninja-linux.zip"
 
 [extract]
