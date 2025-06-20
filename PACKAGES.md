@@ -9,7 +9,7 @@
 | [broot](https://dystroy.org/broot) | A new way to see and navigate directory trees | 1.46.5 | 2025-05-30 |  |
 | [bunster](https://github.com/yassinebenaid/bunster) | Compile shell scripts to static binaries. | 0.13.0 | 2025-05-01 |  |
 | [bytehound](https://github.com/koute/bytehound) | A memory profiler for Linux. | 0.11.0 | 2022-11-23 |  |
-| [carapace](https://carapace.sh) | multi-shell multi-command argument completer | 1.3.2 | 2025-05-22 |  |
+| [carapace](https://carapace.sh) | multi-shell multi-command argument completer | 1.3.3 | 2025-06-20 |  |
 | [cgen](https://github.com/ngruenwald/config-generator) | Create configuration parsers, schemas and documentation. | 0.5.0 | 2025-03-17 |  |
 | [clang-tools](https://github.com/llvm/llvm-project) | --- | 20.1.7 | 2025-06-13 |  |
 | [clangd](https://github.com/clangd/clangd) | clangd language server | 20.1.0 | 2025-03-12 |  |
@@ -124,4 +124,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.10.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.10.0 | 2025-06-12 |  |
 
-_last updated: 2025-06-18 20:01:57 (utc)_
+_last updated: 2025-06-20 06:54:55 (utc)_
