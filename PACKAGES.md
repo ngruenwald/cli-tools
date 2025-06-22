@@ -15,7 +15,7 @@
 | [clangd](https://github.com/clangd/clangd) | clangd language server | 20.1.0 | 2025-03-12 |  |
 | [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 4.0.3 | 2025-06-12 |  |
 | [cmake3](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 3.31.8 | 2025-06-12 |  |
-| [code-server](https://coder.com) | VS Code in the browser | 4.100.3 | 2025-06-04 |  |
+| [code-server](https://coder.com) | VS Code in the browser | 4.101.1 | 2025-06-22 |  |
 | [codon](https://github.com/exaloop/codon) | A high-performance, zero-overhead, extensible Python compiler using LLVM | 0.18.2 | 2025-03-19 |  |
 | [cppcheck](https://github.com/danmar/cppcheck) | --- | 2.17.1 | 2025-02-26 |  |
 | [cppfront](https://github.com/hsutter/cppfront) | A personal experimental C++ Syntax 2 -> Syntax 1 compiler -- NOT FOR COMMERICAL USE! | 0.8.1 | 2025-01-31 |  |
@@ -29,7 +29,7 @@
 | [dive](https://github.com/wagoodman/dive) | A tool for exploring each layer in a docker image | 0.13.1 | 2025-03-29 |  |
 | [doccheck](https://github.com/mag37/dockcheck) | CLI tool to automate docker image updates. Selective, notifications, autoprune, no pre-pulling. | 0.5.8.0 | 2025-03-16 | podcheck |
 | [doge](https://github.com/Dj-Codeman/doge) | Reviving A command-line DNS client. | 0.2.8 | 2024-12-04 | dig, dog |
-| [dotenvx](https://dotenvx.com) | a better dotenv–from the creator of `dotenv` | 1.44.2 | 2025-06-11 | cat |
+| [dotenvx](https://dotenvx.com) | a better dotenv–from the creator of `dotenv` | 1.45.1 | 2025-06-22 | cat |
 | [dotree](https://github.com/KnorrFG/dotree) | A small, interactive command runner | 0.8.2 | 2023-11-26 |  |
 | [doxygen](https://github.com/doxygen/doxygen) | Code Documentation. Automated. | 1_14_0 | 2025-05-24 |  |
 | [doxygen-awesome-css](https://github.com/jothepro/doxygen-awesome-css) | Code Documentation. Automated. | 2.3.4 | 2024-10-10 |  |
@@ -124,4 +124,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.10.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.10.0 | 2025-06-12 |  |
 
-_last updated: 2025-06-20 16:42:04 (utc)_
+_last updated: 2025-06-22 07:06:52 (utc)_
