@@ -82,7 +82,7 @@
 | [rainfrog](https://crates.io/crates/rainfrog) | a database management tui for postgres | 0.3.2 | 2025-06-06 |  |
 | [regctl](https://regclient.org) | Docker and OCI Registry Client in Go and tooling using those libraries. | 0.8.3 | 2025-04-24 |  |
 | [ripgrep](https://github.com/BurntSushi/ripgrep) | ripgrep recursively searches directories for a regex pattern while respecting your gitignore | 14.1.1 | 2024-09-09 | grep |
-| [runme](https://github.com/stateful/runme) | DevOps Workflows Built with Markdown | 3.14.0 | 2025-05-21 |  |
+| [runme](https://github.com/stateful/runme) | DevOps Workflows Built with Markdown | 3.14.1 | 2025-06-23 |  |
 | [rustcat](https://github.com/quantumsheep/sshs) | Rustcat(rcat) - The modern Port listener and Reverse shell | 3.0.0 | 2022-08-15 |  |
 | [scc](https://github.com/boyter/scc) | Sloc, Cloc and Code: scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go | 3.5.0 | 2025-02-17 | sloc, tokei |
 | [sd](https://github.com/chmln/sd) | Intuitive find & replace CLI (sed alternative) | 1.0.0 | 2023-11-08 | sed |
@@ -124,4 +124,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.10.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.10.0 | 2025-06-12 |  |
 
-_last updated: 2025-06-22 07:06:52 (utc)_
+_last updated: 2025-06-23 17:24:46 (utc)_
