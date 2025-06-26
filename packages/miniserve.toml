@@ -2,8 +2,8 @@ name = "miniserve"
 description = "For when you really just want to serve some files over HTTP right now!"
 homepage = "https://github.com/svenstaro/miniserve"
 alternatives = [ "simple-http-server", "see", "binserve", "http" ]
-version = "0.29.0"
-updated = "2025-02-06"
+version = "0.30.0"
+updated = "2025-06-26"
 package-url = "https://github.com/svenstaro/miniserve/releases/download/v{{version}}/miniserve-{{version}}-x86_64-unknown-linux-musl"
 
 [extract]
