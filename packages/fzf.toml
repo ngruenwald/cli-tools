@@ -9,3 +9,15 @@ package-url = "https://github.com/junegunn/fzf/releases/download/v{{version}}/fz
 [extract]
 strip = 0
 prefix = "{{vars.bin-path}}"
+
+#
+# build configuration
+#
+
+[build]
+package-url = "https://github.com/junegunn/fzf/releases/download/v{{version}}/fzf-{{version}}-linux_amd64.tar.gz"
+
+[[build.publish]]
+repository-name = "packages"
+repository-path = "fzf"
+files = ["fzf-{{version}}-linux_amd64.tar.gz"]

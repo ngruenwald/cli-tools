@@ -18,3 +18,15 @@ mode = "0755"
 [[extract.files]]
 source = "complete/zoxide.{{vars.shell-type}}"
 target = "{{vars.complete-path}}/_zoxide"
+
+#
+# build configuration
+#
+
+[build]
+package-url = "https://github.com/ajeetdsouza/zoxide/releases/download/v{{version}}/zoxide-{{version}}-x86_64-unknown-linux-musl.tar.gz"
+
+[[build.publish]]
+repository-name = "packages"
+repository-path = "zoxide"
+files = ["zoxide-{{version}}-x86_64-unknown-linux-musl.tar.gz"]
