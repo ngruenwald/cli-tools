@@ -20,7 +20,7 @@ package-url = "https://github.com/ninja-build/ninja/releases/download/v{{version
 command = ["unzip", "ninja-linux.zip"]
 
 [[build.step]]
-command = ["tar", "cf", "ninja-{{version}}.tar.gz", "ninja"]
+command = ["tar", "czvf", "ninja-{{version}}.tar.gz", "ninja"]
 
 [[build.publish]]
 repository-name = "packages"
