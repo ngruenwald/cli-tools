@@ -25,4 +25,4 @@ package-url = "https://github.com/starship/starship/releases/download/v{{version
 [[build.publish]]
 repository-name = "packages"
 repository-path = "starship"
-files = ["starship-x86_64-unknown-linux-musl.tar.gz"]
+files = ["starship-{{version}}-x86_64-unknown-linux-musl.tar.gz"]
