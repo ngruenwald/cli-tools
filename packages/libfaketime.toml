@@ -27,7 +27,7 @@ content = [
     "export PREFIX=/usr",
     "make",
     "make install",
-    "tar cJf libfaketime-{{version}}.$1.x86_64.tar.gz -C dist/$1 ."
+    "tar cJf libfaketime-{{version}}.$1.x86_64.tar.xz -C dist/$1 ."
 ]
 
 [[build.step]]
@@ -43,7 +43,7 @@ command = ["xcc", "el9", "sh", "build_libfaketime.sh", "el9"]
 repository-name = "packages"
 repository-path = "libfaketime"
 files = [
-    "libfaketime-{{version}}.el7.x86_64.tar.gz",
-    "libfaketime-{{version}}.el8.x86_64.tar.gz",
-    "libfaketime-{{version}}.el9.x86_64.tar.gz"
+    "libfaketime-{{version}}.el7.x86_64.tar.xz",
+    "libfaketime-{{version}}.el8.x86_64.tar.xz",
+    "libfaketime-{{version}}.el9.x86_64.tar.xz"
 ]
