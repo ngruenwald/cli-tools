@@ -2,8 +2,8 @@ name = "direnv"
 description = "unclutter your .profile"
 homepage = "https://github.com/direnv/direnv"
 alternatives = []
-version = "2.36.0"
-updated = "2025-04-11"
+version = "2.37.0"
+updated = "2025-07-02"
 package-url = "https://github.com/direnv/direnv/releases/download/v{{version}}/direnv.linux-amd64"
 
 [extract]
