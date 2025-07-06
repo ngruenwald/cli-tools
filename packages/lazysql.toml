@@ -1,0 +1,15 @@
+name = "lazysql"
+description = "A cross-platform TUI database management tool written in Go."
+homepage = "https://github.com/jorgerojas26/lazysql"
+alternatives = []
+version = "0.3.8"
+updated = "2025-07-04"
+package-url = "https://github.com/jorgerojas26/lazysql/releases/download/v{{version}}/lazysql_Linux_x86_64.tar.gz"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "lazysql"
+target = "{{vars.bin-path}}/lazysql"
+mode = "0755"
