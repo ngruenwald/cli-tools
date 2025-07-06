@@ -34,19 +34,21 @@ def create_command_check(subparsers: argparse._SubParsersAction) -> argparse.Arg
 def command_check(packages: list[Package], args) -> int:
 
     class CheckPackageInfo:
-        def __init__(self, host: str, owner: str, repo: str, version: str, pattern: str | None):
+        def __init__(self, host: str, owner: str, repo: str, version: str, pattern: str | None, no_warn: bool):
             self.host = host
             self.owner = owner
             self.repo = repo
             self.version = version
             self.pattern = pattern if pattern else r"^v?\d+\.\d+\.\d+$"
+            self.no_warn = no_warn
+            self.max_len = None
 
         @staticmethod
-        def create(url: str, version: str, pattern: str | None) -> "CheckPackageInfo":
+        def create(url: str, version: str, pattern: str | None, no_warn: bool) -> "CheckPackageInfo":
             from urllib.parse import urlparse
             m = urlparse(url)
             owner, repo = CheckPackageInfo.split_path(m.hostname, m.path)    # owner + repo = github specific?
-            return CheckPackageInfo(m.hostname, owner, repo, version, pattern)
+            return CheckPackageInfo(m.hostname, owner, repo, version, pattern, no_warn)
 
         @staticmethod
         def split_path(hostname: str, path: str) -> tuple[str, str]:
@@ -69,12 +71,13 @@ def command_check(packages: list[Package], args) -> int:
     def check_for_updates(pi: CheckPackageInfo) -> str|None:
         package = f"{pi.owner}/{pi.repo}"
 
-        atags = api_get_list(f"https://api.github.com/repos/{package}/tags")
+        atags = api_get_list(f"https://api.github.com/repos/{package}/tags", pi.max_len)
         tags = filter_tags(atags, pi.pattern)
         tags = sorted(tags, key=cmp_to_key(compare_tag_versions))
 
         if not tags:
-            print(f"! {pi.repo}: no tags")
+            if not pi.no_warn:
+                print(f"! {pi.repo}: no tags")
             return
 
         tag = tags[0]
@@ -85,14 +88,18 @@ def command_check(packages: list[Package], args) -> int:
             print(f"+ {pi.repo}: {pi.version} -> {tag_version}")
             return tag_version
         if cmp_result > 0:
-            print(f"- {pi.repo}: {pi.version} != {tag_version}")
+            if not pi.no_warn:
+                print(f"- {pi.repo}: {pi.version} != {tag_version}")
             return None
         return None
 
 
-    def api_get_list(url: str) -> list:
+    def api_get_list(url: str, max_len: int | None = None) -> list:
         response = api_get(url)
         data = list(response.json())
+
+        if max_len and len(data) >= max_len:
+            return data
 
         try:
             next_link = response.links["next"]["url"]
@@ -100,7 +107,7 @@ def command_check(packages: list[Package], args) -> int:
             next_link = None
 
         if next_link:
-            sub_data = api_get_list(next_link)
+            sub_data = api_get_list(next_link, (max_len - len(data) if max_len else None))
             data.extend(sub_data)
 
         return data
@@ -197,7 +204,9 @@ def command_check(packages: list[Package], args) -> int:
             url = package.query_url
             ver = package.version if package.version else "0.0.0"
             pat = package.version_pattern
-            pi = CheckPackageInfo.create(url, ver, pat)
+            now = package.no_warn
+            pi = CheckPackageInfo.create(url, ver, pat, now)
+            pi.max_len = package.max_tags
             new_version = check_for_updates(pi)
             if args.update and new_version:
                 changes.append(Change(package.package_file, package.name, package.version, new_version))

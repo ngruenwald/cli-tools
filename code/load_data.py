@@ -106,6 +106,8 @@ def load_package(filepath: str, data: dict) -> Package:
         extract = load_package_extract(data.get("extract", {}))
         post_commands: list[str] = data.get("post-commands", [])
         build: Build | None = load_package_build(data.get("build", None))
+        max_tags: int | None = data.get("max-tags", None)
+        no_warn: bool = data.get("no-warn", False)
         return Package(
             name,
             description,
@@ -120,7 +122,9 @@ def load_package(filepath: str, data: dict) -> Package:
             extract,
             post_commands,
             filepath,
-            build
+            build,
+            max_tags,
+            no_warn
         )
     except Exception as err:
         raise Exception(f"package '{name}': {err}")

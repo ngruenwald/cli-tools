@@ -5,6 +5,7 @@ alternatives = []
 version = "main"
 updated = "2022-09-05"
 package-url = "https://github.com/Freed-Wu/zsh-command-not-found/archive/refs/heads/main.tar.gz"
+no-warn = true
 
 [extract]
 strip = 1

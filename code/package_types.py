@@ -74,4 +74,6 @@ class Package:
     post_commands: list[str]
     package_file: str
     build: Build | None
+    max_tags: int | None
+    no_warn: bool
 # << types
