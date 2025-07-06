@@ -1,0 +1,15 @@
+name = "lazygit"
+description = "simple terminal UI for git commands"
+homepage = "https://github.com/jesseduffield/lazygit"
+alternatives = []
+version = "0.53.0"
+updated = "2025-07-05"
+package-url = "https://github.com/jesseduffield/lazygit/releases/download/v{{version}}/lazygit_{{version}}_Linux_x86_64.tar.gz"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "lazygit"
+target = "{{vars.bin-path}}/lazygit"
+mode = "0755"

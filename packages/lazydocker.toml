@@ -1,0 +1,15 @@
+name = "lazydocker"
+description = "The lazier way to manage everything docker"
+homepage = "https://github.com/jesseduffield/lazydocker"
+alternatives = []
+version = "0.24.1"
+updated = "2024-11-03"
+package-url = "https://github.com/jesseduffield/lazydocker/releases/download/v{{version}}/lazydocker_{{version}}_Linux_x86_64.tar.gz"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "lazydocker"
+target = "{{vars.bin-path}}/lazydocker"
+mode = "0755"
