@@ -91,7 +91,7 @@
 | [scc](https://github.com/boyter/scc) | Sloc, Cloc and Code: scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go | 3.5.0 | 2025-02-17 | sloc, tokei |
 | [sd](https://github.com/chmln/sd) | Intuitive find & replace CLI (sed alternative) | 1.0.0 | 2023-11-08 | sed |
 | [shellcheck](https://github.com/koalaman/shellcheck) | ShellCheck, a static analysis tool for shell scripts | 0.10.0 | 2024-03-08 |  |
-| [shfmt](https://github.com/mvdan/sh#shfmt) | A shell parser, formatter, and interpreter with bash support; includes shfmt | 3.11.0 | 2025-03-058 |  |
+| [shfmt](https://github.com/mvdan/sh#shfmt) | A shell parser, formatter, and interpreter with bash support; includes shfmt | 3.12.0 | 2025-07-07 |  |
 | [sonarscanner](https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/scanners/sonarscanner/) | The SonarScanner CLI is the scanner to use when there is no specific scanner for your build system. | 7.1.0.4889 | 2025-03-21 |  |
 | [sops](https://getsops.io) | Simple and flexible tool for managing secrets | 3.10.2 | 2025-04-15 | git-crypt |
 | [sqlc](https://sqlc.dev) | Generate type-safe code from SQL | 1.29.0 | 2025-04-17 |  |
@@ -128,4 +128,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.10.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.10.0 | 2025-06-12 |  |
 
-_last updated: 2025-07-06 17:36:03 (utc)_
+_last updated: 2025-07-07 04:48:37 (utc)_
