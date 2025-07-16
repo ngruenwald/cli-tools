@@ -2,8 +2,8 @@ name = "atuin"
 description = "Magical shell history"
 homepage = "https://atuin.sh"
 alternatives = [ "mcfly", "hishtory" ]
-version = "18.6.1"
-updated = "2025-05-09"
+version = "18.7.1"
+updated = "2025-07-16"
 package-url = "https://github.com/atuinsh/atuin/releases/download/v{{version}}/atuin-x86_64-unknown-linux-musl.tar.gz"
 post-commands = [ "{{vars.bin-path}}/atuin gen-completions --shell {{vars.shell-type}} --out-dir {{vars.complete-path}}"]
 
