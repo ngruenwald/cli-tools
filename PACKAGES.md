@@ -9,13 +9,13 @@
 | [broot](https://dystroy.org/broot) | A new way to see and navigate directory trees | 1.47.0 | 2025-06-27 |  |
 | [bunster](https://github.com/yassinebenaid/bunster) | Compile shell scripts to static binaries. | 0.13.0 | 2025-05-01 |  |
 | [bytehound](https://github.com/koute/bytehound) | A memory profiler for Linux. | 0.11.0 | 2022-11-23 |  |
-| [carapace](https://carapace.sh) | multi-shell multi-command argument completer | 1.3.3 | 2025-06-20 |  |
+| [carapace](https://carapace.sh) | multi-shell multi-command argument completer | 1.4.0 | 2025-07-18 |  |
 | [cgen](https://github.com/ngruenwald/config-generator) | Create configuration parsers, schemas and documentation. | 0.5.0 | 2025-03-17 |  |
 | [clang-tools](https://github.com/llvm/llvm-project) | --- | 20.1.8 | 2025-07-09 |  |
 | [clangd](https://github.com/clangd/clangd) | clangd language server | 20.1.8 | 2025-07-11 |  |
 | [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 4.0.3 | 2025-06-12 |  |
 | [cmake3](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 3.31.8 | 2025-06-12 |  |
-| [code-server](https://coder.com) | VS Code in the browser | 4.102.0 | 2025-07-17 |  |
+| [code-server](https://coder.com) | VS Code in the browser | 4.102.1 | 2025-07-18 |  |
 | [codon](https://github.com/exaloop/codon) | A high-performance, zero-overhead, extensible Python compiler using LLVM | 0.19.1 | 2025-07-14 |  |
 | [cppcheck](https://github.com/danmar/cppcheck) | --- | 2.17.1 | 2025-02-26 |  |
 | [cppfront](https://github.com/hsutter/cppfront) | A personal experimental C++ Syntax 2 -> Syntax 1 compiler -- NOT FOR COMMERICAL USE! | 0.8.1 | 2025-01-31 |  |
@@ -29,7 +29,7 @@
 | [dive](https://github.com/wagoodman/dive) | A tool for exploring each layer in a docker image | 0.13.1 | 2025-03-29 |  |
 | [doccheck](https://github.com/mag37/dockcheck) | CLI tool to automate docker image updates. Selective, notifications, autoprune, no pre-pulling. | 0.5.8.0 | 2025-03-16 | podcheck |
 | [doge](https://github.com/Dj-Codeman/doge) | Reviving A command-line DNS client. | 0.2.8 | 2024-12-04 | dig, dog |
-| [dotenvx](https://dotenvx.com) | a better dotenv–from the creator of `dotenv` | 1.47.6 | 2025-07-15 | cat |
+| [dotenvx](https://dotenvx.com) | a better dotenv–from the creator of `dotenv` | 1.48.0 | 2025-07-18 | cat |
 | [dotree](https://github.com/KnorrFG/dotree) | A small, interactive command runner | 0.8.2 | 2023-11-26 |  |
 | [doxygen](https://github.com/doxygen/doxygen) | Code Documentation. Automated. | 1.14.0 | 2025-05-24 |  |
 | [doxygen-awesome-css](https://github.com/jothepro/doxygen-awesome-css) | Code Documentation. Automated. | 2.3.4 | 2024-10-10 |  |
@@ -101,7 +101,7 @@
 | [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter | 5.4.5 | 2025-06-08 |  |
 | [task](https://github.com/go-task/task) | A task runner / simpler Make alternative written in Go | 3.44.0 | 2025-06-09 | make, dotree, just |
 | [tealdeer](https://github.com/dbrgn/tealdeer) | A very fast implementation of tldr in Rust. | 1.7.2 | 2025-03-19 | tldr, tlrc |
-| [television](https://github.com/alexpasmantier/television) | The revolution will (not) be televised | 0.12.4 | 2025-07-14 | fzf |
+| [television](https://github.com/alexpasmantier/television) | The revolution will (not) be televised | 0.12.5 | 2025-07-18 | fzf |
 | [teller](https://github.com/tellerops/teller) | Cloud native secrets management for developers - never leave your command line for secrets. | 2.0.7 | 2024-05-20 |  |
 | [termshark](https://github.com/gcla/termshark) | A terminal UI for tshark, inspired by Wireshark | 2.4.0 | 2022-07-12 |  |
 | [tlrc](https://github.com/tldr-pages/tlrc) | A tldr client written in Rust | 1.11.1 | 2025-05-06 | tldr, tealdeer |
@@ -110,7 +110,7 @@
 | [up](https://github.com/akavel/up) | Ultimate Plumber is a tool for writing Linux pipes with instant live preview | 0.4 | 2020-10-29 |  |
 | [upt](https://github.com/sigoden/upt) | Universal Package-management Tool for any OS. | 0.9.0 | 2024-10-31 |  |
 | [usql](https://github.com/xo/usql) | Universal command-line interface for SQL databases | 0.19.24 | 2025-05-20 |  |
-| [uv](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | 0.7.22 | 2025-07-17 | pip, pdm, poetry, rye |
+| [uv](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | 0.8.0 | 2025-07-18 | pip, pdm, poetry, rye |
 | [vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder | 0.10.0 | 2025-06-18 |  |
 | [viddy](https://github.com/sachaos/viddy) | A modern watch command. Time machine and pager etc. | 1.3.0 | 2024-11-29 | watch, hwatch |
 | [websocat](https://github.com/vi/websocat) | Command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions | 1.14.0 | 2024-11-12 |  |
@@ -128,4 +128,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.10.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.10.0 | 2025-06-12 |  |
 
-_last updated: 2025-07-17 17:50:54 (utc)_
+_last updated: 2025-07-18 05:37:33 (utc)_
