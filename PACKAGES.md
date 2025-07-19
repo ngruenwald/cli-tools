@@ -38,7 +38,7 @@
 | [dysk](https://dystroy.org/dysk) | A linux utility to get information on filesystems, like df but better | 2.10.1 | 2025-05-13 | df, duf |
 | [envio](https://github.com/envio-cli/envio) | Envio is a modern and secure command-line tool that simplifies the management of environment variables | 0.6.1 | 2024-09-30 |  |
 | [evil-helix](https://github.com/usagi-flow/evil-helix) | Bringing the Helix editor to the evil side | 20250601 | 2025-06-01 | vim, neovim, helix |
-| [eza](https://github.com/eza-community/eza) | A modern alternative to ls | 0.22.1 | 2025-07-13 | ls, lsd |
+| [eza](https://github.com/eza-community/eza) | A modern alternative to ls | 0.23.0 | 2025-07-19 | ls, lsd |
 | [fd](https://github.com/sharkdp/fd) | A simple, fast and user-friendly alternative to 'find' | 10.2.0 | 2024-08-23 | find |
 | [fq](https://github.com/wader/fq) | jq for binary formats - tool, language and decoders for working with binary and text formats | 0.15.1 | 2025-07-13 |  |
 | [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | 0.64.0 | 2025-07-06 | skim |
@@ -49,14 +49,14 @@
 | [glow](https://github.com/charmbracelet/glow) | Render markdown on the CLI, with pizzazz! | 2.1.1 | 2025-05-30 |  |
 | [grype](https://github.com/anchore/grype) | A vulnerability scanner for container images and filesystems | 0.96.0 | 2025-07-15 |  |
 | [gtrash](https://github.com/umlx5h/gtrash) | A Featureful Trash CLI manager: alternative to rm and trash-cli | 0.0.6 | 2024-07-01 | trash-cli, trashy |
-| [helix](https://github.com/helix-editor/helix) | A post-modern modal text editor. | 25.07 | 2025-07-16 | vim, neovim |
+| [helix](https://github.com/helix-editor/helix) | A post-modern modal text editor. | 25.07.1 | 2025-07-19 | vim, neovim |
 | [hexyl](https://github.com/sharkdp/hexyl) | A command-line hex viewer | 0.16.0 | 2024-12-27 |  |
 | [hwatch](https://github.com/blacknon/hwatch) | A modern alternative to the watch command, records the differences in execution results and can check this differences at after. | 0.3.19 | 2025-03-19 | watch, viddy |
 | [hyperfine](https://github.com/sharkdp/hyperfine) | A command-line benchmarking tool | 1.19.0 | 2024-11-12 |  |
 | [java21-jre](https://adoptium.net) | OpenJDK 21 LTS | 21.0.8+9 | 2025-07-17 |  |
 | [jd](https://github.com/josephburnett/jd) | JSON diff and patch | 2.2.3 | 2025-05-08 |  |
 | [jq](https://github.com/jqlang/jq) | Command-line JSON processor | 1.8.1 | 2025-07-01 |  |
-| [just](https://github.com/casey/just) | Just a command runner | 1.42.2 | 2025-07-16 | make, dotree, task |
+| [just](https://github.com/casey/just) | Just a command runner | 1.42.3 | 2025-07-19 | make, dotree, task |
 | [k9s](https://github.com/derailed/k9s) | Kubernetes CLI To Manage Your Clusters In Style! | 0.50.9 | 2025-07-16 |  |
 | [kcov](https://github.com/SimonKagstrom/kcov) | Code coverage tool for compiled programs, Python and Bash which uses debugging information to collect and report data without special compilation options | 43 | 2024-07-23 |  |
 | [kickstart](https://github.com/Keats/kickstart) | A scaffolding tool to get new projects up and running quickly | 0.5.0 | 2024-12-13 | cookiecutter, proji |
@@ -128,4 +128,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.10.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.10.0 | 2025-06-12 |  |
 
-_last updated: 2025-07-18 05:37:33 (utc)_
+_last updated: 2025-07-19 12:46:12 (utc)_
