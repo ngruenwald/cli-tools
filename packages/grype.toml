@@ -2,8 +2,8 @@ name = "grype"
 description = "A vulnerability scanner for container images and filesystems"
 homepage = "https://github.com/anchore/grype"
 alternatives = []
-version = "0.96.0"
-updated = "2025-07-15"
+version = "0.96.1"
+updated = "2025-07-22"
 package-url = "https://github.com/anchore/grype/releases/download/v{{version}}/grype_{{version}}_linux_amd64.tar.gz"
 
 [extract]
