@@ -15,7 +15,7 @@
 | [clangd](https://github.com/clangd/clangd) | clangd language server | 20.1.8 | 2025-07-11 |  |
 | [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 4.0.3 | 2025-06-12 |  |
 | [cmake3](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 3.31.8 | 2025-06-12 |  |
-| [code-server](https://coder.com) | VS Code in the browser | 4.102.1 | 2025-07-18 |  |
+| [code-server](https://coder.com) | VS Code in the browser | 4.102.2 | 2025-07-25 |  |
 | [codon](https://github.com/exaloop/codon) | A high-performance, zero-overhead, extensible Python compiler using LLVM | 0.19.1 | 2025-07-14 |  |
 | [cppcheck](https://github.com/danmar/cppcheck) | --- | 2.18.0 | 2025-07-21 |  |
 | [cppfront](https://github.com/hsutter/cppfront) | A personal experimental C++ Syntax 2 -> Syntax 1 compiler -- NOT FOR COMMERICAL USE! | 0.8.1 | 2025-01-31 |  |
@@ -56,7 +56,7 @@
 | [java21-jre](https://adoptium.net) | OpenJDK 21 LTS | 21.0.8+9 | 2025-07-17 |  |
 | [jd](https://github.com/josephburnett/jd) | JSON diff and patch | 2.2.3 | 2025-05-08 |  |
 | [jq](https://github.com/jqlang/jq) | Command-line JSON processor | 1.8.1 | 2025-07-01 |  |
-| [just](https://github.com/casey/just) | Just a command runner | 1.42.3 | 2025-07-19 | make, dotree, task |
+| [just](https://github.com/casey/just) | Just a command runner | 1.42.4 | 2025-07-25 | make, dotree, task |
 | [k9s](https://github.com/derailed/k9s) | Kubernetes CLI To Manage Your Clusters In Style! | 0.50.9 | 2025-07-16 |  |
 | [kcov](https://github.com/SimonKagstrom/kcov) | Code coverage tool for compiled programs, Python and Bash which uses debugging information to collect and report data without special compilation options | 43 | 2024-07-23 |  |
 | [kickstart](https://github.com/Keats/kickstart) | A scaffolding tool to get new projects up and running quickly | 0.5.0 | 2024-12-13 | cookiecutter, proji |
@@ -83,7 +83,7 @@
 | [protolint](https://github.com/yoheimuta/protolint) | A pluggable linter and fixer to enforce Protocol Buffer style and conventions | 0.55.6 | 2025-05-27 |  |
 | [python](https://python.org) | Python is a programming language that lets you work quickly and integrate systems more effectively. | 3.13.5 | 2025-06-12 |  |
 | [qemu](https://www.qemu.org) | A generic and open source machine emulator and virtualizer. | 10.0.3 | 2025-07-23 |  |
-| [rainfrog](https://crates.io/crates/rainfrog) | a database management tui for postgres | 0.3.3 | 2025-07-11 |  |
+| [rainfrog](https://crates.io/crates/rainfrog) | a database management tui for postgres | 0.3.4 | 2025-07-25 |  |
 | [regctl](https://regclient.org) | Docker and OCI Registry Client in Go and tooling using those libraries. | 0.9.0 | 2025-06-30 |  |
 | [ripgrep](https://github.com/BurntSushi/ripgrep) | ripgrep recursively searches directories for a regex pattern while respecting your gitignore | 14.1.1 | 2024-09-09 | grep |
 | [runme](https://github.com/stateful/runme) | DevOps Workflows Built with Markdown | 3.15.0 | 2025-07-14 |  |
@@ -110,7 +110,7 @@
 | [up](https://github.com/akavel/up) | Ultimate Plumber is a tool for writing Linux pipes with instant live preview | 0.4 | 2020-10-29 |  |
 | [upt](https://github.com/sigoden/upt) | Universal Package-management Tool for any OS. | 0.9.0 | 2024-10-31 |  |
 | [usql](https://github.com/xo/usql) | Universal command-line interface for SQL databases | 0.19.25 | 2025-07-20 |  |
-| [uv](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | 0.8.2 | 2025-07-23 | pip, pdm, poetry, rye |
+| [uv](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | 0.8.3 | 2025-07-25 | pip, pdm, poetry, rye |
 | [vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder | 0.10.0 | 2025-06-18 |  |
 | [viddy](https://github.com/sachaos/viddy) | A modern watch command. Time machine and pager etc. | 1.3.0 | 2024-11-29 | watch, hwatch |
 | [websocat](https://github.com/vi/websocat) | Command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions | 1.14.0 | 2024-11-12 |  |
@@ -128,4 +128,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.10.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.10.0 | 2025-06-12 |  |
 
-_last updated: 2025-07-24 20:10:38 (utc)_
+_last updated: 2025-07-25 05:33:03 (utc)_

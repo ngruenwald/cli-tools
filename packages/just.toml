@@ -2,8 +2,8 @@ name = "just"
 description = "Just a command runner"
 homepage = "https://github.com/casey/just"
 alternatives = [ "make", "dotree", "task",]
-version = "1.42.3"
-updated = "2025-07-19"
+version = "1.42.4"
+updated = "2025-07-25"
 package-url = "https://github.com/casey/just/releases/download/{{version}}/just-{{version}}-x86_64-unknown-linux-musl.tar.gz"
 
 [extract]
