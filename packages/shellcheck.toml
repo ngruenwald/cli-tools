@@ -2,8 +2,8 @@ name = "shellcheck"
 description = "ShellCheck, a static analysis tool for shell scripts"
 homepage = "https://github.com/koalaman/shellcheck"
 alternatives = []
-version = "0.10.0"
-updated = "2024-03-08"
+version = "0.11.0"
+updated = "2025-08-04"
 package-url = "https://github.com/koalaman/shellcheck/releases/download/v{{version}}/shellcheck-v{{version}}.linux.x86_64.tar.xz"
 
 [extract]
