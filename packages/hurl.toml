@@ -1,0 +1,28 @@
+name = "hurl"
+description = "Hurl, run and test HTTP requests with plain text."
+homepage = "https://hurl.dev"
+alternatives = []
+version = "7.0.0"
+updated = "2025-07-30"
+package-url = "https://github.com/Orange-OpenSource/hurl/releases/download/{{version}}/hurl-{{version}}-x86_64-unknown-linux-gnu.tar.gz"
+
+[extract]
+strip = 1
+
+[[extract.files]]
+source = "bin/hurl"
+target = "{{vars.bin-path}}/hurl"
+mode = "0755"
+
+[[extract.files]]
+source = "bin/hurlfmt"
+target = "{{vars.bin-path}}/hurlfmt"
+mode = "0755"
+
+[[extract.files]]
+source = "completions/{{vars.complete-prefix}}hurl{{vars.complete-suffix}}"
+target = "{{vars.complete-path}}/{{vars.complete-prefix}}hurl{{vars.complete-suffix}}"
+
+[[extract.files]]
+source = "completions/{{vars.complete-prefix}}hurlfmt{{vars.complete-suffix}}"
+target = "{{vars.complete-path}}/{{vars.complete-prefix}}hurlfmt{{vars.complete-suffix}}"
