@@ -2,8 +2,8 @@ name = "zellij"
 description = "Blazing fast terminal file manager written in Rust, based on async I/O."
 homepage = "https://github.com/zellij-org/zellij"
 alternatives = [ "tmux",]
-version = "0.42.2"
-updated = "2025-04-15"
+version = "0.43.0"
+updated = "2025-08-07"
 package-url = "https://github.com/zellij-org/zellij/releases/download/v{{version}}/zellij-x86_64-unknown-linux-musl.tar.gz"
 
 [extract]
