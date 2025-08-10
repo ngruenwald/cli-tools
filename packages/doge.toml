@@ -2,8 +2,8 @@ name = "doge"
 description = "Reviving A command-line DNS client."
 homepage = "https://github.com/Dj-Codeman/doge"
 alternatives = [ "dig", "dog",]
-version = "0.2.8"
-updated = "2024-12-04"
+version = "0.2.9"
+updated = "2025-08-10"
 package-url = "https://github.com/Dj-Codeman/doge/releases/download/v{{version}}/doge_linux_64bit"
 
 [extract]
