@@ -23,19 +23,19 @@
 | [curlie](https://github.com/rs/curlie) | The power of curl, the ease of use of httpie. | 1.8.2 | 2025-03-07 | httpie, xh |
 | [dasel](https://github.com/TomWright/dasel) | Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package. | 2.8.1 | 2024-06-30 |  |
 | [delta](https://github.com/dandavison/delta) | A syntax-highlighting pager for git, diff, grep, and blame output | 0.18.2 | 2024-09-11 |  |
-| [devbox](https://github.com/jetify-com/devbox) | Instant, easy, and predictable development environments | 0.15.1 | 2025-08-07 |  |
+| [devbox](https://github.com/jetify-com/devbox) | Instant, easy, and predictable development environments | 0.16.0 | 2025-08-21 |  |
 | [difftastic](https://github.com/Wilfred/difftastic) | a structural diff that understands syntax | 0.64.0 | 2025-06-16 | diff |
 | [direnv](https://github.com/direnv/direnv) | unclutter your .profile | 2.37.1 | 2025-07-21 |  |
 | [dive](https://github.com/wagoodman/dive) | A tool for exploring each layer in a docker image | 0.13.1 | 2025-03-29 |  |
 | [doccheck](https://github.com/mag37/dockcheck) | CLI tool to automate docker image updates. Selective, notifications, autoprune, no pre-pulling. | 0.5.8.0 | 2025-03-16 | podcheck |
 | [doge](https://github.com/Dj-Codeman/doge) | Reviving A command-line DNS client. | 0.2.9 | 2025-08-10 | dig, dog |
-| [dotenvx](https://dotenvx.com) | a better dotenv–from the creator of `dotenv` | 1.48.4 | 2025-07-30 | cat |
+| [dotenvx](https://dotenvx.com) | a better dotenv–from the creator of `dotenv` | 1.49.0 | 2025-08-21 | cat |
 | [dotree](https://github.com/KnorrFG/dotree) | A small, interactive command runner | 0.8.2 | 2023-11-26 |  |
 | [doxygen](https://github.com/doxygen/doxygen) | Code Documentation. Automated. | 1.14.0 | 2025-05-24 |  |
 | [doxygen-awesome-css](https://github.com/jothepro/doxygen-awesome-css) | Code Documentation. Automated. | 2.3.4 | 2024-10-10 |  |
 | [duf](https://github.com/muesli/duf) | Disk Usage/Free Utility - a better 'df' alternative | 0.8.1 | 2024-02-08 | df |
 | [dust](https://github.com/bootandy/dust) | A more intuitive version of du in rust | 1.2.3 | 2025-08-03 | du |
-| [dysk](https://dystroy.org/dysk) | A linux utility to get information on filesystems, like df but better | 2.10.1 | 2025-05-13 | df, duf |
+| [dysk](https://dystroy.org/dysk) | A linux utility to get information on filesystems, like df but better | 3.0.0 | 2025-08-21 | df, duf |
 | [envio](https://github.com/envio-cli/envio) | Envio is a modern and secure command-line tool that simplifies the management of environment variables | 0.6.1 | 2024-09-30 |  |
 | [evil-helix](https://github.com/usagi-flow/evil-helix) | Bringing the Helix editor to the evil side | 20250601 | 2025-06-01 | vim, neovim, helix |
 | [eza](https://github.com/eza-community/eza) | A modern alternative to ls | 0.23.0 | 2025-07-19 | ls, lsd |
@@ -75,13 +75,13 @@
 | [neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 0.11.3 | 2025-07-13 | vim, helix |
 | [ninja](https://github.com/ninja-build/ninja) | a small build system with a focus on speed | 1.13.1 | 2025-07-11 | make, samurai |
 | [nushell](https://nushell.sh) | A new type of shell | 0.106.1 | 2025-07-30 | bash, zsh, fish, powershell |
-| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.11.4 | 2025-08-10 |  |
+| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.11.6 | 2025-08-21 |  |
 | [onefetch](https://onefetch.dev) | Command-line Git information tool | 2.25.0 | 2025-07-06 |  |
 | [openapi-generator](https://openapi-generator.tech) | OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3) | 7.14.0 | 2025-06-25 |  |
 | [podcheck](https://github.com/sudo-kraken/podcheck) | CLI tool to automate podman image updates. Selective, notifications, autoprune, no pre-pulling. | 0.6.0 | 2025-02-25 | dockcheck |
 | [powerline-go](https://github.com/justjanne/powerline-go) | A beautiful and useful low-latency prompt for your shell, written in go | 1.25 | 2024-11-26 | starship |
 | [procs](https://github.com/dalance/procs) | A modern replacement for ps written in Rust | 0.14.10 | 2025-03-28 | ps |
-| [protolint](https://github.com/yoheimuta/protolint) | A pluggable linter and fixer to enforce Protocol Buffer style and conventions | 0.55.6 | 2025-05-27 |  |
+| [protolint](https://github.com/yoheimuta/protolint) | A pluggable linter and fixer to enforce Protocol Buffer style and conventions | 0.56.1 | 2025-08-21 |  |
 | [python](https://python.org) | Python is a programming language that lets you work quickly and integrate systems more effectively. | 3.13.7 | 2025-08-17 |  |
 | [qemu](https://www.qemu.org) | A generic and open source machine emulator and virtualizer. | 10.0.3 | 2025-07-23 |  |
 | [rainfrog](https://crates.io/crates/rainfrog) | a database management tui for postgres | 0.3.5 | 2025-08-17 |  |
@@ -111,7 +111,7 @@
 | [up](https://github.com/akavel/up) | Ultimate Plumber is a tool for writing Linux pipes with instant live preview | 0.4 | 2020-10-29 |  |
 | [upt](https://github.com/sigoden/upt) | Universal Package-management Tool for any OS. | 0.9.0 | 2024-10-31 |  |
 | [usql](https://github.com/xo/usql) | Universal command-line interface for SQL databases | 0.19.25 | 2025-07-20 |  |
-| [uv](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | 0.8.11 | 2025-08-17 | pip, pdm, poetry, rye |
+| [uv](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | 0.8.12 | 2025-08-21 | pip, pdm, poetry, rye |
 | [vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder | 0.10.0 | 2025-06-18 |  |
 | [viddy](https://github.com/sachaos/viddy) | A modern watch command. Time machine and pager etc. | 1.3.0 | 2024-11-29 | watch, hwatch |
 | [websocat](https://github.com/vi/websocat) | Command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions | 1.14.0 | 2024-11-12 |  |
@@ -129,4 +129,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.10.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.10.0 | 2025-06-12 |  |
 
-_last updated: 2025-08-17 08:15:58 (utc)_
+_last updated: 2025-08-21 05:16:56 (utc)_
