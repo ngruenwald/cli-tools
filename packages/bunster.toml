@@ -2,8 +2,8 @@ name = "bunster"
 description = "Compile shell scripts to static binaries."
 homepage = "https://github.com/yassinebenaid/bunster"
 alternatives = []
-version = "0.13.0"
-updated = "2025-05-01"
+version = "0.14.0"
+updated = "2025-08-22"
 package-url = "https://github.com/yassinebenaid/bunster/releases/download/v{{version}}/bunster_linux-amd64.tar.gz"
 
 [extract]
