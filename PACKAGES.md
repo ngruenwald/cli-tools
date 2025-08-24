@@ -85,7 +85,7 @@
 | [python](https://python.org) | Python is a programming language that lets you work quickly and integrate systems more effectively. | 3.13.7 | 2025-08-17 |  |
 | [qemu](https://www.qemu.org) | A generic and open source machine emulator and virtualizer. | 10.0.3 | 2025-07-23 |  |
 | [rainfrog](https://crates.io/crates/rainfrog) | a database management tui for postgres | 0.3.5 | 2025-08-17 |  |
-| [regctl](https://regclient.org) | Docker and OCI Registry Client in Go and tooling using those libraries. | 0.9.0 | 2025-06-30 |  |
+| [regctl](https://regclient.org) | Docker and OCI Registry Client in Go and tooling using those libraries. | 0.9.1 | 2025-08-24 |  |
 | [ripgrep](https://github.com/BurntSushi/ripgrep) | ripgrep recursively searches directories for a regex pattern while respecting your gitignore | 14.1.1 | 2024-09-09 | grep |
 | [runme](https://github.com/stateful/runme) | DevOps Workflows Built with Markdown | 3.15.1 | 2025-08-03 |  |
 | [rustcat](https://github.com/quantumsheep/sshs) | Rustcat(rcat) - The modern Port listener and Reverse shell | 3.0.0 | 2022-08-15 |  |
@@ -129,4 +129,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.10.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.10.0 | 2025-06-12 |  |
 
-_last updated: 2025-08-24 08:18:40 (utc)_
+_last updated: 2025-08-24 20:28:25 (utc)_
