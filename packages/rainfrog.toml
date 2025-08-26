@@ -2,8 +2,8 @@ name = "rainfrog"
 description = "a database management tui for postgres"
 homepage = "https://crates.io/crates/rainfrog"
 alternatives = []
-version = "0.3.5"
-updated = "2025-08-17"
+version = "0.3.6"
+updated = "2025-08-26"
 package-url = "https://github.com/achristmascarl/rainfrog/releases/download/v{{version}}/rainfrog-v{{version}}-i686-unknown-linux-musl.tar.gz"
 
 [extract]
