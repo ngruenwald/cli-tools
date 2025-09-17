@@ -68,7 +68,7 @@
 | [libfaketime](https://github.com/wolfcw/libfaketime) | libfaketime modifies the system time for a single application | 0.9.12 | 2025-06-09 |  |
 | [mcfly](https://github.com/cantino/mcfly) | Fly through your shell history. Great Scott! | 0.9.3 | 2025-02-12 | atuin, hishtory |
 | [mergiraf](https://mergiraf.org) | A syntax-aware git merge driver for a growing collection of programming languages and file formats. | 0.14.0 | 2025-09-03 |  |
-| [miniserve](https://github.com/svenstaro/miniserve) | For when you really just want to serve some files over HTTP right now! | 0.31.0 | 2025-06-28 | simple-http-server, see, binserve, http |
+| [miniserve](https://github.com/svenstaro/miniserve) | For when you really just want to serve some files over HTTP right now! | 0.32.0 | 2025-09-17 | simple-http-server, see, binserve, http |
 | [mold](https://github.com/rui314/mold) | Mold: A Modern Linker | 2.40.4 | 2025-08-17 | ld, lld, gold |
 | [multi-git-status](https://github.com/fboender/multi-git-status/archive/refs/tags/2.3.tar.gz) | Show uncommitted, untracked and unpushed changes for multiple Git repos | 2.3 | 2024-10-31 |  |
 | [navi](https://github.com/denisidoro/navi) | An interactive cheatsheet tool for the command-line | 2.24.0 | 2025-01-30 |  |
@@ -129,4 +129,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.10.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.10.0 | 2025-06-12 |  |
 
-_last updated: 2025-09-16 17:25:08 (utc)_
+_last updated: 2025-09-17 04:59:01 (utc)_
