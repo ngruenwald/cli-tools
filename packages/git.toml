@@ -36,6 +36,8 @@ content = [
 
 [[build.step]]
 command = ["xcc", "el8", "sh", "build_git.sh", "el8"]
+
+[[build.step]]
 command = ["xcc", "el9", "sh", "build_git.sh", "el9"]
 
 [[build.publish]]
