@@ -57,7 +57,7 @@ content = [
 ]
 
 [[build.step]]
-command = ["xcc", "el7", "sh", "build_helix.sh", "el7"]
+command = ["xcc", "el8", "sh", "build_helix.sh", "el8"]
 
 [[build.publish]]
 repository-name = "packages"
