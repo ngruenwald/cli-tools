@@ -1,0 +1,16 @@
+name = "sbom-utility"
+description = "Utility that provides an API platform for validating, querying and managing BOM data"
+homepage = "https://github.com/CycloneDX/sbom-utility"
+alternatives = []
+version = "0.18.1"
+updated = "2025-07-29"
+package-url = ""
+query-url = "https://github.com/CycloneDX/sbom-utility/releases/download/v{{version}}/sbom-utility-v{{version}}-linux-amd64.tar.gz"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "sbom-utility"
+target = "{{vars.bin-path}}/sbom-utility"
+mode = "0755"

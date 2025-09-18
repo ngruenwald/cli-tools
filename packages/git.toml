@@ -1,0 +1,47 @@
+name = "git"
+description = "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency."
+homepage = "https://git-scm.com"
+alternatives = []
+version = "2.51.0"
+updated = "2025-08-18"
+package-url = ""
+query-url = "https://github.com/git/git/archive/refs/tags/v{{version}}.tar.gz"
+
+[extract]
+strip = 1
+prefix = "{{vars.prefix-path}}"
+
+#
+# build configuration
+#
+
+[build]
+package-url = "https://github.com/git/git/archive/refs/tags/v{{version}}.tar.gz"
+
+[[build.script]]
+name = "build_git.sh"
+content = [
+    "set -e",
+    "mkdir git",
+    "tar xf v{{version}}.tar.gz --strip-components=1 -C git",
+    "cd git",
+    "make configure",
+    "./configure --prefix=$(pwd)/$1/dist",
+#    "make all -j {{vars.num-parallel}}",
+#    "make install",
+    "make prefix=$(pwd)/$1/dist profile",
+    "make prefix=$(pwd)/$1/dist PROFILE=BUILD install",
+    "tar cJf ../git-{{version}}-$1.x86_64.tar.xz -C $(pwd)/$1/dist ."
+]
+
+[[build.step]]
+command = ["xcc", "el8", "sh", "build_git.sh", "el8"]
+command = ["xcc", "el9", "sh", "build_git.sh", "el9"]
+
+[[build.publish]]
+repository-name = "packages"
+repository-path = "git"
+files = [
+    "git-{{version}}-el8.x86_64.tar.xz",
+    "git-{{version}}-el9.x86_64.tar.xz"
+]
