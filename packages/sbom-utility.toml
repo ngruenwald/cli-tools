@@ -14,3 +14,15 @@ strip = 0
 source = "sbom-utility"
 target = "{{vars.bin-path}}/sbom-utility"
 mode = "0755"
+
+#
+# build configuration
+#
+
+[build]
+package-url = "https://github.com/CycloneDX/sbom-utility/releases/download/v{{version}}/sbom-utility-v{{version}}-linux-amd64.tar.gz"
+
+[[build.publish]]
+repository-name = "packages"
+repository-path = "sbom-utility"
+files = ["sbom-utility-v{{version}}-linux-amd64.tar.gz"]
