@@ -2,8 +2,8 @@ name = "lazygit"
 description = "simple terminal UI for git commands"
 homepage = "https://github.com/jesseduffield/lazygit"
 alternatives = []
-version = "0.55.0"
-updated = "2025-09-06"
+version = "0.55.1"
+updated = "2025-09-18"
 package-url = "https://github.com/jesseduffield/lazygit/releases/download/v{{version}}/lazygit_{{version}}_Linux_x86_64.tar.gz"
 
 [extract]
