@@ -4,8 +4,7 @@ homepage = "https://github.com/CycloneDX/sbom-utility"
 alternatives = []
 version = "0.18.1"
 updated = "2025-07-29"
-package-url = ""
-query-url = "https://github.com/CycloneDX/sbom-utility/releases/download/v{{version}}/sbom-utility-v{{version}}-linux-amd64.tar.gz"
+package-url = "https://github.com/CycloneDX/sbom-utility/releases/download/v{{version}}/sbom-utility-v{{version}}-linux-amd64.tar.gz"
 
 [extract]
 strip = 0
