@@ -29,7 +29,7 @@
 | [dive](https://github.com/wagoodman/dive) | A tool for exploring each layer in a docker image | 0.13.1 | 2025-03-29 |  |
 | [doccheck](https://github.com/mag37/dockcheck) | CLI tool to automate docker image updates. Selective, notifications, autoprune, no pre-pulling. | 0.5.8.0 | 2025-03-16 | podcheck |
 | [doge](https://github.com/Dj-Codeman/doge) | Reviving A command-line DNS client. | 0.2.9 | 2025-08-10 | dig, dog |
-| [dotenvx](https://dotenvx.com) | a better dotenv–from the creator of `dotenv` | 1.49.1 | 2025-09-16 | cat |
+| [dotenvx](https://dotenvx.com) | a better dotenv–from the creator of `dotenv` | 1.50.1 | 2025-09-19 | cat |
 | [dotree](https://github.com/KnorrFG/dotree) | A small, interactive command runner | 0.8.2 | 2023-11-26 |  |
 | [doxygen](https://github.com/doxygen/doxygen) | Code Documentation. Automated. | 1.14.0 | 2025-05-24 |  |
 | [doxygen-awesome-css](https://github.com/jothepro/doxygen-awesome-css) | Code Documentation. Automated. | 2.3.4 | 2024-10-10 |  |
@@ -76,7 +76,7 @@
 | [neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 0.11.4 | 2025-08-31 | vim, helix |
 | [ninja](https://github.com/ninja-build/ninja) | a small build system with a focus on speed | 1.13.1 | 2025-07-11 | make, samurai |
 | [nushell](https://nushell.sh) | A new type of shell | 0.107.0 | 2025-09-03 | bash, zsh, fish, powershell |
-| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.11.11 | 2025-09-15 |  |
+| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.12.0 | 2025-09-19 |  |
 | [onefetch](https://onefetch.dev) | Command-line Git information tool | 2.25.0 | 2025-07-06 |  |
 | [openapi-generator](https://openapi-generator.tech) | OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3) | 7.15.0 | 2025-08-22 |  |
 | [podcheck](https://github.com/sudo-kraken/podcheck) | CLI tool to automate podman image updates. Selective, notifications, autoprune, no pre-pulling. | 0.7.1 | 2025-09-16 | dockcheck |
@@ -131,4 +131,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.10.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.10.0 | 2025-06-12 |  |
 
-_last updated: 2025-09-18 16:19:41 (utc)_
+_last updated: 2025-09-19 04:14:57 (utc)_
