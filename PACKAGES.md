@@ -15,7 +15,7 @@
 | [clangd](https://github.com/clangd/clangd) | clangd language server | 21.1.0 | 2025-08-27 |  |
 | [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 4.1.1 | 2025-08-27 |  |
 | [cmake3](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 3.31.8 | 2025-06-12 |  |
-| [code-server](https://coder.com) | VS Code in the browser | 4.104.0 | 2025-09-16 |  |
+| [code-server](https://coder.com) | VS Code in the browser | 4.104.1 | 2025-09-20 |  |
 | [codon](https://github.com/exaloop/codon) | A high-performance, zero-overhead, extensible Python compiler using LLVM | 0.19.3 | 2025-08-17 |  |
 | [cppcheck](https://github.com/danmar/cppcheck) | --- | 2.18.3 | 2025-09-03 |  |
 | [cppfront](https://github.com/hsutter/cppfront) | A personal experimental C++ Syntax 2 -> Syntax 1 compiler -- NOT FOR COMMERICAL USE! | 0.8.1 | 2025-01-31 |  |
@@ -114,11 +114,11 @@
 | [up](https://github.com/akavel/up) | Ultimate Plumber is a tool for writing Linux pipes with instant live preview | 0.4 | 2020-10-29 |  |
 | [upt](https://github.com/sigoden/upt) | Universal Package-management Tool for any OS. | 0.9.0 | 2024-10-31 |  |
 | [usql](https://github.com/xo/usql) | Universal command-line interface for SQL databases | 0.19.25 | 2025-07-20 |  |
-| [uv](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | 0.8.18 | 2025-09-18 | pip, pdm, poetry, rye |
+| [uv](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | 0.8.19 | 2025-09-20 | pip, pdm, poetry, rye |
 | [vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder | 0.10.0 | 2025-06-18 |  |
 | [viddy](https://github.com/sachaos/viddy) | A modern watch command. Time machine and pager etc. | 1.3.0 | 2024-11-29 | watch, hwatch |
 | [websocat](https://github.com/vi/websocat) | Command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions | 1.14.0 | 2024-11-12 |  |
-| [xh](https://github.com/ducaale/xh) | Friendly and fast tool for sending HTTP requests | 0.24.1 | 2025-05-02 | httpie, curlie |
+| [xh](https://github.com/ducaale/xh) | Friendly and fast tool for sending HTTP requests | 0.25.0 | 2025-09-20 | httpie, curlie |
 | [xq](https://github.com/sibprogrammer/xq) | Command-line XML and HTML beautifier and content extractor | 1.3.0 | 2024-12-23 |  |
 | [yazi](https://github.com/sxyazi/yazi) | Blazing fast terminal file manager written in Rust, based on async I/O. | 25.5.31 | 2025-05-31 | ranger |
 | [yq](https://github.com/mikefarah/yq) | yq is a portable command-line YAML, JSON, XML, CSV, TOML and properties processor | 4.47.2 | 2025-09-09 |  |
@@ -132,4 +132,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.10.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.10.0 | 2025-06-12 |  |
 
-_last updated: 2025-09-19 16:31:26 (utc)_
+_last updated: 2025-09-20 07:34:47 (utc)_
