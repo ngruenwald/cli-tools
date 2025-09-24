@@ -2,8 +2,8 @@ name = "git-cryp"
 description = "Transparent file encryption in git"
 homepage = "https://www.agwa.name/projects/git-crypt"
 alternatives = []
-version = "0.7.0"
-updated = "2022-04-21"
+version = "0.8.0"
+updated = "2025-09-24"
 package-url = "https://github.com/AGWA/git-crypt/releases/download/{{version}}/git-crypt-{{version}}-linux-x86_64"
 
 [extract]
