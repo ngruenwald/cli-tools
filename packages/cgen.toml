@@ -18,15 +18,14 @@ package-url = "https://github.com/ngruenwald/config-generator/archive/refs/tags/
 name = "build_cgen.sh"
 content = [
     "set -e",
+    "apk add python3 py3-build",
     "mkdir source",
     "tar xzf v{{version}}.tar.gz --strip-components=1 -C source",
-    "python3 -m pip install --upgrade build",
     "python3 -m build --outdir . source"
 ]
 
 [[build.step]]
-name = "build clang tools"
-command = ["xcc", "el9", "sh", "build_cgen.sh"]
+command = ["podman", "run", "--rm", "-it", "-v", "$PWD:$PWD", "-w", "$PWD", "alpine:3.22", "sh", "build_cgen.sh"]
 
 [[build.publish]]
 repository-name = "python"
