@@ -22,24 +22,30 @@ package-url = "https://github.com/danmar/cppcheck/archive/refs/tags/{{version}}.
 name = "build_cppcheck.sh"
 content = [
     "set -e",
-    "export PATH=/opt/python/bin:$PATH",
+    "apk add \\",
+    "  binutils boost-dev boost-static cmake compiler-rt g++ \\",
+    "  libunwind-static lld make musl-dev pcre-dev pcre-static python3 xz ",
+    "rm /usr/lib/libpcre.so*",
     "tar xzf {{version}}.tar.gz --strip-components=1",
     "cmake -S . -B build \\",
     "  -D CMAKE_BUILD_TYPE=MinSizeRel \\",
     "  -D CMAKE_INSTALL_PREFIX=/usr \\",
+    "  -D CMAKE_EXE_LINKER_FLAGS=-static \\",
+    "  -D CMAKE_FIND_LIBRARY_SUFFIXES=.a \\",
     "  -D HAVE_RULES=ON \\",
-    "  -D USE_MATCHCOMPILER=On",  # 'On' on purpose?
-#    "cmake --build build --config MinSizeRel --parallel {{vars.num-parallel}}",
+    "  -D USE_MATCHCOMPILER=On",
     "cmake --build build --config MinSizeRel --target install/local",
+    "strip --strip-unneeded build/bin/cppcheck",
     "mkdir -p dist/bin dist/share/Cppcheck",
     "cp build/bin/cppcheck dist/bin",
-    "cp -r build/bin/{addons,cfg,platforms} dist/share/Cppcheck",
+    "cp -r build/bin/addons dist/share/Cppcheck/",
+    "cp -r build/bin/cfg dist/share/Cppcheck/",
+    "cp -r build/bin/platforms dist/share/Cppcheck/",
     "tar cJf cppcheck-{{version}}.linux.x86_64.tar.xz -C dist ."
 ]
 
 [[build.step]]
-# name = "build-el7"
-command = ["xcc", "el7", "sh", "build_cppcheck.sh", "el7"]
+command = ["podman", "run", "--rm", "-it", "-v", "$PWD:$PWD", "-w", "$PWD", "alpine:3.22", "sh", "build_cppcheck.sh"]
 
 [[build.publish]]
 repository-name = "packages"

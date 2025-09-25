@@ -22,13 +22,15 @@ version-pattern = "v\\d+\\.\\d+\\.\\d+$"
 name = "build_cppfront.sh"
 content = [
     "set -e",
+    "apk add g++ lld xz",
     "tar xzf v{{version}}.tar.gz --strip-components=1",
-    "g++ source/cppfront.cpp -std=c++20 -o cppfront",
+    "g++ source/cppfront.cpp -std=c++20 -static -o cppfront",
+    "strip --strip-unneeded cppfront",
     "tar cJf cppfront-{{version}}.linux.x86_64.tar.xz cppfront"
 ]
 
 [[build.step]]
-command = ["xcc", "el7", "sh", "build_cppfront.sh", "el7"]
+command = ["podman", "run", "--rm", "-it", "-v", "$PWD:$PWD", "-w", "$PWD", "alpine:3.22", "sh", "build_cppfront.sh"]
 
 [[build.publish]]
 repository-name = "packages"
