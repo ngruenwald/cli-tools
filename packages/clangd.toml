@@ -27,7 +27,21 @@ is_folder = true
 [build]
 package-url = "https://github.com/clangd/clangd/releases/download/{{version}}/clangd-linux-{{version}}.zip"
 
+[[build.step]]
+command = ["unzip", "-q", "clangd-linux-{{version}}.zip"]
+
+[[build.step]]
+command = ["rm", "clangd-linux-{{version}}.zip"]
+
+[[build.step]]
+command = ["strip", "--strip-unneeded", "clangd_{{version}}/bin/clangd" ]
+
+[[build.step]]
+#command = ["tar", "czvf", "clangd-linux-{{version}}.tar.gz", "clangd_{{version}}"]
+command = ["zip", "-q", "-R", "clangd-linux-{{version}}.zip", "clangd_{{version}}"]
+
 [[build.publish]]
 repository-name = "packages"
 repository-path = "clangd"
+#files = ["clangd-linux-{{version}}.tar.gz"]
 files = ["clangd-linux-{{version}}.zip"]
