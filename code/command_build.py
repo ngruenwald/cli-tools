@@ -71,8 +71,12 @@ def command_build(packages: list[Package], args) -> int:
 
     def execute_build_step(step: BuildStep, workdir: str) -> bool:
         try:
-            logging.debug(f"executing command: {step.command}")
-            proc = Popen(step.command, cwd=workdir)
+            def filter(x: str) -> str:
+                return x.replace("$PWD", workdir)
+
+            command = [filter(x) for x in step.command]
+            logging.debug(f"executing command: {command}")
+            proc = Popen(command, cwd=workdir)
             return proc.wait() == 0
         except Exception as error:
             logging.error(error)
