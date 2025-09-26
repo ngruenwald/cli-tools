@@ -35,7 +35,7 @@ content = [
     "  -D HAVE_RULES=ON \\",
     "  -D USE_MATCHCOMPILER=On",
     "cmake --build build --config MinSizeRel --target install/local",
-    "strip --strip-unneeded build/bin/cppcheck",
+    "strip --strip-all build/bin/cppcheck",
     "mkdir -p dist/bin dist/share/Cppcheck",
     "cp build/bin/cppcheck dist/bin",
     "cp -r build/bin/addons dist/share/Cppcheck/",

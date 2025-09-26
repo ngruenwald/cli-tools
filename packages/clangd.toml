@@ -34,11 +34,11 @@ command = ["unzip", "-q", "clangd-linux-{{version}}.zip"]
 command = ["rm", "clangd-linux-{{version}}.zip"]
 
 [[build.step]]
-command = ["strip", "--strip-unneeded", "clangd_{{version}}/bin/clangd" ]
+command = ["strip", "--strip-all", "clangd_{{version}}/bin/clangd" ]
 
 [[build.step]]
 #command = ["tar", "czvf", "clangd-linux-{{version}}.tar.gz", "clangd_{{version}}"]
-command = ["zip", "-q", "-R", "clangd-linux-{{version}}.zip", "clangd_{{version}}"]
+command = ["zip", "-q", "-r", "clangd-linux-{{version}}.zip", "clangd_{{version}}"]
 
 [[build.publish]]
 repository-name = "packages"

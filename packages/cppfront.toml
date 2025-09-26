@@ -25,7 +25,7 @@ content = [
     "apk add g++ lld xz",
     "tar xzf v{{version}}.tar.gz --strip-components=1",
     "g++ source/cppfront.cpp -std=c++20 -static -o cppfront",
-    "strip --strip-unneeded cppfront",
+    "strip --strip-all cppfront",
     "tar cJf cppfront-{{version}}.linux.x86_64.tar.xz cppfront"
 ]
 

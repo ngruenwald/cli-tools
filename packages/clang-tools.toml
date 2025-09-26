@@ -33,12 +33,12 @@ content = [
     "  -D LLVM_BUILD_STATIC=on \\",
     "  -D Python3_ROOT_DIR=/opt/python",
     "cmake --build build --parallel {{vars.num-parallel}} --target clang-format clang-query clang-tidy",
-    "strip --strip-unneeded build/bin/clang-format",
-    "strip --strip-unneeded build/bin/clang-tidy",
-    "strip --strip-unneeded build/bin/clang-query",
-    "strip --strip-unneeded build/bin/clang-tblgen",
-    "strip --strip-unneeded build/bin/llvm-min-tblgen",
-    "strip --strip-unneeded build/bin/llvm-tblgen",
+    "strip --strip-all build/bin/clang-format",
+    "strip --strip-all build/bin/clang-tidy",
+    "strip --strip-all build/bin/clang-query",
+    "strip --strip-all build/bin/clang-tblgen",
+    "strip --strip-all build/bin/llvm-min-tblgen",
+    "strip --strip-all build/bin/llvm-tblgen",
     "tar cJf clang-tools-{{version}}.linux.x86_64.tar.xz -C build/bin ."
 ]
 
