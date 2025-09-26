@@ -53,6 +53,7 @@ content = [
     "cp -r runtime/queries    _dist_/helix-{{version}}-x86_64-linux/runtime/",
     "cp -r runtime/themes     _dist_/helix-{{version}}-x86_64-linux/runtime/",
     "cp -r contrib/completion _dist_/helix-{{version}}-x86_64-linux/contrib/",
+    "strip --strip-all _dist_/evil-helix-{{version}}-x86_64-linux/hx",
     "echo \"creating package...\"",
     "tar cJf ../helix-{{version}}-x86_64-linux.tar.xz -C _dist_ .",
     "cd ..",
