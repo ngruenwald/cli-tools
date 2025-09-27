@@ -17,28 +17,51 @@ prefix = "{{vars.prefix-path}}"
 
 [build]
 query-url = "https://github.com/qemu/qemu/archive/refs/tags/v{{version}}.tar.gz"
-#package-url = "https://download.qemu.org/qemu-{{version}}.tar.xz"
-package-url = "https://10.172.113.102/src/qemu/qemu-{{version}}.tar.xz"
+package-url = "https://download.qemu.org/qemu-{{version}}.tar.xz"
+#package-url = "https://10.172.113.102/src/qemu/qemu-{{version}}.tar.xz"
 verify-ssl = false
 
 [[build.script]]
 name = "build_qemu.sh"
 content = [
     "set -e",
-    "dnf -y install \\",
-    "  bzip2-devel capstone-devel glib2-devel libaio-devel libcap-ng-devel \\",
-    "  libfdt-devel libiscsi-devel meson pixman-devel zlib-devel",
-    "[[ \"$1\" == \"el8\" ]] && dnf -y reinstall glib2 glib2-devel pcre-devel",
-    "[[ \"$1\" == \"el8\" ]] && dnf -y install python38",
+
+    "apk add \\",
+    "  bash \\",
+    "  bison \\",
+    "  flex \\",
+    "  gcc \\",
+    "  git \\",
+    "  glib-dev glib-static \\",
+    "  libc-dev \\",
+    "  linux-headers \\",
+    "  make \\",
+    "  patch \\",
+    "  pcre2-dev pcre2-static \\",
+    "  perl \\",
+    "  pkgconf \\",
+    "  python3 \\",
+    "  samurai \\",
+    "  valgrind-dev \\",
+    "  xz \\",
+    "  zlib-dev zlib-static",
+
     "mkdir qemu",
     "tar xJf qemu-{{version}}.tar.xz --strip-components=1 -C qemu",
     "cd qemu",
+
+    "export LDFLAGS=\"-static\"",
+    "export PKG_CONFIG=\"pkg-config --static\"",
+
     "./configure \\",
-    "  --prefix=$(pwd)/$1/dist \\",
+    "  --prefix=$(pwd)/dist \\",
     "  --target-list=arm-linux-user,aarch64-linux-user \\",
     "  --enable-strip \\",
     "  --enable-user \\",
     "  --enable-linux-user \\",
+    "  --enable-membarrier \\",
+    "  --enable-valgrind \\",
+    "  --disable-debug-info \\",
     "  --disable-system \\",
     "  --disable-alsa \\",
     "  --disable-coreaudio \\",
@@ -57,24 +80,22 @@ content = [
     "  --disable-vnc-sasl \\",
     "  --disable-rdma \\",
     "  --disable-vhost-vdpa \\",
-    "  --disable-opengl",
-    "make -j {{vars.num-parallel}}",
+    "  --disable-opengl \\",
+    "  --static",
+
+    "make -j {{vars.num-parallel}} LDFLAGS=\"-static -all-static\"",
     "make install",
-    "tar cJf ../qemu-{{version}}-$1.x86_64.tar.xz -C $(pwd)/$1/dist .",
+
+    "tar cJf ../qemu-{{version}}-linux.x86_64.tar.xz -C $(pwd)/dist .",
+
     "cd ..",
     "rm -rf qemu"  #  workaround, our host process will fail to remove the temp folder
 ]
 
-#[[build.step]]
-#command = ["xcc", "el8", "sh", "build_qemu.sh", "el8"]
-
 [[build.step]]
-command = ["xcc", "el9", "sh", "build_qemu.sh", "el9"]
+command = ["podman", "run", "--rm", "-it", "-v", "$PWD:$PWD", "-w", "$PWD", "alpine:3.22", "sh", "build_qemu.sh"]
 
 [[build.publish]]
 repository-name = "packages"
 repository-path = "qemu"
-files = [
-#    "qemu-{{version}}-el8.x86_64.tar.xz",
-    "qemu-{{version}}-el9.x86_64.tar.xz"
-]
+files = ["qemu-{{version}}-linux.x86_64.tar.xz"]

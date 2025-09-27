@@ -31,16 +31,31 @@ package-url = "https://github.com/usagi-flow/evil-helix/archive/refs/tags/releas
 name = "build_helix.sh"
 content = [
     "set -e",
-    "curl -SLk -o rustup-init.sh https://sh.rustup.rs",
-    "sh rustup-init.sh -y",
-    "source /root/.cargo/env",
+
+    "apk add \\",
+    "  cargo \\",
+    "  clang \\",
+    "  git \\",
+    "  glib-dev glib-static \\",
+    "  libc-dev \\",
+    "  lld \\",
+    "  rust",
+
+    "export CC=clang",
+    "export CXX=clang++",
+    "export CFLAGS=\"-static\"",
+    "export CCFLAGS=\"-static\"",
+    "export CXXFLAGS=\"-static\",
+    "export LDFLAGS=\"-static\"",
+    "export PKG_CONFIG=\"pkg-config --static\"",
+    "export RUSTFLAGS=\"-C target-feature=+crt-static\"",
+
     "mkdir helix-build",
     "cd helix-build",
     "tar xzf ../release-{{version}}.tar.gz --strip-components=1",
-#    "cd runtime/grammars/sources",
-#    "git config --global --add safe.directory \"*\"",
-#    "cd ../../..",
-    "cargo install --path helix-term --locked",
+
+    "cargo install --target x86_64-alpine-linux-musl --path helix-term --locked",
+
     "mkdir -p _dist_/evil-helix-{{version}}-x86_64-linux/contrib",
     "mkdir -p _dist_/evil-helix-{{version}}-x86_64-linux/runtime/grammars",
     "cp /root/.cargo/bin/hx   _dist_/evil-helix-{{version}}-x86_64-linux/",
@@ -49,16 +64,22 @@ content = [
     "cp -r runtime/queries    _dist_/evil-helix-{{version}}-x86_64-linux/runtime/",
     "cp -r runtime/themes     _dist_/evil-helix-{{version}}-x86_64-linux/runtime/",
     "cp -r contrib/completion _dist_/evil-helix-{{version}}-x86_64-linux/contrib/",
+
+    "mkdir -p _dist_/evil-helix-{{version}}-x86_64-linux/lib",
+    "cp /lib/ld-musl-x86_64.so.1 _dist_/evil-helix-{{version}}-x86_64-linux/lib",
+
     "strip --strip-all _dist_/evil-helix-{{version}}-x86_64-linux/hx",
+
     "echo \"creating package...\"",
     "cd _dist_",
     "tar cJf ../../helix-evil-{{version}}-x86_64-linux.tar.xz evil-helix-{{version}}-x86_64-linux",
+
     "cd ../..",
     "rm -rf helix-build"
 ]
 
 [[build.step]]
-command = ["xcc", "el8", "sh", "build_helix.sh", "el8"]
+command = ["podman", "run", "--rm", "-it", "-v", "$PWD:$PWD", "-w", "$PWD", "alpine:3.22", "sh", "build_helix.sh"]
 
 [[build.publish]]
 repository-name = "packages"
