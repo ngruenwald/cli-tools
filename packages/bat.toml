@@ -18,3 +18,15 @@ mode = "0755"
 [[extract.files]]
 source = "autocomplete/bat.{{vars.shell-type}}"
 target = "{{vars.complete-path}}/_bat"
+
+#
+# build configuration
+#
+
+[build]
+package-url = "https://github.com/sharkdp/bat/releases/download/v{{version}}/bat-v{{version}}-x86_64-unknown-linux-musl.tar.gz"
+
+[[build.publish]]
+repository-name = "packages"
+repository-path = "bat"
+files = ["bat-v{{version}}-x86_64-unknown-linux-musl.tar.gz"]
