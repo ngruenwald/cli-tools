@@ -107,13 +107,13 @@
 | [television](https://github.com/alexpasmantier/television) | The revolution will (not) be televised | 0.13.3 | 2025-08-17 | fzf |
 | [teller](https://github.com/tellerops/teller) | Cloud native secrets management for developers - never leave your command line for secrets. | 2.0.7 | 2024-05-20 |  |
 | [termshark](https://github.com/gcla/termshark) | A terminal UI for tshark, inspired by Wireshark | 2.4.0 | 2022-07-12 |  |
-| [tlrc](https://github.com/tldr-pages/tlrc) | A tldr client written in Rust | 1.11.1 | 2025-05-06 | tldr, tealdeer |
+| [tlrc](https://github.com/tldr-pages/tlrc) | A tldr client written in Rust | 1.12.0 | 2025-10-01 | tldr, tealdeer |
 | [tokei](https://github.com/XAMPPRocky/tokei) | Count your code, quickly. | 12.1.2 | 2021-01-12 | sloc, scc |
 | [trashy](https://github.com/oberblastmeister/trashy) | a cli system trash manager, alternative to rm and trash-cli | 2.0.0 | 2022-09-30 | trash-cli, gtrash |
 | [trufflehog](https://trufflesecurity.com) | Find, verify, and analyze leaked credentials | 3.90.8 | 2025-09-04 |  |
 | [up](https://github.com/akavel/up) | Ultimate Plumber is a tool for writing Linux pipes with instant live preview | 0.4 | 2020-10-29 |  |
 | [upt](https://github.com/sigoden/upt) | Universal Package-management Tool for any OS. | 0.9.0 | 2024-10-31 |  |
-| [usql](https://github.com/xo/usql) | Universal command-line interface for SQL databases | 0.19.25 | 2025-07-20 |  |
+| [usql](https://github.com/xo/usql) | Universal command-line interface for SQL databases | 0.19.26 | 2025-10-01 |  |
 | [uv](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | 0.8.22 | 2025-09-24 | pip, pdm, poetry, rye |
 | [vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder | 0.10.0 | 2025-06-18 |  |
 | [viddy](https://github.com/sachaos/viddy) | A modern watch command. Time machine and pager etc. | 1.3.0 | 2024-11-29 | watch, hwatch |
@@ -132,4 +132,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.10.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.10.0 | 2025-06-12 |  |
 
-_last updated: 2025-09-30 19:46:45 (utc)_
+_last updated: 2025-10-01 10:34:39 (utc)_
