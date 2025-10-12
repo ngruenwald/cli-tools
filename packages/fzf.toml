@@ -2,8 +2,8 @@ name = "fzf"
 description = "A command-line fuzzy finder"
 homepage = "https://github.com/junegunn/fzf"
 alternatives = [ "skim",]
-version = "0.65.2"
-updated = "2025-08-31"
+version = "0.66.0"
+updated = "2025-10-12"
 package-url = "https://github.com/junegunn/fzf/releases/download/v{{version}}/fzf-{{version}}-linux_amd64.tar.gz"
 
 [extract]
