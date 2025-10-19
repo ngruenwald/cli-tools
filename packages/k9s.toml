@@ -2,8 +2,8 @@ name = "k9s"
 description = "Kubernetes CLI To Manage Your Clusters In Style!"
 homepage = "https://github.com/derailed/k9s"
 alternatives = []
-version = "0.50.15"
-updated = "2025-10-07"
+version = "0.50.16"
+updated = "2025-10-19"
 package-url = "https://github.com/derailed/k9s/releases/download/v{{version}}/k9s_Linux_amd64.tar.gz"
 
 [extract]

@@ -3,7 +3,7 @@
 | Name | Description | Version | Updated | Alternatives |
 |----- |------------ |-------- |-------- |------------- |
 | [atuin](https://atuin.sh) | Magical shell history | 18.8.0 | 2025-08-07 | mcfly, hishtory |
-| [bat](https://github.com/sharkdp/bat) | A cat(1) clone with wings. | 0.25.0 | 2025-01-07 | cat |
+| [bat](https://github.com/sharkdp/bat) | A cat(1) clone with wings. | 0.26.0 | 2025-10-19 | cat |
 | [ble.sh](https://github.com/akinomyoga/ble.sh) | Bash Line Editor ― a line editor written in pure Bash with syntax highlighting, auto suggestions, vim modes, etc. for Bash interactive sessions. | 0.4.0-devel3 | 2023-04-03 |  |
 | [bottom](https://github.com/ClementTsang/bottom) | Yet another cross-platform graphical process/system monitor. | 0.11.2 | 2025-10-08 | top, htop |
 | [broot](https://dystroy.org/broot) | A new way to see and navigate directory trees | 1.51.0 | 2025-10-05 |  |
@@ -59,7 +59,7 @@
 | [jd](https://github.com/josephburnett/jd) | JSON diff and patch | 2.3.0 | 2025-08-17 |  |
 | [jq](https://github.com/jqlang/jq) | Command-line JSON processor | 1.8.1 | 2025-07-01 |  |
 | [just](https://github.com/casey/just) | Just a command runner | 1.43.0 | 2025-09-28 | make, dotree, task |
-| [k9s](https://github.com/derailed/k9s) | Kubernetes CLI To Manage Your Clusters In Style! | 0.50.15 | 2025-10-07 |  |
+| [k9s](https://github.com/derailed/k9s) | Kubernetes CLI To Manage Your Clusters In Style! | 0.50.16 | 2025-10-19 |  |
 | [kcov](https://github.com/SimonKagstrom/kcov) | Code coverage tool for compiled programs, Python and Bash which uses debugging information to collect and report data without special compilation options | 43 | 2024-07-23 |  |
 | [kickstart](https://github.com/Keats/kickstart) | A scaffolding tool to get new projects up and running quickly | 0.5.0 | 2024-12-13 | cookiecutter, proji |
 | [lazydocker](https://github.com/jesseduffield/lazydocker) | The lazier way to manage everything docker | 0.24.1 | 2024-11-03 |  |
@@ -132,4 +132,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.10.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.10.0 | 2025-06-12 |  |
 
-_last updated: 2025-10-19 07:44:28 (utc)_
+_last updated: 2025-10-19 19:21:07 (utc)_
