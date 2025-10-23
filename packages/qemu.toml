@@ -17,8 +17,8 @@ prefix = "{{vars.prefix-path}}"
 
 [build]
 query-url = "https://github.com/qemu/qemu/archive/refs/tags/v{{version}}.tar.gz"
-#package-url = "https://download.qemu.org/qemu-{{version}}.tar.xz"
-package-url = "https://10.172.113.102/src/qemu/qemu-{{version}}.tar.xz"
+package-url = "https://download.qemu.org/qemu-{{version}}.tar.xz"
+#package-url = "https://10.172.113.102/src/qemu/qemu-{{version}}.tar.xz"
 verify-ssl = false
 
 [[build.script]]
@@ -28,8 +28,7 @@ content = [
     "dnf -y install \\",
     "  bzip2-devel capstone-devel glib2-devel libaio-devel libcap-ng-devel \\",
     "  libfdt-devel libiscsi-devel meson pixman-devel zlib-devel",
-    "[[ \"$1\" == \"el8\" ]] && dnf -y reinstall glib2 glib2-devel pcre-devel",
-    "[[ \"$1\" == \"el8\" ]] && dnf -y install python38",
+    "pip install tomli",
     "mkdir qemu",
     "tar xJf qemu-{{version}}.tar.xz --strip-components=1 -C qemu",
     "cd qemu",
@@ -65,16 +64,10 @@ content = [
     "rm -rf qemu"  #  workaround, our host process will fail to remove the temp folder
 ]
 
-#[[build.step]]
-#command = ["xcc", "el8", "sh", "build_qemu.sh", "el8"]
-
 [[build.step]]
 command = ["xcc", "el9", "sh", "build_qemu.sh", "el9"]
 
 [[build.publish]]
 repository-name = "packages"
 repository-path = "qemu"
-files = [
-#    "qemu-{{version}}-el8.x86_64.tar.xz",
-    "qemu-{{version}}-el9.x86_64.tar.xz"
-]
+files = ["qemu-{{version}}-el9.x86_64.tar.xz"]
