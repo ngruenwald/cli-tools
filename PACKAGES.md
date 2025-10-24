@@ -55,7 +55,7 @@
 | [hurl](https://hurl.dev) | Hurl, run and test HTTP requests with plain text. | 7.0.0 | 2025-07-30 |  |
 | [hwatch](https://github.com/blacknon/hwatch) | A modern alternative to the watch command, records the differences in execution results and can check this differences at after. | 0.3.19 | 2025-03-19 | watch, viddy |
 | [hyperfine](https://github.com/sharkdp/hyperfine) | A command-line benchmarking tool | 1.19.0 | 2024-11-12 |  |
-| [java21-jre](https://adoptium.net) | OpenJDK 21 LTS | 21.0.8+9 | 2025-07-17 |  |
+| [java21-jre](https://adoptium.net) | OpenJDK 21 LTS | 21.0.9+10 | 2025-10-24 |  |
 | [jd](https://github.com/josephburnett/jd) | JSON diff and patch | 2.3.0 | 2025-08-17 |  |
 | [jq](https://github.com/jqlang/jq) | Command-line JSON processor | 1.8.1 | 2025-07-01 |  |
 | [just](https://github.com/casey/just) | Just a command runner | 1.43.0 | 2025-09-28 | make, dotree, task |
@@ -132,4 +132,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.10.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.10.0 | 2025-06-12 |  |
 
-_last updated: 2025-10-23 15:55:43 (utc)_
+_last updated: 2025-10-24 04:28:33 (utc)_

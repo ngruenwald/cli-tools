@@ -2,8 +2,8 @@ name = "java21-jre"
 description = "OpenJDK 21 LTS"
 homepage = "https://adoptium.net"
 alternatives = []
-version = "21.0.8+9"
-updated = "2025-07-17"
+version = "21.0.9+10"
+updated = "2025-10-24"
 package-url = "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-{{version}}/OpenJDK21U-jre_x64_linux_hotspot_{{(replace, version, '+', '_')}}.tar.gz"
 version-pattern = "^jdk-21\\.\\d+\\.\\d+.\\d+$"
 
