@@ -41,7 +41,7 @@
 | [eza](https://github.com/eza-community/eza) | A modern alternative to ls | 0.23.4 | 2025-10-04 | ls, lsd |
 | [fd](https://github.com/sharkdp/fd) | A simple, fast and user-friendly alternative to 'find' | 10.3.0 | 2025-08-26 | find |
 | [fq](https://github.com/wader/fq) | jq for binary formats - tool, language and decoders for working with binary and text formats | 0.15.1 | 2025-07-13 |  |
-| [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | 0.66.0 | 2025-10-12 | skim |
+| [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | 0.66.1 | 2025-10-26 | skim |
 | [gdu](https://github.com/dundee/gdu) | Fast disk usage analyzer with console interface written in Go | 5.31.0 | 2025-06-06 | du, dust, ncdu |
 | [git](https://git-scm.com) | Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. | 2.51.1 | 2025-10-15 |  |
 | [git-cryp](https://www.agwa.name/projects/git-crypt) | Transparent file encryption in git | 0.8.0 | 2025-09-24 |  |
@@ -99,7 +99,7 @@
 | [sops](https://getsops.io) | Simple and flexible tool for managing secrets | 3.11.0 | 2025-09-28 | git-crypt |
 | [sqlc](https://sqlc.dev) | Generate type-safe code from SQL | 1.30.0 | 2025-09-02 |  |
 | [sshs](https://github.com/quantumsheep/sshs) | Terminal user interface for SSH | 4.7.2 | 2025-04-24 |  |
-| [starship](https://github.com/starship/starship) | The minimal, blazing-fast, and infinitely customizable prompt for any shell! | 1.23.0 | 2025-04-28 | powerline-go |
+| [starship](https://github.com/starship/starship) | The minimal, blazing-fast, and infinitely customizable prompt for any shell! | 1.24.0 | 2025-10-26 | powerline-go |
 | [syft](https://github.com/anchore/syft) | CLI tool and library for generating a Software Bill of Materials from container images and filesystems | 1.36.0 | 2025-10-23 |  |
 | [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter | 5.5.0 | 2025-08-31 |  |
 | [task](https://github.com/go-task/task) | A task runner / simpler Make alternative written in Go | 3.45.4 | 2025-09-17 | make, dotree, just |
@@ -132,4 +132,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.10.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.10.0 | 2025-06-12 |  |
 
-_last updated: 2025-10-24 04:28:33 (utc)_
+_last updated: 2025-10-26 08:52:21 (utc)_
