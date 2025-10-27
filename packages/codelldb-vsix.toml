@@ -1,0 +1,22 @@
+name = "codelldb-vsix"
+description = "A native debugger extension for VSCode based on LLDB"
+homepage = "https://github.com/vadimcn/codelldb"
+alternatives = []
+version = "1.11.8"
+updated = "2025-10-25"
+package-url = "https://github.com/vadimcn/codelldb/releases/download/v{{version}}/codelldb-linux-x64.vsix"
+
+#
+# build configuration
+#
+
+[build]
+package-url = "https://github.com/vadimcn/codelldb/releases/download/v{{version}}/codelldb-linux-x64.vsix"
+
+[[build.step]]
+command = ["mv", "codelldb-linux-x64.vsix", "codelldb-{{version}}-linux-x64.vsix"]
+
+[[build.publish]]
+repository-name = "packages"
+repository-path = "code-server"
+files = ["codelldb-{{version}}-linux-x64.vsix"]
