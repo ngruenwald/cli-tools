@@ -2,8 +2,8 @@ name = "dysk"
 description = "A linux utility to get information on filesystems, like df but better"
 homepage = "https://dystroy.org/dysk"
 alternatives = [ "df", "duf" ]
-version = "3.2.0"
-updated = "2025-10-30"
+version = "3.3.0"
+updated = "2025-11-02"
 package-url = "https://github.com/Canop/dysk/releases/download/v{{version}}/dysk_{{version}}.zip"
 
 [extract]
