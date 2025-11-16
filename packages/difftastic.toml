@@ -2,8 +2,8 @@ name = "difftastic"
 description = "a structural diff that understands syntax"
 homepage = "https://github.com/Wilfred/difftastic"
 alternatives = [ "diff",]
-version = "0.65.0"
-updated = "2025-09-24"
+version = "0.67.0"
+updated = "2025-11-16"
 package-url = "https://github.com/Wilfred/difftastic/releases/download/{{version}}/difft-x86_64-unknown-linux-gnu.tar.gz"
 
 [extract]
