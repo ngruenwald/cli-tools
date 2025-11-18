@@ -2,8 +2,8 @@ name = "hurl"
 description = "Hurl, run and test HTTP requests with plain text."
 homepage = "https://hurl.dev"
 alternatives = []
-version = "7.0.0"
-updated = "2025-07-30"
+version = "7.1.0"
+updated = "2025-11-18"
 package-url = "https://github.com/Orange-OpenSource/hurl/releases/download/{{version}}/hurl-{{version}}-x86_64-unknown-linux-gnu.tar.gz"
 
 [extract]
