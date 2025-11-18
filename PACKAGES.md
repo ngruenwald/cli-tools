@@ -14,7 +14,7 @@
 | [clang-tools](https://github.com/llvm/llvm-project) | --- | 21.1.5 | 2025-11-04 |  |
 | [clangd](https://github.com/clangd/clangd) | clangd language server | 21.1.0 | 2025-08-27 |  |
 | [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 4.1.2 | 2025-09-30 |  |
-| [cmake3](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 3.31.9 | 2025-09-25 |  |
+| [cmake3](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 3.31.10 | 2025-11-18 |  |
 | [code-server](https://coder.com) | VS Code in the browser | 4.105.1 | 2025-10-21 |  |
 | [codelldb-vsix](https://github.com/vadimcn/codelldb) | A native debugger extension for VSCode based on LLDB | 1.11.8 | 2025-10-25 |  |
 | [codon](https://github.com/exaloop/codon) | A high-performance, zero-overhead, extensible Python compiler using LLVM | 0.19.3 | 2025-08-17 |  |
@@ -49,7 +49,7 @@
 | [git-who](https://github.com/sinclairtarget/git-who) | Git blame for file trees | 1.2 | 2025-08-03 |  |
 | [gitleaks](https://github.com/gitleaks/gitleaks) | Protect and discover secrets using Gitleaks | 8.29.0 | 2025-11-05 |  |
 | [glow](https://github.com/charmbracelet/glow) | Render markdown on the CLI, with pizzazz! | 2.1.1 | 2025-05-30 |  |
-| [grype](https://github.com/anchore/grype) | A vulnerability scanner for container images and filesystems | 0.103.0 | 2025-11-04 |  |
+| [grype](https://github.com/anchore/grype) | A vulnerability scanner for container images and filesystems | 0.104.0 | 2025-11-18 |  |
 | [gtrash](https://github.com/umlx5h/gtrash) | A Featureful Trash CLI manager: alternative to rm and trash-cli | 0.0.6 | 2024-07-01 | trash-cli, trashy |
 | [helix](https://github.com/helix-editor/helix) | A post-modern modal text editor. | 25.07.1 | 2025-07-19 | vim, neovim |
 | [hexyl](https://github.com/sharkdp/hexyl) | A command-line hex viewer | 0.16.0 | 2024-12-27 |  |
@@ -133,4 +133,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.10.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.10.0 | 2025-06-12 |  |
 
-_last updated: 2025-11-17 17:57:25 (utc)_
+_last updated: 2025-11-18 06:14:05 (utc)_
