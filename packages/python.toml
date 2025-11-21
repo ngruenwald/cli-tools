@@ -49,11 +49,15 @@ command = ["xcc", "el8", "sh", "build_python.sh", "el8"]
 [[build.step]]
 command = ["xcc", "el9", "sh", "build_python.sh", "el9"]
 
+[[build.step]]
+command = ["xcc", "el10", "sh", "build_python.sh", "el10"]
+
 [[build.publish]]
 repository-name = "packages"
 repository-path = "python"
 files = [
     "python-{{version}}.el7.x86_64.tar.xz",
     "python-{{version}}.el8.x86_64.tar.xz",
-    "python-{{version}}.el9.x86_64.tar.xz"
+    "python-{{version}}.el9.x86_64.tar.xz",
+    "python-{{version}}.el10.x86_64.tar.xz"
 ]
