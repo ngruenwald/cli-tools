@@ -2,8 +2,8 @@ name = "lazyjournal"
 description = "A TUI for reading logs from journald, auditd, file system, Docker containers, ..."
 homepage = "https://github.com/Lifailon/lazyjournal"
 alternatives = []
-version = "0.8.1"
-updated = "2025-09-27"
+version = "0.8.2"
+updated = "2025-12-01"
 package-url = "https://github.com/Lifailon/lazyjournal/releases/download/{{version}}/lazyjournal-{{version}}-linux-amd64"
 
 [extract]
