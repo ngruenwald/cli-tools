@@ -2,8 +2,8 @@ name = "regctl"
 description = "Docker and OCI Registry Client in Go and tooling using those libraries."
 homepage = "https://regclient.org"
 alternatives = []
-version = "0.10.0"
-updated = "2025-11-10"
+version = "0.11.0"
+updated = "2025-12-02"
 package-url = "https://github.com/regclient/regclient/releases/download/v{{version}}/regctl-linux-amd64"
 
 [extract]
