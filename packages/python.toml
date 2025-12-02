@@ -7,7 +7,7 @@ updated = "2025-12-02"
 package-url = ""
 query-url = "https://github.com/python/cpython/archive/refs/tags/v{{version}}.tar.gz"
 #version-pattern = "^v\\d+\\.\\d+\\.\\d+$"
-version-pattern = "^v3\\.13\\.\\d+$"  # stick to python 3.13
+version-pattern = "^v3\\.14\\.\\d+$"  # stick to python 3.14
 
 #
 # build configuration
