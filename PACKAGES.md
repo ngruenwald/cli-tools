@@ -3,7 +3,7 @@
 | Name | Description | Version | Updated | Alternatives |
 |----- |------------ |-------- |-------- |------------- |
 | [atuin](https://atuin.sh) | Magical shell history | 18.10.0 | 2025-10-22 | mcfly, hishtory |
-| [bat](https://github.com/sharkdp/bat) | A cat(1) clone with wings. | 0.26.0 | 2025-10-19 | cat |
+| [bat](https://github.com/sharkdp/bat) | A cat(1) clone with wings. | 0.26.1 | 2025-12-02 | cat |
 | [ble.sh](https://github.com/akinomyoga/ble.sh) | Bash Line Editor ― a line editor written in pure Bash with syntax highlighting, auto suggestions, vim modes, etc. for Bash interactive sessions. | 0.4.0-devel3 | 2023-04-03 |  |
 | [bottom](https://github.com/ClementTsang/bottom) | Yet another cross-platform graphical process/system monitor. | 0.11.4 | 2025-11-17 | top, htop |
 | [broot](https://dystroy.org/broot) | A new way to see and navigate directory trees | 1.53.0 | 2025-11-08 |  |
@@ -11,7 +11,7 @@
 | [bytehound](https://github.com/koute/bytehound) | A memory profiler for Linux. | 0.11.0 | 2022-11-23 |  |
 | [carapace](https://carapace.sh) | multi-shell multi-command argument completer | 1.5.5 | 2025-11-17 |  |
 | [cgen](https://github.com/ngruenwald/config-generator) | Create configuration parsers, schemas and documentation. | 0.5.1 | 2025-09-04 |  |
-| [clang-tools](https://github.com/llvm/llvm-project) | --- | 21.1.6 | 2025-11-18 |  |
+| [clang-tools](https://github.com/llvm/llvm-project) | --- | 21.1.7 | 2025-12-02 |  |
 | [clangd](https://github.com/clangd/clangd) | clangd language server | 21.1.0 | 2025-08-27 |  |
 | [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 4.2.0 | 2025-11-19 |  |
 | [cmake3](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 3.31.10 | 2025-11-18 |  |
@@ -36,7 +36,7 @@
 | [doxygen-awesome-css](https://github.com/jothepro/doxygen-awesome-css) | Code Documentation. Automated. | 2.4.1 | 2025-10-12 |  |
 | [duf](https://github.com/muesli/duf) | Disk Usage/Free Utility - a better 'df' alternative | 0.9.1 | 2025-09-09 | df |
 | [dust](https://github.com/bootandy/dust) | A more intuitive version of du in rust | 1.2.3 | 2025-08-03 | du |
-| [dysk](https://dystroy.org/dysk) | A linux utility to get information on filesystems, like df but better | 3.4.0 | 2025-11-08 | df, duf |
+| [dysk](https://dystroy.org/dysk) | A linux utility to get information on filesystems, like df but better | 3.5.0 | 2025-12-02 | df, duf |
 | [envio](https://github.com/envio-cli/envio) | Envio is a modern and secure command-line tool that simplifies the management of environment variables | 0.6.1 | 2024-09-30 |  |
 | [evil-helix](https://github.com/usagi-flow/evil-helix) | Bringing the Helix editor to the evil side | 20250915 | 2025-09-16 | vim, neovim, helix |
 | [eza](https://github.com/eza-community/eza) | A modern alternative to ls | 0.23.4 | 2025-10-04 | ls, lsd |
@@ -76,15 +76,15 @@
 | [navi](https://github.com/denisidoro/navi) | An interactive cheatsheet tool for the command-line | 2.24.0 | 2025-01-30 |  |
 | [neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 0.11.5 | 2025-11-02 | vim, helix |
 | [ninja](https://github.com/ninja-build/ninja) | a small build system with a focus on speed | 1.13.2 | 2025-11-20 | make, samurai |
-| [nushell](https://nushell.sh) | A new type of shell | 0.109.0 | 2025-11-29 | bash, zsh, fish, powershell |
-| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.13.0 | 2025-11-20 |  |
+| [nushell](https://nushell.sh) | A new type of shell | 0.109.1 | 2025-12-02 | bash, zsh, fish, powershell |
+| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.13.1 | 2025-12-02 |  |
 | [onefetch](https://onefetch.dev) | Command-line Git information tool | 2.25.0 | 2025-07-06 |  |
 | [openapi-generator](https://openapi-generator.tech) | OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3) | 7.17.0 | 2025-10-29 |  |
 | [podcheck](https://github.com/sudo-kraken/podcheck) | CLI tool to automate podman image updates. Selective, notifications, autoprune, no pre-pulling. | 1.1.0 | 2025-10-12 | dockcheck |
 | [powerline-go](https://github.com/justjanne/powerline-go) | A beautiful and useful low-latency prompt for your shell, written in go | 1.25 | 2024-11-26 | starship |
 | [procs](https://github.com/dalance/procs) | A modern replacement for ps written in Rust | 0.14.10 | 2025-03-28 | ps |
 | [protolint](https://github.com/yoheimuta/protolint) | A pluggable linter and fixer to enforce Protocol Buffer style and conventions | 0.56.4 | 2025-08-26 |  |
-| [python](https://python.org) | Python is a programming language that lets you work quickly and integrate systems more effectively. | 3.13.9 | 2025-10-15 |  |
+| [python](https://python.org) | Python is a programming language that lets you work quickly and integrate systems more effectively. | 3.13.10 | 2025-12-02 |  |
 | [qemu](https://www.qemu.org) | A generic and open source machine emulator and virtualizer. | 10.1.2 | 2025-10-20 |  |
 | [rainfrog](https://crates.io/crates/rainfrog) | a database management tui for postgres | 0.3.10 | 2025-11-08 |  |
 | [regctl](https://regclient.org) | Docker and OCI Registry Client in Go and tooling using those libraries. | 0.11.0 | 2025-12-02 |  |
@@ -111,7 +111,7 @@
 | [tlrc](https://github.com/tldr-pages/tlrc) | A tldr client written in Rust | 1.12.0 | 2025-10-01 | tldr, tealdeer |
 | [tokei](https://github.com/XAMPPRocky/tokei) | Count your code, quickly. | 13.0.0 | 2025-11-25 | sloc, scc |
 | [trashy](https://github.com/oberblastmeister/trashy) | a cli system trash manager, alternative to rm and trash-cli | 2.0.0 | 2022-09-30 | trash-cli, gtrash |
-| [trufflehog](https://trufflesecurity.com) | Find, verify, and analyze leaked credentials | 3.91.1 | 2025-11-20 |  |
+| [trufflehog](https://trufflesecurity.com) | Find, verify, and analyze leaked credentials | 3.91.2 | 2025-12-02 |  |
 | [up](https://github.com/akavel/up) | Ultimate Plumber is a tool for writing Linux pipes with instant live preview | 0.4 | 2020-10-29 |  |
 | [upt](https://github.com/sigoden/upt) | Universal Package-management Tool for any OS. | 0.9.0 | 2024-10-31 |  |
 | [usql](https://github.com/xo/usql) | Universal command-line interface for SQL databases | 0.19.26 | 2025-10-01 |  |
@@ -133,4 +133,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.10.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.10.0 | 2025-06-12 |  |
 
-_last updated: 2025-12-02 06:20:19 (utc)_
+_last updated: 2025-12-02 21:13:34 (utc)_
