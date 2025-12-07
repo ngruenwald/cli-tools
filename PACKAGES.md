@@ -41,7 +41,7 @@
 | [evil-helix](https://github.com/usagi-flow/evil-helix) | Bringing the Helix editor to the evil side | 20250915 | 2025-09-16 | vim, neovim, helix |
 | [eza](https://github.com/eza-community/eza) | A modern alternative to ls | 0.23.4 | 2025-10-04 | ls, lsd |
 | [fd](https://github.com/sharkdp/fd) | A simple, fast and user-friendly alternative to 'find' | 10.3.0 | 2025-08-26 | find |
-| [fq](https://github.com/wader/fq) | jq for binary formats - tool, language and decoders for working with binary and text formats | 0.15.1 | 2025-07-13 |  |
+| [fq](https://github.com/wader/fq) | jq for binary formats - tool, language and decoders for working with binary and text formats | 0.16.0 | 2025-12-07 |  |
 | [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | 0.67.0 | 2025-11-16 | skim |
 | [gdu](https://github.com/dundee/gdu) | Fast disk usage analyzer with console interface written in Go | 5.32.0 | 2025-11-23 | du, dust, ncdu |
 | [git](https://git-scm.com) | Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. | 2.52.0 | 2025-11-17 |  |
@@ -87,7 +87,7 @@
 | [python](https://python.org) | Python is a programming language that lets you work quickly and integrate systems more effectively. | 3.14.2 | 2025-12-06 |  |
 | [qemu](https://www.qemu.org) | A generic and open source machine emulator and virtualizer. | 10.1.3 | 2025-12-05 |  |
 | [rainfrog](https://crates.io/crates/rainfrog) | a database management tui for postgres | 0.3.10 | 2025-11-08 |  |
-| [regctl](https://regclient.org) | Docker and OCI Registry Client in Go and tooling using those libraries. | 0.11.0 | 2025-12-02 |  |
+| [regctl](https://regclient.org) | Docker and OCI Registry Client in Go and tooling using those libraries. | 0.11.1 | 2025-12-07 |  |
 | [ripgrep](https://github.com/BurntSushi/ripgrep) | ripgrep recursively searches directories for a regex pattern while respecting your gitignore | 15.1.0 | 2025-10-22 | grep |
 | [runme](https://github.com/stateful/runme) | DevOps Workflows Built with Markdown | 3.16.4 | 2025-11-29 |  |
 | [rustcat](https://github.com/quantumsheep/sshs) | Rustcat(rcat) - The modern Port listener and Reverse shell | 3.0.0 | 2022-08-15 |  |
@@ -133,4 +133,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.10.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.10.0 | 2025-06-12 |  |
 
-_last updated: 2025-12-07 08:05:30 (utc)_
+_last updated: 2025-12-07 21:13:17 (utc)_
