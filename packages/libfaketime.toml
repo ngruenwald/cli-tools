@@ -23,7 +23,7 @@ name = "build_libfaketime.sh"
 content = [
     "set -e",
     "tar xzf v{{version}}.tar.gz --strip-components=1",
-    "export DESTDIR=dist/$1",
+    "export DESTDIR=$(pwd)/dist/$1",
     "export PREFIX=/usr",
     "make",
     "make install",
