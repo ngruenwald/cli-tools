@@ -2,8 +2,8 @@ name = "dasel"
 description = "Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package."
 homepage = "https://github.com/TomWright/dasel"
 alternatives = []
-version = "3.0.0"
-updated = "2025-12-15"
+version = "3.1.0"
+updated = "2025-12-16"
 package-url = "https://github.com/TomWright/dasel/releases/download/v{{version}}/dasel_linux_amd64"
 
 [extract]
