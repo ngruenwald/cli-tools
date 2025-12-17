@@ -2,8 +2,8 @@ name = "xh"
 description = "Friendly and fast tool for sending HTTP requests"
 homepage = "https://github.com/ducaale/xh"
 alternatives = [ "httpie", "curlie",]
-version = "0.25.0"
-updated = "2025-09-20"
+version = "0.25.3"
+updated = "2025-12-17"
 package-url = "https://github.com/ducaale/xh/releases/download/v{{version}}/xh-v{{version}}-x86_64-unknown-linux-musl.tar.gz"
 
 [extract]
