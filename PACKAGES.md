@@ -86,7 +86,7 @@
 | [protolint](https://github.com/yoheimuta/protolint) | A pluggable linter and fixer to enforce Protocol Buffer style and conventions | 0.56.4 | 2025-08-26 |  |
 | [python](https://python.org) | Python is a programming language that lets you work quickly and integrate systems more effectively. | 3.14.2 | 2025-12-06 |  |
 | [qemu](https://www.qemu.org) | A generic and open source machine emulator and virtualizer. | 10.1.3 | 2025-12-05 |  |
-| [rainfrog](https://crates.io/crates/rainfrog) | a database management tui for postgres | 0.3.11 | 2025-12-10 |  |
+| [rainfrog](https://crates.io/crates/rainfrog) | a database management tui for postgres | 0.3.12 | 2025-12-17 |  |
 | [regctl](https://regclient.org) | Docker and OCI Registry Client in Go and tooling using those libraries. | 0.11.1 | 2025-12-07 |  |
 | [ripgrep](https://github.com/BurntSushi/ripgrep) | ripgrep recursively searches directories for a regex pattern while respecting your gitignore | 15.1.0 | 2025-10-22 | grep |
 | [runme](https://github.com/stateful/runme) | DevOps Workflows Built with Markdown | 3.16.4 | 2025-11-29 |  |
@@ -105,7 +105,7 @@
 | [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter | 5.5.0 | 2025-08-31 |  |
 | [task](https://github.com/go-task/task) | A task runner / simpler Make alternative written in Go | 3.45.5 | 2025-11-12 | make, dotree, just |
 | [tealdeer](https://github.com/dbrgn/tealdeer) | A very fast implementation of tldr in Rust. | 1.8.1 | 2025-11-12 | tldr, tlrc |
-| [television](https://github.com/alexpasmantier/television) | The revolution will (not) be televised | 0.14.0 | 2025-12-16 | fzf |
+| [television](https://github.com/alexpasmantier/television) | The revolution will (not) be televised | 0.14.1 | 2025-12-17 | fzf |
 | [teller](https://github.com/tellerops/teller) | Cloud native secrets management for developers - never leave your command line for secrets. | 2.0.7 | 2024-05-20 |  |
 | [termshark](https://github.com/gcla/termshark) | A terminal UI for tshark, inspired by Wireshark | 2.4.0 | 2022-07-12 |  |
 | [tlrc](https://github.com/tldr-pages/tlrc) | A tldr client written in Rust | 1.12.0 | 2025-10-01 | tldr, tealdeer |
@@ -133,4 +133,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.10.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.10.0 | 2025-06-12 |  |
 
-_last updated: 2025-12-17 06:09:08 (utc)_
+_last updated: 2025-12-17 17:26:06 (utc)_
