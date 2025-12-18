@@ -2,8 +2,8 @@ name = "code-server"
 description = "VS Code in the browser"
 homepage = "https://coder.com"
 alternatives = []
-version = "4.106.3"
-updated = "2025-12-02"
+version = "4.107.0"
+updated = "2025-12-18"
 package-url = "https://github.com/coder/code-server/releases/download/v{{version}}/code-server-{{version}}-linux-amd64.tar.gz"
 post-commands = ["ln -s /opt/code-server/bin/code-server {{vars.bin-path}}/code-server",]
 
