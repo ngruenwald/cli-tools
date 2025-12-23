@@ -1,0 +1,15 @@
+name = "superfile"
+description = "Pretty fancy and modern terminal file manager"
+homepage = "https://superfile.dev"
+alternatives = [ "yazi", "ranger", ]
+version = "1.4.0"
+updated = "2025-10-10"
+package-url = "https://github.com/yorukot/superfile/releases/download/v1.4.0/superfile-linux-v1.4.0-amd64.tar.gz"
+
+[extract]
+strip = 2
+
+[[extract.files]]
+source = "spf"
+target = "{{vars.bin-path}}/spf"
+mode = "0755"
