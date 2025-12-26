@@ -2,8 +2,8 @@ name = "bottom"
 description = "Yet another cross-platform graphical process/system monitor."
 homepage = "https://github.com/ClementTsang/bottom"
 alternatives = [ "top", "htop",]
-version = "0.12.0"
-updated = "2025-12-25"
+version = "0.12.1"
+updated = "2025-12-26"
 package-url = "https://github.com/ClementTsang/bottom/releases/download/{{version}}/bottom_x86_64-unknown-linux-musl.tar.gz"
 
 [extract]
