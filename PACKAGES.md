@@ -132,6 +132,6 @@
 | [zsh-fzf-tab](https://github.com/Aloxaf/fzf-tab/archive/refs/tags/v1.2.0.tar.gz) | Replace zsh's default completion selection menu with fzf! | 1.2.0 | 2025-02-18 |  |
 | [zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search/archive/refs/tags/v1.1.0.tar.gz) | ZSH port of Fish history search (up arrow) | 1.1.0 | 2023-07-28 |  |
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
-| [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.10.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.10.0 | 2025-06-12 |  |
+| [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.10.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.10.1 | 2025-12-28 |  |
 
-_last updated: 2025-12-28 08:31:21 (utc)_
+_last updated: 2025-12-28 23:57:34 (utc)_
