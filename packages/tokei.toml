@@ -2,8 +2,8 @@ name = "tokei"
 description = "Count your code, quickly."
 homepage = "https://github.com/XAMPPRocky/tokei"
 alternatives = [ "sloc", "scc",]
-version = "13.0.0"
-updated = "2025-11-25"
+version = "14.0.0"
+updated = "2025-12-30"
 package-url = "https://github.com/XAMPPRocky/tokei/releases/download/v{{version}}/tokei-x86_64-unknown-linux-musl.tar.gz"
 
 [extract]
