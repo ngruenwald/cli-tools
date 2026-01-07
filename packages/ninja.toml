@@ -14,13 +14,21 @@ prefix = "{{vars.bin-path}}"
 #
 
 [build]
-package-url = "https://github.com/ninja-build/ninja/releases/download/v{{version}}/ninja-linux.zip"
+package-url = "https://github.com/ninja-build/ninja/archive/refs/tags/v{{version}}.tar.gz"
+
+[[build.script]]
+name = "build_ninja.sh"
+content = [
+    "set -e",
+    "tar xzf v{{version}}.tar.gz --strip-components=1",
+    "cmake -S . -B build -D CMAKE_BUILD_TYPE=Release -D BUILD_TESTING=OFF",
+    "cmake --build build",
+    "cd build",
+    "tar czvf ../ninja-{{version}}.tar.gz ninja"
+]
 
 [[build.step]]
-command = ["unzip", "ninja-linux.zip"]
-
-[[build.step]]
-command = ["tar", "czvf", "ninja-{{version}}.tar.gz", "ninja"]
+command = ["xcc", "el7", "sh", "build_ninja.sh", "el7"]
 
 [[build.publish]]
 repository-name = "packages"
