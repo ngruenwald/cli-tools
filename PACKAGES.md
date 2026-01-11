@@ -106,7 +106,7 @@
 | [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter | 5.5.0 | 2025-08-31 |  |
 | [task](https://github.com/go-task/task) | A task runner / simpler Make alternative written in Go | 3.46.4 | 2025-12-25 | make, dotree, just |
 | [tealdeer](https://github.com/dbrgn/tealdeer) | A very fast implementation of tldr in Rust. | 1.8.1 | 2025-11-12 | tldr, tlrc |
-| [television](https://github.com/alexpasmantier/television) | The revolution will (not) be televised | 0.14.4 | 2026-01-04 | fzf |
+| [television](https://github.com/alexpasmantier/television) | The revolution will (not) be televised | 0.14.5 | 2026-01-11 | fzf |
 | [teller](https://github.com/tellerops/teller) | Cloud native secrets management for developers - never leave your command line for secrets. | 2.0.7 | 2024-05-20 |  |
 | [termshark](https://github.com/gcla/termshark) | A terminal UI for tshark, inspired by Wireshark | 2.4.0 | 2022-07-12 |  |
 | [tlrc](https://github.com/tldr-pages/tlrc) | A tldr client written in Rust | 1.12.0 | 2025-10-01 | tldr, tealdeer |
@@ -115,7 +115,7 @@
 | [trufflehog](https://trufflesecurity.com) | Find, verify, and analyze leaked credentials | 3.92.4 | 2025-12-20 |  |
 | [up](https://github.com/akavel/up) | Ultimate Plumber is a tool for writing Linux pipes with instant live preview | 0.4 | 2020-10-29 |  |
 | [upt](https://github.com/sigoden/upt) | Universal Package-management Tool for any OS. | 0.9.0 | 2024-10-31 |  |
-| [usql](https://github.com/xo/usql) | Universal command-line interface for SQL databases | 0.20.6 | 2026-01-08 |  |
+| [usql](https://github.com/xo/usql) | Universal command-line interface for SQL databases | 0.20.8 | 2026-01-11 |  |
 | [uv](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | 0.9.24 | 2026-01-10 | pip, pdm, poetry, rye |
 | [vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder | 0.10.0 | 2025-06-18 |  |
 | [viddy](https://github.com/sachaos/viddy) | A modern watch command. Time machine and pager etc. | 1.3.0 | 2024-11-29 | watch, hwatch |
@@ -135,4 +135,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.10.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.10.1 | 2025-12-28 |  |
 
-_last updated: 2026-01-10 21:54:51 (utc)_
+_last updated: 2026-01-11 08:47:40 (utc)_
