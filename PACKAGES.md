@@ -32,7 +32,7 @@
 | [doge](https://github.com/Dj-Codeman/doge) | Reviving A command-line DNS client. | 0.2.9 | 2025-08-10 | dig, dog |
 | [dotenvx](https://dotenvx.com) | a better dotenv–from the creator of `dotenv` | 1.51.4 | 2025-12-30 | cat |
 | [dotree](https://github.com/KnorrFG/dotree) | A small, interactive command runner | 0.8.2 | 2023-11-26 |  |
-| [doxygen](https://github.com/doxygen/doxygen) | Code Documentation. Automated. | 1.16.0 | 2026-01-05 |  |
+| [doxygen](https://github.com/doxygen/doxygen) | Code Documentation. Automated. | 1_16_1 | 2026-01-11 |  |
 | [doxygen-awesome-css](https://github.com/jothepro/doxygen-awesome-css) | Code Documentation. Automated. | 2.4.1 | 2025-10-12 |  |
 | [duf](https://github.com/muesli/duf) | Disk Usage/Free Utility - a better 'df' alternative | 0.9.1 | 2025-09-09 | df |
 | [dust](https://github.com/bootandy/dust) | A more intuitive version of du in rust | 1.2.4 | 2026-01-09 | du |
@@ -60,7 +60,7 @@
 | [jd](https://github.com/josephburnett/jd) | JSON diff and patch | 2.3.1 | 2025-12-28 |  |
 | [jq](https://github.com/jqlang/jq) | Command-line JSON processor | 1.8.1 | 2025-07-01 |  |
 | [just](https://github.com/casey/just) | Just a command runner | 1.46.0 | 2026-01-02 | make, dotree, task |
-| [k9s](https://github.com/derailed/k9s) | Kubernetes CLI To Manage Your Clusters In Style! | 0.50.16 | 2025-10-19 |  |
+| [k9s](https://github.com/derailed/k9s) | Kubernetes CLI To Manage Your Clusters In Style! | 0.50.18 | 2026-01-11 |  |
 | [kcov](https://github.com/SimonKagstrom/kcov) | Code coverage tool for compiled programs, Python and Bash which uses debugging information to collect and report data without special compilation options | 43 | 2024-07-23 |  |
 | [kickstart](https://github.com/Keats/kickstart) | A scaffolding tool to get new projects up and running quickly | 0.6.0 | 2025-12-22 | cookiecutter, proji |
 | [lazydocker](https://github.com/jesseduffield/lazydocker) | The lazier way to manage everything docker | 0.24.3 | 2025-12-20 |  |
@@ -120,7 +120,7 @@
 | [vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder | 0.10.0 | 2025-06-18 |  |
 | [viddy](https://github.com/sachaos/viddy) | A modern watch command. Time machine and pager etc. | 1.3.0 | 2024-11-29 | watch, hwatch |
 | [websocat](https://github.com/vi/websocat) | Command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions | 1.14.1 | 2025-12-27 |  |
-| [witr](https://github.com/pranshuparmar/witr) | Why is this running? | 0.2.2 | 2026-01-09 |  |
+| [witr](https://github.com/pranshuparmar/witr) | Why is this running? | 0.2.3 | 2026-01-11 |  |
 | [xh](https://github.com/ducaale/xh) | Friendly and fast tool for sending HTTP requests | 0.25.3 | 2025-12-17 | httpie, curlie |
 | [xq](https://github.com/sibprogrammer/xq) | Command-line XML and HTML beautifier and content extractor | 1.3.0 | 2024-12-23 |  |
 | [yazi](https://github.com/sxyazi/yazi) | Blazing fast terminal file manager written in Rust, based on async I/O. | 26.1.4 | 2026-01-04 | ranger |
@@ -135,4 +135,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.10.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.10.1 | 2025-12-28 |  |
 
-_last updated: 2026-01-11 08:47:40 (utc)_
+_last updated: 2026-01-11 20:23:51 (utc)_
