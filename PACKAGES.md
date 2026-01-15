@@ -81,7 +81,7 @@
 | [onefetch](https://onefetch.dev) | Command-line Git information tool | 2.26.1 | 2025-12-21 |  |
 | [openapi-generator](https://openapi-generator.tech) | OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3) | 7.18.0 | 2025-12-22 |  |
 | [podcheck](https://github.com/sudo-kraken/podcheck) | CLI tool to automate podman image updates. Selective, notifications, autoprune, no pre-pulling. | 1.1.0 | 2025-10-12 | dockcheck |
-| [powerline-go](https://github.com/justjanne/powerline-go) | A beautiful and useful low-latency prompt for your shell, written in go | 1.25 | 2024-11-26 | starship |
+| [powerline-go](https://github.com/justjanne/powerline-go) | A beautiful and useful low-latency prompt for your shell, written in go | 1.26 | 2026-01-14 | starship |
 | [procs](https://github.com/dalance/procs) | A modern replacement for ps written in Rust | 0.14.10 | 2025-03-28 | ps |
 | [protolint](https://github.com/yoheimuta/protolint) | A pluggable linter and fixer to enforce Protocol Buffer style and conventions | 0.56.4 | 2025-08-26 |  |
 | [python](https://python.org) | Python is a programming language that lets you work quickly and integrate systems more effectively. | 3.14.2 | 2025-12-06 |  |
@@ -135,4 +135,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.10.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.10.1 | 2025-12-28 |  |
 
-_last updated: 2026-01-14 06:01:58 (utc)_
+_last updated: 2026-01-15 06:14:01 (utc)_
