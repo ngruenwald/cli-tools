@@ -13,7 +13,7 @@
 | [cgen](https://github.com/ngruenwald/config-generator) | Create configuration parsers, schemas and documentation. | 0.5.1 | 2025-09-04 |  |
 | [clang-tools](https://github.com/llvm/llvm-project) | --- | 21.1.8 | 2025-12-16 |  |
 | [clangd](https://github.com/clangd/clangd) | clangd language server | 21.1.8 | 2025-12-21 |  |
-| [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 4.2.1 | 2025-12-09 |  |
+| [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 4.2.2 | 2026-01-20 |  |
 | [cmake3](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 3.31.10 | 2025-11-18 |  |
 | [code-server](https://coder.com) | VS Code in the browser | 4.108.1 | 2026-01-17 |  |
 | [codelldb-vsix](https://github.com/vadimcn/codelldb) | A native debugger extension for VSCode based on LLDB | 1.12.1 | 2025-12-31 |  |
@@ -135,4 +135,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.10.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.10.1 | 2025-12-28 |  |
 
-_last updated: 2026-01-20 06:16:03 (utc)_
+_last updated: 2026-01-20 18:01:40 (utc)_
