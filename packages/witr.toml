@@ -2,8 +2,8 @@ name = "witr"
 description = "Why is this running?"
 homepage = "https://github.com/pranshuparmar/witr"
 alternatives = []
-version = "0.2.5"
-updated = "2026-01-15"
+version = "0.2.6"
+updated = "2026-01-21"
 package-url = "https://github.com/pranshuparmar/witr/releases/download/v{{version}}/witr-linux-amd64"
 
 [extract]
