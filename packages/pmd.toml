@@ -1,0 +1,24 @@
+name = "pmd"
+description = "An extensible multilanguage static code analyzer."
+homepage = "https://pmd.github.io"
+alternatives = [ ]
+version = "7.21.0-SNAPSHOT"
+updated = "2026-01-24"
+package-url = "https://github.com/pmd/pmd/releases/download/pmd_releases%2F{{version}}/pmd-dist-{{version}}-bin.zip"
+version-pattern = "^pmd_releases\\/\\d+\\.\\d+\\.\\d+(-SNAPSHOT)?$"
+
+[extract]
+strip = 0
+prefix = "{{vars.prefix-path}}"
+
+#
+# build configuration
+#
+
+[build]
+package-url = "https://github.com/pmd/pmd/releases/download/pmd_releases%2F{{version}}/pmd-dist-{{version}}-bin.zip"
+
+[[build.publish]]
+repository-name = "packages"
+repository-path = "pmd"
+files = ["hpmd-dist-{{version}}-bin.zip"]

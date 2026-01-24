@@ -88,7 +88,7 @@
 | [openapi-generator](https://openapi-generator.tech) | OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3) | 7.19.0 | 2026-01-20 |  |
 | [oryx](https://github.com/pythops/oryx) | TUI for sniffing network traffic using eBPF on Linux | 0.7.2 | 2026-01-24 |  |
 | [oxker](https://github.com/mrjackwills/oxker) | A simple tui to view & control docker containers | 0.12.0 | 2026-01-24 | lazydocker |
-| [pmd](https://pmd.github.io) | An extensible multilanguage static code analyzer. | 1.0.0 | 2026-01-01 |  |
+| [pmd](https://pmd.github.io) | An extensible multilanguage static code analyzer. | 7.21.0-SNAPSHOT | 2026-01-24 |  |
 | [podcheck](https://github.com/sudo-kraken/podcheck) | CLI tool to automate podman image updates. Selective, notifications, autoprune, no pre-pulling. | 1.1.0 | 2025-10-12 | dockcheck |
 | [podman-tui](https://github.com/containers/podman-tui) | Podman Terminal UI | 1.10.0 | 2026-01-24 |  |
 | [powerline-go](https://github.com/justjanne/powerline-go) | A beautiful and useful low-latency prompt for your shell, written in go | 1.26 | 2026-01-14 | starship |
@@ -145,4 +145,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.10.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.10.1 | 2025-12-28 |  |
 
-_last updated: 2026-01-24 19:52:50 (utc)_
+_last updated: 2026-01-24 22:38:09 (utc)_
