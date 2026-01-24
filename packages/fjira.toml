@@ -1,0 +1,15 @@
+name = "fjira"
+description = "The golang fuzzy-find cli jira interface"
+homepage = "https://github.com/mk-5/fjira"
+alternatives = [ ]
+version = "1.5.1"
+updated = "2026-01-24"
+package-url = "https://github.com/mk-5/fjira/releases/download/{{version}}/fjira_Linux_x86_64.tar.gz"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "fjira"
+target = "{{vars.bin-path}}/fjira"
+mode = "0755"

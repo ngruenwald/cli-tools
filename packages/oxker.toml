@@ -1,0 +1,15 @@
+name = "oxker"
+description = "A simple tui to view & control docker containers"
+homepage = "https://github.com/mrjackwills/oxker"
+alternatives = [ "lazydocker" ]
+version = "0.12.0"
+updated = "2026-01-24"
+package-url = "https://github.com/mrjackwills/oxker/releases/download/v{{version}}/oxker_linux_x86_64.tar.gz"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "oxker"
+target = "{{vars.bin-path}}/oxker"
+mode = "0755"

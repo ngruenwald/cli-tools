@@ -1,0 +1,27 @@
+name = "binsider"
+description = "Analyze ELF binaries like a boss"
+homepage = "https://binsider.dev"
+alternatives = [ ]
+version = "0.3.1"
+updated = "2026-01-24"
+package-url = "https://github.com/orhun/binsider/releases/download/v{{version}}/binsider-{{version}}-x86_64-unknown-linux-musl.tar.gz"
+
+[extract]
+strip = 1
+
+[[extract.files]]
+source = "binsider"
+target = "{{vars.bin-path}}/binsider"
+mode = "0755"
+
+#
+# build configuration
+#
+
+[build]
+package-url = "https://github.com/orhun/binsider/releases/download/v{{version}}/binsider-{{version}}-x86_64-unknown-linux-musl.tar.gz"
+
+[[build.publish]]
+repository-name = "packages"
+repository-path = "binsider"
+files = ["binsider-{{version}}-x86_64-unknown-linux-musl.tar.gz"]

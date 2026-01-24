@@ -1,0 +1,30 @@
+name = "duplo"
+description = "Duplicates finder for various source code formats."
+homepage = "https://github.com/dlidstrom/Duplo"
+alternatives = [ ]
+version = "2.1.0"
+updated = "2026-01-24"
+package-url = "https://github.com/dlidstrom/Duplo/releases/download/v{{version}}/duplo-linux.zip"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "duplo"
+target = "{{vars.bin-path}}/duplo"
+mode = "0755"
+
+#
+# build configuration
+#
+
+[build]
+package-url = "https://github.com/dlidstrom/Duplo/releases/download/v{{version}}/duplo-linux.zip"
+
+[[build.step]]
+command = ["mv", "duplo-linux.zip", "duplo-{{version}}-linux.zip"]
+
+[[build.publish]]
+repository-name = "packages"
+repository-path = "duplo"
+files = ["duplo-{{version}}-linux.zip"]

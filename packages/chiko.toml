@@ -1,0 +1,15 @@
+name = "chiko"
+description = "The ultimate beauty gRPC Client on your Terminal!"
+homepage = "https://github.com/felangga/chiko"
+alternatives = [ ]
+version = "0.1.3"
+updated = "2026-01-24"
+package-url = "https://github.com/felangga/chiko/releases/download/v{{version}}/chiko_{{version}}_linux_amd64.tar.gz"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "chiko"
+target = "{{vars.bin-path}}/chiko"
+mode = "0755"

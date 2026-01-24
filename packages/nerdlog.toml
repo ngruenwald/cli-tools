@@ -1,0 +1,15 @@
+name = "nerdlog"
+description = "Nerdlog: fast, remote-first, multi-host TUI log viewer with timeline histogram and no central server"
+homepage = "https://dmitryfrank.com/projects/nerdlog/article"
+alternatives = [ ]
+version = "1.10.0"
+updated = "2026-01-24"
+package-url = "https://github.com/dimonomid/nerdlog/releases/download/v{{version}}/nerdlog_{{version}}_linux_arm64.tar.gz"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "nerdlog"
+target = "{{vars.bin-path}}/nerdlog"
+mode = "0755"
