@@ -2,8 +2,8 @@ name = "carapace"
 description = "multi-shell multi-command argument completer"
 homepage = "https://carapace.sh"
 alternatives = []
-version = "1.6.0"
-updated = "2026-01-23"
+version = "1.6.1"
+updated = "2026-01-31"
 package-url = "https://github.com/carapace-sh/carapace-bin/releases/download/v{{version}}/carapace-bin_linux_amd64.tar.gz"
 
 [extract]
