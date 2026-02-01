@@ -2,8 +2,8 @@ name = "binsider"
 description = "Analyze ELF binaries like a boss"
 homepage = "https://binsider.dev"
 alternatives = [ ]
-version = "0.3.1"
-updated = "2026-01-24"
+version = "0.3.2"
+updated = "2026-02-01"
 package-url = "https://github.com/orhun/binsider/releases/download/v{{version}}/binsider-{{version}}-x86_64-unknown-linux-musl.tar.gz"
 
 [extract]
