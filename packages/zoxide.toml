@@ -2,8 +2,8 @@ name = "zoxide"
 description = "A smarter cd command. Supports all major shells."
 homepage = "https://github.com/ajeetdsouza/zoxide"
 alternatives = []
-version = "0.9.8"
-updated = "2025-05-27"
+version = "0.9.9"
+updated = "2026-02-01"
 package-url = "https://github.com/ajeetdsouza/zoxide/releases/download/v{{version}}/zoxide-{{version}}-x86_64-unknown-linux-musl.tar.gz"
 post-commands = [ "grep -q 'zoxide' ~/.{{vars.shell-type}}rc || echo 'eval \"$(zoxide init {{vars.shell-type}})\"' >> ~/.{{vars.shell-type}}rc",]
 
