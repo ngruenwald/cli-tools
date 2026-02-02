@@ -83,7 +83,7 @@
 | [nerdlog](https://dmitryfrank.com/projects/nerdlog/article) | Nerdlog: fast, remote-first, multi-host TUI log viewer with timeline histogram and no central server | 1.10.0 | 2026-01-24 |  |
 | [ninja](https://github.com/ninja-build/ninja) | a small build system with a focus on speed | 1.13.2 | 2025-11-20 | make, samurai |
 | [nushell](https://nushell.sh) | A new type of shell | 0.110.0 | 2026-01-18 | bash, zsh, fish, powershell |
-| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.15.3 | 2026-02-01 |  |
+| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.15.4 | 2026-02-02 |  |
 | [onefetch](https://onefetch.dev) | Command-line Git information tool | 2.26.1 | 2025-12-21 |  |
 | [openapi-generator](https://openapi-generator.tech) | OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3) | 7.19.0 | 2026-01-20 |  |
 | [oryx](https://github.com/pythops/oryx) | TUI for sniffing network traffic using eBPF on Linux | 0.7.2 | 2026-01-24 |  |
@@ -145,4 +145,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.10.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.10.1 | 2025-12-28 |  |
 
-_last updated: 2026-02-01 20:56:27 (utc)_
+_last updated: 2026-02-02 06:45:52 (utc)_
