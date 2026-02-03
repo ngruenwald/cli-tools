@@ -2,8 +2,8 @@ name = "git"
 description = "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency."
 homepage = "https://git-scm.com"
 alternatives = []
-version = "2.52.0"
-updated = "2025-11-17"
+version = "2.53.0"
+updated = "2026-02-03"
 package-url = ""
 query-url = "https://github.com/git/git/archive/refs/tags/v{{version}}.tar.gz"
 

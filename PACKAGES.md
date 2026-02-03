@@ -49,7 +49,7 @@
 | [fq](https://github.com/wader/fq) | jq for binary formats - tool, language and decoders for working with binary and text formats | 0.16.0 | 2025-12-07 |  |
 | [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | 0.67.0 | 2025-11-16 | skim |
 | [gdu](https://github.com/dundee/gdu) | Fast disk usage analyzer with console interface written in Go | 5.32.0 | 2025-11-23 | du, dust, ncdu |
-| [git](https://git-scm.com) | Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. | 2.52.0 | 2025-11-17 |  |
+| [git](https://git-scm.com) | Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. | 2.53.0 | 2026-02-03 |  |
 | [git-cryp](https://www.agwa.name/projects/git-crypt) | Transparent file encryption in git | 0.8.0 | 2025-09-24 |  |
 | [git-who](https://github.com/sinclairtarget/git-who) | Git blame for file trees | 1.3 | 2026-01-24 |  |
 | [gitleaks](https://github.com/gitleaks/gitleaks) | Protect and discover secrets using Gitleaks | 8.30.0 | 2025-11-27 |  |
@@ -71,7 +71,7 @@
 | [lazydocker](https://github.com/jesseduffield/lazydocker) | The lazier way to manage everything docker | 0.24.4 | 2026-01-17 |  |
 | [lazygit](https://github.com/jesseduffield/lazygit) | simple terminal UI for git commands | 0.58.1 | 2026-01-12 |  |
 | [lazyjournal](https://github.com/Lifailon/lazyjournal) | A TUI for reading logs from journald, auditd, file system, Docker containers, ... | 0.8.4 | 2026-01-24 |  |
-| [lazysql](https://github.com/jorgerojas26/lazysql) | A cross-platform TUI database management tool written in Go. | 0.4.6 | 2026-01-02 |  |
+| [lazysql](https://github.com/jorgerojas26/lazysql) | A cross-platform TUI database management tool written in Go. | 0.4.7 | 2026-02-03 |  |
 | [libfaketime](https://github.com/wolfcw/libfaketime) | libfaketime modifies the system time for a single application | 0.9.12 | 2025-06-09 |  |
 | [mcfly](https://github.com/cantino/mcfly) | Fly through your shell history. Great Scott! | 0.9.4 | 2025-12-25 | atuin, hishtory |
 | [mergiraf](https://mergiraf.org) | A syntax-aware git merge driver for a growing collection of programming languages and file formats. | 0.16.3 | 2026-01-27 |  |
@@ -145,4 +145,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.10.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.10.1 | 2025-12-28 |  |
 
-_last updated: 2026-02-02 06:45:52 (utc)_
+_last updated: 2026-02-03 19:31:12 (utc)_
