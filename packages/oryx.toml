@@ -2,8 +2,8 @@ name = "oryx"
 description = "TUI for sniffing network traffic using eBPF on Linux"
 homepage = "https://github.com/pythops/oryx"
 alternatives = [ ]
-version = "0.7.2"
-updated = "2026-01-24"
+version = "0.8.0"
+updated = "2026-02-04"
 package-url = "https://github.com/pythops/oryx/releases/download/v{{version}}/oryx-x86_64-unknown-linux-musl"
 
 [extract]
