@@ -2,8 +2,8 @@ name = "trufflehog"
 description = "Find, verify, and analyze leaked credentials"
 homepage = "https://trufflesecurity.com"
 alternatives = []
-version = "3.93.1"
-updated = "2026-02-06"
+version = "3.93.2"
+updated = "2026-02-11"
 package-url = "https://github.com/trufflesecurity/trufflehog/releases/download/v{{version}}/trufflehog_{{version}}_linux_amd64.tar.gz"
 
 [extract]
