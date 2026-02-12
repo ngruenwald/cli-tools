@@ -1,0 +1,15 @@
+name = "nightshift"
+description = "Nightshift uses your leftover Claude / Codex budget to surprise you with useful PRs. Love them or leave them."
+homepage = "https://github.com/marcus/nightshift"
+alternatives = [ ]
+version = "0.3.1"
+updated = "2026-02-12"
+package-url = "https://github.com/marcus/nightshift/releases/download/v{{version}}/nightshift_{{version}}_linux_amd64.tar.gz"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "nightshift"
+target = "{{vars.bin-path}}/nightshift"
+mode = "0755"

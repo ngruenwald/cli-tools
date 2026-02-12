@@ -1,0 +1,15 @@
+name = "td"
+description = "A minimalist CLI for tracking tasks across AI coding sessions."
+homepage = "https://github.com/marcus/td"
+alternatives = [ ]
+version = "0.34.0"
+updated = "2026-02-12"
+package-url = "https://github.com/marcus/td/releases/download/v{{version}}/td_{{version}}_linux_amd64.tar.gz"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "td"
+target = "{{vars.bin-path}}/td"
+mode = "0755"
