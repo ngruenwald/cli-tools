@@ -84,7 +84,7 @@
 | [nerdlog](https://dmitryfrank.com/projects/nerdlog/article) | Nerdlog: fast, remote-first, multi-host TUI log viewer with timeline histogram and no central server | 1.10.0 | 2026-01-24 |  |
 | [ninja](https://github.com/ninja-build/ninja) | a small build system with a focus on speed | 1.13.2 | 2025-11-20 | make, samurai |
 | [nushell](https://nushell.sh) | A new type of shell | 0.110.0 | 2026-01-18 | bash, zsh, fish, powershell |
-| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.15.6 | 2026-02-07 |  |
+| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.16.0 | 2026-02-12 |  |
 | [onefetch](https://onefetch.dev) | Command-line Git information tool | 2.26.1 | 2025-12-21 |  |
 | [openapi-generator](https://openapi-generator.tech) | OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3) | 7.19.0 | 2026-01-20 |  |
 | [oryx](https://github.com/pythops/oryx) | TUI for sniffing network traffic using eBPF on Linux | 0.8.0 | 2026-02-04 |  |
@@ -96,7 +96,7 @@
 | [procs](https://github.com/dalance/procs) | A modern replacement for ps written in Rust | 0.14.10 | 2025-03-28 | ps |
 | [protolint](https://github.com/yoheimuta/protolint) | A pluggable linter and fixer to enforce Protocol Buffer style and conventions | 0.56.4 | 2025-08-26 |  |
 | [python](https://python.org) | Python is a programming language that lets you work quickly and integrate systems more effectively. | 3.14.3 | 2026-02-03 |  |
-| [qemu](https://www.qemu.org) | A generic and open source machine emulator and virtualizer. | 10.2.0 | 2025-12-23 |  |
+| [qemu](https://www.qemu.org) | A generic and open source machine emulator and virtualizer. | 10.2.1 | 2026-02-12 |  |
 | [rainfrog](https://crates.io/crates/rainfrog) | a database management tui for postgres | 0.3.15 | 2026-02-10 |  |
 | [regctl](https://regclient.org) | Docker and OCI Registry Client in Go and tooling using those libraries. | 0.11.1 | 2025-12-07 |  |
 | [ripgrep](https://github.com/BurntSushi/ripgrep) | ripgrep recursively searches directories for a regex pattern while respecting your gitignore | 15.1.0 | 2025-10-22 | grep |
@@ -146,4 +146,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.0 | 2026-02-11 |  |
 
-_last updated: 2026-02-12 06:03:14 (utc)_
+_last updated: 2026-02-12 17:50:28 (utc)_
