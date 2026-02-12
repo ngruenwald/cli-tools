@@ -2,7 +2,7 @@
 
 | Name | Description | Version | Updated | Alternatives |
 |----- |------------ |-------- |-------- |------------- |
-| [atuin](https://atuin.sh) | Magical shell history | 18.12.0 | 2026-02-10 | mcfly, hishtory |
+| [atuin](https://atuin.sh) | Magical shell history | 18.12.1 | 2026-02-12 | mcfly, hishtory |
 | [bat](https://github.com/sharkdp/bat) | A cat(1) clone with wings. | 0.26.1 | 2025-12-02 | cat |
 | [binsider](https://binsider.dev) | Analyze ELF binaries like a boss | 0.3.2 | 2026-02-01 |  |
 | [ble.sh](https://github.com/akinomyoga/ble.sh) | Bash Line Editor ― a line editor written in pure Bash with syntax highlighting, auto suggestions, vim modes, etc. for Bash interactive sessions. | 0.4.0-devel3 | 2023-04-03 |  |
@@ -146,4 +146,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.0 | 2026-02-11 |  |
 
-_last updated: 2026-02-11 17:34:12 (utc)_
+_last updated: 2026-02-12 06:03:14 (utc)_
