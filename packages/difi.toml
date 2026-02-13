@@ -2,8 +2,8 @@ name = "difi"
 description = "Review and refine Git diffs before you push"
 homepage = "https://github.com/oug-t/difi"
 alternatives = [ "diff", "difftastic"]
-version = "0.1.5"
-updated = "2026-02-10"
+version = "0.1.6"
+updated = "2026-02-13"
 package-url = "https://github.com/oug-t/difi/releases/download/v{{version}}/difi_Linux_x86_64.tar.gz"
 
 [extract]
