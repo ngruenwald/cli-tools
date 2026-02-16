@@ -29,7 +29,7 @@
 | [delta](https://github.com/dandavison/delta) | A syntax-highlighting pager for git, diff, grep, and blame output | 0.18.2 | 2024-09-11 |  |
 | [devbox](https://github.com/jetify-com/devbox) | Instant, easy, and predictable development environments | 0.16.0 | 2025-08-21 |  |
 | [difftastic](https://github.com/Wilfred/difftastic) | a structural diff that understands syntax | 0.67.0 | 2025-11-16 | diff |
-| [difi](https://github.com/oug-t/difi) | Review and refine Git diffs before you push | 0.1.6 | 2026-02-13 | diff, difftastic |
+| [difi](https://github.com/oug-t/difi) | Review and refine Git diffs before you push | 0.1.7 | 2026-02-16 | diff, difftastic |
 | [direnv](https://github.com/direnv/direnv) | unclutter your .profile | 2.37.1 | 2025-07-21 |  |
 | [dive](https://github.com/wagoodman/dive) | A tool for exploring each layer in a docker image | 0.13.1 | 2025-03-29 |  |
 | [doccheck](https://github.com/mag37/dockcheck) | CLI tool to automate docker image updates. Selective, notifications, autoprune, no pre-pulling. | 0.5.8.0 | 2025-03-16 | podcheck |
@@ -76,7 +76,7 @@
 | [libfaketime](https://github.com/wolfcw/libfaketime) | libfaketime modifies the system time for a single application | 0.9.12 | 2025-06-09 |  |
 | [mcfly](https://github.com/cantino/mcfly) | Fly through your shell history. Great Scott! | 0.9.4 | 2025-12-25 | atuin, hishtory |
 | [mergiraf](https://mergiraf.org) | A syntax-aware git merge driver for a growing collection of programming languages and file formats. | 0.16.3 | 2026-01-27 |  |
-| [miniserve](https://github.com/svenstaro/miniserve) | For when you really just want to serve some files over HTTP right now! | 0.32.0 | 2025-09-17 | simple-http-server, see, binserve, http |
+| [miniserve](https://github.com/svenstaro/miniserve) | For when you really just want to serve some files over HTTP right now! | 0.33.0 | 2026-02-16 | simple-http-server, see, binserve, http |
 | [mold](https://github.com/rui314/mold) | Mold: A Modern Linker | 2.40.4 | 2025-08-17 | ld, lld, gold |
 | [multi-git-status](https://github.com/fboender/multi-git-status/archive/refs/tags/2.3.tar.gz) | Show uncommitted, untracked and unpushed changes for multiple Git repos | 2.3 | 2024-10-31 |  |
 | [navi](https://github.com/denisidoro/navi) | An interactive cheatsheet tool for the command-line | 2.24.0 | 2025-01-30 |  |
@@ -87,7 +87,7 @@
 | [nushell](https://nushell.sh) | A new type of shell | 0.110.0 | 2026-01-18 | bash, zsh, fish, powershell |
 | [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.16.1 | 2026-02-13 |  |
 | [onefetch](https://onefetch.dev) | Command-line Git information tool | 2.26.1 | 2025-12-21 |  |
-| [openapi-generator](https://openapi-generator.tech) | OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3) | 7.19.0 | 2026-01-20 |  |
+| [openapi-generator](https://openapi-generator.tech) | OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3) | 7.20.0 | 2026-02-16 |  |
 | [oryx](https://github.com/pythops/oryx) | TUI for sniffing network traffic using eBPF on Linux | 0.8.0 | 2026-02-04 |  |
 | [oxker](https://github.com/mrjackwills/oxker) | A simple tui to view & control docker containers | 0.12.0 | 2026-01-24 | lazydocker |
 | [pmd](https://pmd.github.io) | An extensible multilanguage static code analyzer. | 7.22.0-SNAPSHOT | 2026-01-30 |  |
@@ -117,7 +117,7 @@
 | [syft](https://github.com/anchore/syft) | CLI tool and library for generating a Software Bill of Materials from container images and filesystems | 1.42.0 | 2026-02-10 |  |
 | [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter | 5.5.0 | 2025-08-31 |  |
 | [task](https://github.com/go-task/task) | A task runner / simpler Make alternative written in Go | 3.48.0 | 2026-01-26 | make, dotree, just |
-| [td](https://github.com/marcus/td) | A minimalist CLI for tracking tasks across AI coding sessions. | 0.36.0 | 2026-02-15 |  |
+| [td](https://github.com/marcus/td) | A minimalist CLI for tracking tasks across AI coding sessions. | 0.37.0 | 2026-02-16 |  |
 | [tealdeer](https://github.com/dbrgn/tealdeer) | A very fast implementation of tldr in Rust. | 1.8.1 | 2025-11-12 | tldr, tlrc |
 | [television](https://github.com/alexpasmantier/television) | The revolution will (not) be televised | 0.15.2 | 2026-02-06 | fzf |
 | [teller](https://github.com/tellerops/teller) | Cloud native secrets management for developers - never leave your command line for secrets. | 2.0.7 | 2024-05-20 |  |
@@ -130,7 +130,7 @@
 | [up](https://github.com/akavel/up) | Ultimate Plumber is a tool for writing Linux pipes with instant live preview | 0.4 | 2020-10-29 |  |
 | [upt](https://github.com/sigoden/upt) | Universal Package-management Tool for any OS. | 0.9.0 | 2024-10-31 |  |
 | [usql](https://github.com/xo/usql) | Universal command-line interface for SQL databases | 0.20.8 | 2026-01-11 |  |
-| [uv](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | 0.10.2 | 2026-02-10 | pip, pdm, poetry, rye |
+| [uv](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | 0.10.3 | 2026-02-16 | pip, pdm, poetry, rye |
 | [vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder | 0.10.0 | 2025-06-18 |  |
 | [viddy](https://github.com/sachaos/viddy) | A modern watch command. Time machine and pager etc. | 1.3.0 | 2024-11-29 | watch, hwatch |
 | [websocat](https://github.com/vi/websocat) | Command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions | 1.14.1 | 2025-12-27 |  |
@@ -149,4 +149,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.0.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.0 | 2026-02-11 |  |
 
-_last updated: 2026-02-15 08:22:25 (utc)_
+_last updated: 2026-02-16 20:20:25 (utc)_
