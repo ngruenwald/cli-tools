@@ -1,0 +1,15 @@
+name = "weathr"
+description = "a terminal weather app with ascii animation"
+homepage = "https://github.com/Veirt/weathr"
+alternatives = [ ]
+version = "1.3.0"
+updated = "2026-02-17"
+package-url = "hhttps://github.com/Veirt/weathr/releases/download/v{{version}}/weathr-linux-amd64"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "weathr-linux-amd64"
+target = "{{vars.bin-path}}/weathr"
+mode = "0755"

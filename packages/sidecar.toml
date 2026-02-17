@@ -1,0 +1,15 @@
+name = "sidecar"
+description = "Use sidecar next to CLI agents for diffs, file trees, conversation history, and task management with td"
+homepage = "https://github.com/marcus/sidecar"
+alternatives = [ ]
+version = "0.74.0"
+updated = "2026-02-17"
+package-url = "https://github.com/marcus/sidecar/releases/download/v{{version}}/sidecar_{{version}}_linux_amd64.tar.gz"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "sidecar"
+target = "{{vars.bin-path}}/sidecar"
+mode = "0755"
