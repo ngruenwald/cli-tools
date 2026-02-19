@@ -55,7 +55,7 @@
 | [git-who](https://github.com/sinclairtarget/git-who) | Git blame for file trees | 1.3 | 2026-01-24 |  |
 | [gitleaks](https://github.com/gitleaks/gitleaks) | Protect and discover secrets using Gitleaks | 8.30.0 | 2025-11-27 |  |
 | [glow](https://github.com/charmbracelet/glow) | Render markdown on the CLI, with pizzazz! | 2.1.1 | 2025-05-30 |  |
-| [grype](https://github.com/anchore/grype) | A vulnerability scanner for container images and filesystems | 0.108.0 | 2026-02-10 |  |
+| [grype](https://github.com/anchore/grype) | A vulnerability scanner for container images and filesystems | 0.109.0 | 2026-02-19 |  |
 | [gtrash](https://github.com/umlx5h/gtrash) | A Featureful Trash CLI manager: alternative to rm and trash-cli | 0.0.6 | 2024-07-01 | trash-cli, trashy |
 | [helix](https://github.com/helix-editor/helix) | A post-modern modal text editor. | 25.07.1 | 2025-07-19 | vim, neovim |
 | [hexyl](https://github.com/sharkdp/hexyl) | A command-line hex viewer | 0.17.0 | 2026-02-14 |  |
@@ -82,7 +82,7 @@
 | [navi](https://github.com/denisidoro/navi) | An interactive cheatsheet tool for the command-line | 2.24.0 | 2025-01-30 |  |
 | [neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 0.11.6 | 2026-01-26 | vim, helix |
 | [nerdlog](https://dmitryfrank.com/projects/nerdlog/article) | Nerdlog: fast, remote-first, multi-host TUI log viewer with timeline histogram and no central server | 1.10.0 | 2026-01-24 |  |
-| [nightshift](https://github.com/marcus/nightshift) | Nightshift uses your leftover Claude / Codex budget to surprise you with useful PRs. Love them or leave them. | 0.3.2 | 2026-02-17 |  |
+| [nightshift](https://github.com/marcus/nightshift) | Nightshift uses your leftover Claude / Codex budget to surprise you with useful PRs. Love them or leave them. | 0.3.3 | 2026-02-19 |  |
 | [ninja](https://github.com/ninja-build/ninja) | a small build system with a focus on speed | 1.13.2 | 2025-11-20 | make, samurai |
 | [nushell](https://nushell.sh) | A new type of shell | 0.110.0 | 2026-01-18 | bash, zsh, fish, powershell |
 | [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.16.2 | 2026-02-17 |  |
@@ -108,9 +108,9 @@
 | [sd](https://github.com/chmln/sd) | Intuitive find & replace CLI (sed alternative) | 1.0.0 | 2023-11-08 | sed |
 | [shellcheck](https://github.com/koalaman/shellcheck) | ShellCheck, a static analysis tool for shell scripts | 0.11.0 | 2025-08-04 |  |
 | [shfmt](https://github.com/mvdan/sh#shfmt) | A shell parser, formatter, and interpreter with bash support; includes shfmt | 3.12.0 | 2025-07-07 |  |
-| [sidecar](https://github.com/marcus/sidecar) | Use sidecar next to CLI agents for diffs, file trees, conversation history, and task management with td | 0.74.0 | 2026-02-17 |  |
+| [sidecar](https://github.com/marcus/sidecar) | Use sidecar next to CLI agents for diffs, file trees, conversation history, and task management with td | 0.74.1 | 2026-02-19 |  |
 | [sonarscanner](https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/scanners/sonarscanner/) | The SonarScanner CLI is the scanner to use when there is no specific scanner for your build system. | 8.0.1.6346 | 2025-12-05 |  |
-| [sops](https://getsops.io) | Simple and flexible tool for managing secrets | 3.11.0 | 2025-09-28 | git-crypt |
+| [sops](https://getsops.io) | Simple and flexible tool for managing secrets | 3.12.0 | 2026-02-19 | git-crypt |
 | [sqlc](https://sqlc.dev) | Generate type-safe code from SQL | 1.30.0 | 2025-09-02 |  |
 | [sshs](https://github.com/quantumsheep/sshs) | Terminal user interface for SSH | 4.7.2 | 2025-04-24 |  |
 | [starship](https://github.com/starship/starship) | The minimal, blazing-fast, and infinitely customizable prompt for any shell! | 1.24.2 | 2025-12-31 | powerline-go |
@@ -118,7 +118,7 @@
 | [syft](https://github.com/anchore/syft) | CLI tool and library for generating a Software Bill of Materials from container images and filesystems | 1.42.1 | 2026-02-18 |  |
 | [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter | 5.5.0 | 2025-08-31 |  |
 | [task](https://github.com/go-task/task) | A task runner / simpler Make alternative written in Go | 3.48.0 | 2026-01-26 | make, dotree, just |
-| [td](https://github.com/marcus/td) | A minimalist CLI for tracking tasks across AI coding sessions. | 0.37.0 | 2026-02-16 |  |
+| [td](https://github.com/marcus/td) | A minimalist CLI for tracking tasks across AI coding sessions. | 0.38.0 | 2026-02-19 |  |
 | [tealdeer](https://github.com/dbrgn/tealdeer) | A very fast implementation of tldr in Rust. | 1.8.1 | 2025-11-12 | tldr, tlrc |
 | [television](https://github.com/alexpasmantier/television) | The revolution will (not) be televised | 0.15.2 | 2026-02-06 | fzf |
 | [teller](https://github.com/tellerops/teller) | Cloud native secrets management for developers - never leave your command line for secrets. | 2.0.7 | 2024-05-20 |  |
@@ -127,7 +127,7 @@
 | [tokei](https://github.com/XAMPPRocky/tokei) | Count your code, quickly. | 14.0.0 | 2025-12-30 | sloc, scc |
 | [topgrade](https://github.com/topgrade-rs/topgrade) | Upgrade all the things | 16.9.0 | 2026-02-15 |  |
 | [trashy](https://github.com/oberblastmeister/trashy) | a cli system trash manager, alternative to rm and trash-cli | 2.0.0 | 2022-09-30 | trash-cli, gtrash |
-| [trufflehog](https://trufflesecurity.com) | Find, verify, and analyze leaked credentials | 3.93.3 | 2026-02-11 |  |
+| [trufflehog](https://trufflesecurity.com) | Find, verify, and analyze leaked credentials | 3.93.4 | 2026-02-19 |  |
 | [up](https://github.com/akavel/up) | Ultimate Plumber is a tool for writing Linux pipes with instant live preview | 0.4 | 2020-10-29 |  |
 | [upt](https://github.com/sigoden/upt) | Universal Package-management Tool for any OS. | 0.9.0 | 2024-10-31 |  |
 | [usql](https://github.com/xo/usql) | Universal command-line interface for SQL databases | 0.20.8 | 2026-01-11 |  |
@@ -151,4 +151,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-02-18 17:55:55 (utc)_
+_last updated: 2026-02-19 21:57:07 (utc)_
