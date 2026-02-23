@@ -2,8 +2,8 @@ name = "jd"
 description = "JSON diff and patch"
 homepage = "https://github.com/josephburnett/jd"
 alternatives = []
-version = "2.4.0"
-updated = "2026-01-12"
+version = "2.5.0"
+updated = "2026-02-23"
 package-url = "https://github.com/josephburnett/jd/releases/download/v{{version}}/jd-amd64-linux"
 
 [extract]

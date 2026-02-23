@@ -1,0 +1,15 @@
+name = "gitas"
+description = "Git Account Switch"
+homepage = "https://github.com/letmutex/gitas"
+alternatives = [ ]
+version = "0.0.6"
+updated = "2026-02-23"
+package-url = "https://github.com/letmutex/gitas/releases/download/v{{version}}/gitas-v{{version}}-linux-x64.tar.gz"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "gitas"
+target = "{{vars.bin-path}}/gitas"
+mode = "0755"

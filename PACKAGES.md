@@ -24,7 +24,7 @@
 | [cppfront](https://github.com/hsutter/cppfront) | A personal experimental C++ Syntax 2 -> Syntax 1 compiler -- NOT FOR COMMERICAL USE! | 0.8.1 | 2025-01-31 |  |
 | [ctop](https://github.com/bcicen/ctop) | Top-like interface for container metrics | 0.7.7 | 2022-03-22 |  |
 | [curlie](https://github.com/rs/curlie) | The power of curl, the ease of use of httpie. | 1.8.2 | 2025-03-07 | httpie, xh |
-| [dasel](https://github.com/TomWright/dasel) | Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package. | 3.2.2 | 2026-02-14 |  |
+| [dasel](https://github.com/TomWright/dasel) | Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package. | 3.2.3 | 2026-02-23 |  |
 | [dblab](https://github.com/danvergara/dblab) | The database client every command line junkie deserves. | 0.34.3 | 2026-02-12 | lazysql, usql |
 | [delta](https://github.com/dandavison/delta) | A syntax-highlighting pager for git, diff, grep, and blame output | 0.18.2 | 2024-09-11 |  |
 | [devbox](https://github.com/jetify-com/devbox) | Instant, easy, and predictable development environments | 0.16.0 | 2025-08-21 |  |
@@ -53,6 +53,7 @@
 | [git](https://git-scm.com) | Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. | 2.53.0 | 2026-02-03 |  |
 | [git-cryp](https://www.agwa.name/projects/git-crypt) | Transparent file encryption in git | 0.8.0 | 2025-09-24 |  |
 | [git-who](https://github.com/sinclairtarget/git-who) | Git blame for file trees | 1.3 | 2026-01-24 |  |
+| [gitas](https://github.com/letmutex/gitas) | Git Account Switch | 0.0.6 | 2026-02-23 |  |
 | [gitleaks](https://github.com/gitleaks/gitleaks) | Protect and discover secrets using Gitleaks | 8.30.0 | 2025-11-27 |  |
 | [glow](https://github.com/charmbracelet/glow) | Render markdown on the CLI, with pizzazz! | 2.1.1 | 2025-05-30 |  |
 | [grype](https://github.com/anchore/grype) | A vulnerability scanner for container images and filesystems | 0.109.0 | 2026-02-19 |  |
@@ -63,7 +64,7 @@
 | [hwatch](https://github.com/blacknon/hwatch) | A modern alternative to the watch command, records the differences in execution results and can check this differences at after. | 0.3.19 | 2025-03-19 | watch, viddy |
 | [hyperfine](https://github.com/sharkdp/hyperfine) | A command-line benchmarking tool | 1.20.0 | 2025-11-18 |  |
 | [java21-jre](https://adoptium.net) | OpenJDK 21 LTS | 21.0.10+7 | 2026-01-21 |  |
-| [jd](https://github.com/josephburnett/jd) | JSON diff and patch | 2.4.0 | 2026-01-12 |  |
+| [jd](https://github.com/josephburnett/jd) | JSON diff and patch | 2.5.0 | 2026-02-23 |  |
 | [jq](https://github.com/jqlang/jq) | Command-line JSON processor | 1.8.1 | 2025-07-01 |  |
 | [just](https://github.com/casey/just) | Just a command runner | 1.46.0 | 2026-01-02 | make, dotree, task |
 | [k9s](https://github.com/derailed/k9s) | Kubernetes CLI To Manage Your Clusters In Style! | 0.50.18 | 2026-01-11 |  |
@@ -85,11 +86,11 @@
 | [nightshift](https://github.com/marcus/nightshift) | Nightshift uses your leftover Claude / Codex budget to surprise you with useful PRs. Love them or leave them. | 0.3.3 | 2026-02-19 |  |
 | [ninja](https://github.com/ninja-build/ninja) | a small build system with a focus on speed | 1.13.2 | 2025-11-20 | make, samurai |
 | [nushell](https://nushell.sh) | A new type of shell | 0.110.0 | 2026-01-18 | bash, zsh, fish, powershell |
-| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.16.3 | 2026-02-20 |  |
+| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.17.0 | 2026-02-23 |  |
 | [onefetch](https://onefetch.dev) | Command-line Git information tool | 2.26.1 | 2025-12-21 |  |
 | [openapi-generator](https://openapi-generator.tech) | OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3) | 7.20.0 | 2026-02-16 |  |
 | [oryx](https://github.com/pythops/oryx) | TUI for sniffing network traffic using eBPF on Linux | 0.8.0 | 2026-02-04 |  |
-| [oxker](https://github.com/mrjackwills/oxker) | A simple tui to view & control docker containers | 0.12.0 | 2026-01-24 | lazydocker |
+| [oxker](https://github.com/mrjackwills/oxker) | A simple tui to view & control docker containers | 0.13.0 | 2026-02-23 | lazydocker |
 | [pmd](https://pmd.github.io) | An extensible multilanguage static code analyzer. | 7.22.0-SNAPSHOT | 2026-01-30 |  |
 | [podcheck](https://github.com/sudo-kraken/podcheck) | CLI tool to automate podman image updates. Selective, notifications, autoprune, no pre-pulling. | 1.1.0 | 2025-10-12 | dockcheck |
 | [podman-tui](https://github.com/containers/podman-tui) | Podman Terminal UI | 1.10.0 | 2026-01-24 |  |
@@ -99,7 +100,7 @@
 | [python](https://python.org) | Python is a programming language that lets you work quickly and integrate systems more effectively. | 3.14.3 | 2026-02-03 |  |
 | [qemu](https://www.qemu.org) | A generic and open source machine emulator and virtualizer. | 10.2.1 | 2026-02-12 |  |
 | [rainfrog](https://crates.io/crates/rainfrog) | a database management tui for postgres | 0.3.17 | 2026-02-21 |  |
-| [regctl](https://regclient.org) | Docker and OCI Registry Client in Go and tooling using those libraries. | 0.11.1 | 2025-12-07 |  |
+| [regctl](https://regclient.org) | Docker and OCI Registry Client in Go and tooling using those libraries. | 0.11.2 | 2026-02-23 |  |
 | [ripgrep](https://github.com/BurntSushi/ripgrep) | ripgrep recursively searches directories for a regex pattern while respecting your gitignore | 15.1.0 | 2025-10-22 | grep |
 | [runme](https://github.com/stateful/runme) | DevOps Workflows Built with Markdown | 3.16.5 | 2026-02-01 |  |
 | [rustcat](https://github.com/quantumsheep/sshs) | Rustcat(rcat) - The modern Port listener and Reverse shell | 3.0.0 | 2022-08-15 |  |
@@ -134,7 +135,7 @@
 | [uv](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | 0.10.4 | 2026-02-18 | pip, pdm, poetry, rye |
 | [vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder | 0.10.0 | 2025-06-18 |  |
 | [viddy](https://github.com/sachaos/viddy) | A modern watch command. Time machine and pager etc. | 1.3.0 | 2024-11-29 | watch, hwatch |
-| [weathr](https://github.com/Veirt/weathr) | a terminal weather app with ascii animation | 1.3.0 | 2026-02-17 |  |
+| [weathr](https://github.com/Veirt/weathr) | a terminal weather app with ascii animation | 1.4.0 | 2026-02-23 |  |
 | [websocat](https://github.com/vi/websocat) | Command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions | 1.14.1 | 2025-12-27 |  |
 | [witr](https://github.com/pranshuparmar/witr) | Why is this running? | 0.3.0 | 2026-02-21 |  |
 | [xh](https://github.com/ducaale/xh) | Friendly and fast tool for sending HTTP requests | 0.25.3 | 2025-12-17 | httpie, curlie |
@@ -151,4 +152,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-02-22 16:34:40 (utc)_
+_last updated: 2026-02-23 21:26:34 (utc)_
