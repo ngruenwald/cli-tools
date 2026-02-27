@@ -1,0 +1,15 @@
+name = "surge"
+description = "Blazing fast TUI download manager built in Go for power users"
+homepage = "https://github.com/surge-downloader/surge"
+alternatives = [ ]
+version = "0.6.9"
+updated = "2026-02-27"
+package-url = "https://github.com/surge-downloader/Surge/releases/download/v{{version}}/Surge_{{version}}_linux_amd64.tar.gz"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "surge"
+target = "{{vars.bin-path}}/surge"
+mode = "0755"

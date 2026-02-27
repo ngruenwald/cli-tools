@@ -1,0 +1,15 @@
+name = "mdr"
+description = "a very light rust based markdown reader with support of mermaid (web, native, TUI). vibe coded"
+homepage = "https://github.com/CleverCloud/mdr"
+alternatives = [ ]
+version = "0.2.7"
+updated = "2026-02-27"
+package-url = "https://github.com/CleverCloud/mdr/releases/download/v{{version}}/mdr-x86_64-unknown-linux-gnu.tar.gz"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "mdr"
+target = "{{vars.bin-path}}/mdr"
+mode = "0755"
