@@ -76,7 +76,7 @@
 | [lazyjournal](https://github.com/Lifailon/lazyjournal) | A TUI for reading logs from journald, auditd, file system, Docker containers, ... | 0.8.5 | 2026-02-06 |  |
 | [lazysql](https://github.com/jorgerojas26/lazysql) | A cross-platform TUI database management tool written in Go. | 0.4.8 | 2026-02-17 |  |
 | [libfaketime](https://github.com/wolfcw/libfaketime) | libfaketime modifies the system time for a single application | 0.9.12 | 2025-06-09 |  |
-| [llmfit](https://github.com/AlexsJones/llmfit) | 206 models. 30 providers. One command to find what runs on your hardware. | 0.5.0 | 2026-02-28 |  |
+| [llmfit](https://github.com/AlexsJones/llmfit) | 206 models. 30 providers. One command to find what runs on your hardware. | 0.5.1 | 2026-03-01 |  |
 | [mcfly](https://github.com/cantino/mcfly) | Fly through your shell history. Great Scott! | 0.9.4 | 2025-12-25 | atuin, hishtory |
 | [mdr](https://github.com/CleverCloud/mdr) | a very light rust based markdown reader with support of mermaid (web, native, TUI). vibe coded | 0.2.7 | 2026-02-27 |  |
 | [mergiraf](https://mergiraf.org) | A syntax-aware git merge driver for a growing collection of programming languages and file formats. | 0.16.3 | 2026-01-27 |  |
@@ -86,10 +86,10 @@
 | [navi](https://github.com/denisidoro/navi) | An interactive cheatsheet tool for the command-line | 2.24.0 | 2025-01-30 |  |
 | [neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 0.11.6 | 2026-01-26 | vim, helix |
 | [nerdlog](https://dmitryfrank.com/projects/nerdlog/article) | Nerdlog: fast, remote-first, multi-host TUI log viewer with timeline histogram and no central server | 1.10.0 | 2026-01-24 |  |
-| [nightshift](https://github.com/marcus/nightshift) | Nightshift uses your leftover Claude / Codex budget to surprise you with useful PRs. Love them or leave them. | 0.3.3 | 2026-02-19 |  |
+| [nightshift](https://github.com/marcus/nightshift) | Nightshift uses your leftover Claude / Codex budget to surprise you with useful PRs. Love them or leave them. | 0.3.4 | 2026-03-01 |  |
 | [ninja](https://github.com/ninja-build/ninja) | a small build system with a focus on speed | 1.13.2 | 2025-11-20 | make, samurai |
-| [nushell](https://nushell.sh) | A new type of shell | 0.110.0 | 2026-01-18 | bash, zsh, fish, powershell |
-| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.17.4 | 2026-02-27 |  |
+| [nushell](https://nushell.sh) | A new type of shell | 0.111.0 | 2026-03-01 | bash, zsh, fish, powershell |
+| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.17.5 | 2026-03-01 |  |
 | [onefetch](https://onefetch.dev) | Command-line Git information tool | 2.26.1 | 2025-12-21 |  |
 | [openapi-generator](https://openapi-generator.tech) | OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3) | 7.20.0 | 2026-02-16 |  |
 | [oryx](https://github.com/pythops/oryx) | TUI for sniffing network traffic using eBPF on Linux | 0.8.0 | 2026-02-04 |  |
@@ -112,7 +112,7 @@
 | [sd](https://github.com/chmln/sd) | Intuitive find & replace CLI (sed alternative) | 1.1.0 | 2026-02-26 | sed |
 | [shellcheck](https://github.com/koalaman/shellcheck) | ShellCheck, a static analysis tool for shell scripts | 0.11.0 | 2025-08-04 |  |
 | [shfmt](https://github.com/mvdan/sh#shfmt) | A shell parser, formatter, and interpreter with bash support; includes shfmt | 3.12.0 | 2025-07-07 |  |
-| [sidecar](https://github.com/marcus/sidecar) | Use sidecar next to CLI agents for diffs, file trees, conversation history, and task management with td | 0.76.0 | 2026-02-28 |  |
+| [sidecar](https://github.com/marcus/sidecar) | Use sidecar next to CLI agents for diffs, file trees, conversation history, and task management with td | 0.77.0 | 2026-03-01 |  |
 | [sonarscanner](https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/scanners/sonarscanner/) | The SonarScanner CLI is the scanner to use when there is no specific scanner for your build system. | 8.0.1.6346 | 2025-12-05 |  |
 | [sops](https://getsops.io) | Simple and flexible tool for managing secrets | 3.12.1 | 2026-02-22 | git-crypt |
 | [sqlc](https://sqlc.dev) | Generate type-safe code from SQL | 1.30.0 | 2025-09-02 |  |
@@ -123,7 +123,7 @@
 | [syft](https://github.com/anchore/syft) | CLI tool and library for generating a Software Bill of Materials from container images and filesystems | 1.42.1 | 2026-02-18 |  |
 | [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter | 5.5.0 | 2025-08-31 |  |
 | [task](https://github.com/go-task/task) | A task runner / simpler Make alternative written in Go | 3.48.0 | 2026-01-26 | make, dotree, just |
-| [td](https://github.com/marcus/td) | A minimalist CLI for tracking tasks across AI coding sessions. | 0.40.0 | 2026-02-28 |  |
+| [td](https://github.com/marcus/td) | A minimalist CLI for tracking tasks across AI coding sessions. | 0.41.0 | 2026-03-01 |  |
 | [tealdeer](https://github.com/dbrgn/tealdeer) | A very fast implementation of tldr in Rust. | 1.8.1 | 2025-11-12 | tldr, tlrc |
 | [television](https://github.com/alexpasmantier/television) | The revolution will (not) be televised | 0.15.2 | 2026-02-06 | fzf |
 | [teller](https://github.com/tellerops/teller) | Cloud native secrets management for developers - never leave your command line for secrets. | 2.0.7 | 2024-05-20 |  |
@@ -156,4 +156,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-02-28 09:51:31 (utc)_
+_last updated: 2026-03-01 08:26:36 (utc)_
