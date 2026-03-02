@@ -1,0 +1,15 @@
+name = "codespelunker"
+description = "codespelunker - CLI code search tool that understands code structure and ranks results by relevance. No indexing required"
+homepage = "https://github.com/boyter/cs"
+alternatives = [ ]
+version = "3.0.0"
+updated = "2026-03-02"
+package-url = "https://github.com/boyter/cs/releases/download/v{{version}}/cs_Linux_x86_64.tar.gz"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "cs"
+target = "{{vars.bin-path}}/cs"
+mode = "0755"
