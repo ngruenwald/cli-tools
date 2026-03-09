@@ -2,8 +2,8 @@ name = "podman-tui"
 description = "Podman Terminal UI"
 homepage = "https://github.com/containers/podman-tui"
 alternatives = [ ]
-version = "1.10.0"
-updated = "2026-01-24"
+version = "1.11.0"
+updated = "2026-03-09"
 package-url = "https://github.com/containers/podman-tui/releases/download/v{{version}}/podman-tui-release-linux_amd64.zip"
 
 [extract]
