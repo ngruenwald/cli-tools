@@ -47,7 +47,7 @@
 | [envio](https://github.com/envio-cli/envio) | Envio is a modern and secure command-line tool that simplifies the management of environment variables | 0.7.0 | 2026-03-01 |  |
 | [evil-helix](https://github.com/usagi-flow/evil-helix) | Bringing the Helix editor to the evil side | 20250915 | 2025-09-16 | vim, neovim, helix |
 | [eza](https://github.com/eza-community/eza) | A modern alternative to ls | 0.23.4 | 2025-10-04 | ls, lsd |
-| [fd](https://github.com/sharkdp/fd) | A simple, fast and user-friendly alternative to 'find' | 10.4.1 | 2026-03-08 | find |
+| [fd](https://github.com/sharkdp/fd) | A simple, fast and user-friendly alternative to 'find' | 10.4.2 | 2026-03-10 | find |
 | [fjira](https://github.com/mk-5/fjira) | The golang fuzzy-find cli jira interface | 1.5.1 | 2026-01-24 |  |
 | [fq](https://github.com/wader/fq) | jq for binary formats - tool, language and decoders for working with binary and text formats | 0.16.0 | 2025-12-07 |  |
 | [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | 0.70.0 | 2026-03-02 | skim |
@@ -138,7 +138,7 @@
 | [upt](https://github.com/sigoden/upt) | Universal Package-management Tool for any OS. | 0.9.0 | 2024-10-31 |  |
 | [usql](https://github.com/xo/usql) | Universal command-line interface for SQL databases | 0.21.1 | 2026-03-04 |  |
 | [uv](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | 0.10.9 | 2026-03-07 | pip, pdm, poetry, rye |
-| [vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder | 0.10.0 | 2025-06-18 |  |
+| [vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder | 0.11.0 | 2026-03-10 |  |
 | [viddy](https://github.com/sachaos/viddy) | A modern watch command. Time machine and pager etc. | 1.3.0 | 2024-11-29 | watch, hwatch |
 | [weathr](https://github.com/Veirt/weathr) | a terminal weather app with ascii animation | 1.4.0 | 2026-02-23 |  |
 | [websocat](https://github.com/vi/websocat) | Command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions | 1.14.1 | 2025-12-27 |  |
@@ -158,4 +158,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-03-10 06:01:11 (utc)_
+_last updated: 2026-03-10 18:33:56 (utc)_
