@@ -41,7 +41,7 @@
 | [doxygen](https://github.com/doxygen/doxygen) | Code Documentation. Automated. | 1.16.1 | 2026-01-11 |  |
 | [doxygen-awesome-css](https://github.com/jothepro/doxygen-awesome-css) | Code Documentation. Automated. | 2.4.1 | 2025-10-12 |  |
 | [duf](https://github.com/muesli/duf) | Disk Usage/Free Utility - a better 'df' alternative | 0.9.1 | 2025-09-09 | df |
-| [duplo](https://github.com/dlidstrom/Duplo) | Duplicates finder for various source code formats. | 2.1.2 | 2026-02-27 |  |
+| [duplo](https://github.com/dlidstrom/Duplo) | Duplicates finder for various source code formats. | 2.1.3 | 2026-03-16 |  |
 | [dust](https://github.com/bootandy/dust) | A more intuitive version of du in rust | 1.2.4 | 2026-01-09 | du |
 | [dysk](https://dystroy.org/dysk) | A linux utility to get information on filesystems, like df but better | 3.6.0b | 2025-12-23 | df, duf |
 | [envio](https://github.com/envio-cli/envio) | Envio is a modern and secure command-line tool that simplifies the management of environment variables | 0.7.0 | 2026-03-01 |  |
@@ -74,7 +74,7 @@
 | [kickstart](https://github.com/Keats/kickstart) | A scaffolding tool to get new projects up and running quickly | 0.6.0 | 2025-12-22 | cookiecutter, proji |
 | [lazydocker](https://github.com/jesseduffield/lazydocker) | The lazier way to manage everything docker | 0.25.0 | 2026-03-15 |  |
 | [lazygit](https://github.com/jesseduffield/lazygit) | simple terminal UI for git commands | 0.60.0 | 2026-03-10 |  |
-| [lazyjournal](https://github.com/Lifailon/lazyjournal) | A TUI for reading logs from journald, auditd, file system, Docker containers, ... | 0.8.5 | 2026-02-06 |  |
+| [lazyjournal](https://github.com/Lifailon/lazyjournal) | A TUI for reading logs from journald, auditd, file system, Docker containers, ... | 0.8.6 | 2026-03-16 |  |
 | [lazysql](https://github.com/jorgerojas26/lazysql) | A cross-platform TUI database management tool written in Go. | 0.4.8 | 2026-02-17 |  |
 | [libfaketime](https://github.com/wolfcw/libfaketime) | libfaketime modifies the system time for a single application | 0.9.12 | 2025-06-09 |  |
 | [llmfit](https://github.com/AlexsJones/llmfit) | 206 models. 30 providers. One command to find what runs on your hardware. | 0.7.4 | 2026-03-15 |  |
@@ -158,4 +158,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-03-16 06:12:40 (utc)_
+_last updated: 2026-03-16 18:29:08 (utc)_
