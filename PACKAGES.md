@@ -49,7 +49,7 @@
 | [eza](https://github.com/eza-community/eza) | A modern alternative to ls | 0.23.4 | 2025-10-04 | ls, lsd |
 | [fd](https://github.com/sharkdp/fd) | A simple, fast and user-friendly alternative to 'find' | 10.4.2 | 2026-03-10 | find |
 | [fjira](https://github.com/mk-5/fjira) | The golang fuzzy-find cli jira interface | 1.5.1 | 2026-01-24 |  |
-| [fq](https://github.com/wader/fq) | jq for binary formats - tool, language and decoders for working with binary and text formats | 0.16.0 | 2025-12-07 |  |
+| [fq](https://github.com/wader/fq) | jq for binary formats - tool, language and decoders for working with binary and text formats | 0.17.0 | 2026-03-16 |  |
 | [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | 0.70.0 | 2026-03-02 | skim |
 | [gdu](https://github.com/dundee/gdu) | Fast disk usage analyzer with console interface written in Go | 5.34.0 | 2026-03-09 | du, dust, ncdu |
 | [git](https://git-scm.com) | Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. | 2.53.0 | 2026-02-03 |  |
@@ -153,9 +153,9 @@
 | [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/archive/refs/tags/v0.7.1.tar.gz) | Fish-like autosuggestions for zsh | 0.7.1 | 2024-11-15 |  |
 | [zsh-command-not-found](https://github.com/Freed-Wu/zsh-command-not-found/archive/refs/heads/main.tar.gz) | This plugin uses the command-not-found package for zsh to provide suggested packages to be installed if a command cannot be found. | main | 2022-09-05 |  |
 | [zsh-completions](https://github.com/zsh-users/zsh-completions/archive/refs/tags/0.36.0.tar.gz) | Additional completion definitions for Zsh. | 0.36.0 | 2026-03-09 |  |
-| [zsh-fzf-tab](https://github.com/Aloxaf/fzf-tab/archive/refs/tags/v1.2.0.tar.gz) | Replace zsh's default completion selection menu with fzf! | 1.2.0 | 2025-02-18 |  |
+| [zsh-fzf-tab](https://github.com/Aloxaf/fzf-tab/archive/refs/tags/v1.3.0.tar.gz) | Replace zsh's default completion selection menu with fzf! | 1.3.0 | 2026-03-16 |  |
 | [zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search/archive/refs/tags/v1.1.0.tar.gz) | ZSH port of Fish history search (up arrow) | 1.1.0 | 2023-07-28 |  |
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-03-15 10:43:28 (utc)_
+_last updated: 2026-03-16 06:12:40 (utc)_
