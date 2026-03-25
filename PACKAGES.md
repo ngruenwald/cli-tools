@@ -133,7 +133,7 @@
 | [tokei](https://github.com/XAMPPRocky/tokei) | Count your code, quickly. | 14.0.0 | 2025-12-30 | sloc, scc |
 | [topgrade](https://github.com/topgrade-rs/topgrade) | Upgrade all the things | 17.1.0 | 2026-03-11 |  |
 | [trashy](https://github.com/oberblastmeister/trashy) | a cli system trash manager, alternative to rm and trash-cli | 2.0.0 | 2022-09-30 | trash-cli, gtrash |
-| [trufflehog](https://trufflesecurity.com) | Find, verify, and analyze leaked credentials | 3.94.0 | 2026-03-20 |  |
+| [trufflehog](https://trufflesecurity.com) | Find, verify, and analyze leaked credentials | 3.94.1 | 2026-03-25 |  |
 | [up](https://github.com/akavel/up) | Ultimate Plumber is a tool for writing Linux pipes with instant live preview | 0.4 | 2020-10-29 |  |
 | [upt](https://github.com/sigoden/upt) | Universal Package-management Tool for any OS. | 0.9.0 | 2024-10-31 |  |
 | [usql](https://github.com/xo/usql) | Universal command-line interface for SQL databases | 0.21.1 | 2026-03-04 |  |
@@ -158,4 +158,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-03-25 05:26:18 (utc)_
+_last updated: 2026-03-25 16:57:31 (utc)_
