@@ -8,7 +8,7 @@
 | [binsider](https://binsider.dev) | Analyze ELF binaries like a boss | 0.3.2 | 2026-02-01 |  |
 | [ble.sh](https://github.com/akinomyoga/ble.sh) | Bash Line Editor ― a line editor written in pure Bash with syntax highlighting, auto suggestions, vim modes, etc. for Bash interactive sessions. | 0.4.0-devel3 | 2023-04-03 |  |
 | [bottom](https://github.com/ClementTsang/bottom) | Yet another cross-platform graphical process/system monitor. | 0.12.3 | 2026-01-01 | top, htop |
-| [broot](https://dystroy.org/broot) | A new way to see and navigate directory trees | 1.56.1 | 2026-03-20 |  |
+| [broot](https://dystroy.org/broot) | A new way to see and navigate directory trees | 1.56.2 | 2026-03-26 |  |
 | [bunster](https://github.com/yassinebenaid/bunster) | Compile shell scripts to static binaries. | 0.14.0 | 2025-08-22 |  |
 | [bytehound](https://github.com/koute/bytehound) | A memory profiler for Linux. | 0.11.0 | 2022-11-23 |  |
 | [carapace](https://carapace.sh) | multi-shell multi-command argument completer | 1.6.4 | 2026-03-19 |  |
@@ -22,7 +22,7 @@
 | [codelldb-vsix](https://github.com/vadimcn/codelldb) | A native debugger extension for VSCode based on LLDB | 1.12.1 | 2025-12-31 |  |
 | [codespelunker](https://github.com/boyter/cs) | codespelunker - CLI code search tool that understands code structure and ranks results by relevance. No indexing required | 3.1.0 | 2026-03-05 |  |
 | [codon](https://github.com/exaloop/codon) | A high-performance, zero-overhead, extensible Python compiler using LLVM | 0.19.6 | 2026-03-04 |  |
-| [cppcheck](https://github.com/danmar/cppcheck) | --- | 2.20.0 | 2026-03-02 |  |
+| [cppcheck](https://github.com/danmar/cppcheck) | --- | 2.20.1 | 2026-03-26 |  |
 | [cppfront](https://github.com/hsutter/cppfront) | A personal experimental C++ Syntax 2 -> Syntax 1 compiler -- NOT FOR COMMERICAL USE! | 0.8.1 | 2025-01-31 |  |
 | [ctop](https://github.com/bcicen/ctop) | Top-like interface for container metrics | 0.7.7 | 2022-03-22 |  |
 | [curlie](https://github.com/rs/curlie) | The power of curl, the ease of use of httpie. | 1.8.2 | 2025-03-07 | httpie, xh |
@@ -136,7 +136,7 @@
 | [trufflehog](https://trufflesecurity.com) | Find, verify, and analyze leaked credentials | 3.94.1 | 2026-03-25 |  |
 | [up](https://github.com/akavel/up) | Ultimate Plumber is a tool for writing Linux pipes with instant live preview | 0.4 | 2020-10-29 |  |
 | [upt](https://github.com/sigoden/upt) | Universal Package-management Tool for any OS. | 0.9.0 | 2024-10-31 |  |
-| [usql](https://github.com/xo/usql) | Universal command-line interface for SQL databases | 0.21.3 | 2026-03-26 |  |
+| [usql](https://github.com/xo/usql) | Universal command-line interface for SQL databases | 0.21.4 | 2026-03-26 |  |
 | [uv](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | 0.11.1 | 2026-03-25 | pip, pdm, poetry, rye |
 | [vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder | 0.11.0 | 2026-03-10 |  |
 | [viddy](https://github.com/sachaos/viddy) | A modern watch command. Time machine and pager etc. | 1.3.0 | 2024-11-29 | watch, hwatch |
@@ -158,4 +158,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-03-26 05:50:47 (utc)_
+_last updated: 2026-03-26 17:29:44 (utc)_
