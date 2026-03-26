@@ -2,8 +2,8 @@ name = "yq"
 description = "yq is a portable command-line YAML, JSON, XML, CSV, TOML and properties processor"
 homepage = "https://github.com/mikefarah/yq"
 alternatives = []
-version = "4.52.4"
-updated = "2026-02-14"
+version = "4.52.5"
+updated = "2026-03-26"
 package-url = "https://github.com/mikefarah/yq/releases/download/v{{version}}/yq_linux_amd64.tar.gz"
 
 [extract]
