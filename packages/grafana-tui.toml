@@ -1,0 +1,15 @@
+name = "grafana-tui"
+description = "Grafana dashboards in your terminal"
+homepage = "https://github.com/lovromazgon/grafana-tui"
+alternatives = [ ]
+version = "0.2.0"
+updated = "2026-04-01"
+package-url = "https://github.com/lovromazgon/grafana-tui/releases/download/v{{version}}/grafana-tui_{{version}}_Linux_x86_64.tar.gz"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "grafana-tui"
+target = "{{vars.bin-path}}/grafana-tui"
+mode = "0755"
