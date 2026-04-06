@@ -37,7 +37,7 @@
 | [dive](https://github.com/wagoodman/dive) | A tool for exploring each layer in a docker image | 0.13.1 | 2025-03-29 |  |
 | [doccheck](https://github.com/mag37/dockcheck) | CLI tool to automate docker image updates. Selective, notifications, autoprune, no pre-pulling. | 0.5.8.0 | 2025-03-16 | podcheck |
 | [doge](https://github.com/Dj-Codeman/doge) | Reviving A command-line DNS client. | 0.2.9 | 2025-08-10 | dig, dog |
-| [dotenvx](https://dotenvx.com) | a better dotenv–from the creator of `dotenv` | 1.59.1 | 2026-03-29 | cat |
+| [dotenvx](https://dotenvx.com) | a better dotenv–from the creator of `dotenv` | 1.60.1 | 2026-04-06 | cat |
 | [dotree](https://github.com/KnorrFG/dotree) | A small, interactive command runner | 0.8.2 | 2023-11-26 |  |
 | [doxygen](https://github.com/doxygen/doxygen) | Code Documentation. Automated. | 1.16.1 | 2026-01-11 |  |
 | [doxygen-awesome-css](https://github.com/jothepro/doxygen-awesome-css) | Code Documentation. Automated. | 2.4.2 | 2026-03-21 |  |
@@ -77,11 +77,11 @@
 | [kickstart](https://github.com/Keats/kickstart) | A scaffolding tool to get new projects up and running quickly | 0.6.0 | 2025-12-22 | cookiecutter, proji |
 | [layerleak](https://github.com/Brumbelow/layerleak) | layerleak the Docker Hub Secret Scanner | 1.0.0 | 2026-04-04 |  |
 | [lazydocker](https://github.com/jesseduffield/lazydocker) | The lazier way to manage everything docker | 0.25.0 | 2026-03-15 |  |
-| [lazygit](https://github.com/jesseduffield/lazygit) | simple terminal UI for git commands | 0.60.0 | 2026-03-10 |  |
+| [lazygit](https://github.com/jesseduffield/lazygit) | simple terminal UI for git commands | 0.61.0 | 2026-04-06 |  |
 | [lazyjournal](https://github.com/Lifailon/lazyjournal) | A TUI for reading logs from journald, auditd, file system, Docker containers, ... | 0.8.6 | 2026-03-16 |  |
 | [lazysql](https://github.com/jorgerojas26/lazysql) | A cross-platform TUI database management tool written in Go. | 0.4.8 | 2026-02-17 |  |
 | [libfaketime](https://github.com/wolfcw/libfaketime) | libfaketime modifies the system time for a single application | 0.9.12 | 2025-06-09 |  |
-| [llmfit](https://github.com/AlexsJones/llmfit) | 206 models. 30 providers. One command to find what runs on your hardware. | 0.9.0 | 2026-04-05 |  |
+| [llmfit](https://github.com/AlexsJones/llmfit) | 206 models. 30 providers. One command to find what runs on your hardware. | 0.9.2 | 2026-04-06 |  |
 | [mcfly](https://github.com/cantino/mcfly) | Fly through your shell history. Great Scott! | 0.9.4 | 2025-12-25 | atuin, hishtory |
 | [mdr](https://github.com/CleverCloud/mdr) | a very light rust based markdown reader with support of mermaid (web, native, TUI). vibe coded | 0.2.8 | 2026-03-10 |  |
 | [mergiraf](https://mergiraf.org) | A syntax-aware git merge driver for a growing collection of programming languages and file formats. | 0.16.3 | 2026-01-27 |  |
@@ -89,7 +89,7 @@
 | [mold](https://github.com/rui314/mold) | Mold: A Modern Linker | 2.40.4 | 2025-08-17 | ld, lld, gold |
 | [multi-git-status](https://github.com/fboender/multi-git-status/archive/refs/tags/2.3.tar.gz) | Show uncommitted, untracked and unpushed changes for multiple Git repos | 2.3 | 2024-10-31 |  |
 | [navi](https://github.com/denisidoro/navi) | An interactive cheatsheet tool for the command-line | 2.24.0 | 2025-01-30 |  |
-| [neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 0.12.0 | 2026-03-29 | vim, helix |
+| [neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 0.12.1 | 2026-04-06 | vim, helix |
 | [nerdlog](https://dmitryfrank.com/projects/nerdlog/article) | Nerdlog: fast, remote-first, multi-host TUI log viewer with timeline histogram and no central server | 1.10.0 | 2026-01-24 |  |
 | [nightshift](https://github.com/marcus/nightshift) | Nightshift uses your leftover Claude / Codex budget to surprise you with useful PRs. Love them or leave them. | 0.3.4 | 2026-03-01 |  |
 | [ninja](https://github.com/ninja-build/ninja) | a small build system with a focus on speed | 1.13.2 | 2025-11-20 | make, samurai |
@@ -124,9 +124,9 @@
 | [sshs](https://github.com/quantumsheep/sshs) | Terminal user interface for SSH | 4.7.2 | 2025-04-24 |  |
 | [starship](https://github.com/starship/starship) | The minimal, blazing-fast, and infinitely customizable prompt for any shell! | 1.24.2 | 2025-12-31 | powerline-go |
 | [superfile](https://superfile.dev) | Pretty fancy and modern terminal file manager | 1.5.0 | 2026-01-13 | yazi, ranger |
-| [surge](https://github.com/surge-downloader/surge) | Blazing fast TUI download manager built in Go for power users | 0.7.7 | 2026-04-03 |  |
+| [surge](https://github.com/surge-downloader/surge) | Blazing fast TUI download manager built in Go for power users | 0.7.8 | 2026-04-06 |  |
 | [syft](https://github.com/anchore/syft) | CLI tool and library for generating a Software Bill of Materials from container images and filesystems | 1.42.3 | 2026-03-20 |  |
-| [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter | 5.5.0 | 2025-08-31 |  |
+| [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter | 6.0.0 | 2026-04-06 |  |
 | [task](https://github.com/go-task/task) | A task runner / simpler Make alternative written in Go | 3.49.1 | 2026-03-08 | make, dotree, just |
 | [td](https://github.com/marcus/td) | A minimalist CLI for tracking tasks across AI coding sessions. | 0.43.0 | 2026-03-24 |  |
 | [tealdeer](https://github.com/dbrgn/tealdeer) | A very fast implementation of tldr in Rust. | 1.8.1 | 2025-11-12 | tldr, tlrc |
@@ -147,7 +147,7 @@
 | [weathr](https://github.com/Veirt/weathr) | a terminal weather app with ascii animation | 1.4.0 | 2026-02-23 |  |
 | [websocat](https://github.com/vi/websocat) | Command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions | 1.14.1 | 2025-12-27 |  |
 | [witr](https://github.com/pranshuparmar/witr) | Why is this running? | 0.3.1 | 2026-03-18 |  |
-| [worktrunk](https://github.com/max-sixty/worktrunk) | Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows | 0.34.1 | 2026-04-04 |  |
+| [worktrunk](https://github.com/max-sixty/worktrunk) | Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows | 0.34.2 | 2026-04-06 |  |
 | [xh](https://github.com/ducaale/xh) | Friendly and fast tool for sending HTTP requests | 0.25.3 | 2025-12-17 | httpie, curlie |
 | [xq](https://github.com/sibprogrammer/xq) | Command-line XML and HTML beautifier and content extractor | 1.4.0 | 2026-02-27 |  |
 | [yazi](https://github.com/sxyazi/yazi) | Blazing fast terminal file manager written in Rust, based on async I/O. | 26.1.22 | 2026-01-23 | ranger |
@@ -162,4 +162,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-04-06 19:29:35 (utc)_
+_last updated: 2026-04-06 19:56:04 (utc)_
