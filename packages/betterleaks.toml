@@ -2,8 +2,8 @@ name = "betterleaks"
 description = "A Better Secrets Scanner built for configurability and speed"
 homepage = "https://github.com/betterleaks/betterleaks"
 alternatives = ["gitleaks"]
-version = "1.1.1"
-updated = "2026-03-31"
+version = "1.1.2"
+updated = "2026-04-08"
 package-url = "https://github.com/betterleaks/betterleaks/releases/download/v{{version}}/betterleaks_{{version}}_linux_x64.tar.gz"
 
 [extract]
