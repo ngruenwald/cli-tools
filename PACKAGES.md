@@ -58,7 +58,7 @@
 | [git-who](https://github.com/sinclairtarget/git-who) | Git blame for file trees | 1.3 | 2026-01-24 |  |
 | [gitas](https://github.com/letmutex/gitas) | Git Account Switch | 0.0.7 | 2026-04-08 |  |
 | [gitleaks](https://github.com/gitleaks/gitleaks) | Protect and discover secrets using Gitleaks | 8.30.1 | 2026-03-12 |  |
-| [glow](https://github.com/charmbracelet/glow) | Render markdown on the CLI, with pizzazz! | 2.1.1 | 2025-05-30 |  |
+| [glow](https://github.com/charmbracelet/glow) | Render markdown on the CLI, with pizzazz! | 2.1.2 | 2026-04-10 |  |
 | [grafana-tui](https://github.com/lovromazgon/grafana-tui) | Grafana dashboards in your terminal | 0.2.0 | 2026-04-01 |  |
 | [grype](https://github.com/anchore/grype) | A vulnerability scanner for container images and filesystems | 0.111.0 | 2026-04-09 |  |
 | [gtrash](https://github.com/umlx5h/gtrash) | A Featureful Trash CLI manager: alternative to rm and trash-cli | 0.0.6 | 2024-07-01 | trash-cli, trashy |
@@ -94,7 +94,7 @@
 | [nightshift](https://github.com/marcus/nightshift) | Nightshift uses your leftover Claude / Codex budget to surprise you with useful PRs. Love them or leave them. | 0.3.4 | 2026-03-01 |  |
 | [ninja](https://github.com/ninja-build/ninja) | a small build system with a focus on speed | 1.13.2 | 2025-11-20 | make, samurai |
 | [nushell](https://nushell.sh) | A new type of shell | 0.111.0 | 2026-03-01 | bash, zsh, fish, powershell |
-| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.20.4 | 2026-04-08 |  |
+| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.20.5 | 2026-04-10 |  |
 | [onefetch](https://onefetch.dev) | Command-line Git information tool | 2.27.1 | 2026-03-19 |  |
 | [openapi-generator](https://openapi-generator.tech) | OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3) | 7.21.0 | 2026-03-24 |  |
 | [oryx](https://github.com/pythops/oryx) | TUI for sniffing network traffic using eBPF on Linux | 0.8.0 | 2026-02-04 |  |
@@ -135,7 +135,7 @@
 | [termshark](https://github.com/gcla/termshark) | A terminal UI for tshark, inspired by Wireshark | 2.4.0 | 2022-07-12 |  |
 | [tlrc](https://github.com/tldr-pages/tlrc) | A tldr client written in Rust | 1.13.0 | 2026-03-31 | tldr, tealdeer |
 | [tokei](https://github.com/XAMPPRocky/tokei) | Count your code, quickly. | 14.0.0 | 2025-12-30 | sloc, scc |
-| [topgrade](https://github.com/topgrade-rs/topgrade) | Upgrade all the things | 17.2.1 | 2026-04-02 |  |
+| [topgrade](https://github.com/topgrade-rs/topgrade) | Upgrade all the things | 17.3.0 | 2026-04-10 |  |
 | [trashy](https://github.com/oberblastmeister/trashy) | a cli system trash manager, alternative to rm and trash-cli | 2.0.0 | 2022-09-30 | trash-cli, gtrash |
 | [trufflehog](https://trufflesecurity.com) | Find, verify, and analyze leaked credentials | 3.94.3 | 2026-04-08 |  |
 | [up](https://github.com/akavel/up) | Ultimate Plumber is a tool for writing Linux pipes with instant live preview | 0.4 | 2020-10-29 |  |
@@ -162,4 +162,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-04-09 16:58:14 (utc)_
+_last updated: 2026-04-10 04:40:10 (utc)_
