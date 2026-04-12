@@ -2,8 +2,8 @@ name = "jid"
 description = "json incremental digger"
 homepage = "https://github.com/simeji/jid"
 alternatives = [ ]
-version = "1.1.1"
-updated = "2026-04-01"
+version = "1.1.2"
+updated = "2026-04-12"
 package-url = "https://github.com/simeji/jid/releases/download/v{{version}}/jid_linux_amd64.zip"
 
 [extract]
