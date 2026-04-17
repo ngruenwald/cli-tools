@@ -2,8 +2,8 @@ name = "dblab"
 description = "The database client every command line junkie deserves."
 homepage = "https://github.com/danvergara/dblab"
 alternatives = [ "lazysql", "usql", ]
-version = "0.37.1"
-updated = "2026-04-08"
+version = "0.38.0"
+updated = "2026-04-17"
 package-url = "https://github.com/danvergara/dblab/releases/download/v{{version}}/dblab_{{version}}_linux_amd64.tar.gz"
 
 [extract]
