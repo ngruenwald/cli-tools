@@ -53,7 +53,7 @@
 | [fq](https://github.com/wader/fq) | jq for binary formats - tool, language and decoders for working with binary and text formats | 0.17.0 | 2026-03-16 |  |
 | [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | 0.71.0 | 2026-04-04 | skim |
 | [gdu](https://github.com/dundee/gdu) | Fast disk usage analyzer with console interface written in Go | 5.35.0 | 2026-03-31 | du, dust, ncdu |
-| [git](https://git-scm.com) | Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. | 2.53.0 | 2026-02-03 |  |
+| [git](https://git-scm.com) | Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. | 2.54.0 | 2026-04-20 |  |
 | [git-cryp](https://www.agwa.name/projects/git-crypt) | Transparent file encryption in git | 0.8.0 | 2025-09-24 |  |
 | [git-who](https://github.com/sinclairtarget/git-who) | Git blame for file trees | 1.3 | 2026-01-24 |  |
 | [gitas](https://github.com/letmutex/gitas) | Git Account Switch | 0.0.7 | 2026-04-08 |  |
@@ -65,13 +65,13 @@
 | [helix](https://github.com/helix-editor/helix) | A post-modern modal text editor. | 25.07.1 | 2025-07-19 | vim, neovim |
 | [hexyl](https://github.com/sharkdp/hexyl) | A command-line hex viewer | 0.17.0 | 2026-02-14 |  |
 | [hurl](https://hurl.dev) | Hurl, run and test HTTP requests with plain text. | 7.1.0 | 2025-11-18 |  |
-| [hwatch](https://github.com/blacknon/hwatch) | A modern alternative to the watch command, records the differences in execution results and can check this differences at after. | 0.3.20 | 2026-03-17 | watch, viddy |
+| [hwatch](https://github.com/blacknon/hwatch) | A modern alternative to the watch command, records the differences in execution results and can check this differences at after. | 0.4.0 | 2026-04-20 | watch, viddy |
 | [hyperfine](https://github.com/sharkdp/hyperfine) | A command-line benchmarking tool | 1.20.0 | 2025-11-18 |  |
 | [java21-jre](https://adoptium.net) | OpenJDK 21 LTS | 21.0.10+7 | 2026-01-21 |  |
 | [jd](https://github.com/josephburnett/jd) | JSON diff and patch | 2.5.0 | 2026-02-23 |  |
 | [jid](https://github.com/simeji/jid) | json incremental digger | 1.1.2 | 2026-04-12 |  |
 | [jq](https://github.com/jqlang/jq) | Command-line JSON processor | 1.8.1 | 2025-07-01 |  |
-| [just](https://github.com/casey/just) | Just a command runner | 1.49.0 | 2026-04-05 | make, dotree, task |
+| [just](https://github.com/casey/just) | Just a command runner | 1.50.0 | 2026-04-20 | make, dotree, task |
 | [k9s](https://github.com/derailed/k9s) | Kubernetes CLI To Manage Your Clusters In Style! | 0.50.18 | 2026-01-11 |  |
 | [kcov](https://github.com/SimonKagstrom/kcov) | Code coverage tool for compiled programs, Python and Bash which uses debugging information to collect and report data without special compilation options | 43 | 2024-07-23 |  |
 | [kickstart](https://github.com/Keats/kickstart) | A scaffolding tool to get new projects up and running quickly | 0.6.0 | 2025-12-22 | cookiecutter, proji |
@@ -81,7 +81,7 @@
 | [lazyjournal](https://github.com/Lifailon/lazyjournal) | A TUI for reading logs from journald, auditd, file system, Docker containers, ... | 0.8.6 | 2026-03-16 |  |
 | [lazysql](https://github.com/jorgerojas26/lazysql) | A cross-platform TUI database management tool written in Go. | 0.4.8 | 2026-02-17 |  |
 | [libfaketime](https://github.com/wolfcw/libfaketime) | libfaketime modifies the system time for a single application | 0.9.12 | 2025-06-09 |  |
-| [llmfit](https://github.com/AlexsJones/llmfit) | 206 models. 30 providers. One command to find what runs on your hardware. | 0.9.10 | 2026-04-19 |  |
+| [llmfit](https://github.com/AlexsJones/llmfit) | 206 models. 30 providers. One command to find what runs on your hardware. | 0.9.11 | 2026-04-20 |  |
 | [mcfly](https://github.com/cantino/mcfly) | Fly through your shell history. Great Scott! | 0.9.4 | 2025-12-25 | atuin, hishtory |
 | [mdr](https://github.com/CleverCloud/mdr) | a very light rust based markdown reader with support of mermaid (web, native, TUI). vibe coded | 0.2.8 | 2026-03-10 |  |
 | [mergiraf](https://mergiraf.org) | A syntax-aware git merge driver for a growing collection of programming languages and file formats. | 0.16.3 | 2026-01-27 |  |
@@ -120,11 +120,11 @@
 | [sidecar](https://github.com/marcus/sidecar) | Use sidecar next to CLI agents for diffs, file trees, conversation history, and task management with td | 0.84.0 | 2026-04-19 |  |
 | [sonarscanner](https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/scanners/sonarscanner/) | The SonarScanner CLI is the scanner to use when there is no specific scanner for your build system. | 8.0.1.6346 | 2025-12-05 |  |
 | [sops](https://getsops.io) | Simple and flexible tool for managing secrets | 3.12.2 | 2026-03-18 | git-crypt |
-| [sqlc](https://sqlc.dev) | Generate type-safe code from SQL | 1.30.0 | 2025-09-02 |  |
+| [sqlc](https://sqlc.dev) | Generate type-safe code from SQL | 1.31.0 | 2026-04-20 |  |
 | [sshs](https://github.com/quantumsheep/sshs) | Terminal user interface for SSH | 4.7.2 | 2025-04-24 |  |
 | [starship](https://github.com/starship/starship) | The minimal, blazing-fast, and infinitely customizable prompt for any shell! | 1.25.0 | 2026-04-19 | powerline-go |
 | [superfile](https://superfile.dev) | Pretty fancy and modern terminal file manager | 1.5.0 | 2026-01-13 | yazi, ranger |
-| [surge](https://github.com/surge-downloader/surge) | Blazing fast TUI download manager built in Go for power users | 0.8.1 | 2026-04-14 |  |
+| [surge](https://github.com/surge-downloader/surge) | Blazing fast TUI download manager built in Go for power users | 0.8.2 | 2026-04-20 |  |
 | [syft](https://github.com/anchore/syft) | CLI tool and library for generating a Software Bill of Materials from container images and filesystems | 1.42.4 | 2026-04-09 |  |
 | [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter | 6.0.0 | 2026-04-06 |  |
 | [task](https://github.com/go-task/task) | A task runner / simpler Make alternative written in Go | 3.50.0 | 2026-04-14 | make, dotree, just |
@@ -147,7 +147,7 @@
 | [weathr](https://github.com/Veirt/weathr) | a terminal weather app with ascii animation | 1.4.0 | 2026-02-23 |  |
 | [websocat](https://github.com/vi/websocat) | Command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions | 1.14.1 | 2025-12-27 |  |
 | [witr](https://github.com/pranshuparmar/witr) | Why is this running? | 0.3.1 | 2026-03-18 |  |
-| [worktrunk](https://github.com/max-sixty/worktrunk) | Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows | 0.39.0 | 2026-04-18 |  |
+| [worktrunk](https://github.com/max-sixty/worktrunk) | Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows | 0.40.0 | 2026-04-20 |  |
 | [xh](https://github.com/ducaale/xh) | Friendly and fast tool for sending HTTP requests | 0.25.3 | 2025-12-17 | httpie, curlie |
 | [xq](https://github.com/sibprogrammer/xq) | Command-line XML and HTML beautifier and content extractor | 1.4.0 | 2026-02-27 |  |
 | [yazi](https://github.com/sxyazi/yazi) | Blazing fast terminal file manager written in Rust, based on async I/O. | 26.1.22 | 2026-01-23 | ranger |
@@ -162,4 +162,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-04-19 08:06:23 (utc)_
+_last updated: 2026-04-20 17:37:15 (utc)_
