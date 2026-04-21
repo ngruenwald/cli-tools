@@ -15,9 +15,9 @@
 | [carapace](https://carapace.sh) | multi-shell multi-command argument completer | 1.6.4 | 2026-03-19 |  |
 | [cgen](https://github.com/ngruenwald/config-generator) | Create configuration parsers, schemas and documentation. | 0.5.1 | 2025-09-04 |  |
 | [chiko](https://github.com/felangga/chiko) | The ultimate beauty gRPC Client on your Terminal! | 0.2.0 | 2026-03-29 |  |
-| [clang-tools](https://github.com/llvm/llvm-project) | --- | 22.1.3 | 2026-04-07 |  |
+| [clang-tools](https://github.com/llvm/llvm-project) | --- | 22.1.4 | 2026-04-21 |  |
 | [clangd](https://github.com/clangd/clangd) | clangd language server | 22.1.0 | 2026-03-01 |  |
-| [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 4.3.1 | 2026-03-29 |  |
+| [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 4.3.2 | 2026-04-21 |  |
 | [cmake3](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 3.31.12 | 2026-04-21 |  |
 | [code-server](https://coder.com) | VS Code in the browser | 4.116.0 | 2026-04-17 |  |
 | [codelldb-vsix](https://github.com/vadimcn/codelldb) | A native debugger extension for VSCode based on LLDB | 1.12.2 | 2026-04-21 |  |
@@ -106,7 +106,7 @@
 | [procs](https://github.com/dalance/procs) | A modern replacement for ps written in Rust | 0.14.11 | 2026-02-27 | ps |
 | [protolint](https://github.com/yoheimuta/protolint) | A pluggable linter and fixer to enforce Protocol Buffer style and conventions | 0.56.4 | 2025-08-26 |  |
 | [python](https://python.org) | Python is a programming language that lets you work quickly and integrate systems more effectively. | 3.14.4 | 2026-04-07 |  |
-| [qemu](https://www.qemu.org) | A generic and open source machine emulator and virtualizer. | 10.2.2 | 2026-03-17 |  |
+| [qemu](https://www.qemu.org) | A generic and open source machine emulator and virtualizer. | 11.0.0 | 2026-04-21 |  |
 | [rainfrog](https://crates.io/crates/rainfrog) | a database management tui for postgres | 0.3.18 | 2026-04-12 |  |
 | [regctl](https://regclient.org) | Docker and OCI Registry Client in Go and tooling using those libraries. | 0.11.3 | 2026-04-13 |  |
 | [ripgrep](https://github.com/BurntSushi/ripgrep) | ripgrep recursively searches directories for a regex pattern while respecting your gitignore | 15.1.0 | 2025-10-22 | grep |
@@ -118,7 +118,7 @@
 | [shellcheck](https://github.com/koalaman/shellcheck) | ShellCheck, a static analysis tool for shell scripts | 0.11.0 | 2025-08-04 |  |
 | [shfmt](https://github.com/mvdan/sh#shfmt) | A shell parser, formatter, and interpreter with bash support; includes shfmt | 3.13.1 | 2026-04-07 |  |
 | [sidecar](https://github.com/marcus/sidecar) | Use sidecar next to CLI agents for diffs, file trees, conversation history, and task management with td | 0.84.0 | 2026-04-19 |  |
-| [sonarscanner](https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/scanners/sonarscanner/) | The SonarScanner CLI is the scanner to use when there is no specific scanner for your build system. | 8.0.1.6346 | 2025-12-05 |  |
+| [sonarscanner](https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/scanners/sonarscanner/) | The SonarScanner CLI is the scanner to use when there is no specific scanner for your build system. | 8.1.0.6389 | 2026-04-21 |  |
 | [sops](https://getsops.io) | Simple and flexible tool for managing secrets | 3.12.2 | 2026-03-18 | git-crypt |
 | [sqlc](https://sqlc.dev) | Generate type-safe code from SQL | 1.31.0 | 2026-04-20 |  |
 | [sshs](https://github.com/quantumsheep/sshs) | Terminal user interface for SSH | 4.7.2 | 2025-04-24 |  |
@@ -162,4 +162,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-04-21 04:44:29 (utc)_
+_last updated: 2026-04-21 16:49:54 (utc)_
