@@ -18,9 +18,9 @@
 | [clang-tools](https://github.com/llvm/llvm-project) | --- | 22.1.3 | 2026-04-07 |  |
 | [clangd](https://github.com/clangd/clangd) | clangd language server | 22.1.0 | 2026-03-01 |  |
 | [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 4.3.1 | 2026-03-29 |  |
-| [cmake3](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 3.31.11 | 2026-01-27 |  |
+| [cmake3](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 3.31.12 | 2026-04-21 |  |
 | [code-server](https://coder.com) | VS Code in the browser | 4.116.0 | 2026-04-17 |  |
-| [codelldb-vsix](https://github.com/vadimcn/codelldb) | A native debugger extension for VSCode based on LLDB | 1.12.1 | 2025-12-31 |  |
+| [codelldb-vsix](https://github.com/vadimcn/codelldb) | A native debugger extension for VSCode based on LLDB | 1.12.2 | 2026-04-21 |  |
 | [codespelunker](https://github.com/boyter/cs) | codespelunker - CLI code search tool that understands code structure and ranks results by relevance. No indexing required | 3.1.0 | 2026-03-05 |  |
 | [codon](https://github.com/exaloop/codon) | A high-performance, zero-overhead, extensible Python compiler using LLVM | 0.19.6 | 2026-03-04 |  |
 | [cppcheck](https://github.com/danmar/cppcheck) | --- | 2.20.1 | 2026-03-26 |  |
@@ -30,7 +30,7 @@
 | [dasel](https://github.com/TomWright/dasel) | Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package. | 3.4.1 | 2026-03-31 |  |
 | [dblab](https://github.com/danvergara/dblab) | The database client every command line junkie deserves. | 0.38.0 | 2026-04-17 | lazysql, usql |
 | [delta](https://github.com/dandavison/delta) | A syntax-highlighting pager for git, diff, grep, and blame output | 0.19.2 | 2026-03-29 |  |
-| [devbox](https://github.com/jetify-com/devbox) | Instant, easy, and predictable development environments | 0.17.1 | 2026-04-01 |  |
+| [devbox](https://github.com/jetify-com/devbox) | Instant, easy, and predictable development environments | 0.17.2 | 2026-04-21 |  |
 | [difftastic](https://github.com/Wilfred/difftastic) | a structural diff that understands syntax | 0.68.0 | 2026-03-17 | diff |
 | [difi](https://github.com/oug-t/difi) | Review and refine Git diffs before you push | 0.2.2 | 2026-03-31 | diff, difftastic |
 | [direnv](https://github.com/direnv/direnv) | unclutter your .profile | 2.37.1 | 2025-07-21 |  |
@@ -147,7 +147,7 @@
 | [weathr](https://github.com/Veirt/weathr) | a terminal weather app with ascii animation | 1.4.0 | 2026-02-23 |  |
 | [websocat](https://github.com/vi/websocat) | Command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions | 1.14.1 | 2025-12-27 |  |
 | [witr](https://github.com/pranshuparmar/witr) | Why is this running? | 0.3.1 | 2026-03-18 |  |
-| [worktrunk](https://github.com/max-sixty/worktrunk) | Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows | 0.40.0 | 2026-04-20 |  |
+| [worktrunk](https://github.com/max-sixty/worktrunk) | Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows | 0.42.0 | 2026-04-21 |  |
 | [xh](https://github.com/ducaale/xh) | Friendly and fast tool for sending HTTP requests | 0.25.3 | 2025-12-17 | httpie, curlie |
 | [xq](https://github.com/sibprogrammer/xq) | Command-line XML and HTML beautifier and content extractor | 1.4.0 | 2026-02-27 |  |
 | [yazi](https://github.com/sxyazi/yazi) | Blazing fast terminal file manager written in Rust, based on async I/O. | 26.1.22 | 2026-01-23 | ranger |
@@ -162,4 +162,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-04-20 17:37:15 (utc)_
+_last updated: 2026-04-21 04:44:29 (utc)_
