@@ -37,7 +37,7 @@
 | [dive](https://github.com/wagoodman/dive) | A tool for exploring each layer in a docker image | 0.13.1 | 2025-03-29 |  |
 | [doccheck](https://github.com/mag37/dockcheck) | CLI tool to automate docker image updates. Selective, notifications, autoprune, no pre-pulling. | 0.5.8.0 | 2025-03-16 | podcheck |
 | [doge](https://github.com/Dj-Codeman/doge) | Reviving A command-line DNS client. | 0.2.9 | 2025-08-10 | dig, dog |
-| [dotenvx](https://dotenvx.com) | a better dotenv–from the creator of `dotenv` | 1.61.5 | 2026-04-22 | cat |
+| [dotenvx](https://dotenvx.com) | a better dotenv–from the creator of `dotenv` | 1.61.6 | 2026-04-23 | cat |
 | [dotree](https://github.com/KnorrFG/dotree) | A small, interactive command runner | 0.8.2 | 2023-11-26 |  |
 | [doxygen](https://github.com/doxygen/doxygen) | Code Documentation. Automated. | 1.16.1 | 2026-01-11 |  |
 | [doxygen-awesome-css](https://github.com/jothepro/doxygen-awesome-css) | Code Documentation. Automated. | 2.4.2 | 2026-03-21 |  |
@@ -64,10 +64,10 @@
 | [gtrash](https://github.com/umlx5h/gtrash) | A Featureful Trash CLI manager: alternative to rm and trash-cli | 0.0.6 | 2024-07-01 | trash-cli, trashy |
 | [helix](https://github.com/helix-editor/helix) | A post-modern modal text editor. | 25.07.1 | 2025-07-19 | vim, neovim |
 | [hexyl](https://github.com/sharkdp/hexyl) | A command-line hex viewer | 0.17.0 | 2026-02-14 |  |
-| [hurl](https://hurl.dev) | Hurl, run and test HTTP requests with plain text. | 7.1.0 | 2025-11-18 |  |
+| [hurl](https://hurl.dev) | Hurl, run and test HTTP requests with plain text. | 8.0.0 | 2026-04-23 |  |
 | [hwatch](https://github.com/blacknon/hwatch) | A modern alternative to the watch command, records the differences in execution results and can check this differences at after. | 0.4.0 | 2026-04-20 | watch, viddy |
 | [hyperfine](https://github.com/sharkdp/hyperfine) | A command-line benchmarking tool | 1.20.0 | 2025-11-18 |  |
-| [java21-jre](https://adoptium.net) | OpenJDK 21 LTS | 21.0.10+7 | 2026-01-21 |  |
+| [java21-jre](https://adoptium.net) | OpenJDK 21 LTS | 21.0.11+10 | 2026-04-23 |  |
 | [jd](https://github.com/josephburnett/jd) | JSON diff and patch | 2.5.0 | 2026-02-23 |  |
 | [jid](https://github.com/simeji/jid) | json incremental digger | 1.1.2 | 2026-04-12 |  |
 | [jq](https://github.com/jqlang/jq) | Command-line JSON processor | 1.8.1 | 2025-07-01 |  |
@@ -81,7 +81,7 @@
 | [lazyjournal](https://github.com/Lifailon/lazyjournal) | A TUI for reading logs from journald, auditd, file system, Docker containers, ... | 0.8.6 | 2026-03-16 |  |
 | [lazysql](https://github.com/jorgerojas26/lazysql) | A cross-platform TUI database management tool written in Go. | 0.4.8 | 2026-02-17 |  |
 | [libfaketime](https://github.com/wolfcw/libfaketime) | libfaketime modifies the system time for a single application | 0.9.12 | 2025-06-09 |  |
-| [llmfit](https://github.com/AlexsJones/llmfit) | 206 models. 30 providers. One command to find what runs on your hardware. | 0.9.13 | 2026-04-22 |  |
+| [llmfit](https://github.com/AlexsJones/llmfit) | 206 models. 30 providers. One command to find what runs on your hardware. | 0.9.14 | 2026-04-23 |  |
 | [mcfly](https://github.com/cantino/mcfly) | Fly through your shell history. Great Scott! | 0.9.4 | 2025-12-25 | atuin, hishtory |
 | [mdr](https://github.com/CleverCloud/mdr) | a very light rust based markdown reader with support of mermaid (web, native, TUI). vibe coded | 0.2.8 | 2026-03-10 |  |
 | [mergiraf](https://mergiraf.org) | A syntax-aware git merge driver for a growing collection of programming languages and file formats. | 0.16.3 | 2026-01-27 |  |
@@ -162,4 +162,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-04-22 22:35:08 (utc)_
+_last updated: 2026-04-23 17:34:25 (utc)_
