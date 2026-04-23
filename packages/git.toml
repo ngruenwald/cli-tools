@@ -49,5 +49,5 @@ repository-path = "git"
 files = [
     "git-{{version}}-el8.x86_64.tar.xz",
     "git-{{version}}-el9.x86_64.tar.xz",
-    "git-{{version}}-el9.x86_64.tar.xz"
+    "git-{{version}}-el10.x86_64.tar.xz"
 ]
