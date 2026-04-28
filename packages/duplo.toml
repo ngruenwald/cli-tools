@@ -2,8 +2,8 @@ name = "duplo"
 description = "Duplicates finder for various source code formats."
 homepage = "https://github.com/dlidstrom/Duplo"
 alternatives = [ ]
-version = "2.1.5"
-updated = "2026-03-17"
+version = "2.2.0"
+updated = "2026-04-28"
 package-url = "https://github.com/dlidstrom/Duplo/releases/download/v{{version}}/duplo-linux.zip"
 
 [extract]
