@@ -27,11 +27,11 @@
 | [cppfront](https://github.com/hsutter/cppfront) | A personal experimental C++ Syntax 2 -> Syntax 1 compiler -- NOT FOR COMMERICAL USE! | 0.8.1 | 2025-01-31 |  |
 | [ctop](https://github.com/bcicen/ctop) | Top-like interface for container metrics | 0.7.7 | 2022-03-22 |  |
 | [curlie](https://github.com/rs/curlie) | The power of curl, the ease of use of httpie. | 1.8.2 | 2025-03-07 | httpie, xh |
-| [dasel](https://github.com/TomWright/dasel) | Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package. | 3.8.0 | 2026-04-26 |  |
+| [dasel](https://github.com/TomWright/dasel) | Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package. | 3.8.1 | 2026-05-01 |  |
 | [dblab](https://github.com/danvergara/dblab) | The database client every command line junkie deserves. | 0.38.0 | 2026-04-17 | lazysql, usql |
 | [delta](https://github.com/dandavison/delta) | A syntax-highlighting pager for git, diff, grep, and blame output | 0.19.2 | 2026-03-29 |  |
 | [devbox](https://github.com/jetify-com/devbox) | Instant, easy, and predictable development environments | 0.17.2 | 2026-04-21 |  |
-| [difftastic](https://github.com/Wilfred/difftastic) | a structural diff that understands syntax | 0.68.0 | 2026-03-17 | diff |
+| [difftastic](https://github.com/Wilfred/difftastic) | a structural diff that understands syntax | 0.69.0 | 2026-05-01 | diff |
 | [difi](https://github.com/oug-t/difi) | Review and refine Git diffs before you push | 0.2.2 | 2026-03-31 | diff, difftastic |
 | [direnv](https://github.com/direnv/direnv) | unclutter your .profile | 2.37.1 | 2025-07-21 |  |
 | [dive](https://github.com/wagoodman/dive) | A tool for exploring each layer in a docker image | 0.13.1 | 2025-03-29 |  |
@@ -75,13 +75,13 @@
 | [k9s](https://github.com/derailed/k9s) | Kubernetes CLI To Manage Your Clusters In Style! | 0.50.18 | 2026-01-11 |  |
 | [kcov](https://github.com/SimonKagstrom/kcov) | Code coverage tool for compiled programs, Python and Bash which uses debugging information to collect and report data without special compilation options | 43 | 2024-07-23 |  |
 | [kickstart](https://github.com/Keats/kickstart) | A scaffolding tool to get new projects up and running quickly | 0.6.0 | 2025-12-22 | cookiecutter, proji |
-| [layerleak](https://github.com/Brumbelow/layerleak) | layerleak the Docker Hub Secret Scanner | 2.0.0 | 2026-04-25 |  |
+| [layerleak](https://github.com/Brumbelow/layerleak) | layerleak the Docker Hub Secret Scanner | 2.1.0 | 2026-05-01 |  |
 | [lazydocker](https://github.com/jesseduffield/lazydocker) | The lazier way to manage everything docker | 0.25.2 | 2026-04-19 |  |
 | [lazygit](https://github.com/jesseduffield/lazygit) | simple terminal UI for git commands | 0.61.1 | 2026-04-14 |  |
 | [lazyjournal](https://github.com/Lifailon/lazyjournal) | A TUI for reading logs from journald, auditd, file system, Docker containers, ... | 0.8.6 | 2026-03-16 |  |
 | [lazysql](https://github.com/jorgerojas26/lazysql) | A cross-platform TUI database management tool written in Go. | 0.4.8 | 2026-02-17 |  |
 | [libfaketime](https://github.com/wolfcw/libfaketime) | libfaketime modifies the system time for a single application | 0.9.12 | 2025-06-09 |  |
-| [llmfit](https://github.com/AlexsJones/llmfit) | 206 models. 30 providers. One command to find what runs on your hardware. | 0.9.17 | 2026-04-29 |  |
+| [llmfit](https://github.com/AlexsJones/llmfit) | 206 models. 30 providers. One command to find what runs on your hardware. | 0.9.18 | 2026-05-01 |  |
 | [mcfly](https://github.com/cantino/mcfly) | Fly through your shell history. Great Scott! | 0.9.4 | 2025-12-25 | atuin, hishtory |
 | [mdr](https://github.com/CleverCloud/mdr) | a very light rust based markdown reader with support of mermaid (web, native, TUI). vibe coded | 0.2.8 | 2026-03-10 |  |
 | [mergiraf](https://mergiraf.org) | A syntax-aware git merge driver for a growing collection of programming languages and file formats. | 0.16.3 | 2026-01-27 |  |
@@ -122,9 +122,9 @@
 | [sops](https://getsops.io) | Simple and flexible tool for managing secrets | 3.12.2 | 2026-03-18 | git-crypt |
 | [sqlc](https://sqlc.dev) | Generate type-safe code from SQL | 1.31.1 | 2026-04-22 |  |
 | [sshs](https://github.com/quantumsheep/sshs) | Terminal user interface for SSH | 4.7.2 | 2025-04-24 |  |
-| [starship](https://github.com/starship/starship) | The minimal, blazing-fast, and infinitely customizable prompt for any shell! | 1.25.0 | 2026-04-19 | powerline-go |
+| [starship](https://github.com/starship/starship) | The minimal, blazing-fast, and infinitely customizable prompt for any shell! | 1.25.1 | 2026-05-01 | powerline-go |
 | [superfile](https://superfile.dev) | Pretty fancy and modern terminal file manager | 1.5.0 | 2026-01-13 | yazi, ranger |
-| [surge](https://github.com/surge-downloader/surge) | Blazing fast TUI download manager built in Go for power users | 0.8.3 | 2026-04-25 |  |
+| [surge](https://github.com/surge-downloader/surge) | Blazing fast TUI download manager built in Go for power users | 0.8.4 | 2026-05-01 |  |
 | [syft](https://github.com/anchore/syft) | CLI tool and library for generating a Software Bill of Materials from container images and filesystems | 1.43.0 | 2026-04-22 |  |
 | [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter | 6.0.0 | 2026-04-06 |  |
 | [task](https://github.com/go-task/task) | A task runner / simpler Make alternative written in Go | 3.50.0 | 2026-04-14 | make, dotree, just |
@@ -162,4 +162,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-04-30 17:35:04 (utc)_
+_last updated: 2026-05-01 05:07:06 (utc)_

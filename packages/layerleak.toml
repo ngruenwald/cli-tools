@@ -2,8 +2,8 @@ name = "layerleak"
 description = "layerleak the Docker Hub Secret Scanner"
 homepage = "https://github.com/Brumbelow/layerleak"
 alternatives = [ ]
-version = "2.0.0"
-updated = "2026-04-25"
+version = "2.1.0"
+updated = "2026-05-01"
 package-url = "https://github.com/Brumbelow/layerleak/releases/download/v{{version}}/layerleak-v((version))-linux-amd64"
 
 [extract]
