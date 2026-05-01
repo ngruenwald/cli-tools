@@ -60,7 +60,7 @@
 | [gitleaks](https://github.com/gitleaks/gitleaks) | Protect and discover secrets using Gitleaks | 8.30.1 | 2026-03-12 |  |
 | [glow](https://github.com/charmbracelet/glow) | Render markdown on the CLI, with pizzazz! | 2.1.2 | 2026-04-10 |  |
 | [grafana-tui](https://github.com/lovromazgon/grafana-tui) | Grafana dashboards in your terminal | 0.2.0 | 2026-04-01 |  |
-| [grype](https://github.com/anchore/grype) | A vulnerability scanner for container images and filesystems | 0.111.1 | 2026-04-22 |  |
+| [grype](https://github.com/anchore/grype) | A vulnerability scanner for container images and filesystems | 0.112.0 | 2026-05-01 |  |
 | [gtrash](https://github.com/umlx5h/gtrash) | A Featureful Trash CLI manager: alternative to rm and trash-cli | 0.0.6 | 2024-07-01 | trash-cli, trashy |
 | [helix](https://github.com/helix-editor/helix) | A post-modern modal text editor. | 25.07.1 | 2025-07-19 | vim, neovim |
 | [hexyl](https://github.com/sharkdp/hexyl) | A command-line hex viewer | 0.17.0 | 2026-02-14 |  |
@@ -124,8 +124,8 @@
 | [sshs](https://github.com/quantumsheep/sshs) | Terminal user interface for SSH | 4.7.2 | 2025-04-24 |  |
 | [starship](https://github.com/starship/starship) | The minimal, blazing-fast, and infinitely customizable prompt for any shell! | 1.25.1 | 2026-05-01 | powerline-go |
 | [superfile](https://superfile.dev) | Pretty fancy and modern terminal file manager | 1.5.0 | 2026-01-13 | yazi, ranger |
-| [surge](https://github.com/surge-downloader/surge) | Blazing fast TUI download manager built in Go for power users | 0.8.4 | 2026-05-01 |  |
-| [syft](https://github.com/anchore/syft) | CLI tool and library for generating a Software Bill of Materials from container images and filesystems | 1.43.0 | 2026-04-22 |  |
+| [surge](https://github.com/surge-downloader/surge) | Blazing fast TUI download manager built in Go for power users | 0.8.5 | 2026-05-01 |  |
+| [syft](https://github.com/anchore/syft) | CLI tool and library for generating a Software Bill of Materials from container images and filesystems | 1.44.0 | 2026-05-01 |  |
 | [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter | 6.0.0 | 2026-04-06 |  |
 | [task](https://github.com/go-task/task) | A task runner / simpler Make alternative written in Go | 3.50.0 | 2026-04-14 | make, dotree, just |
 | [td](https://github.com/marcus/td) | A minimalist CLI for tracking tasks across AI coding sessions. | 0.44.0 | 2026-04-19 |  |
@@ -162,4 +162,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-05-01 05:07:06 (utc)_
+_last updated: 2026-05-01 22:03:56 (utc)_
