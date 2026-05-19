@@ -15,7 +15,7 @@
 | [carapace](https://carapace.sh) | multi-shell multi-command argument completer | 1.6.6 | 2026-05-15 |  |
 | [cgen](https://github.com/ngruenwald/config-generator) | Create configuration parsers, schemas and documentation. | 0.5.1 | 2025-09-04 |  |
 | [chiko](https://github.com/felangga/chiko) | The ultimate beauty gRPC Client on your Terminal! | 0.2.0 | 2026-03-29 |  |
-| [clang-tools](https://github.com/llvm/llvm-project) | --- | 22.1.5 | 2026-05-06 |  |
+| [clang-tools](https://github.com/llvm/llvm-project) | --- | 22.1.6 | 2026-05-19 |  |
 | [clangd](https://github.com/clangd/clangd) | clangd language server | 22.1.0 | 2026-03-01 |  |
 | [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 4.3.2 | 2026-04-21 |  |
 | [cmake3](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 3.31.12 | 2026-04-21 |  |
@@ -27,7 +27,7 @@
 | [cppfront](https://github.com/hsutter/cppfront) | A personal experimental C++ Syntax 2 -> Syntax 1 compiler -- NOT FOR COMMERICAL USE! | 0.8.1 | 2025-01-31 |  |
 | [ctop](https://github.com/bcicen/ctop) | Top-like interface for container metrics | 0.7.7 | 2022-03-22 |  |
 | [curlie](https://github.com/rs/curlie) | The power of curl, the ease of use of httpie. | 1.8.2 | 2025-03-07 | httpie, xh |
-| [dasel](https://github.com/TomWright/dasel) | Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package. | 3.10.1 | 2026-05-14 |  |
+| [dasel](https://github.com/TomWright/dasel) | Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package. | 3.11.0 | 2026-05-19 |  |
 | [dblab](https://github.com/danvergara/dblab) | The database client every command line junkie deserves. | 0.38.0 | 2026-04-17 | lazysql, usql |
 | [delta](https://github.com/dandavison/delta) | A syntax-highlighting pager for git, diff, grep, and blame output | 0.19.2 | 2026-03-29 |  |
 | [devbox](https://github.com/jetify-com/devbox) | Instant, easy, and predictable development environments | 0.17.2 | 2026-04-21 |  |
@@ -162,4 +162,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-05-19 04:51:28 (utc)_
+_last updated: 2026-05-19 17:42:35 (utc)_
