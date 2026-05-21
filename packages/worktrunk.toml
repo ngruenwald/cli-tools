@@ -2,8 +2,8 @@ name = "worktrunk"
 description = "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows"
 homepage = "https://github.com/max-sixty/worktrunk"
 alternatives = [ ]
-version = "0.51.0"
-updated = "2026-05-18"
+version = "0.52.0"
+updated = "2026-05-21"
 package-url = "https://github.com/max-sixty/worktrunk/releases/download/v{{version}}/worktrunk-x86_64-unknown-linux-musl.tar.xz"
 
 [extract]
