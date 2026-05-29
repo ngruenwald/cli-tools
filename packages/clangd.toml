@@ -2,8 +2,8 @@ name = "clangd"
 description = "clangd language server"
 homepage = "https://github.com/clangd/clangd"
 alternatives = []
-version = "22.1.0"
-updated = "2026-03-01"
+version = "22.1.6"
+updated = "2026-05-29"
 package-url = "https://github.com/clangd/clangd/releases/download/{{version}}/clangd-linux-{{version}}.zip"
 
 [extract]
