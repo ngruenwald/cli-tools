@@ -5,7 +5,7 @@
 | [atuin](https://atuin.sh) | Magical shell history | 18.16.1 | 2026-05-13 | mcfly, hishtory |
 | [babyshark](https://github.com/vignesh07/babyshark) | Flows-first PCAP TUI (case files, gorgeous UX). Do do do do. | 0.3.0 | 2026-02-27 |  |
 | [bat](https://github.com/sharkdp/bat) | A cat(1) clone with wings. | 0.26.1 | 2025-12-02 | cat |
-| [betterleaks](https://github.com/betterleaks/betterleaks) | A Better Secrets Scanner built for configurability and speed | 1.4.0 | 2026-06-02 | gitleaks |
+| [betterleaks](https://github.com/betterleaks/betterleaks) | A Better Secrets Scanner built for configurability and speed | 1.4.1 | 2026-06-06 | gitleaks |
 | [binsider](https://binsider.dev) | Analyze ELF binaries like a boss | 0.3.2 | 2026-02-01 |  |
 | [ble.sh](https://github.com/akinomyoga/ble.sh) | Bash Line Editor ― a line editor written in pure Bash with syntax highlighting, auto suggestions, vim modes, etc. for Bash interactive sessions. | 0.4.0-devel3 | 2023-04-03 |  |
 | [bottom](https://github.com/ClementTsang/bottom) | Yet another cross-platform graphical process/system monitor. | 0.12.3 | 2026-01-01 | top, htop |
@@ -151,7 +151,7 @@
 | [xh](https://github.com/ducaale/xh) | Friendly and fast tool for sending HTTP requests | 0.25.3 | 2025-12-17 | httpie, curlie |
 | [xq](https://github.com/sibprogrammer/xq) | Command-line XML and HTML beautifier and content extractor | 1.4.0 | 2026-02-27 |  |
 | [yazi](https://github.com/sxyazi/yazi) | Blazing fast terminal file manager written in Rust, based on async I/O. | 26.5.6 | 2026-05-06 | ranger |
-| [yq](https://github.com/mikefarah/yq) | yq is a portable command-line YAML, JSON, XML, CSV, TOML and properties processor | 4.53.2 | 2026-04-17 |  |
+| [yq](https://github.com/mikefarah/yq) | yq is a portable command-line YAML, JSON, XML, CSV, TOML and properties processor | 4.53.3 | 2026-06-06 |  |
 | [zellij](https://github.com/zellij-org/zellij) | Blazing fast terminal file manager written in Rust, based on async I/O. | 0.44.3 | 2026-05-13 | tmux |
 | [zoxide](https://github.com/ajeetdsouza/zoxide) | A smarter cd command. Supports all major shells. | 0.9.9 | 2026-02-01 |  |
 | [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/archive/refs/tags/v0.7.1.tar.gz) | Fish-like autosuggestions for zsh | 0.7.1 | 2024-11-15 |  |
@@ -162,4 +162,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-06-06 08:03:37 (utc)_
+_last updated: 2026-06-06 19:31:29 (utc)_
