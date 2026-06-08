@@ -30,7 +30,7 @@
 | [dasel](https://github.com/TomWright/dasel) | Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package. | 3.11.0 | 2026-05-19 |  |
 | [dblab](https://github.com/danvergara/dblab) | The database client every command line junkie deserves. | 0.40.1 | 2026-05-26 | lazysql, usql |
 | [delta](https://github.com/dandavison/delta) | A syntax-highlighting pager for git, diff, grep, and blame output | 0.19.2 | 2026-03-29 |  |
-| [devbox](https://github.com/jetify-com/devbox) | Instant, easy, and predictable development environments | 0.17.2 | 2026-04-21 |  |
+| [devbox](https://github.com/jetify-com/devbox) | Instant, easy, and predictable development environments | 0.17.3 | 2026-06-08 |  |
 | [difftastic](https://github.com/Wilfred/difftastic) | a structural diff that understands syntax | 0.69.0 | 2026-05-01 | diff |
 | [difi](https://github.com/oug-t/difi) | Review and refine Git diffs before you push | 0.2.6 | 2026-05-09 | diff, difftastic |
 | [direnv](https://github.com/direnv/direnv) | unclutter your .profile | 2.37.1 | 2025-07-21 |  |
@@ -123,7 +123,7 @@
 | [sqlc](https://sqlc.dev) | Generate type-safe code from SQL | 1.31.1 | 2026-04-22 |  |
 | [sshs](https://github.com/quantumsheep/sshs) | Terminal user interface for SSH | 4.7.2 | 2025-04-24 |  |
 | [starship](https://github.com/starship/starship) | The minimal, blazing-fast, and infinitely customizable prompt for any shell! | 1.25.1 | 2026-05-01 | powerline-go |
-| [superfile](https://superfile.dev) | Pretty fancy and modern terminal file manager | 1.5.0 | 2026-01-13 | yazi, ranger |
+| [superfile](https://superfile.dev) | Pretty fancy and modern terminal file manager | 1.6.0 | 2026-06-08 | yazi, ranger |
 | [surge](https://github.com/surge-downloader/surge) | Blazing fast TUI download manager built in Go for power users | 0.8.7 | 2026-06-03 |  |
 | [syft](https://github.com/anchore/syft) | CLI tool and library for generating a Software Bill of Materials from container images and filesystems | 1.45.1 | 2026-06-06 |  |
 | [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter | 6.1.0 | 2026-05-14 |  |
@@ -162,4 +162,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-06-06 19:31:29 (utc)_
+_last updated: 2026-06-08 04:26:57 (utc)_
