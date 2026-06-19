@@ -2,7 +2,7 @@ name = "td"
 description = "A minimalist CLI for tracking tasks across AI coding sessions."
 homepage = "https://github.com/marcus/td"
 alternatives = [ ]
-version = "0.48.0"
+version = "0.49.0"
 updated = "2026-06-19"
 package-url = "https://github.com/marcus/td/releases/download/v{{version}}/td_{{version}}_linux_amd64.tar.gz"
 
