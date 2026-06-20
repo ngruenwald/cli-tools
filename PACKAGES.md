@@ -8,11 +8,11 @@
 | [betterleaks](https://github.com/betterleaks/betterleaks) | A Better Secrets Scanner built for configurability and speed | 1.5.0 | 2026-06-12 | gitleaks |
 | [binsider](https://binsider.dev) | Analyze ELF binaries like a boss | 0.3.2 | 2026-02-01 |  |
 | [ble.sh](https://github.com/akinomyoga/ble.sh) | Bash Line Editor ― a line editor written in pure Bash with syntax highlighting, auto suggestions, vim modes, etc. for Bash interactive sessions. | 0.4.0-devel3 | 2023-04-03 |  |
-| [bottom](https://github.com/ClementTsang/bottom) | Yet another cross-platform graphical process/system monitor. | 0.13.0 | 2026-06-20 | top, htop |
+| [bottom](https://github.com/ClementTsang/bottom) | Yet another cross-platform graphical process/system monitor. | 0.14.0 | 2026-06-20 | top, htop |
 | [broot](https://dystroy.org/broot) | A new way to see and navigate directory trees | 1.57.0 | 2026-06-01 |  |
 | [bunster](https://github.com/yassinebenaid/bunster) | Compile shell scripts to static binaries. | 0.14.0 | 2025-08-22 |  |
 | [bytehound](https://github.com/koute/bytehound) | A memory profiler for Linux. | 0.11.0 | 2022-11-23 |  |
-| [carapace](https://carapace.sh) | multi-shell multi-command argument completer | 1.7.0 | 2026-05-29 |  |
+| [carapace](https://carapace.sh) | multi-shell multi-command argument completer | 1.7.1 | 2026-06-20 |  |
 | [cgen](https://github.com/ngruenwald/config-generator) | Create configuration parsers, schemas and documentation. | 0.5.1 | 2025-09-04 |  |
 | [chiko](https://github.com/felangga/chiko) | The ultimate beauty gRPC Client on your Terminal! | 0.2.0 | 2026-03-29 |  |
 | [clang-tools](https://github.com/llvm/llvm-project) | --- | 22.1.8 | 2026-06-16 |  |
@@ -23,11 +23,11 @@
 | [codelldb-vsix](https://github.com/vadimcn/codelldb) | A native debugger extension for VSCode based on LLDB | 1.12.2 | 2026-04-21 |  |
 | [codespelunker](https://github.com/boyter/cs) | codespelunker - CLI code search tool that understands code structure and ranks results by relevance. No indexing required | 3.1.0 | 2026-03-05 |  |
 | [codon](https://github.com/exaloop/codon) | A high-performance, zero-overhead, extensible Python compiler using LLVM | 0.19.6 | 2026-03-04 |  |
-| [cppcheck](https://github.com/danmar/cppcheck) | --- | 2.21.0 | 2026-06-04 |  |
+| [cppcheck](https://github.com/danmar/cppcheck) | --- | 2.21.1 | 2026-06-20 |  |
 | [cppfront](https://github.com/hsutter/cppfront) | A personal experimental C++ Syntax 2 -> Syntax 1 compiler -- NOT FOR COMMERICAL USE! | 0.8.1 | 2025-01-31 |  |
 | [ctop](https://github.com/bcicen/ctop) | Top-like interface for container metrics | 0.7.7 | 2022-03-22 |  |
 | [curlie](https://github.com/rs/curlie) | The power of curl, the ease of use of httpie. | 1.8.2 | 2025-03-07 | httpie, xh |
-| [dasel](https://github.com/TomWright/dasel) | Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package. | 3.11.0 | 2026-05-19 |  |
+| [dasel](https://github.com/TomWright/dasel) | Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package. | 3.11.1 | 2026-06-20 |  |
 | [dblab](https://github.com/danvergara/dblab) | The database client every command line junkie deserves. | 0.40.2 | 2026-06-11 | lazysql, usql |
 | [delta](https://github.com/dandavison/delta) | A syntax-highlighting pager for git, diff, grep, and blame output | 0.19.2 | 2026-03-29 |  |
 | [devbox](https://github.com/jetify-com/devbox) | Instant, easy, and predictable development environments | 0.17.3 | 2026-06-08 |  |
@@ -70,7 +70,7 @@
 | [java21-jre](https://adoptium.net) | OpenJDK 21 LTS | 21.0.11+10 | 2026-04-23 |  |
 | [jd](https://github.com/josephburnett/jd) | JSON diff and patch | 2.5.0 | 2026-02-23 |  |
 | [jid](https://github.com/simeji/jid) | json incremental digger | 1.1.2 | 2026-04-12 |  |
-| [jq](https://github.com/jqlang/jq) | Command-line JSON processor | 1.8.1 | 2025-07-01 |  |
+| [jq](https://github.com/jqlang/jq) | Command-line JSON processor | 1.8.2 | 2026-06-20 |  |
 | [just](https://github.com/casey/just) | Just a command runner | 1.53.0 | 2026-06-17 | make, dotree, task |
 | [k9s](https://github.com/derailed/k9s) | Kubernetes CLI To Manage Your Clusters In Style! | 0.51.0 | 2026-06-06 |  |
 | [kcov](https://github.com/SimonKagstrom/kcov) | Code coverage tool for compiled programs, Python and Bash which uses debugging information to collect and report data without special compilation options | 43 | 2024-07-23 |  |
@@ -135,7 +135,7 @@
 | [termshark](https://github.com/gcla/termshark) | A terminal UI for tshark, inspired by Wireshark | 2.4.0 | 2022-07-12 |  |
 | [tlrc](https://github.com/tldr-pages/tlrc) | A tldr client written in Rust | 1.13.1 | 2026-05-23 | tldr, tealdeer |
 | [tokei](https://github.com/XAMPPRocky/tokei) | Count your code, quickly. | 14.0.0 | 2025-12-30 | sloc, scc |
-| [topgrade](https://github.com/topgrade-rs/topgrade) | Upgrade all the things | 17.6.1 | 2026-06-10 |  |
+| [topgrade](https://github.com/topgrade-rs/topgrade) | Upgrade all the things | 17.6.2 | 2026-06-20 |  |
 | [trashy](https://github.com/oberblastmeister/trashy) | a cli system trash manager, alternative to rm and trash-cli | 2.0.0 | 2022-09-30 | trash-cli, gtrash |
 | [trufflehog](https://trufflesecurity.com) | Find, verify, and analyze leaked credentials | 3.95.6 | 2026-06-18 |  |
 | [up](https://github.com/akavel/up) | Ultimate Plumber is a tool for writing Linux pipes with instant live preview | 0.4 | 2020-10-29 |  |
@@ -162,4 +162,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-06-20 06:39:14 (utc)_
+_last updated: 2026-06-20 19:14:45 (utc)_

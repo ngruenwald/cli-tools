@@ -2,8 +2,8 @@ name = "cppcheck"
 description = "---"
 homepage = "https://github.com/danmar/cppcheck"
 alternatives = []
-version = "2.21.0"
-updated = "2026-06-04"
+version = "2.21.1"
+updated = "2026-06-20"
 package-url = ""
 query-url = "https://github.com/danmar/cppcheck/archive/refs/tags/{{version}}.tar.gz"
 
