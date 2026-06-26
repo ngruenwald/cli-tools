@@ -5,7 +5,7 @@
 | [atuin](https://atuin.sh) | Magical shell history | 18.16.1 | 2026-05-13 | mcfly, hishtory |
 | [babyshark](https://github.com/vignesh07/babyshark) | Flows-first PCAP TUI (case files, gorgeous UX). Do do do do. | 0.3.0 | 2026-02-27 |  |
 | [bat](https://github.com/sharkdp/bat) | A cat(1) clone with wings. | 0.26.1 | 2025-12-02 | cat |
-| [betterleaks](https://github.com/betterleaks/betterleaks) | A Better Secrets Scanner built for configurability and speed | 1.5.0 | 2026-06-12 | gitleaks |
+| [betterleaks](https://github.com/betterleaks/betterleaks) | A Better Secrets Scanner built for configurability and speed | 1.6.0 | 2026-06-26 | gitleaks |
 | [binsider](https://binsider.dev) | Analyze ELF binaries like a boss | 0.3.2 | 2026-02-01 |  |
 | [ble.sh](https://github.com/akinomyoga/ble.sh) | Bash Line Editor ― a line editor written in pure Bash with syntax highlighting, auto suggestions, vim modes, etc. for Bash interactive sessions. | 0.4.0-devel3 | 2023-04-03 |  |
 | [bottom](https://github.com/ClementTsang/bottom) | Yet another cross-platform graphical process/system monitor. | 0.14.1 | 2026-06-22 | top, htop |
@@ -60,7 +60,7 @@
 | [gitleaks](https://github.com/gitleaks/gitleaks) | Protect and discover secrets using Gitleaks | 8.30.1 | 2026-03-12 |  |
 | [glow](https://github.com/charmbracelet/glow) | Render markdown on the CLI, with pizzazz! | 2.1.2 | 2026-04-10 |  |
 | [grafana-tui](https://github.com/lovromazgon/grafana-tui) | Grafana dashboards in your terminal | 0.2.0 | 2026-04-01 |  |
-| [grype](https://github.com/anchore/grype) | A vulnerability scanner for container images and filesystems | 0.114.0 | 2026-06-06 |  |
+| [grype](https://github.com/anchore/grype) | A vulnerability scanner for container images and filesystems | 0.115.0 | 2026-06-26 |  |
 | [gtrash](https://github.com/umlx5h/gtrash) | A Featureful Trash CLI manager: alternative to rm and trash-cli | 0.0.6 | 2024-07-01 | trash-cli, trashy |
 | [helix](https://github.com/helix-editor/helix) | A post-modern modal text editor. | 25.07.1 | 2025-07-19 | vim, neovim |
 | [hexyl](https://github.com/sharkdp/hexyl) | A command-line hex viewer | 0.17.0 | 2026-02-14 |  |
@@ -94,7 +94,7 @@
 | [nightshift](https://github.com/marcus/nightshift) | Nightshift uses your leftover Claude / Codex budget to surprise you with useful PRs. Love them or leave them. | 0.3.4 | 2026-03-01 |  |
 | [ninja](https://github.com/ninja-build/ninja) | a small build system with a focus on speed | 1.13.2 | 2025-11-20 | make, samurai |
 | [nushell](https://nushell.sh) | A new type of shell | 0.113.1 | 2026-05-30 | bash, zsh, fish, powershell |
-| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.30.10 | 2026-06-18 |  |
+| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.30.11 | 2026-06-26 |  |
 | [onefetch](https://onefetch.dev) | Command-line Git information tool | 2.27.1 | 2026-03-19 |  |
 | [openapi-generator](https://openapi-generator.tech) | OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3) | 7.23.0 | 2026-06-08 |  |
 | [oryx](https://github.com/pythops/oryx) | TUI for sniffing network traffic using eBPF on Linux | 0.8.0 | 2026-02-04 |  |
@@ -110,9 +110,9 @@
 | [rainfrog](https://crates.io/crates/rainfrog) | a database management tui for postgres | 0.3.19 | 2026-06-18 |  |
 | [regctl](https://regclient.org) | Docker and OCI Registry Client in Go and tooling using those libraries. | 0.11.5 | 2026-05-26 |  |
 | [ripgrep](https://github.com/BurntSushi/ripgrep) | ripgrep recursively searches directories for a regex pattern while respecting your gitignore | 15.1.0 | 2025-10-22 | grep |
-| [runme](https://github.com/stateful/runme) | DevOps Workflows Built with Markdown | 3.16.15 | 2026-06-23 |  |
+| [runme](https://github.com/stateful/runme) | DevOps Workflows Built with Markdown | 3.16.16 | 2026-06-26 |  |
 | [rustcat](https://github.com/quantumsheep/sshs) | Rustcat(rcat) - The modern Port listener and Reverse shell | 3.0.0 | 2022-08-15 |  |
-| [sbom-utility](https://github.com/CycloneDX/sbom-utility) | Utility that provides an API platform for validating, querying and managing BOM data | 0.19.1 | 2026-06-01 |  |
+| [sbom-utility](https://github.com/CycloneDX/sbom-utility) | Utility that provides an API platform for validating, querying and managing BOM data | 0.19.2 | 2026-06-26 |  |
 | [scc](https://github.com/boyter/scc) | Sloc, Cloc and Code: scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go | 3.7.0 | 2026-03-05 | sloc, tokei |
 | [sd](https://github.com/chmln/sd) | Intuitive find & replace CLI (sed alternative) | 1.1.0 | 2026-02-26 | sed |
 | [shellcheck](https://github.com/koalaman/shellcheck) | ShellCheck, a static analysis tool for shell scripts | 0.11.0 | 2025-08-04 |  |
@@ -125,7 +125,7 @@
 | [starship](https://github.com/starship/starship) | The minimal, blazing-fast, and infinitely customizable prompt for any shell! | 1.25.1 | 2026-05-01 | powerline-go |
 | [superfile](https://superfile.dev) | Pretty fancy and modern terminal file manager | 1.6.0 | 2026-06-08 | yazi, ranger |
 | [surge](https://github.com/surge-downloader/surge) | Blazing fast TUI download manager built in Go for power users | 0.10.0 | 2026-06-21 |  |
-| [syft](https://github.com/anchore/syft) | CLI tool and library for generating a Software Bill of Materials from container images and filesystems | 1.45.1 | 2026-06-06 |  |
+| [syft](https://github.com/anchore/syft) | CLI tool and library for generating a Software Bill of Materials from container images and filesystems | 1.46.0 | 2026-06-26 |  |
 | [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter | 6.1.0 | 2026-05-14 |  |
 | [task](https://github.com/go-task/task) | A task runner / simpler Make alternative written in Go | 3.51.1 | 2026-05-17 | make, dotree, just |
 | [td](https://github.com/marcus/td) | A minimalist CLI for tracking tasks across AI coding sessions. | 0.51.0 | 2026-06-21 |  |
@@ -162,4 +162,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-06-25 16:19:37 (utc)_
+_last updated: 2026-06-26 21:26:55 (utc)_
