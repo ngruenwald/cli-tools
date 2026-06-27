@@ -1,0 +1,15 @@
+name = "herdr"
+description = "agent multiplexer that lives in your terminal."
+homepage = "https://herdr.dev"
+alternatives = []
+version = "0.7.1"
+updated = "2026-06-27"
+package-url = "https://github.com/ogulcancelik/herdr/releases/download/v{{version}}/herdr-linux-x86_64"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "herdr-linux-x86_64"
+target = "{{vars.bin-path}}/herdr"
+mode = "0755"
