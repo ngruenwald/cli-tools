@@ -2,8 +2,8 @@ name = "sbom-utility"
 description = "Utility that provides an API platform for validating, querying and managing BOM data"
 homepage = "https://github.com/CycloneDX/sbom-utility"
 alternatives = []
-version = "0.19.2"
-updated = "2026-06-26"
+version = "1.0.1"
+updated = "2026-06-29"
 package-url = "https://github.com/CycloneDX/sbom-utility/releases/download/v{{version}}/sbom-utility-v{{version}}-linux-amd64.tar.gz"
 
 [extract]
