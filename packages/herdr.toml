@@ -2,8 +2,8 @@ name = "herdr"
 description = "agent multiplexer that lives in your terminal."
 homepage = "https://herdr.dev"
 alternatives = []
-version = "0.7.2"
-updated = "2026-07-07"
+version = "0.7.3"
+updated = "2026-07-08"
 package-url = "https://github.com/ogulcancelik/herdr/releases/download/v{{version}}/herdr-linux-x86_64"
 
 [extract]
