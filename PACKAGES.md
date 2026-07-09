@@ -2,7 +2,7 @@
 
 | Name | Description | Version | Updated | Alternatives |
 |----- |------------ |-------- |-------- |------------- |
-| [atuin](https://atuin.sh) | Magical shell history | 18.16.1 | 2026-05-13 | mcfly, hishtory |
+| [atuin](https://atuin.sh) | Magical shell history | 18.17.0 | 2026-07-09 | mcfly, hishtory |
 | [babyshark](https://github.com/vignesh07/babyshark) | Flows-first PCAP TUI (case files, gorgeous UX). Do do do do. | 0.3.0 | 2026-02-27 |  |
 | [bat](https://github.com/sharkdp/bat) | A cat(1) clone with wings. | 0.26.1 | 2025-12-02 | cat |
 | [betterleaks](https://github.com/betterleaks/betterleaks) | A Better Secrets Scanner built for configurability and speed | 1.6.1 | 2026-07-01 | gitleaks |
@@ -37,7 +37,7 @@
 | [dive](https://github.com/wagoodman/dive) | A tool for exploring each layer in a docker image | 0.13.1 | 2025-03-29 |  |
 | [doccheck](https://github.com/mag37/dockcheck) | CLI tool to automate docker image updates. Selective, notifications, autoprune, no pre-pulling. | 0.5.8.0 | 2025-03-16 | podcheck |
 | [doge](https://github.com/Dj-Codeman/doge) | Reviving A command-line DNS client. | 0.2.9 | 2025-08-10 | dig, dog |
-| [dotenvx](https://dotenvx.com) | a better dotenv–from the creator of `dotenv` | 2.2.1 | 2026-07-08 | cat |
+| [dotenvx](https://dotenvx.com) | a better dotenv–from the creator of `dotenv` | 2.3.1 | 2026-07-09 | cat |
 | [dotree](https://github.com/KnorrFG/dotree) | A small, interactive command runner | 0.8.2 | 2023-11-26 |  |
 | [doxygen](https://github.com/doxygen/doxygen) | Code Documentation. Automated. | 1.17.0 | 2026-04-30 |  |
 | [doxygen-awesome-css](https://github.com/jothepro/doxygen-awesome-css) | Code Documentation. Automated. | 2.4.2 | 2026-03-21 |  |
@@ -111,7 +111,7 @@
 | [rainfrog](https://crates.io/crates/rainfrog) | a database management tui for postgres | 0.3.19 | 2026-06-18 |  |
 | [regctl](https://regclient.org) | Docker and OCI Registry Client in Go and tooling using those libraries. | 0.11.5 | 2026-05-26 |  |
 | [ripgrep](https://github.com/BurntSushi/ripgrep) | ripgrep recursively searches directories for a regex pattern while respecting your gitignore | 15.1.0 | 2025-10-22 | grep |
-| [runme](https://github.com/stateful/runme) | DevOps Workflows Built with Markdown | 3.17.0 | 2026-07-06 |  |
+| [runme](https://github.com/stateful/runme) | DevOps Workflows Built with Markdown | 3.17.1 | 2026-07-09 |  |
 | [rustcat](https://github.com/quantumsheep/sshs) | Rustcat(rcat) - The modern Port listener and Reverse shell | 3.0.0 | 2022-08-15 |  |
 | [sbom-utility](https://github.com/CycloneDX/sbom-utility) | Utility that provides an API platform for validating, querying and managing BOM data | 1.0.1 | 2026-06-29 |  |
 | [scc](https://github.com/boyter/scc) | Sloc, Cloc and Code: scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go | 3.7.0 | 2026-03-05 | sloc, tokei |
@@ -163,4 +163,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-07-09 05:26:25 (utc)_
+_last updated: 2026-07-09 05:30:01 (utc)_
