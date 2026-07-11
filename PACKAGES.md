@@ -9,7 +9,7 @@
 | [binsider](https://binsider.dev) | Analyze ELF binaries like a boss | 0.3.2 | 2026-02-01 |  |
 | [ble.sh](https://github.com/akinomyoga/ble.sh) | Bash Line Editor ― a line editor written in pure Bash with syntax highlighting, auto suggestions, vim modes, etc. for Bash interactive sessions. | 0.4.0-devel3 | 2023-04-03 |  |
 | [bottom](https://github.com/ClementTsang/bottom) | Yet another cross-platform graphical process/system monitor. | 0.14.4 | 2026-07-10 | top, htop |
-| [broot](https://dystroy.org/broot) | A new way to see and navigate directory trees | 1.57.0 | 2026-06-01 |  |
+| [broot](https://dystroy.org/broot) | A new way to see and navigate directory trees | 1.58.0 | 2026-07-11 |  |
 | [bunster](https://github.com/yassinebenaid/bunster) | Compile shell scripts to static binaries. | 0.14.0 | 2025-08-22 |  |
 | [bytehound](https://github.com/koute/bytehound) | A memory profiler for Linux. | 0.11.0 | 2022-11-23 |  |
 | [carapace](https://carapace.sh) | multi-shell multi-command argument completer | 1.7.3 | 2026-07-01 |  |
@@ -108,7 +108,7 @@
 | [protolint](https://github.com/yoheimuta/protolint) | A pluggable linter and fixer to enforce Protocol Buffer style and conventions | 0.56.4 | 2025-08-26 |  |
 | [python](https://python.org) | Python is a programming language that lets you work quickly and integrate systems more effectively. | 3.14.6 | 2026-06-10 |  |
 | [qemu](https://www.qemu.org) | A generic and open source machine emulator and virtualizer. | 11.0.2 | 2026-06-25 |  |
-| [rainfrog](https://crates.io/crates/rainfrog) | a database management tui for postgres | 0.3.19 | 2026-06-18 |  |
+| [rainfrog](https://crates.io/crates/rainfrog) | a database management tui for postgres | 0.3.20 | 2026-07-11 |  |
 | [regctl](https://regclient.org) | Docker and OCI Registry Client in Go and tooling using those libraries. | 0.11.5 | 2026-05-26 |  |
 | [ripgrep](https://github.com/BurntSushi/ripgrep) | ripgrep recursively searches directories for a regex pattern while respecting your gitignore | 15.1.0 | 2025-10-22 | grep |
 | [runme](https://github.com/stateful/runme) | DevOps Workflows Built with Markdown | 3.17.1 | 2026-07-09 |  |
@@ -163,4 +163,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-07-11 05:44:44 (utc)_
+_last updated: 2026-07-11 06:05:45 (utc)_
