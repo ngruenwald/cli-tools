@@ -2,8 +2,8 @@ name = "syft"
 description = "CLI tool and library for generating a Software Bill of Materials from container images and filesystems"
 homepage = "https://github.com/anchore/syft"
 alternatives = []
-version = "1.46.0"
-updated = "2026-06-26"
+version = "1.48.0"
+updated = "2026-07-16"
 package-url = "https://github.com/anchore/syft/releases/download/v{{version}}/syft_{{version}}_linux_amd64.tar.gz"
 
 [extract]
