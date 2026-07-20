@@ -2,8 +2,8 @@ name = "gitas"
 description = "Git Account Switch"
 homepage = "https://github.com/letmutex/gitas"
 alternatives = [ ]
-version = "0.0.8"
-updated = "2026-06-21"
+version = "0.0.9"
+updated = "2026-07-19"
 package-url = "https://github.com/letmutex/gitas/releases/download/v{{version}}/gitas-v{{version}}-linux-x64.tar.gz"
 
 [extract]
