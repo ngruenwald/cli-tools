@@ -37,7 +37,7 @@
 | [dive](https://github.com/wagoodman/dive) | A tool for exploring each layer in a docker image | 0.13.1 | 2025-03-29 |  |
 | [doccheck](https://github.com/mag37/dockcheck) | CLI tool to automate docker image updates. Selective, notifications, autoprune, no pre-pulling. | 0.5.8.0 | 2025-03-16 | podcheck |
 | [doge](https://github.com/Dj-Codeman/doge) | Reviving A command-line DNS client. | 0.2.9 | 2025-08-10 | dig, dog |
-| [dotenvx](https://dotenvx.com) | a better dotenv–from the creator of `dotenv` | 2.14.0 | 2026-07-17 | cat |
+| [dotenvx](https://dotenvx.com) | a better dotenv–from the creator of `dotenv` | 2.15.1 | 2026-07-21 | cat |
 | [dotree](https://github.com/KnorrFG/dotree) | A small, interactive command runner | 0.8.2 | 2023-11-26 |  |
 | [doxygen](https://github.com/doxygen/doxygen) | Code Documentation. Automated. | 1.17.0 | 2026-04-30 |  |
 | [doxygen-awesome-css](https://github.com/jothepro/doxygen-awesome-css) | Code Documentation. Automated. | 2.4.2 | 2026-03-21 |  |
@@ -142,7 +142,7 @@
 | [up](https://github.com/akavel/up) | Ultimate Plumber is a tool for writing Linux pipes with instant live preview | 0.4 | 2020-10-29 |  |
 | [upt](https://github.com/sigoden/upt) | Universal Package-management Tool for any OS. | 0.9.0 | 2024-10-31 |  |
 | [usql](https://github.com/xo/usql) | Universal command-line interface for SQL databases | 0.21.4 | 2026-03-26 |  |
-| [uv](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | 0.11.29 | 2026-07-16 | pip, pdm, poetry, rye |
+| [uv](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | 0.11.30 | 2026-07-21 | pip, pdm, poetry, rye |
 | [vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder | 0.11.0 | 2026-03-10 |  |
 | [viddy](https://github.com/sachaos/viddy) | A modern watch command. Time machine and pager etc. | 1.3.1 | 2026-06-14 | watch, hwatch |
 | [weathr](https://github.com/Veirt/weathr) | a terminal weather app with ascii animation | 1.4.0 | 2026-02-23 |  |
@@ -163,4 +163,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-07-21 05:13:55 (utc)_
+_last updated: 2026-07-21 05:18:40 (utc)_
