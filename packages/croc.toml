@@ -1,0 +1,15 @@
+name = "croc"
+description = "Easily and securely send things from one computer to another"
+homepage = "https://github.com/schollz/croc"
+alternatives = [ ]
+version = "10.5.0"
+updated = "2026-07-22"
+package-url = "https://github.com/schollz/croc/releases/download/v{{version}}/croc_v{{version}}_Linux-64bit.tar.gz"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "croc"
+target = "{{vars.bin-path}}/croc"
+mode = "0755"
