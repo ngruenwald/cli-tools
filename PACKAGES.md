@@ -2,7 +2,7 @@
 
 | Name | Description | Version | Updated | Alternatives |
 |----- |------------ |-------- |-------- |------------- |
-| [atuin](https://atuin.sh) | Magical shell history | 18.18.1 | 2026-07-28 | mcfly, hishtory |
+| [atuin](https://atuin.sh) | Magical shell history | 18.19.0 | 2026-08-04 | mcfly, hishtory |
 | [babyshark](https://github.com/vignesh07/babyshark) | Flows-first PCAP TUI (case files, gorgeous UX). Do do do do. | 0.3.0 | 2026-02-27 |  |
 | [bat](https://github.com/sharkdp/bat) | A cat(1) clone with wings. | 0.26.1 | 2025-12-02 | cat |
 | [betterleaks](https://github.com/betterleaks/betterleaks) | A Better Secrets Scanner built for configurability and speed | 1.7.3 | 2026-08-01 | gitleaks |
@@ -38,7 +38,7 @@
 | [dive](https://github.com/wagoodman/dive) | A tool for exploring each layer in a docker image | 0.13.1 | 2025-03-29 |  |
 | [doccheck](https://github.com/mag37/dockcheck) | CLI tool to automate docker image updates. Selective, notifications, autoprune, no pre-pulling. | 0.5.8.0 | 2025-03-16 | podcheck |
 | [doge](https://github.com/Dj-Codeman/doge) | Reviving A command-line DNS client. | 0.2.9 | 2025-08-10 | dig, dog |
-| [dotenvx](https://dotenvx.com) | a better dotenv–from the creator of `dotenv` | 2.19.1 | 2026-07-30 | cat |
+| [dotenvx](https://dotenvx.com) | a better dotenv–from the creator of `dotenv` | 2.19.2 | 2026-08-04 | cat |
 | [dotree](https://github.com/KnorrFG/dotree) | A small, interactive command runner | 0.8.2 | 2023-11-26 |  |
 | [doxygen](https://github.com/doxygen/doxygen) | Code Documentation. Automated. | 1.17.0 | 2026-04-30 |  |
 | [doxygen-awesome-css](https://github.com/jothepro/doxygen-awesome-css) | Code Documentation. Automated. | 2.4.2 | 2026-03-21 |  |
@@ -64,7 +64,7 @@
 | [grype](https://github.com/anchore/grype) | A vulnerability scanner for container images and filesystems | 0.116.1 | 2026-07-29 |  |
 | [gtrash](https://github.com/umlx5h/gtrash) | A Featureful Trash CLI manager: alternative to rm and trash-cli | 0.0.6 | 2024-07-01 | trash-cli, trashy |
 | [helix](https://github.com/helix-editor/helix) | A post-modern modal text editor. | 25.07.1 | 2025-07-19 | vim, neovim |
-| [herdr](https://herdr.dev) | agent multiplexer that lives in your terminal. | 0.7.5 | 2026-07-22 |  |
+| [herdr](https://herdr.dev) | agent multiplexer that lives in your terminal. | 0.8.0 | 2026-08-04 |  |
 | [hexyl](https://github.com/sharkdp/hexyl) | A command-line hex viewer | 0.17.0 | 2026-02-14 |  |
 | [hurl](https://hurl.dev) | Hurl, run and test HTTP requests with plain text. | 8.0.1 | 2026-04-28 |  |
 | [hwatch](https://github.com/blacknon/hwatch) | A modern alternative to the watch command, records the differences in execution results and can check this differences at after. | 0.4.2 | 2026-04-29 | watch, viddy |
@@ -73,7 +73,7 @@
 | [jd](https://github.com/josephburnett/jd) | JSON diff and patch | 2.5.0 | 2026-02-23 |  |
 | [jid](https://github.com/simeji/jid) | json incremental digger | 1.1.3 | 2026-08-02 |  |
 | [jq](https://github.com/jqlang/jq) | Command-line JSON processor | 1.8.2 | 2026-06-20 |  |
-| [just](https://github.com/casey/just) | Just a command runner | 1.57.0 | 2026-07-19 | make, dotree, task |
+| [just](https://github.com/casey/just) | Just a command runner | 1.58.0 | 2026-08-04 | make, dotree, task |
 | [k9s](https://github.com/derailed/k9s) | Kubernetes CLI To Manage Your Clusters In Style! | 0.51.0 | 2026-06-06 |  |
 | [kcov](https://github.com/SimonKagstrom/kcov) | Code coverage tool for compiled programs, Python and Bash which uses debugging information to collect and report data without special compilation options | 43 | 2024-07-23 |  |
 | [kickstart](https://github.com/Keats/kickstart) | A scaffolding tool to get new projects up and running quickly | 0.6.0 | 2025-12-22 | cookiecutter, proji |
@@ -164,4 +164,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-08-03 17:37:11 (utc)_
+_last updated: 2026-08-04 04:44:23 (utc)_
