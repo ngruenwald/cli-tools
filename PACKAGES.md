@@ -19,7 +19,7 @@
 | [clangd](https://github.com/clangd/clangd) | clangd language server | 22.1.6 | 2026-05-29 |  |
 | [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 4.4.2 | 2026-08-01 |  |
 | [cmake3](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 3.31.12 | 2026-04-21 |  |
-| [code-server](https://coder.com) | VS Code in the browser | 4.131.0 | 2026-07-31 |  |
+| [code-server](https://coder.com) | VS Code in the browser | 4.132.0 | 2026-08-11 |  |
 | [codelldb-vsix](https://github.com/vadimcn/codelldb) | A native debugger extension for VSCode based on LLDB | 1.12.2 | 2026-04-21 |  |
 | [codespelunker](https://github.com/boyter/cs) | codespelunker - CLI code search tool that understands code structure and ranks results by relevance. No indexing required | 3.1.0 | 2026-03-05 |  |
 | [codon](https://github.com/exaloop/codon) | A high-performance, zero-overhead, extensible Python compiler using LLVM | 0.19.6 | 2026-03-04 |  |
@@ -38,7 +38,7 @@
 | [dive](https://github.com/wagoodman/dive) | A tool for exploring each layer in a docker image | 0.13.1 | 2025-03-29 |  |
 | [doccheck](https://github.com/mag37/dockcheck) | CLI tool to automate docker image updates. Selective, notifications, autoprune, no pre-pulling. | 0.5.8.0 | 2025-03-16 | podcheck |
 | [doge](https://github.com/Dj-Codeman/doge) | Reviving A command-line DNS client. | 0.2.9 | 2025-08-10 | dig, dog |
-| [dotenvx](https://dotenvx.com) | a better dotenv–from the creator of `dotenv` | 2.20.1 | 2026-08-08 | cat |
+| [dotenvx](https://dotenvx.com) | a better dotenv–from the creator of `dotenv` | 2.21.0 | 2026-08-11 | cat |
 | [dotree](https://github.com/KnorrFG/dotree) | A small, interactive command runner | 0.8.2 | 2023-11-26 |  |
 | [doxygen](https://github.com/doxygen/doxygen) | Code Documentation. Automated. | 1.17.0 | 2026-04-30 |  |
 | [doxygen-awesome-css](https://github.com/jothepro/doxygen-awesome-css) | Code Documentation. Automated. | 2.4.2 | 2026-03-21 |  |
@@ -61,7 +61,7 @@
 | [gitleaks](https://github.com/gitleaks/gitleaks) | Protect and discover secrets using Gitleaks | 8.30.1 | 2026-03-12 |  |
 | [glow](https://github.com/charmbracelet/glow) | Render markdown on the CLI, with pizzazz! | 2.1.2 | 2026-04-10 |  |
 | [grafana-tui](https://github.com/lovromazgon/grafana-tui) | Grafana dashboards in your terminal | 0.2.0 | 2026-04-01 |  |
-| [grype](https://github.com/anchore/grype) | A vulnerability scanner for container images and filesystems | 0.116.1 | 2026-07-29 |  |
+| [grype](https://github.com/anchore/grype) | A vulnerability scanner for container images and filesystems | 0.117.0 | 2026-08-11 |  |
 | [gtrash](https://github.com/umlx5h/gtrash) | A Featureful Trash CLI manager: alternative to rm and trash-cli | 0.0.6 | 2024-07-01 | trash-cli, trashy |
 | [helix](https://github.com/helix-editor/helix) | A post-modern modal text editor. | 25.07.1 | 2025-07-19 | vim, neovim |
 | [herdr](https://herdr.dev) | agent multiplexer that lives in your terminal. | 0.8.0 | 2026-08-04 |  |
@@ -96,7 +96,7 @@
 | [nightshift](https://github.com/marcus/nightshift) | Nightshift uses your leftover Claude / Codex budget to surprise you with useful PRs. Love them or leave them. | 0.3.4 | 2026-03-01 |  |
 | [ninja](https://github.com/ninja-build/ninja) | a small build system with a focus on speed | 1.13.2 | 2025-11-20 | make, samurai |
 | [nushell](https://nushell.sh) | A new type of shell | 0.114.1 | 2026-07-12 | bash, zsh, fish, powershell |
-| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.32.7 | 2026-08-10 |  |
+| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.32.8 | 2026-08-11 |  |
 | [onefetch](https://onefetch.dev) | Command-line Git information tool | 2.27.1 | 2026-03-19 |  |
 | [openapi-generator](https://openapi-generator.tech) | OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3) | 7.24.0 | 2026-07-20 |  |
 | [oryx](https://github.com/pythops/oryx) | TUI for sniffing network traffic using eBPF on Linux | 0.8.0 | 2026-02-04 |  |
@@ -112,14 +112,14 @@
 | [rainfrog](https://crates.io/crates/rainfrog) | a database management tui for postgres | 0.4.3 | 2026-08-08 |  |
 | [regctl](https://regclient.org) | Docker and OCI Registry Client in Go and tooling using those libraries. | 0.11.5 | 2026-05-26 |  |
 | [ripgrep](https://github.com/BurntSushi/ripgrep) | ripgrep recursively searches directories for a regex pattern while respecting your gitignore | 15.2.0 | 2026-07-15 | grep |
-| [runme](https://github.com/stateful/runme) | DevOps Workflows Built with Markdown | 3.17.2 | 2026-07-14 |  |
+| [runme](https://github.com/stateful/runme) | DevOps Workflows Built with Markdown | 3.17.3 | 2026-08-11 |  |
 | [rustcat](https://github.com/quantumsheep/sshs) | Rustcat(rcat) - The modern Port listener and Reverse shell | 3.0.0 | 2022-08-15 |  |
 | [sbom-utility](https://github.com/CycloneDX/sbom-utility) | Utility that provides an API platform for validating, querying and managing BOM data | 1.0.1 | 2026-06-29 |  |
 | [scc](https://github.com/boyter/scc) | Sloc, Cloc and Code: scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go | 3.7.0 | 2026-03-05 | sloc, tokei |
 | [sd](https://github.com/chmln/sd) | Intuitive find & replace CLI (sed alternative) | 1.1.0 | 2026-02-26 | sed |
 | [shellcheck](https://github.com/koalaman/shellcheck) | ShellCheck, a static analysis tool for shell scripts | 0.11.0 | 2025-08-04 |  |
 | [shfmt](https://github.com/mvdan/sh#shfmt) | A shell parser, formatter, and interpreter with bash support; includes shfmt | 3.13.1 | 2026-04-07 |  |
-| [sidecar](https://github.com/marcus/sidecar) | Use sidecar next to CLI agents for diffs, file trees, conversation history, and task management with td | 0.94.1 | 2026-08-10 |  |
+| [sidecar](https://github.com/marcus/sidecar) | Use sidecar next to CLI agents for diffs, file trees, conversation history, and task management with td | 0.95.0 | 2026-08-11 |  |
 | [sonarscanner](https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/scanners/sonarscanner/) | The SonarScanner CLI is the scanner to use when there is no specific scanner for your build system. | 8.1.0.6389 | 2026-04-21 |  |
 | [sops](https://getsops.io) | Simple and flexible tool for managing secrets | 3.13.3 | 2026-07-23 | git-crypt |
 | [sqlc](https://sqlc.dev) | Generate type-safe code from SQL | 1.31.1 | 2026-04-22 |  |
@@ -164,4 +164,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-08-10 16:18:57 (utc)_
+_last updated: 2026-08-11 04:58:07 (utc)_
