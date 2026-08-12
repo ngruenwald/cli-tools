@@ -25,7 +25,7 @@
 | [codon](https://github.com/exaloop/codon) | A high-performance, zero-overhead, extensible Python compiler using LLVM | 0.19.6 | 2026-03-04 |  |
 | [cppcheck](https://github.com/danmar/cppcheck) | --- | 2.21.1 | 2026-06-20 |  |
 | [cppfront](https://github.com/hsutter/cppfront) | A personal experimental C++ Syntax 2 -> Syntax 1 compiler -- NOT FOR COMMERICAL USE! | 0.8.1 | 2025-01-31 |  |
-| [croc](https://github.com/schollz/croc) | Easily and securely send things from one computer to another | 11.0.3 | 2026-08-10 |  |
+| [croc](https://github.com/schollz/croc) | Easily and securely send things from one computer to another | 11.1.0 | 2026-08-12 |  |
 | [ctop](https://github.com/bcicen/ctop) | Top-like interface for container metrics | 0.7.7 | 2022-03-22 |  |
 | [curlie](https://github.com/rs/curlie) | The power of curl, the ease of use of httpie. | 1.8.2 | 2025-03-07 | httpie, xh |
 | [dasel](https://github.com/TomWright/dasel) | Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package. | 3.11.2 | 2026-06-28 |  |
@@ -59,7 +59,7 @@
 | [git-who](https://github.com/sinclairtarget/git-who) | Git blame for file trees | 1.3 | 2026-01-24 |  |
 | [gitas](https://github.com/letmutex/gitas) | Git Account Switch | 0.1.0 | 2026-07-20 |  |
 | [gitleaks](https://github.com/gitleaks/gitleaks) | Protect and discover secrets using Gitleaks | 8.30.1 | 2026-03-12 |  |
-| [glow](https://github.com/charmbracelet/glow) | Render markdown on the CLI, with pizzazz! | 2.1.2 | 2026-04-10 |  |
+| [glow](https://github.com/charmbracelet/glow) | Render markdown on the CLI, with pizzazz! | 3.0.0 | 2026-08-12 |  |
 | [grafana-tui](https://github.com/lovromazgon/grafana-tui) | Grafana dashboards in your terminal | 0.2.0 | 2026-04-01 |  |
 | [grype](https://github.com/anchore/grype) | A vulnerability scanner for container images and filesystems | 0.117.0 | 2026-08-11 |  |
 | [gtrash](https://github.com/umlx5h/gtrash) | A Featureful Trash CLI manager: alternative to rm and trash-cli | 0.0.6 | 2024-07-01 | trash-cli, trashy |
@@ -79,7 +79,7 @@
 | [kickstart](https://github.com/Keats/kickstart) | A scaffolding tool to get new projects up and running quickly | 0.6.0 | 2025-12-22 | cookiecutter, proji |
 | [layerleak](https://github.com/Brumbelow/layerleak) | layerleak the Docker Hub Secret Scanner | 2.5.0 | 2026-05-21 |  |
 | [lazydocker](https://github.com/jesseduffield/lazydocker) | The lazier way to manage everything docker | 0.25.2 | 2026-04-19 |  |
-| [lazygit](https://github.com/jesseduffield/lazygit) | simple terminal UI for git commands | 0.64.0 | 2026-08-05 |  |
+| [lazygit](https://github.com/jesseduffield/lazygit) | simple terminal UI for git commands | 0.64.1 | 2026-08-12 |  |
 | [lazyjournal](https://github.com/Lifailon/lazyjournal) | A TUI for reading logs from journald, auditd, file system, Docker containers, ... | 0.8.6 | 2026-03-16 |  |
 | [lazysql](https://github.com/jorgerojas26/lazysql) | A cross-platform TUI database management tool written in Go. | 0.5.5 | 2026-06-30 |  |
 | [libfaketime](https://github.com/wolfcw/libfaketime) | libfaketime modifies the system time for a single application | 0.9.12 | 2025-06-09 |  |
@@ -119,7 +119,7 @@
 | [sd](https://github.com/chmln/sd) | Intuitive find & replace CLI (sed alternative) | 1.1.0 | 2026-02-26 | sed |
 | [shellcheck](https://github.com/koalaman/shellcheck) | ShellCheck, a static analysis tool for shell scripts | 0.11.0 | 2025-08-04 |  |
 | [shfmt](https://github.com/mvdan/sh#shfmt) | A shell parser, formatter, and interpreter with bash support; includes shfmt | 3.13.1 | 2026-04-07 |  |
-| [sidecar](https://github.com/marcus/sidecar) | Use sidecar next to CLI agents for diffs, file trees, conversation history, and task management with td | 0.96.0 | 2026-08-11 |  |
+| [sidecar](https://github.com/marcus/sidecar) | Use sidecar next to CLI agents for diffs, file trees, conversation history, and task management with td | 0.97.0 | 2026-08-12 |  |
 | [sonarscanner](https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/scanners/sonarscanner/) | The SonarScanner CLI is the scanner to use when there is no specific scanner for your build system. | 8.1.0.6389 | 2026-04-21 |  |
 | [sops](https://getsops.io) | Simple and flexible tool for managing secrets | 3.13.3 | 2026-07-23 | git-crypt |
 | [sqlc](https://sqlc.dev) | Generate type-safe code from SQL | 1.31.1 | 2026-04-22 |  |
@@ -149,9 +149,9 @@
 | [weathr](https://github.com/Veirt/weathr) | a terminal weather app with ascii animation | 1.4.0 | 2026-02-23 |  |
 | [websocat](https://github.com/vi/websocat) | Command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions | 1.14.1 | 2025-12-27 |  |
 | [witr](https://github.com/pranshuparmar/witr) | Why is this running? | 0.3.3 | 2026-06-24 |  |
-| [worktrunk](https://github.com/max-sixty/worktrunk) | Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows | 0.72.0 | 2026-08-08 |  |
+| [worktrunk](https://github.com/max-sixty/worktrunk) | Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows | 0.73.0 | 2026-08-12 |  |
 | [xh](https://github.com/ducaale/xh) | Friendly and fast tool for sending HTTP requests | 0.26.2 | 2026-07-27 | httpie, curlie |
-| [xq](https://github.com/sibprogrammer/xq) | Command-line XML and HTML beautifier and content extractor | 1.4.0 | 2026-02-27 |  |
+| [xq](https://github.com/sibprogrammer/xq) | Command-line XML and HTML beautifier and content extractor | 1.5.0 | 2026-08-12 |  |
 | [yazi](https://github.com/sxyazi/yazi) | Blazing fast terminal file manager written in Rust, based on async I/O. | 26.5.6 | 2026-05-06 | ranger |
 | [yq](https://github.com/mikefarah/yq) | yq is a portable command-line YAML, JSON, XML, CSV, TOML and properties processor | 4.53.3 | 2026-06-06 |  |
 | [zellij](https://github.com/zellij-org/zellij) | Blazing fast terminal file manager written in Rust, based on async I/O. | 0.44.3 | 2026-05-13 | tmux |
@@ -164,4 +164,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-08-11 17:12:03 (utc)_
+_last updated: 2026-08-12 20:49:18 (utc)_
