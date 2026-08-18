@@ -5,7 +5,7 @@
 | [atuin](https://atuin.sh) | Magical shell history | 18.19.0 | 2026-08-04 | mcfly, hishtory |
 | [babyshark](https://github.com/vignesh07/babyshark) | Flows-first PCAP TUI (case files, gorgeous UX). Do do do do. | 0.3.0 | 2026-02-27 |  |
 | [bat](https://github.com/sharkdp/bat) | A cat(1) clone with wings. | 0.26.1 | 2025-12-02 | cat |
-| [betterleaks](https://github.com/betterleaks/betterleaks) | A Better Secrets Scanner built for configurability and speed | 1.7.4 | 2026-08-10 | gitleaks |
+| [betterleaks](https://github.com/betterleaks/betterleaks) | A Better Secrets Scanner built for configurability and speed | 1.8.0 | 2026-08-18 | gitleaks |
 | [binsider](https://binsider.dev) | Analyze ELF binaries like a boss | 0.3.2 | 2026-02-01 |  |
 | [ble.sh](https://github.com/akinomyoga/ble.sh) | Bash Line Editor ― a line editor written in pure Bash with syntax highlighting, auto suggestions, vim modes, etc. for Bash interactive sessions. | 0.4.0-devel3 | 2023-04-03 |  |
 | [bottom](https://github.com/ClementTsang/bottom) | Yet another cross-platform graphical process/system monitor. | 0.14.8 | 2026-08-13 | top, htop |
@@ -25,7 +25,7 @@
 | [codon](https://github.com/exaloop/codon) | A high-performance, zero-overhead, extensible Python compiler using LLVM | 0.19.6 | 2026-03-04 |  |
 | [cppcheck](https://github.com/danmar/cppcheck) | --- | 2.21.1 | 2026-06-20 |  |
 | [cppfront](https://github.com/hsutter/cppfront) | A personal experimental C++ Syntax 2 -> Syntax 1 compiler -- NOT FOR COMMERICAL USE! | 0.8.1 | 2025-01-31 |  |
-| [croc](https://github.com/schollz/croc) | Easily and securely send things from one computer to another | 11.1.2 | 2026-08-17 |  |
+| [croc](https://github.com/schollz/croc) | Easily and securely send things from one computer to another | 11.2.1 | 2026-08-18 |  |
 | [ctop](https://github.com/bcicen/ctop) | Top-like interface for container metrics | 0.7.7 | 2022-03-22 |  |
 | [curlie](https://github.com/rs/curlie) | The power of curl, the ease of use of httpie. | 1.8.2 | 2025-03-07 | httpie, xh |
 | [dasel](https://github.com/TomWright/dasel) | Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package. | 3.11.2 | 2026-06-28 |  |
@@ -53,7 +53,7 @@
 | [fjira](https://github.com/mk-5/fjira) | The golang fuzzy-find cli jira interface | 1.5.6 | 2026-07-08 |  |
 | [fq](https://github.com/wader/fq) | jq for binary formats - tool, language and decoders for working with binary and text formats | 0.17.0 | 2026-03-16 |  |
 | [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | 0.74.3 | 2026-08-17 | skim |
-| [gdu](https://github.com/dundee/gdu) | Fast disk usage analyzer with console interface written in Go | 5.36.1 | 2026-04-30 | du, dust, ncdu |
+| [gdu](https://github.com/dundee/gdu) | Fast disk usage analyzer with console interface written in Go | 5.37.0 | 2026-08-18 | du, dust, ncdu |
 | [git](https://git-scm.com) | Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. | 2.55.0 | 2026-06-30 |  |
 | [git-cryp](https://www.agwa.name/projects/git-crypt) | Transparent file encryption in git | 0.8.0 | 2025-09-24 |  |
 | [git-who](https://github.com/sinclairtarget/git-who) | Git blame for file trees | 1.3 | 2026-01-24 |  |
@@ -129,7 +129,7 @@
 | [surge](https://github.com/surge-downloader/surge) | Blazing fast TUI download manager built in Go for power users | 0.11.2 | 2026-08-03 |  |
 | [syft](https://github.com/anchore/syft) | CLI tool and library for generating a Software Bill of Materials from container images and filesystems | 1.51.0 | 2026-08-10 |  |
 | [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter | 7.0.0 | 2026-07-14 |  |
-| [task](https://github.com/go-task/task) | A task runner / simpler Make alternative written in Go | 3.52.0 | 2026-07-03 | make, dotree, just |
+| [task](https://github.com/go-task/task) | A task runner / simpler Make alternative written in Go | 3.53.1 | 2026-08-18 | make, dotree, just |
 | [td](https://github.com/marcus/td) | A minimalist CLI for tracking tasks across AI coding sessions. | 0.58.0 | 2026-08-17 |  |
 | [tealdeer](https://github.com/dbrgn/tealdeer) | A very fast implementation of tldr in Rust. | 1.8.1 | 2025-11-12 | tldr, tlrc |
 | [television](https://github.com/alexpasmantier/television) | The revolution will (not) be televised | 0.15.9 | 2026-06-15 | fzf |
@@ -164,4 +164,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-08-18 05:23:59 (utc)_
+_last updated: 2026-08-18 16:51:49 (utc)_
