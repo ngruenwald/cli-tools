@@ -2,8 +2,8 @@ name = "vhs"
 description = "Your CLI home video recorder"
 homepage = "https://github.com/charmbracelet/vhs"
 alternatives = []
-version = "0.11.0"
-updated = "2026-03-10"
+version = "0.12.0"
+updated = "2026-09-09"
 package-url = "https://github.com/charmbracelet/vhs/releases/download/v{{version}}/vhs_{{version}}_Linux_x86_64.tar.gz"
 
 [extract]
