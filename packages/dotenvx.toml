@@ -2,8 +2,8 @@ name = "dotenvx"
 description = "a better dotenv–from the creator of `dotenv`"
 homepage = "https://dotenvx.com"
 alternatives = [ "cat",]
-version = "2.28.2"
-updated = "2026-09-21"
+version = "2.30.0"
+updated = "2026-09-25"
 package-url = "https://github.com/dotenvx/dotenvx/releases/download/v{{version}}/dotenvx-{{version}}-linux-x86_64.tar.gz"
 
 [extract]
