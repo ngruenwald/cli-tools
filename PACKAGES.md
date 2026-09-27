@@ -9,23 +9,23 @@
 | [binsider](https://binsider.dev) | Analyze ELF binaries like a boss | 0.3.2 | 2026-02-01 |  |
 | [ble.sh](https://github.com/akinomyoga/ble.sh) | Bash Line Editor ― a line editor written in pure Bash with syntax highlighting, auto suggestions, vim modes, etc. for Bash interactive sessions. | 0.4.0-devel3 | 2023-04-03 |  |
 | [bottom](https://github.com/ClementTsang/bottom) | Yet another cross-platform graphical process/system monitor. | 0.14.9 | 2026-08-27 | top, htop |
-| [broot](https://dystroy.org/broot) | A new way to see and navigate directory trees | 1.60.1 | 2026-09-09 |  |
+| [broot](https://dystroy.org/broot) | A new way to see and navigate directory trees | 1.60.2 | 2026-09-27 |  |
 | [bunster](https://github.com/yassinebenaid/bunster) | Compile shell scripts to static binaries. | 0.14.0 | 2025-08-22 |  |
 | [bytehound](https://github.com/koute/bytehound) | A memory profiler for Linux. | 0.11.0 | 2022-11-23 |  |
-| [carapace](https://carapace.sh) | multi-shell multi-command argument completer | 1.7.3 | 2026-07-01 |  |
+| [carapace](https://carapace.sh) | multi-shell multi-command argument completer | 1.8.0 | 2026-09-27 |  |
 | [cgen](https://github.com/ngruenwald/config-generator) | Create configuration parsers, schemas and documentation. | 0.6.1 | 2026-08-01 |  |
 | [chiko](https://github.com/felangga/chiko) | The ultimate beauty gRPC Client on your Terminal! | 0.2.0 | 2026-03-29 |  |
 | [clang-tools](https://github.com/llvm/llvm-project) | --- | 23.1.2 | 2026-09-25 |  |
 | [clangd](https://github.com/clangd/clangd) | clangd language server | 23.1.0 | 2026-09-05 |  |
 | [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 4.4.3 | 2026-08-26 |  |
 | [cmake3](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 3.31.12 | 2026-04-21 |  |
-| [code-server](https://coder.com) | VS Code in the browser | 4.138.0 | 2026-09-21 |  |
+| [code-server](https://coder.com) | VS Code in the browser | 4.139.1 | 2026-09-27 |  |
 | [codelldb-vsix](https://github.com/vadimcn/codelldb) | A native debugger extension for VSCode based on LLDB | 1.12.3 | 2026-08-26 |  |
 | [codespelunker](https://github.com/boyter/cs) | codespelunker - CLI code search tool that understands code structure and ranks results by relevance. No indexing required | 3.2.0 | 2026-09-12 |  |
 | [codon](https://github.com/exaloop/codon) | A high-performance, zero-overhead, extensible Python compiler using LLVM | 0.20.2 | 2026-09-17 |  |
 | [cppcheck](https://github.com/danmar/cppcheck) | --- | 2.22.0 | 2026-09-21 |  |
 | [cppfront](https://github.com/hsutter/cppfront) | A personal experimental C++ Syntax 2 -> Syntax 1 compiler -- NOT FOR COMMERICAL USE! | 0.8.1 | 2025-01-31 |  |
-| [croc](https://github.com/schollz/croc) | Easily and securely send things from one computer to another | 11.5.3 | 2026-09-15 |  |
+| [croc](https://github.com/schollz/croc) | Easily and securely send things from one computer to another | 11.5.4 | 2026-09-27 |  |
 | [ctop](https://github.com/bcicen/ctop) | Top-like interface for container metrics | 0.7.7 | 2022-03-22 |  |
 | [curlie](https://github.com/rs/curlie) | The power of curl, the ease of use of httpie. | 1.8.2 | 2025-03-07 | httpie, xh |
 | [dasel](https://github.com/TomWright/dasel) | Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package. | 3.11.2 | 2026-06-28 |  |
@@ -92,10 +92,10 @@
 | [multi-git-status](https://github.com/fboender/multi-git-status/archive/refs/tags/2.3.tar.gz) | Show uncommitted, untracked and unpushed changes for multiple Git repos | 2.3 | 2024-10-31 |  |
 | [navi](https://github.com/denisidoro/navi) | An interactive cheatsheet tool for the command-line | 2.24.0 | 2025-01-30 |  |
 | [neovim](https://github.com/neovim/neovim) | Vim-fork focused on extensibility and usability | 0.12.5 | 2026-08-26 | vim, helix |
-| [nerdlog](https://dmitryfrank.com/projects/nerdlog/article) | Nerdlog: fast, remote-first, multi-host TUI log viewer with timeline histogram and no central server | 1.11.0 | 2026-09-21 |  |
+| [nerdlog](https://dmitryfrank.com/projects/nerdlog/article) | Nerdlog: fast, remote-first, multi-host TUI log viewer with timeline histogram and no central server | 1.12.0 | 2026-09-27 |  |
 | [nightshift](https://github.com/marcus/nightshift) | Nightshift uses your leftover Claude / Codex budget to surprise you with useful PRs. Love them or leave them. | 0.3.4 | 2026-03-01 |  |
 | [ninja](https://github.com/ninja-build/ninja) | a small build system with a focus on speed | 1.13.2 | 2025-11-20 | make, samurai |
-| [nushell](https://nushell.sh) | A new type of shell | 0.115.1 | 2026-08-26 | bash, zsh, fish, powershell |
+| [nushell](https://nushell.sh) | A new type of shell | 0.116.0 | 2026-09-27 | bash, zsh, fish, powershell |
 | [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.34.4 | 2026-09-25 |  |
 | [onefetch](https://onefetch.dev) | Command-line Git information tool | 2.28.1 | 2026-09-05 |  |
 | [openapi-generator](https://openapi-generator.tech) | OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3) | 7.25.0 | 2026-08-26 |  |
@@ -137,7 +137,7 @@
 | [termshark](https://github.com/gcla/termshark) | A terminal UI for tshark, inspired by Wireshark | 2.4.0 | 2022-07-12 |  |
 | [tlrc](https://github.com/tldr-pages/tlrc) | A tldr client written in Rust | 1.13.1 | 2026-05-23 | tldr, tealdeer |
 | [tokei](https://github.com/XAMPPRocky/tokei) | Count your code, quickly. | 15.0.0 | 2026-09-09 | sloc, scc |
-| [topgrade](https://github.com/topgrade-rs/topgrade) | Upgrade all the things | 17.12.1 | 2026-09-25 |  |
+| [topgrade](https://github.com/topgrade-rs/topgrade) | Upgrade all the things | 17.12.2 | 2026-09-27 |  |
 | [trashy](https://github.com/oberblastmeister/trashy) | a cli system trash manager, alternative to rm and trash-cli | 2.0.0 | 2022-09-30 | trash-cli, gtrash |
 | [trufflehog](https://trufflesecurity.com) | Find, verify, and analyze leaked credentials | 3.97.9 | 2026-09-25 |  |
 | [up](https://github.com/akavel/up) | Ultimate Plumber is a tool for writing Linux pipes with instant live preview | 0.4 | 2020-10-29 |  |
@@ -164,4 +164,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-09-25 20:57:51 (utc)_
+_last updated: 2026-09-27 07:01:59 (utc)_
