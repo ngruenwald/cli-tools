@@ -2,8 +2,8 @@ name = "nerdlog"
 description = "Nerdlog: fast, remote-first, multi-host TUI log viewer with timeline histogram and no central server"
 homepage = "https://dmitryfrank.com/projects/nerdlog/article"
 alternatives = [ ]
-version = "1.12.0"
-updated = "2026-09-27"
+version = "1.13.0"
+updated = "2026-10-04"
 package-url = "https://github.com/dimonomid/nerdlog/releases/download/v{{version}}/nerdlog_{{version}}_linux_arm64.tar.gz"
 
 [extract]
