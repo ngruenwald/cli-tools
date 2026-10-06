@@ -2,8 +2,8 @@ name = "gdu"
 description = "Fast disk usage analyzer with console interface written in Go"
 homepage = "https://github.com/dundee/gdu"
 alternatives = [ "du", "dust", "ncdu",]
-version = "5.37.0"
-updated = "2026-08-18"
+version = "5.38.0"
+updated = "2026-10-06"
 package-url = "https://github.com/dundee/gdu/releases/download/v{{version}}/gdu_linux_amd64_static.tgz"
 
 [extract]
