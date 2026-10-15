@@ -38,7 +38,7 @@
 | [dive](https://github.com/wagoodman/dive) | A tool for exploring each layer in a docker image | 0.13.1 | 2025-03-29 |  |
 | [doccheck](https://github.com/mag37/dockcheck) | CLI tool to automate docker image updates. Selective, notifications, autoprune, no pre-pulling. | 0.5.8.0 | 2025-03-16 | podcheck |
 | [doge](https://github.com/Dj-Codeman/doge) | Reviving A command-line DNS client. | 0.2.9 | 2025-08-10 | dig, dog |
-| [dotenvx](https://dotenvx.com) | a better dotenv–from the creator of `dotenv` | 2.34.2 | 2026-10-09 | cat |
+| [dotenvx](https://dotenvx.com) | a better dotenv–from the creator of `dotenv` | 2.36.0 | 2026-10-15 | cat |
 | [dotree](https://github.com/KnorrFG/dotree) | A small, interactive command runner | 0.8.2 | 2023-11-26 |  |
 | [doxygen](https://github.com/doxygen/doxygen) | Code Documentation. Automated. | 1_18_0 | 2026-08-13 |  |
 | [doxygen-awesome-css](https://github.com/jothepro/doxygen-awesome-css) | Code Documentation. Automated. | 2.5.0 | 2026-09-13 |  |
@@ -64,7 +64,7 @@
 | [grype](https://github.com/anchore/grype) | A vulnerability scanner for container images and filesystems | 0.120.1 | 2026-10-09 |  |
 | [gtrash](https://github.com/umlx5h/gtrash) | A Featureful Trash CLI manager: alternative to rm and trash-cli | 0.0.6 | 2024-07-01 | trash-cli, trashy |
 | [helix](https://github.com/helix-editor/helix) | A post-modern modal text editor. | 25.07.1 | 2025-07-19 | vim, neovim |
-| [herdr](https://herdr.dev) | agent multiplexer that lives in your terminal. | 0.9.3 | 2026-10-04 |  |
+| [herdr](https://herdr.dev) | agent multiplexer that lives in your terminal. | 0.9.5 | 2026-10-15 |  |
 | [hexyl](https://github.com/sharkdp/hexyl) | A command-line hex viewer | 0.17.0 | 2026-02-14 |  |
 | [hurl](https://hurl.dev) | Hurl, run and test HTTP requests with plain text. | 8.0.1 | 2026-04-28 |  |
 | [hwatch](https://github.com/blacknon/hwatch) | A modern alternative to the watch command, records the differences in execution results and can check this differences at after. | 0.4.2 | 2026-04-29 | watch, viddy |
@@ -81,7 +81,7 @@
 | [lazydocker](https://github.com/jesseduffield/lazydocker) | The lazier way to manage everything docker | 0.25.2 | 2026-04-19 |  |
 | [lazygit](https://github.com/jesseduffield/lazygit) | simple terminal UI for git commands | 0.66.1 | 2026-10-11 |  |
 | [lazyjournal](https://github.com/Lifailon/lazyjournal) | A TUI for reading logs from journald, auditd, file system, Docker containers, ... | 0.8.6 | 2026-03-16 |  |
-| [lazysql](https://github.com/jorgerojas26/lazysql) | A cross-platform TUI database management tool written in Go. | 0.6.0 | 2026-10-06 |  |
+| [lazysql](https://github.com/jorgerojas26/lazysql) | A cross-platform TUI database management tool written in Go. | 0.7.0 | 2026-10-15 |  |
 | [libfaketime](https://github.com/wolfcw/libfaketime) | libfaketime modifies the system time for a single application | 0.9.13 | 2026-09-05 |  |
 | [llmfit](https://github.com/AlexsJones/llmfit) | 206 models. 30 providers. One command to find what runs on your hardware. | 1.1.17 | 2026-10-09 |  |
 | [mcfly](https://github.com/cantino/mcfly) | Fly through your shell history. Great Scott! | 0.9.4 | 2025-12-25 | atuin, hishtory |
@@ -96,7 +96,7 @@
 | [nightshift](https://github.com/marcus/nightshift) | Nightshift uses your leftover Claude / Codex budget to surprise you with useful PRs. Love them or leave them. | 0.3.4 | 2026-03-01 |  |
 | [ninja](https://github.com/ninja-build/ninja) | a small build system with a focus on speed | 1.13.2 | 2025-11-20 | make, samurai |
 | [nushell](https://nushell.sh) | A new type of shell | 0.116.1 | 2026-10-06 | bash, zsh, fish, powershell |
-| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.40.3 | 2026-10-11 |  |
+| [ollama](https://github.com/ollama/ollama) | Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models. | 0.40.4 | 2026-10-15 |  |
 | [onefetch](https://onefetch.dev) | Command-line Git information tool | 3.0.0 | 2026-10-09 |  |
 | [openapi-generator](https://openapi-generator.tech) | OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3) | 7.26.0 | 2026-10-06 |  |
 | [oryx](https://github.com/pythops/oryx) | TUI for sniffing network traffic using eBPF on Linux | 0.8.0 | 2026-02-04 |  |
@@ -143,7 +143,7 @@
 | [up](https://github.com/akavel/up) | Ultimate Plumber is a tool for writing Linux pipes with instant live preview | 0.4 | 2020-10-29 |  |
 | [upt](https://github.com/sigoden/upt) | Universal Package-management Tool for any OS. | 0.9.0 | 2024-10-31 |  |
 | [usql](https://github.com/xo/usql) | Universal command-line interface for SQL databases | 0.21.6 | 2026-09-25 |  |
-| [uv](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | 0.13.0 | 2026-10-11 | pip, pdm, poetry, rye |
+| [uv](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | 0.13.1 | 2026-10-15 | pip, pdm, poetry, rye |
 | [vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder | 0.12.1 | 2026-09-25 |  |
 | [viddy](https://github.com/sachaos/viddy) | A modern watch command. Time machine and pager etc. | 1.3.1 | 2026-06-14 | watch, hwatch |
 | [weathr](https://github.com/Veirt/weathr) | a terminal weather app with ascii animation | 1.4.0 | 2026-02-23 |  |
@@ -164,4 +164,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-10-11 18:18:20 (utc)_
+_last updated: 2026-10-15 05:23:19 (utc)_
