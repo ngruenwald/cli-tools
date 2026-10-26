@@ -29,9 +29,9 @@
 | [ctop](https://github.com/bcicen/ctop) | Top-like interface for container metrics | 0.7.7 | 2022-03-22 |  |
 | [curlie](https://github.com/rs/curlie) | The power of curl, the ease of use of httpie. | 1.8.2 | 2025-03-07 | httpie, xh |
 | [dasel](https://github.com/TomWright/dasel) | Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package. | 3.11.2 | 2026-06-28 |  |
-| [dblab](https://github.com/danvergara/dblab) | The database client every command line junkie deserves. | 0.53.0 | 2026-10-18 | lazysql, usql |
+| [dblab](https://github.com/danvergara/dblab) | The database client every command line junkie deserves. | 0.54.0 | 2026-10-26 | lazysql, usql |
 | [delta](https://github.com/dandavison/delta) | A syntax-highlighting pager for git, diff, grep, and blame output | 0.20.1 | 2026-10-06 |  |
-| [devbox](https://github.com/jetify-com/devbox) | Instant, easy, and predictable development environments | 0.18.4 | 2026-09-25 |  |
+| [devbox](https://github.com/jetify-com/devbox) | Instant, easy, and predictable development environments | 0.18.5 | 2026-10-26 |  |
 | [difftastic](https://github.com/Wilfred/difftastic) | a structural diff that understands syntax | 0.71.0 | 2026-09-21 | diff |
 | [difi](https://github.com/oug-t/difi) | Review and refine Git diffs before you push | 0.2.31 | 2026-07-22 | diff, difftastic |
 | [direnv](https://github.com/direnv/direnv) | unclutter your .profile | 2.38.2 | 2026-10-11 |  |
@@ -107,7 +107,7 @@
 | [powerline-go](https://github.com/justjanne/powerline-go) | A beautiful and useful low-latency prompt for your shell, written in go | 1.26 | 2026-01-14 | starship |
 | [procs](https://github.com/dalance/procs) | A modern replacement for ps written in Rust | 0.14.12 | 2026-06-25 | ps |
 | [protolint](https://github.com/yoheimuta/protolint) | A pluggable linter and fixer to enforce Protocol Buffer style and conventions | 0.58.0 | 2026-10-04 |  |
-| [python](https://python.org) | Python is a programming language that lets you work quickly and integrate systems more effectively. | 3.14.9 | 2026-10-21 |  |
+| [python](https://python.org) | Python is a programming language that lets you work quickly and integrate systems more effectively. | 3.14.10 | 2026-10-26 |  |
 | [qemu](https://www.qemu.org) | A generic and open source machine emulator and virtualizer. | 11.1.2 | 2026-09-29 |  |
 | [rainfrog](https://crates.io/crates/rainfrog) | a database management tui for postgres | 0.4.6 | 2026-09-25 |  |
 | [regctl](https://regclient.org) | Docker and OCI Registry Client in Go and tooling using those libraries. | 0.11.7 | 2026-10-21 |  |
@@ -131,7 +131,7 @@
 | [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter | 7.0.0 | 2026-07-14 |  |
 | [task](https://github.com/go-task/task) | A task runner / simpler Make alternative written in Go | 3.54.0 | 2026-10-04 | make, dotree, just |
 | [td](https://github.com/marcus/td) | A minimalist CLI for tracking tasks across AI coding sessions. | 0.69.0 | 2026-10-21 |  |
-| [tealdeer](https://github.com/dbrgn/tealdeer) | A very fast implementation of tldr in Rust. | 1.9.0 | 2026-08-26 | tldr, tlrc |
+| [tealdeer](https://github.com/dbrgn/tealdeer) | A very fast implementation of tldr in Rust. | 1.9.1 | 2026-10-26 | tldr, tlrc |
 | [television](https://github.com/alexpasmantier/television) | The revolution will (not) be televised | 0.15.9 | 2026-06-15 | fzf |
 | [teller](https://github.com/tellerops/teller) | Cloud native secrets management for developers - never leave your command line for secrets. | 2.0.7 | 2024-05-20 |  |
 | [termshark](https://github.com/gcla/termshark) | A terminal UI for tshark, inspired by Wireshark | 2.4.0 | 2022-07-12 |  |
@@ -164,4 +164,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-10-24 17:53:40 (utc)_
+_last updated: 2026-10-26 18:29:00 (utc)_
