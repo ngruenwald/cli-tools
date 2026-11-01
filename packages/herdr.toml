@@ -13,3 +13,23 @@ strip = 0
 source = "herdr-linux-x86_64"
 target = "{{vars.bin-path}}/herdr"
 mode = "0755"
+
+
+#
+# build configuration
+#
+
+[build]
+package-url = "https://github.com/ogulcancelik/herdr/releases/download/v{{version}}/herdr-linux-x86_64"
+
+[[build.step]]
+command = ["mv", "herdr-linux-x86_64", "herdr"]
+
+[[build.step]]
+command = ["tar", "cJf", "herdr-{{version}}.linux.x86_64.tar.xz", "herdr"]
+
+[[build.publish]]
+repository-name = "packages"
+repository-path = "herdr"
+files = ["herdr-{{version}}.linux.x86_64.tar.xz"]
+

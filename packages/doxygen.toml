@@ -2,7 +2,7 @@ name = "doxygen"
 description = "Code Documentation. Automated."
 homepage = "https://github.com/doxygen/doxygen"
 alternatives = []
-version = "1_18_0"
+version = "1.18.0"
 updated = "2026-08-13"
 package-url = "https://github.com/doxygen/doxygen/releases/download/Release_{{(replace, version, '.', '_')}}/doxygen-{{version}}.linux.bin.tar.gz"
 version-pattern = "^Release_\\d+_\\d+_\\d+$"
@@ -42,3 +42,4 @@ command = ["xcc", "el7", "sh", "build_doxygen.sh", "el7"]
 repository-name = "packages"
 repository-path = "doxygen"
 files = ["doxygen-{{version}}.linux.x86_64.tar.xz"]
+

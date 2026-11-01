@@ -17,3 +17,16 @@ mode = "0755"
 [[extract.files]]
 source = "complete/rg.{{vars.shell-type}}"
 target = "{{vars.complete-path}}/_rg"
+
+#
+# build configuration
+#
+
+[build]
+package-url = "https://github.com/BurntSushi/ripgrep/releases/download/{{version}}/ripgrep-{{version}}-x86_64-unknown-linux-musl.tar.gz"
+
+[[build.publish]]
+repository-name = "packages"
+repository-path = "ripgrep"
+files = ["ripgrep-{{version}}-x86_64-unknown-linux-musl.tar.gz"]
+
