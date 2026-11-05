@@ -2,8 +2,8 @@ name = "croc"
 description = "Easily and securely send things from one computer to another"
 homepage = "https://github.com/schollz/croc"
 alternatives = [ ]
-version = "11.6.3"
-updated = "2026-11-02"
+version = "11.6.4"
+updated = "2026-11-05"
 package-url = "https://github.com/schollz/croc/releases/download/v{{version}}/croc_v{{version}}_Linux-64bit.tar.gz"
 
 [extract]
