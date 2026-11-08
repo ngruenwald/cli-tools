@@ -1,0 +1,15 @@
+name = "kraken"
+description = "A GitKraken-style git graph in the terminal."
+homepage = "https://github.com/EliTheSurfer/kraken"
+alternatives = [ ]
+version = "0.2.0"
+updated = "2026-11-08"
+package-url = "https://github.com/EliTheSurfer/kraken/releases/download/v{{version}}/kraken-x86_64-unknown-linux-gnu.tar.gz"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "kraken"
+target = "{{vars.bin-path}}/kraken"
+mode = "0755"

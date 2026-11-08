@@ -1,0 +1,23 @@
+name = "git-cliff"
+description = "A highly customizable Changelog Generator that follows Conventional Commit specifications"
+homepage = "https://git-cliff.org"
+alternatives = [ ]
+version = "2.14.2"
+updated = "2026-11-08"
+package-url = "https://github.com/orhun/git-cliff/releases/download/v{{version}}/git-cliff-{{version}}-x86_64-unknown-linux-musl.tar.gz"
+
+[extract]
+strip = 1
+
+[[extract.files]]
+source = "git-cliff"
+target = "{{vars.bin-path}}/git-cliff"
+mode = "0755"
+
+[[extract.files]]
+source = "completions/git-cliff.{{vars.shell-type}}"
+target = "{{vars.complete-path}}/_bat"
+
+[[extract.files]]
+source = "completions/{{complete-prefix}}git-cliff{{complete-suffix}}"
+target = "{{vars.complete-path}}/{{complete-prefix}}git-cliff{{complete-suffix}}"

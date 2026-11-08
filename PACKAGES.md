@@ -55,6 +55,7 @@
 | [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | 0.75.0 | 2026-11-08 | skim |
 | [gdu](https://github.com/dundee/gdu) | Fast disk usage analyzer with console interface written in Go | 5.39.0 | 2026-11-08 | du, dust, ncdu |
 | [git](https://git-scm.com) | Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. | 2.56.0 | 2026-09-29 |  |
+| [git-cliff](https://git-cliff.org) | A highly customizable Changelog Generator that follows Conventional Commit specifications | 2.14.2 | 2026-11-08 |  |
 | [git-cryp](https://www.agwa.name/projects/git-crypt) | Transparent file encryption in git | 0.8.0 | 2025-09-24 |  |
 | [git-who](https://github.com/sinclairtarget/git-who) | Git blame for file trees | 1.3 | 2026-01-24 |  |
 | [gitas](https://github.com/letmutex/gitas) | Git Account Switch | 0.1.0 | 2026-07-20 |  |
@@ -77,6 +78,7 @@
 | [k9s](https://github.com/derailed/k9s) | Kubernetes CLI To Manage Your Clusters In Style! | 0.51.0 | 2026-06-06 |  |
 | [kcov](https://github.com/SimonKagstrom/kcov) | Code coverage tool for compiled programs, Python and Bash which uses debugging information to collect and report data without special compilation options | 43 | 2024-07-23 |  |
 | [kickstart](https://github.com/Keats/kickstart) | A scaffolding tool to get new projects up and running quickly | 0.6.0 | 2025-12-22 | cookiecutter, proji |
+| [kraken](https://github.com/EliTheSurfer/kraken) | A GitKraken-style git graph in the terminal. | 0.2.0 | 2026-11-08 |  |
 | [layerleak](https://github.com/Brumbelow/layerleak) | layerleak the Docker Hub Secret Scanner | 2.5.0 | 2026-05-21 |  |
 | [lazydocker](https://github.com/jesseduffield/lazydocker) | The lazier way to manage everything docker | 0.25.2 | 2026-04-19 |  |
 | [lazygit](https://github.com/jesseduffield/lazygit) | simple terminal UI for git commands | 0.66.3 | 2026-11-08 |  |
@@ -140,6 +142,7 @@
 | [topgrade](https://github.com/topgrade-rs/topgrade) | Upgrade all the things | 17.15.0 | 2026-11-05 |  |
 | [trashy](https://github.com/oberblastmeister/trashy) | a cli system trash manager, alternative to rm and trash-cli | 2.0.0 | 2022-09-30 | trash-cli, gtrash |
 | [trufflehog](https://trufflesecurity.com) | Find, verify, and analyze leaked credentials | 3.99.8 | 2026-11-02 |  |
+| [tuicr](https://tuicr.dev) | a code review TUI with vim keybindings | 0.28.0 | 2026-11-08 |  |
 | [tuios](https://github.com/Gaurav-Gosain/tuios) | A terminal window manager that knows what your agents are doing. | 0.12.1 | 2026-11-01 | herdr |
 | [up](https://github.com/akavel/up) | Ultimate Plumber is a tool for writing Linux pipes with instant live preview | 0.4 | 2020-10-29 |  |
 | [upt](https://github.com/sigoden/upt) | Universal Package-management Tool for any OS. | 0.9.0 | 2024-10-31 |  |
@@ -165,4 +168,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-11-08 15:22:38 (utc)_
+_last updated: 2026-11-08 21:18:57 (utc)_

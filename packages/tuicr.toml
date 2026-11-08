@@ -1,0 +1,15 @@
+name = "tuicr"
+description = "a code review TUI with vim keybindings"
+homepage = "https://tuicr.dev"
+alternatives = [ ]
+version = "0.28.0"
+updated = "2026-11-08"
+package-url = "https://github.com/agavra/tuicr/releases/download/v{{version}}/tuicr-{{version}}-x86_64-unknown-linux-musl.tar.gz"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "tuicr"
+target = "{{vars.bin-path}}/tuicr"
+mode = "0755"
