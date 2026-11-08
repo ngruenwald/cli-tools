@@ -14,18 +14,18 @@
 | [bytehound](https://github.com/koute/bytehound) | A memory profiler for Linux. | 0.11.0 | 2022-11-23 |  |
 | [carapace](https://carapace.sh) | multi-shell multi-command argument completer | 1.8.2 | 2026-11-02 |  |
 | [cgen](https://github.com/ngruenwald/config-generator) | Create configuration parsers, schemas and documentation. | 0.6.1 | 2026-08-01 |  |
-| [chiko](https://github.com/felangga/chiko) | The ultimate beauty gRPC Client on your Terminal! | 0.2.0 | 2026-03-29 |  |
+| [chiko](https://github.com/felangga/chiko) | The ultimate beauty gRPC Client on your Terminal! | 0.3.0 | 2026-11-08 |  |
 | [clang-tools](https://github.com/llvm/llvm-project) | --- | 23.1.5 | 2026-11-05 |  |
 | [clangd](https://github.com/clangd/clangd) | clangd language server | 23.1.0 | 2026-09-05 |  |
 | [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 4.4.5 | 2026-11-01 |  |
 | [cmake3](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 3.31.12 | 2026-04-21 |  |
-| [code-server](https://coder.com) | VS Code in the browser | 4.145.0 | 2026-11-05 |  |
+| [code-server](https://coder.com) | VS Code in the browser | 4.145.2 | 2026-11-08 |  |
 | [codelldb-vsix](https://github.com/vadimcn/codelldb) | A native debugger extension for VSCode based on LLDB | 1.12.3 | 2026-08-26 |  |
 | [codespelunker](https://github.com/boyter/cs) | codespelunker - CLI code search tool that understands code structure and ranks results by relevance. No indexing required | 3.2.0 | 2026-09-12 |  |
 | [codon](https://github.com/exaloop/codon) | A high-performance, zero-overhead, extensible Python compiler using LLVM | 0.20.6 | 2026-11-01 |  |
 | [cppcheck](https://github.com/danmar/cppcheck) | --- | 2.22.0 | 2026-09-21 |  |
 | [cppfront](https://github.com/hsutter/cppfront) | A personal experimental C++ Syntax 2 -> Syntax 1 compiler -- NOT FOR COMMERICAL USE! | 0.8.1 | 2025-01-31 |  |
-| [croc](https://github.com/schollz/croc) | Easily and securely send things from one computer to another | 11.6.4 | 2026-11-05 |  |
+| [croc](https://github.com/schollz/croc) | Easily and securely send things from one computer to another | 11.6.5 | 2026-11-08 |  |
 | [ctop](https://github.com/bcicen/ctop) | Top-like interface for container metrics | 0.7.7 | 2022-03-22 |  |
 | [curlie](https://github.com/rs/curlie) | The power of curl, the ease of use of httpie. | 1.8.2 | 2025-03-07 | httpie, xh |
 | [dasel](https://github.com/TomWright/dasel) | Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package. | 3.11.2 | 2026-06-28 |  |
@@ -49,11 +49,11 @@
 | [envio](https://github.com/envio-cli/envio) | Envio is a modern and secure command-line tool that simplifies the management of environment variables | 0.8.0 | 2026-06-23 |  |
 | [evil-helix](https://github.com/usagi-flow/evil-helix) | Bringing the Helix editor to the evil side | 20250915 | 2025-09-16 | vim, neovim, helix |
 | [eza](https://github.com/eza-community/eza) | A modern alternative to ls | 0.23.5 | 2026-07-10 | ls, lsd |
-| [fd](https://github.com/sharkdp/fd) | A simple, fast and user-friendly alternative to 'find' | 10.5.1 | 2026-11-05 | find |
+| [fd](https://github.com/sharkdp/fd) | A simple, fast and user-friendly alternative to 'find' | 10.5.2 | 2026-11-08 | find |
 | [fjira](https://github.com/mk-5/fjira) | The golang fuzzy-find cli jira interface | 1.5.6 | 2026-07-08 |  |
 | [fq](https://github.com/wader/fq) | jq for binary formats - tool, language and decoders for working with binary and text formats | 0.18.0 | 2026-08-26 |  |
-| [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | 0.74.5 | 2026-10-11 | skim |
-| [gdu](https://github.com/dundee/gdu) | Fast disk usage analyzer with console interface written in Go | 5.38.0 | 2026-10-06 | du, dust, ncdu |
+| [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | 0.75.0 | 2026-11-08 | skim |
+| [gdu](https://github.com/dundee/gdu) | Fast disk usage analyzer with console interface written in Go | 5.39.0 | 2026-11-08 | du, dust, ncdu |
 | [git](https://git-scm.com) | Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. | 2.56.0 | 2026-09-29 |  |
 | [git-cryp](https://www.agwa.name/projects/git-crypt) | Transparent file encryption in git | 0.8.0 | 2025-09-24 |  |
 | [git-who](https://github.com/sinclairtarget/git-who) | Git blame for file trees | 1.3 | 2026-01-24 |  |
@@ -79,7 +79,7 @@
 | [kickstart](https://github.com/Keats/kickstart) | A scaffolding tool to get new projects up and running quickly | 0.6.0 | 2025-12-22 | cookiecutter, proji |
 | [layerleak](https://github.com/Brumbelow/layerleak) | layerleak the Docker Hub Secret Scanner | 2.5.0 | 2026-05-21 |  |
 | [lazydocker](https://github.com/jesseduffield/lazydocker) | The lazier way to manage everything docker | 0.25.2 | 2026-04-19 |  |
-| [lazygit](https://github.com/jesseduffield/lazygit) | simple terminal UI for git commands | 0.66.2 | 2026-10-18 |  |
+| [lazygit](https://github.com/jesseduffield/lazygit) | simple terminal UI for git commands | 0.66.3 | 2026-11-08 |  |
 | [lazyjournal](https://github.com/Lifailon/lazyjournal) | A TUI for reading logs from journald, auditd, file system, Docker containers, ... | 0.8.7 | 2026-11-05 |  |
 | [lazysql](https://github.com/jorgerojas26/lazysql) | A cross-platform TUI database management tool written in Go. | 0.7.0 | 2026-10-15 |  |
 | [libfaketime](https://github.com/wolfcw/libfaketime) | libfaketime modifies the system time for a single application | 0.9.13 | 2026-09-05 |  |
@@ -165,4 +165,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-11-06 22:08:22 (utc)_
+_last updated: 2026-11-08 15:22:38 (utc)_
