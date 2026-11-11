@@ -29,7 +29,7 @@
 | [ctop](https://github.com/bcicen/ctop) | Top-like interface for container metrics | 0.7.7 | 2022-03-22 |  |
 | [curlie](https://github.com/rs/curlie) | The power of curl, the ease of use of httpie. | 1.8.2 | 2025-03-07 | httpie, xh |
 | [dasel](https://github.com/TomWright/dasel) | Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package. | 3.11.2 | 2026-06-28 |  |
-| [dblab](https://github.com/danvergara/dblab) | The database client every command line junkie deserves. | 0.55.1 | 2026-11-05 | lazysql, usql |
+| [dblab](https://github.com/danvergara/dblab) | The database client every command line junkie deserves. | 0.55.2 | 2026-11-11 | lazysql, usql |
 | [delta](https://github.com/dandavison/delta) | A syntax-highlighting pager for git, diff, grep, and blame output | 0.20.1 | 2026-10-06 |  |
 | [devbox](https://github.com/jetify-com/devbox) | Instant, easy, and predictable development environments | 0.20.0 | 2026-11-10 |  |
 | [difftastic](https://github.com/Wilfred/difftastic) | a structural diff that understands syntax | 0.72.0 | 2026-11-01 | diff |
@@ -54,7 +54,7 @@
 | [fq](https://github.com/wader/fq) | jq for binary formats - tool, language and decoders for working with binary and text formats | 0.18.0 | 2026-08-26 |  |
 | [fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder | 0.75.0 | 2026-11-08 | skim |
 | [gdu](https://github.com/dundee/gdu) | Fast disk usage analyzer with console interface written in Go | 5.39.0 | 2026-11-08 | du, dust, ncdu |
-| [git](https://git-scm.com) | Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. | 2.56.0 | 2026-09-29 |  |
+| [git](https://git-scm.com) | Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. | 2.56.1 | 2026-11-11 |  |
 | [git-cliff](https://git-cliff.org) | A highly customizable Changelog Generator that follows Conventional Commit specifications | 2.14.2 | 2026-11-08 |  |
 | [git-cryp](https://www.agwa.name/projects/git-crypt) | Transparent file encryption in git | 0.8.0 | 2025-09-24 |  |
 | [git-who](https://github.com/sinclairtarget/git-who) | Git blame for file trees | 1.3 | 2026-01-24 |  |
@@ -111,7 +111,7 @@
 | [protolint](https://github.com/yoheimuta/protolint) | A pluggable linter and fixer to enforce Protocol Buffer style and conventions | 0.58.0 | 2026-10-04 |  |
 | [python](https://python.org) | Python is a programming language that lets you work quickly and integrate systems more effectively. | 3.14.10 | 2026-10-26 |  |
 | [qemu](https://www.qemu.org) | A generic and open source machine emulator and virtualizer. | 11.1.3 | 2026-11-01 |  |
-| [rainfrog](https://crates.io/crates/rainfrog) | a database management tui for postgres | 0.4.6 | 2026-09-25 |  |
+| [rainfrog](https://crates.io/crates/rainfrog) | a database management tui for postgres | 0.4.7 | 2026-11-11 |  |
 | [regctl](https://regclient.org) | Docker and OCI Registry Client in Go and tooling using those libraries. | 0.11.7 | 2026-10-21 |  |
 | [ripgrep](https://github.com/BurntSushi/ripgrep) | ripgrep recursively searches directories for a regex pattern while respecting your gitignore | 15.2.0 | 2026-07-15 | grep |
 | [runme](https://github.com/stateful/runme) | DevOps Workflows Built with Markdown | 3.17.8 | 2026-11-10 |  |
@@ -158,7 +158,7 @@
 | [xq](https://github.com/sibprogrammer/xq) | Command-line XML and HTML beautifier and content extractor | 1.5.1 | 2026-08-26 |  |
 | [yazi](https://github.com/sxyazi/yazi) | Blazing fast terminal file manager written in Rust, based on async I/O. | 26.9.1 | 2026-09-05 | ranger |
 | [yq](https://github.com/mikefarah/yq) | yq is a portable command-line YAML, JSON, XML, CSV, TOML and properties processor | 4.54.3 | 2026-11-10 |  |
-| [zellij](https://github.com/zellij-org/zellij) | Blazing fast terminal file manager written in Rust, based on async I/O. | 0.45.1 | 2026-09-05 | tmux |
+| [zellij](https://github.com/zellij-org/zellij) | Blazing fast terminal file manager written in Rust, based on async I/O. | 0.46.0 | 2026-11-11 | tmux |
 | [zoxide](https://github.com/ajeetdsouza/zoxide) | A smarter cd command. Supports all major shells. | 0.10.0 | 2026-07-05 |  |
 | [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/archive/refs/tags/v0.7.1.tar.gz) | Fish-like autosuggestions for zsh | 0.7.1 | 2024-11-15 |  |
 | [zsh-command-not-found](https://github.com/Freed-Wu/zsh-command-not-found/archive/refs/heads/main.tar.gz) | This plugin uses the command-not-found package for zsh to provide suggested packages to be installed if a command cannot be found. | main | 2022-09-05 |  |
@@ -168,4 +168,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-11-10 06:08:37 (utc)_
+_last updated: 2026-11-11 20:05:21 (utc)_
