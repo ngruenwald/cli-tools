@@ -2,10 +2,10 @@
 
 | Name | Description | Version | Updated | Alternatives |
 |----- |------------ |-------- |-------- |------------- |
-| [atuin](https://atuin.sh) | Magical shell history | 18.24.6 | 2026-11-10 | mcfly, hishtory |
+| [atuin](https://atuin.sh) | Magical shell history | 18.24.8 | 2026-11-13 | mcfly, hishtory |
 | [babyshark](https://github.com/vignesh07/babyshark) | Flows-first PCAP TUI (case files, gorgeous UX). Do do do do. | 0.3.0 | 2026-02-27 |  |
 | [bat](https://github.com/sharkdp/bat) | A cat(1) clone with wings. | 0.26.1 | 2025-12-02 | cat |
-| [betterleaks](https://github.com/betterleaks/betterleaks) | A Better Secrets Scanner built for configurability and speed | 1.10.0 | 2026-11-05 | gitleaks |
+| [betterleaks](https://github.com/betterleaks/betterleaks) | A Better Secrets Scanner built for configurability and speed | 1.10.1 | 2026-11-13 | gitleaks |
 | [binsider](https://binsider.dev) | Analyze ELF binaries like a boss | 0.3.2 | 2026-02-01 |  |
 | [ble.sh](https://github.com/akinomyoga/ble.sh) | Bash Line Editor ― a line editor written in pure Bash with syntax highlighting, auto suggestions, vim modes, etc. for Bash interactive sessions. | 0.4.0-devel3 | 2023-04-03 |  |
 | [bottom](https://github.com/ClementTsang/bottom) | Yet another cross-platform graphical process/system monitor. | 0.15.0 | 2026-11-01 | top, htop |
@@ -17,7 +17,7 @@
 | [chiko](https://github.com/felangga/chiko) | The ultimate beauty gRPC Client on your Terminal! | 0.3.0 | 2026-11-08 |  |
 | [clang-tools](https://github.com/llvm/llvm-project) | --- | 23.1.5 | 2026-11-05 |  |
 | [clangd](https://github.com/clangd/clangd) | clangd language server | 23.1.0 | 2026-09-05 |  |
-| [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 4.4.5 | 2026-11-01 |  |
+| [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 4.5.0 | 2026-11-13 |  |
 | [cmake3](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 3.31.12 | 2026-04-21 |  |
 | [code-server](https://coder.com) | VS Code in the browser | 4.145.2 | 2026-11-08 |  |
 | [codelldb-vsix](https://github.com/vadimcn/codelldb) | A native debugger extension for VSCode based on LLDB | 1.12.3 | 2026-08-26 |  |
@@ -31,7 +31,7 @@
 | [dasel](https://github.com/TomWright/dasel) | Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package. | 3.11.2 | 2026-06-28 |  |
 | [dblab](https://github.com/danvergara/dblab) | The database client every command line junkie deserves. | 0.55.2 | 2026-11-11 | lazysql, usql |
 | [delta](https://github.com/dandavison/delta) | A syntax-highlighting pager for git, diff, grep, and blame output | 0.20.1 | 2026-10-06 |  |
-| [devbox](https://github.com/jetify-com/devbox) | Instant, easy, and predictable development environments | 0.20.0 | 2026-11-10 |  |
+| [devbox](https://github.com/jetify-com/devbox) | Instant, easy, and predictable development environments | 0.21.0 | 2026-11-13 |  |
 | [difftastic](https://github.com/Wilfred/difftastic) | a structural diff that understands syntax | 0.72.0 | 2026-11-01 | diff |
 | [difi](https://github.com/oug-t/difi) | Review and refine Git diffs before you push | 0.3.0 | 2026-11-01 | diff, difftastic |
 | [direnv](https://github.com/direnv/direnv) | unclutter your .profile | 2.38.2 | 2026-10-11 |  |
@@ -141,13 +141,13 @@
 | [tokei](https://github.com/XAMPPRocky/tokei) | Count your code, quickly. | 15.0.0 | 2026-09-09 | sloc, scc |
 | [topgrade](https://github.com/topgrade-rs/topgrade) | Upgrade all the things | 17.16.0 | 2026-11-10 |  |
 | [trashy](https://github.com/oberblastmeister/trashy) | a cli system trash manager, alternative to rm and trash-cli | 2.0.0 | 2022-09-30 | trash-cli, gtrash |
-| [trufflehog](https://trufflesecurity.com) | Find, verify, and analyze leaked credentials | 3.99.8 | 2026-11-02 |  |
+| [trufflehog](https://trufflesecurity.com) | Find, verify, and analyze leaked credentials | 3.99.9 | 2026-11-13 |  |
 | [tuicr](https://tuicr.dev) | a code review TUI with vim keybindings | 0.28.0 | 2026-11-08 |  |
 | [tuios](https://github.com/Gaurav-Gosain/tuios) | A terminal window manager that knows what your agents are doing. | 0.12.1 | 2026-11-01 | herdr |
 | [up](https://github.com/akavel/up) | Ultimate Plumber is a tool for writing Linux pipes with instant live preview | 0.4 | 2020-10-29 |  |
 | [upt](https://github.com/sigoden/upt) | Universal Package-management Tool for any OS. | 0.9.0 | 2024-10-31 |  |
 | [usql](https://github.com/xo/usql) | Universal command-line interface for SQL databases | 0.21.6 | 2026-09-25 |  |
-| [uv](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | 0.13.7 | 2026-11-05 | pip, pdm, poetry, rye |
+| [uv](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | 0.13.8 | 2026-11-13 | pip, pdm, poetry, rye |
 | [vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder | 0.12.1 | 2026-09-25 |  |
 | [viddy](https://github.com/sachaos/viddy) | A modern watch command. Time machine and pager etc. | 1.3.1 | 2026-06-14 | watch, hwatch |
 | [weathr](https://github.com/Veirt/weathr) | a terminal weather app with ascii animation | 1.4.0 | 2026-02-23 |  |
@@ -168,4 +168,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-11-12 06:17:18 (utc)_
+_last updated: 2026-11-13 20:02:48 (utc)_
