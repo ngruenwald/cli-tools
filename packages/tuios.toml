@@ -2,8 +2,8 @@ name = "tuios"
 description = "A terminal window manager that knows what your agents are doing."
 homepage = "https://github.com/Gaurav-Gosain/tuios"
 alternatives = [ "herdr",]
-version = "0.13.1"
-updated = "2026-11-15"
+version = "0.13.2"
+updated = "2026-11-16"
 package-url = "https://github.com/Gaurav-Gosain/tuios/releases/download/v{{version}}/tuios_{{version}}_Linux_x86_64.tar.gz"
 
 [extract]
