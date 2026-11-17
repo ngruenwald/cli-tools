@@ -31,7 +31,7 @@
 | [dasel](https://github.com/TomWright/dasel) | Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package. | 3.11.2 | 2026-06-28 |  |
 | [dblab](https://github.com/danvergara/dblab) | The database client every command line junkie deserves. | 0.55.2 | 2026-11-11 | lazysql, usql |
 | [delta](https://github.com/dandavison/delta) | A syntax-highlighting pager for git, diff, grep, and blame output | 0.20.1 | 2026-10-06 |  |
-| [devbox](https://github.com/jetify-com/devbox) | Instant, easy, and predictable development environments | 0.21.0 | 2026-11-13 |  |
+| [devbox](https://github.com/jetify-com/devbox) | Instant, easy, and predictable development environments | 0.22.0 | 2026-11-17 |  |
 | [difftastic](https://github.com/Wilfred/difftastic) | a structural diff that understands syntax | 0.72.0 | 2026-11-01 | diff |
 | [difi](https://github.com/oug-t/difi) | Review and refine Git diffs before you push | 0.3.0 | 2026-11-01 | diff, difftastic |
 | [direnv](https://github.com/direnv/direnv) | unclutter your .profile | 2.38.2 | 2026-10-11 |  |
@@ -62,7 +62,7 @@
 | [gitleaks](https://github.com/gitleaks/gitleaks) | Protect and discover secrets using Gitleaks | 8.30.1 | 2026-03-12 |  |
 | [glow](https://github.com/charmbracelet/glow) | Render markdown on the CLI, with pizzazz! | 3.0.0 | 2026-08-12 |  |
 | [grafana-tui](https://github.com/lovromazgon/grafana-tui) | Grafana dashboards in your terminal | 0.2.0 | 2026-04-01 |  |
-| [grype](https://github.com/anchore/grype) | A vulnerability scanner for container images and filesystems | 0.121.3 | 2026-11-10 |  |
+| [grype](https://github.com/anchore/grype) | A vulnerability scanner for container images and filesystems | 0.122.0 | 2026-11-17 |  |
 | [gtrash](https://github.com/umlx5h/gtrash) | A Featureful Trash CLI manager: alternative to rm and trash-cli | 0.0.6 | 2024-07-01 | trash-cli, trashy |
 | [helix](https://github.com/helix-editor/helix) | A post-modern modal text editor. | 25.07.1 | 2025-07-19 | vim, neovim |
 | [herdr](https://herdr.dev) | agent multiplexer that lives in your terminal. | 0.9.5 | 2026-10-15 |  |
@@ -84,7 +84,7 @@
 | [lazygit](https://github.com/jesseduffield/lazygit) | simple terminal UI for git commands | 0.66.3 | 2026-11-08 |  |
 | [lazyjournal](https://github.com/Lifailon/lazyjournal) | A TUI for reading logs from journald, auditd, file system, Docker containers, ... | 0.8.7 | 2026-11-05 |  |
 | [lazysql](https://github.com/jorgerojas26/lazysql) | A cross-platform TUI database management tool written in Go. | 0.7.0 | 2026-10-15 |  |
-| [libfaketime](https://github.com/wolfcw/libfaketime) | libfaketime modifies the system time for a single application | 0.9.13 | 2026-09-05 |  |
+| [libfaketime](https://github.com/wolfcw/libfaketime) | libfaketime modifies the system time for a single application | 0.9.14 | 2026-11-17 |  |
 | [llmfit](https://github.com/AlexsJones/llmfit) | 206 models. 30 providers. One command to find what runs on your hardware. | 1.1.20 | 2026-11-05 |  |
 | [mcfly](https://github.com/cantino/mcfly) | Fly through your shell history. Great Scott! | 0.9.4 | 2025-12-25 | atuin, hishtory |
 | [mdr](https://github.com/CleverCloud/mdr) | a very light rust based markdown reader with support of mermaid (web, native, TUI). vibe coded | 0.6.1 | 2026-09-17 |  |
@@ -129,7 +129,7 @@
 | [starship](https://github.com/starship/starship) | The minimal, blazing-fast, and infinitely customizable prompt for any shell! | 1.27.0 | 2026-10-18 | powerline-go |
 | [superfile](https://superfile.dev) | Pretty fancy and modern terminal file manager | 1.6.0 | 2026-06-08 | yazi, ranger |
 | [surge](https://github.com/surge-downloader/surge) | Blazing fast TUI download manager built in Go for power users | 0.12.4 | 2026-11-01 |  |
-| [syft](https://github.com/anchore/syft) | CLI tool and library for generating a Software Bill of Materials from container images and filesystems | 1.57.1 | 2026-11-10 |  |
+| [syft](https://github.com/anchore/syft) | CLI tool and library for generating a Software Bill of Materials from container images and filesystems | 1.57.2 | 2026-11-17 |  |
 | [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter | 7.0.0 | 2026-07-14 |  |
 | [task](https://github.com/go-task/task) | A task runner / simpler Make alternative written in Go | 3.54.0 | 2026-10-04 | make, dotree, just |
 | [td](https://github.com/marcus/td) | A minimalist CLI for tracking tasks across AI coding sessions. | 0.69.0 | 2026-10-21 |  |
@@ -143,7 +143,7 @@
 | [trashy](https://github.com/oberblastmeister/trashy) | a cli system trash manager, alternative to rm and trash-cli | 2.0.0 | 2022-09-30 | trash-cli, gtrash |
 | [trufflehog](https://trufflesecurity.com) | Find, verify, and analyze leaked credentials | 3.99.9 | 2026-11-13 |  |
 | [tuicr](https://tuicr.dev) | a code review TUI with vim keybindings | 0.29.0 | 2026-11-15 |  |
-| [tuios](https://github.com/Gaurav-Gosain/tuios) | A terminal window manager that knows what your agents are doing. | 0.13.2 | 2026-11-16 | herdr |
+| [tuios](https://github.com/Gaurav-Gosain/tuios) | A terminal window manager that knows what your agents are doing. | 0.13.3 | 2026-11-17 | herdr |
 | [up](https://github.com/akavel/up) | Ultimate Plumber is a tool for writing Linux pipes with instant live preview | 0.4 | 2020-10-29 |  |
 | [upt](https://github.com/sigoden/upt) | Universal Package-management Tool for any OS. | 0.9.0 | 2024-10-31 |  |
 | [usql](https://github.com/xo/usql) | Universal command-line interface for SQL databases | 0.21.6 | 2026-09-25 |  |
@@ -168,4 +168,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-11-16 06:55:31 (utc)_
+_last updated: 2026-11-17 06:21:47 (utc)_
