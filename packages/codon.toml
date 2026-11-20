@@ -2,8 +2,8 @@ name = "codon"
 description = "A high-performance, zero-overhead, extensible Python compiler using LLVM"
 homepage = "https://github.com/exaloop/codon"
 alternatives = []
-version = "0.20.6"
-updated = "2026-11-01"
+version = "0.20.7"
+updated = "2026-11-20"
 package-url = "https://github.com/exaloop/codon/releases/download/v{{version}}/codon-linux-x86_64.tar.gz"
 
 [extract]

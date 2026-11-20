@@ -1,0 +1,15 @@
+name = "omnidiff"
+description = "Fast, robust, accurate diffing"
+homepage = "https://ivankovic.github.io/omnidiff/showcase"
+alternatives = [ ]
+version = "0.5.0"
+updated = "2026-11-20"
+package-url = "https://github.com/ivankovic/omnidiff/releases/download/v{{version}}/omnidiff-x86_64-unknown-linux-musl.tar.gz"
+
+[extract]
+strip = 0
+
+[[extract.files]]
+source = "omnidiff"
+target = "{{vars.bin-path}}/omnidiff"
+mode = "0755"
