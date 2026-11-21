@@ -2,7 +2,7 @@
 
 | Name | Description | Version | Updated | Alternatives |
 |----- |------------ |-------- |-------- |------------- |
-| [atuin](https://atuin.sh) | Magical shell history | 18.25.0 | 2026-11-20 | mcfly, hishtory |
+| [atuin](https://atuin.sh) | Magical shell history | 18.25.1 | 2026-11-21 | mcfly, hishtory |
 | [babyshark](https://github.com/vignesh07/babyshark) | Flows-first PCAP TUI (case files, gorgeous UX). Do do do do. | 0.3.0 | 2026-02-27 |  |
 | [bat](https://github.com/sharkdp/bat) | A cat(1) clone with wings. | 0.26.1 | 2025-12-02 | cat |
 | [betterleaks](https://github.com/betterleaks/betterleaks) | A Better Secrets Scanner built for configurability and speed | 1.10.1 | 2026-11-13 | gitleaks |
@@ -19,13 +19,13 @@
 | [clangd](https://github.com/clangd/clangd) | clangd language server | 23.1.0 | 2026-09-05 |  |
 | [cmake](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 4.5.1 | 2026-11-20 |  |
 | [cmake3](https://github.com/Kitware/CMake) | CMake, the cross-platform, open-source build system. | 3.31.12 | 2026-04-21 |  |
-| [code-server](https://coder.com) | VS Code in the browser | 4.145.2 | 2026-11-08 |  |
+| [code-server](https://coder.com) | VS Code in the browser | 4.146.0 | 2026-11-21 |  |
 | [codelldb-vsix](https://github.com/vadimcn/codelldb) | A native debugger extension for VSCode based on LLDB | 1.12.3 | 2026-08-26 |  |
 | [codespelunker](https://github.com/boyter/cs) | codespelunker - CLI code search tool that understands code structure and ranks results by relevance. No indexing required | 3.2.0 | 2026-09-12 |  |
 | [codon](https://github.com/exaloop/codon) | A high-performance, zero-overhead, extensible Python compiler using LLVM | 0.20.7 | 2026-11-20 |  |
 | [cppcheck](https://github.com/danmar/cppcheck) | --- | 2.22.0 | 2026-09-21 |  |
 | [cppfront](https://github.com/hsutter/cppfront) | A personal experimental C++ Syntax 2 -> Syntax 1 compiler -- NOT FOR COMMERICAL USE! | 0.8.1 | 2025-01-31 |  |
-| [croc](https://github.com/schollz/croc) | Easily and securely send things from one computer to another | 11.6.5 | 2026-11-08 |  |
+| [croc](https://github.com/schollz/croc) | Easily and securely send things from one computer to another | 11.6.6 | 2026-11-21 |  |
 | [ctop](https://github.com/bcicen/ctop) | Top-like interface for container metrics | 0.7.7 | 2022-03-22 |  |
 | [curlie](https://github.com/rs/curlie) | The power of curl, the ease of use of httpie. | 1.8.2 | 2025-03-07 | httpie, xh |
 | [dasel](https://github.com/TomWright/dasel) | Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package. | 3.11.2 | 2026-06-28 |  |
@@ -86,6 +86,7 @@
 | [lazysql](https://github.com/jorgerojas26/lazysql) | A cross-platform TUI database management tool written in Go. | 0.7.0 | 2026-10-15 |  |
 | [libfaketime](https://github.com/wolfcw/libfaketime) | libfaketime modifies the system time for a single application | 0.9.14 | 2026-11-17 |  |
 | [llmfit](https://github.com/AlexsJones/llmfit) | 206 models. 30 providers. One command to find what runs on your hardware. | 1.1.20 | 2026-11-05 |  |
+| [lumen](https://github.com/jnsahaj/lumen) | Beautiful git diff viewer, generate commits with AI, get summary of changes, all from the CLI | 2.32.0 | 2026-11-21 |  |
 | [mcfly](https://github.com/cantino/mcfly) | Fly through your shell history. Great Scott! | 0.9.4 | 2025-12-25 | atuin, hishtory |
 | [mdr](https://github.com/CleverCloud/mdr) | a very light rust based markdown reader with support of mermaid (web, native, TUI). vibe coded | 0.6.1 | 2026-09-17 |  |
 | [mergiraf](https://mergiraf.org) | A syntax-aware git merge driver for a growing collection of programming languages and file formats. | 0.20.0 | 2026-09-29 |  |
@@ -123,12 +124,12 @@
 | [shellcheck](https://github.com/koalaman/shellcheck) | ShellCheck, a static analysis tool for shell scripts | 0.11.0 | 2025-08-04 |  |
 | [shfmt](https://github.com/mvdan/sh#shfmt) | A shell parser, formatter, and interpreter with bash support; includes shfmt | 3.14.1 | 2026-09-09 |  |
 | [sidecar](https://github.com/marcus/sidecar) | Use sidecar next to CLI agents for diffs, file trees, conversation history, and task management with td | 1.17.1 | 2026-10-09 |  |
-| [sonarscanner](https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/scanners/sonarscanner/) | The SonarScanner CLI is the scanner to use when there is no specific scanner for your build system. | 8.4.0.16527 | 2026-11-10 |  |
+| [sonarscanner](https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/scanners/sonarscanner/) | The SonarScanner CLI is the scanner to use when there is no specific scanner for your build system. | 8.5.0.16571 | 2026-11-21 |  |
 | [sops](https://getsops.io) | Simple and flexible tool for managing secrets | 3.13.3 | 2026-07-23 | git-crypt |
 | [sqlc](https://sqlc.dev) | Generate type-safe code from SQL | 1.31.1 | 2026-04-22 |  |
 | [sshs](https://github.com/quantumsheep/sshs) | Terminal user interface for SSH | 4.8.0 | 2026-09-05 |  |
 | [starship](https://github.com/starship/starship) | The minimal, blazing-fast, and infinitely customizable prompt for any shell! | 1.27.0 | 2026-10-18 | powerline-go |
-| [superfile](https://superfile.dev) | Pretty fancy and modern terminal file manager | 1.6.0 | 2026-06-08 | yazi, ranger |
+| [superfile](https://superfile.dev) | Pretty fancy and modern terminal file manager | 1.6.1 | 2026-11-21 | yazi, ranger |
 | [surge](https://github.com/surge-downloader/surge) | Blazing fast TUI download manager built in Go for power users | 0.12.4 | 2026-11-01 |  |
 | [syft](https://github.com/anchore/syft) | CLI tool and library for generating a Software Bill of Materials from container images and filesystems | 1.57.2 | 2026-11-17 |  |
 | [tailspin](https://github.com/bensadeh/tailspin) | A log file highlighter | 7.0.0 | 2026-07-14 |  |
@@ -169,4 +170,4 @@
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz) | Fish shell like syntax highlighting for Zsh. | 0.8.0 | 2023-12-18 |  |
 | [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz) | ZSH plugin that reminds you to use existing aliases for commands you just typed | 1.11.1 | 2026-02-18 |  |
 
-_last updated: 2026-11-20 14:02:36 (utc)_
+_last updated: 2026-11-21 00:20:14 (utc)_
